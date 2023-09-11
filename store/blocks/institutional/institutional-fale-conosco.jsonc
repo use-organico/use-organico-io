@@ -1,0 +1,29 @@
+{
+    "store.custom#institutional-fale-conosco": {
+        "blocks": [
+            "flex-layout.row#institutional-fale-conosco"
+        ]
+    },
+    "flex-layout.row#institutional-fale-conosco": {
+        "children": [
+            "flex-layout.col#institutional-contact",
+            "flex-layout.col#institutional-content-fale-conosco"
+        ],
+        "props": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "blockClass": "institutional"
+        }
+    },
+    "flex-layout.col#institutional-content-fale-conosco": {
+        "children": [
+            "contact"
+        ],
+        "props": {
+            "blockClass": [
+                "institutional-content",
+                "institutional-content-fale-conosco"
+            ]
+        }
+    }
+}

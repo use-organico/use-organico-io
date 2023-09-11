@@ -1,0 +1,29 @@
+@import "../_variables";
+
+.container {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  border-radius: 5px;
+  background: #1eebda;
+  flex-direction: column;
+  .lowStockText {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    color: $useorganico-black;
+  }
+  .lowStockHighlight {
+    font-size: 28px;
+    margin-top: 3px;
+    font-weight: 700;
+    word-spacing: -5px;
+    text-align: center;
+    color: $useorganico-black;
+    &::after {
+      content: "un";
+      font-size: 12px;
+      color: $useorganico-black;
+    }
+  }
+}

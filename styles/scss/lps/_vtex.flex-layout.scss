@@ -1,0 +1,233 @@
+@import "../_variables";
+
+.flexRow {
+  .flexRowContent {
+    &--lp {
+      &-programa-de-fidelidade {
+        &-1 {
+          padding: 20px;
+          background-color: #00897b;
+        }
+        &-3 {
+          padding: 40px 15px;
+          background-color: #f6f6f6;
+        }
+        &-4 {
+          padding-left: 30px;
+          background-color: #f6f6f6;
+        }
+      }
+    }
+  }
+}
+
+.flexCol {
+  &--lp {
+    &-programa-de-fidelidade-2-2 {
+      background-color: #f3f8ea;
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .flexRow {
+    .flexRowContent {
+      &--lp {
+        &-dia-da-arvore {
+          &-1 {
+            background: url(/arquivos/banner_topo_arvore_24-10.png) no-repeat
+              50%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            min-height: 400px;
+          }
+          &-2 {
+            background: url(/arquivos/bg_dia_da_arvore_section_2.png) no-repeat
+              top;
+            width: 100%;
+            text-align: center;
+            background-size: 110%;
+            padding: 15px;
+            min-height: 450px;
+          }
+          &-3 {
+            height: auto;
+            min-height: 500px;
+            background-color: #8cb900;
+            padding: 15px;
+          }
+          &-4 {
+            width: 100%;
+            height: auto;
+            display: flex;
+            min-height: 150px;
+            align-items: center;
+            background: url(/arquivos/bg_dia_da_arvore_section_4.png) no-repeat
+              50%;
+            background-size: 100%;
+            justify-content: center;
+          }
+          &-5 {
+            padding: 20px;
+            background-color: #ebebec;
+          }
+        }
+        &-programa-de-fidelidade {
+          &-1 {
+            padding: 40px;
+            background-color: #00897b;
+          }
+          &-3 {
+            padding: 40px 15px;
+            background-color: #f6f6f6;
+            .flexRowContent--lp-programa-de-fidelidade-3-itens {
+              gap: 50px;
+            }
+          }
+          &-4 {
+            padding-left: 30px;
+            background-color: #f6f6f6;
+          }
+        }
+      }
+    }
+  }
+
+  .flexCol {
+    &--lp {
+      &-programa-de-fidelidade {
+        &-2-2 {
+          padding: 45px;
+          background-color: #f3f8ea;
+        }
+      }
+      &-dia-da-arvore-1 {
+        &-1 {
+          max-width: 490px;
+          min-height: 300px;
+          background-color: #fff;
+          justify-content: space-around;
+        }
+      }
+    }
+    .flexColChild {
+      &--lp {
+        &-programa-de-fidelidade-2-1 {
+          display: flex;
+          align-items: center;
+        }
+        &-dia-da-arvore-2 {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 2000px) {
+  .flexRow {
+    .flexRowContent {
+      &--lp {
+        &-dia-da-arvore {
+          &-1 {
+            background-size: 110%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .flexRow {
+    &--lp {
+      &-programa-de-fidelidade {
+        &-1,
+        &-2,
+        &-3,
+        &-4 {
+          :global(.vtex-store-components-3-x-container) {
+            padding: 0;
+          }
+        }
+      }
+      &-dia-da-arvore {
+        &-1 {
+          background: url(/arquivos/banner_topo_arvore_24-10.png) no-repeat 50%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          min-height: 400px;
+          background-size: 500% 110%;
+        }
+        &-2 {
+          background: url(/arquivos/bg_dia_da_arvore_section_2.png) no-repeat
+            top;
+          width: 100%;
+          min-height: 450px;
+          text-align: center;
+          background-size: 500% 100%;
+        }
+        &-3 {
+          height: auto;
+          min-height: 500px;
+          background-color: #8cb900;
+          padding: 15px;
+        }
+        &-4 {
+          width: 100%;
+          height: auto;
+          display: flex;
+          min-height: 150px;
+          align-items: center;
+          background: url(/arquivos/bg_dia_da_arvore_section_4.png) no-repeat
+            50%;
+          justify-content: center;
+          background-size: 200% 100%;
+        }
+        &-5 {
+          padding: 20px;
+          background-color: #ebebec;
+        }
+      }
+    }
+    .flexRowContent {
+      &--lp {
+        &-programa-de-fidelidade-2 {
+          display: flex;
+          flex-direction: column-reverse;
+        }
+      }
+    }
+  }
+  .flexCol {
+    &--lp {
+      &-programa-de-fidelidade {
+        &-1,
+        &-2-2,
+        &-3,
+        &-4 {
+          padding: 20px 15px;
+        }
+      }
+      &-dia-da-arvore-1 {
+        &-1 {
+          width: 90%;
+          padding: 0 10px;
+          margin-top: 3rem;
+          min-height: 250px;
+          background-color: #fff;
+          justify-content: space-around;
+        }
+        &-2 {
+          margin: 40px 0 30px;
+        }
+      }
+    }
+  }
+}
+
+@import "./embalagem/vtex.flex-layout";

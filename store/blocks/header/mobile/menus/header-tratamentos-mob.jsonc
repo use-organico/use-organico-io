@@ -1,0 +1,60 @@
+{
+  "menu-item#header-menu-tratamentos-mob": {
+    "props": {
+      "id": "item-header-menu-tratamentos-mob",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "href": "#",
+        "tagTitle": "Tratamentos",
+        "text": "Tratamentos"
+      },
+      "blockClass": "header"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#header-menu-tratamentos-mob"]
+  },
+  "vtex.menu@2.x:submenu.accordion#header-menu-tratamentos-mob": {
+    "children": ["flex-layout.row#header-menu-tratamentos-mob"],
+    "props": {
+      "blockClass": "header"
+    }
+  },
+  "flex-layout.row#header-menu-tratamentos-mob": {
+    "children": ["flex-layout.col#header-menu-tratamentos-mob"],
+    "props": {
+      "blockClass": "header-submenu"
+    }
+  },
+  "flex-layout.col#header-menu-tratamentos-mob": {
+    "children": [
+      "menu-item#header-menu-tratamentos-mob-ver-todos",
+      "vtex.menu@2.x:menu#header-menu-tratamentos-rosto",
+      "vtex.menu@2.x:menu#header-menu-tratamentos-corpo",
+      "vtex.menu@2.x:menu#header-menu-tratamentos-olhos",
+      "vtex.menu@2.x:menu#header-menu-tratamentos-col-3"
+    ],
+    "props": {
+      "rowGap": 0,
+      "preventVerticalStretch": true,
+      "blockClass": "header-submenu"
+    }
+  },
+  "menu-item#header-menu-tratamentos-mob-ver-todos": {
+    "props": {
+      "id": "menu-item-header-menu-tratamentos-mob-ver-todos",
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tratamentos",
+        "noFollow": false,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      },
+      "blockClass": "header-submenu"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@import "../variables";
+
+:global(.ReactCollapse--collapse .pl8) {
+  padding: 0 !important;
+  :global(.vtex-checkbox__inner-container.h1.w1.absolute.ba.bw1.br1.b--action-primary.bg-action-primary.mr3) {
+    background-color: #000;
+    border-color: #000;
+  }
+}

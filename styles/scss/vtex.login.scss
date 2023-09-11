@@ -1,0 +1,202 @@
+@import "./header/vtex.login";
+@media (max-width: 1024px) {
+  :global(.yourviews-yourviewsreviews-0-x-carouselBox) {
+    padding-block: 24px 0;
+  }
+
+  :global(.yourviews-yourviewsreviews-0-x-carouselArrowButton) {
+    display: none !important;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--pdp-mobile-stars-row) {
+  :global(.yourviews-yourviewsreviews-0-x-ratingStars) {
+    :global(.yourviews-yourviewsreviews-0-x-ratingStarsInactive),
+    :global(.yourviews-yourviewsreviews-0-x-ratingStarsActive) {
+      width: 12px !important;
+      height: 12px !important;
+      fill: #4B6D47 !important;
+    }
+
+    :global(.yourviews-yourviewsreviews-0-x-ratingStarsActive) {
+      fill: #f1bc2a;
+    }
+  }
+
+  :global(.yourviews-yourviewsreviews-0-x-ratingSummary.yourviews-rating-summary) {
+    margin-top: 0;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--pdp-infos-mobile),
+:global(.vtex-flex-layout-0-x-flexColChild--pdp-your-views-col) {
+  :global(.yourviews-yourviewsreviews-0-x-reviewsSectionTitle) {
+    display: none;
+  }
+
+  :global(.yourviews-yourviewsreviews-0-x-histogram) {
+    display: none;
+  }
+
+  :global(.yourviews-yourviewsreviews-0-x-recommendPercentBorder) {
+    border-color: #4B6D47;
+    border-width: 10px;
+  }
+
+  :global(.yourviews-yourviewsreviews-0-x-reviewsBox) {
+    border: none;
+    border-radius: 0;
+
+    @media (max-width: 1024px) {
+      padding: 0;
+    }
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--pdp-infos-mobile) {
+  :global(.yourviews-yourviewsreviews-0-x-reviewsPagination) {
+    :global(.justify-end) {
+      justify-content: center;
+    }
+
+    :global(.c-muted-2) {
+      font-size: 16px;
+      line-height: 20px;
+      color: #333;
+      margin-right: 10px;
+    }
+
+    :global(.vtex-button) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: solid 2px #333;
+      border-radius: 50%;
+      width: 44px;
+      height: 44px;
+      background: #fff;
+      color: #000;
+    }
+  }
+
+  :global(.yourviews-yourviewsreviews-0-x-reviewsWriteReviewButton) {
+    display: none;
+  }
+}
+
+@mixin primary-button {
+  background: #4B6D47;
+  color: #fff;
+  border-color: #4B6D47;
+  text-transform: none;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  transition: .3s;
+
+  &:hover {
+    opacity: .7;
+  }
+}
+
+@mixin secondary-button {
+  background-color: #fff;
+  color: #4B6D47;
+  border: solid 1px #4B6D47;
+  text-transform: none;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  transition: .3s;
+
+  &:hover {
+    opacity: .7;
+  }
+}
+
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) {
+  margin-bottom: 10px;
+
+  :global(.vtex-button) {
+    @include secondary-button;
+    padding: 9px;
+  }
+}
+
+:global(.vtex-profile-form-3-x-profileContainer) > :global(.vtex-button) {
+  @include primary-button;
+}
+
+:global(.newAddressButton) {
+  text-decoration: none;
+
+  :global(.vtex-button) {
+    @include primary-button;
+    padding: 4px;
+  }
+}
+
+:global(.vtex-my-account-1-x-boxContainerFooter) {
+  :global(.vtex-button) {
+    @include primary-button;
+  }
+}
+
+:global(.vtex-my-cards-1-x-newCardButton) {
+  text-decoration: none;
+
+  :global(.vtex-button) {
+    @include primary-button;
+  }
+}
+
+:global(.vtex_my-authentication_box_footer) {
+  :global(.vtex-button) {
+    @include secondary-button;
+  }
+}
+
+:global(.vtex-pageHeader__children) > :global(.vtex-button) {
+  @include primary-button;
+}
+
+:global(.vtex-my-account-1-x-boxContainerBody) > :global(.vtex-button) {
+  @include primary-button;
+}
+
+:global(.vtex-account__page) {
+  :global(.vtex-pageHeader__container) {
+    :global(.vtex-pageHeader__title) {
+      font-size: 38px;
+      line-height: 42px;
+      color: #000000;
+      font-weight: 400;
+    }
+  }
+}
+
+:global(.render-route-store-search-department),
+:global(.render-route-store-search-category) {
+  :global(.vtex-search-result-3-x-searchResultContainer) {
+    :global(.vtex-search-result-3-x-container--layout) {
+      :global(.vtex-search-result-3-x-galleryTitle--layout) {
+        &::before,
+        &::after {
+          content: '';
+        }
+      }
+    }
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart-quantity-price) {
+  :global(.vtex-product-list-0-x-quantitySelector--gift) {
+    display: none;
+  }
+}

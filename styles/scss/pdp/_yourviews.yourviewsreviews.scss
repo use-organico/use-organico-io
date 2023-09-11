@@ -1,0 +1,57 @@
+@import "../_variables";
+
+.testimonialHeader,
+.carouselStatusDotInactive {
+  display: none;
+}
+
+.ratingStars {
+  .ratingStarsActive,
+  .ratingStarsInactive {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--pdp-container-infos) {
+  .ratingStars {
+    .ratingStarsActive,
+    .ratingStarsInactive {
+      width: 22px;
+      height: 22px;
+    }
+  }
+}
+
+.ratingCount {
+  font-size: 14px;
+  margin-left: 5px;
+  color: $useorganico-black;
+}
+
+.reviewsReview {
+  font-size: 16px;
+  color: $useorganico-black;
+}
+
+.reviewsReviewByUser,
+.reviewsReviewUserCity,
+.reviewsReviewSendDate {
+  font-size: 14px;
+  color: $useorganico-black;
+}
+
+.ratingStarsTotal {
+  font-size: 12px;
+  color: $useorganico-black;
+  &::before {
+    content: "(";
+    font-size: 12px;
+    color: $useorganico-black;
+  }
+  &::after {
+    content: ")";
+    font-size: 12px;
+    color: $useorganico-black;
+  }
+}

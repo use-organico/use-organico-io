@@ -1,0 +1,74 @@
+{
+    "flex-layout.row#home-posts": {
+        "title": "Posts",
+        "children": [
+            "list-context.info-card-list#home-posts"
+        ],
+        "props": {
+            "blockClass": "home-posts"
+        }
+    },
+    "list-context.info-card-list#home-posts": {
+        "title": "Imagens Posts",
+        "children": [
+            "slider-layout#home-posts"
+        ],
+        "props": {
+            "height": 380,
+            "infoCards": [
+                {
+                    "id": "home-posts-1",
+                    "isFullModeStyle": false,
+                    "textPosition": "right",
+                    "imageUrl": "https://useorganico.vteximg.com.br/arquivos/home-presentes.png?v=637466243788100000",
+                    "headline": "Presentes",
+                    "subhead": "",
+                    "callToActionText": "",
+                    "callToActionUrl": "/",
+                    "textAlignment": "left",
+                    "blockClass": "home-posts"
+                },
+                {
+                    "id": "home-posts-2",
+                    "isFullModeStyle": false,
+                    "textPosition": "right",
+                    "imageUrl": "https://useorganico.vteximg.com.br/arquivos/home-encontros-com-aromaterapeuta.png?v=637466243785130000",
+                    "headline": "Encontros com aromatepeuta",
+                    "subhead": "(em breve)",
+                    "callToActionText": "",
+                    "callToActionUrl": "/",
+                    "textAlignment": "left",
+                    "blockClass": "home-posts"
+                },
+                {
+                    "id": "home-posts-3",
+                    "isFullModeStyle": false,
+                    "textPosition": "right",
+                    "imageUrl": "https://useorganico.vteximg.com.br/arquivos/home-loja-fisica.png?v=637466243978730000",
+                    "headline": "Flagship Store",
+                    "subhead": "",
+                    "callToActionText": "",
+                    "callToActionUrl": "/",
+                    "textAlignment": "left",
+                    "blockClass": "home-posts"
+                }
+            ]
+        }
+    },
+    "slider-layout#home-posts": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "mobileOnly",
+            "showNavigationArrows": "never",
+            "blockClass": [
+                "home-posts",
+                "shelf"
+            ]
+        }
+    }
+}

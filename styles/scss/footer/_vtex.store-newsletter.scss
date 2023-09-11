@@ -1,0 +1,113 @@
+@import "../variables";
+
+.newsletterForm {
+  margin: 10px auto;
+  .emailInputContainer {
+    :global(.vtex-input-prefix__group) {
+      height: 48px;
+      border: none;
+      font-size: 14px;
+      line-height: 24px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      border: 1px solid #000;
+      background-color: $useorganico-white;
+    }
+  }
+  .formSubmitContainer {
+    :global(.vtex-button) {
+      width: 100%;
+      height: 48px;
+      border-radius: 4px;
+      padding: 15px 64px;
+      border-color: #D1D485;
+      background-color: #D1D485;
+      :global(.vtex-button__label) {
+        padding: 0;
+        color: #0C1E1B;
+        font-size: 16px;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+
+.defaultSuccessMessage {
+  color: #fff;
+}
+
+.newsletterForm--footer-newsletter-desktop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+
+  .nameInputContainer,
+  .emailInputContainer {
+    width: calc(50% - 16px);
+
+    :global(.vtex-input__label) {
+      font-size: 14px;
+      line-height: 18px;
+      color: #fff;
+    }
+
+    :global(.vtex-input-prefix__group) {
+      border: none;
+      margin: 0;
+      height: 38px;
+    }
+  }
+
+  .formSubmitContainer {
+    width: calc(50% - 16px);
+
+    :global(.vtex-button) {
+      width: 100%;
+      height: 38px;
+      border-radius: 4px;
+      padding: 0;
+      border-color: #D1D485;
+      background-color: #D1D485;
+      font-weight: 500;
+
+      :global(.vtex-button__label) {
+        padding: 0;
+        color: #0C1E1B;
+        font-size: 14px;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .newsletterForm {
+    .formSubmitContainer {
+      :global(.vtex-button) {
+        :global(.vtex-button__label) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .newsletterForm {
+    margin: 40px 0 0;
+    .emailInputContainer {
+      margin: 0 0 15px;
+    }
+    .formSubmitContainer {
+      margin: 0 0 20px;
+      :global(.vtex-button) {
+        width: 100%;
+        :global(.vtex-button__label) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

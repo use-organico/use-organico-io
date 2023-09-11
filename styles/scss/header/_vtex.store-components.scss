@@ -1,0 +1,73 @@
+@import "../_variables";
+
+.imageElement {
+  &--header {
+    &-topbar {
+      width: 100%;
+    }
+  }
+}
+.searchBarContainer {
+  :global(.vtex-input-prefix__group) {
+    border: none;
+    width: 100%;
+    height: 43px;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    :global(.vtex-styleguide-9-x-input) {
+      font-size: 14px;
+      color: $useorganico-black;
+      background-color: #f5f5f5;
+      &::placeholder {
+        font-size: 14px;
+        color: #333333;
+      }
+      @media (max-width: 1024px) {
+        background: $useorganico-grey-background;
+      }
+    }
+    :global(.vtex-input__suffix) {
+      background-color: #f5f5f5;
+    }
+    @media (max-width: 1024px) {
+      :global(.vtex-input__suffix) {
+        background: $useorganico-grey-background;
+      }
+    }
+    .suffixWrapper {
+      align-items: center;
+      .searchBarIcon {
+        width: 20px;
+        height: 20px;
+        background: url(/arquivos/redesing-icon-search.png) no-repeat 50%;
+        // background-size: 100% 100%;
+        cursor: pointer;
+        .searchIcon,
+        .closeIcon {
+          visibility: hidden;
+        }
+        &--clear {
+          padding: 0;
+          background: none;
+          &::after {
+            content: "+";
+            font-size: 30px;
+            font-weight: 300;
+            color: #00000070;
+            margin-bottom: 5px;
+            transform: rotate(45deg);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+}
+
+@media (max-width: 1024px) {
+  .logoImage {
+    width: 150px;
+  }
+}

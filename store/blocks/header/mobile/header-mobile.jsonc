@@ -1,0 +1,80 @@
+{
+    "header-layout.mobile": {
+        "title": "Header Mobile",
+        "children": [
+            "sticky-layout#header-mobile",
+            "lgpd-modal"
+        ]
+    },
+    "sticky-layout#header-mobile": {
+        "children": [
+            "flex-layout.row#header-infoBar",
+            "flex-layout.row#header-topbar",
+            "flex-layout.row#header-mobile",
+            "flex-layout.row#header-seach-bar-mobile"
+        ],
+        "props": {
+            "blockClass": "header-mobile"
+        }
+    },
+    "flex-layout.row#header-mobile": {
+        "children": [
+           "drawer#header--menuMb",
+            "flex-layout.col#header-logo-mobile",
+            "flex-layout.col#header-wishlist-account-minicart-mob"
+        ],
+        "props": {
+            "colGap": 5,
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": true,
+            "blockClass": "header-mobile"
+        }
+    },
+    "flex-layout.col#header-logo-mobile": {
+        "children": [
+            "logo"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "header-logo-mobile"
+        }
+    },
+    "flex-layout.col#header-wishlist-account-minicart-mob": {
+        "children": [
+            "flex-layout.row#header-wishlist-account-minicart-mob"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": [
+                "header-wishlist-account-minicart-mob",
+                "align-items-center"
+            ]
+        }
+    },
+    "flex-layout.row#header-wishlist-account-minicart-mob": {
+        "children": [
+            // "menu-item#header-wishlist",
+            "login",
+            "minicart.v2"
+        ],
+        "props": {
+            "colGap": 2,
+            "verticalAlign": "middle",
+            "horizontalAlign": "right",
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": [
+                "header-wishlist-account-minicart-mob",
+                "align-items-center"
+            ]
+        }
+    },
+    "flex-layout.row#header-seach-bar-mobile": {
+        "children": [
+            "search-bar"
+        ],
+        "props": {
+            "blockClass": "header-search-bar-mobile"
+        }
+    }
+}

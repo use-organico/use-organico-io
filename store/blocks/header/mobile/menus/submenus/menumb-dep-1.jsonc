@@ -1,0 +1,106 @@
+{
+  "drawer#menuMb--dep-1": {
+    "children": [
+      "flex-layout.row#menuMb--dep-1--content"
+    ],
+    "blocks": [
+      "drawer-header#menuMb--dep-1",
+      "drawer-trigger#menuMb--dep-1--trigger"
+    ],
+    "props": {
+      "isFullWidth": true,
+      "slideDirection": "leftToRight",
+      "maxWidth": "80%",
+      "renderingStrategy": "eager",
+      "blockClass": [
+        "menuMb",
+        "menuMb__department"
+      ]
+    }
+  },
+  "drawer-header#menuMb--dep-1": {
+    "children": [
+      "drawer-close-button#menuMb--return"
+      // "rich-text#menuMb--dep-1--title"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__menuDepartment"
+      ]
+    }
+  },
+  // "rich-text#menuMb--dep-1--title": {
+  //   "props": {
+  //     "text": "Voltar",
+  //     "blockClass": [
+  //       "menuMb__title",
+  //       "menuMb__departmentTitle"
+  //     ]
+  //   },
+  //   "title": "Department 1 - Title"
+  // },
+  "drawer-close-button#menuMb--return": {
+    "props": {
+      "blockClass": [
+        "menuMb__return"
+      ]
+    }
+  },
+  "drawer-trigger#menuMb--dep-1--trigger": {
+    "children": [
+      "rich-text#menu-mobile--dep-1--trigger"
+    ]
+  },
+  "rich-text#menu-mobile--dep-1--trigger": {
+    "props": {
+      "text": "Cabelos",
+      "blockClass": [
+        "menuMb__trigger",
+        "menuMb__departmentTrigger"
+      ]
+    },
+    "title": "Department 1 - Trigger"
+  },
+  "flex-layout.row#menuMb--dep-1--content": {
+    "children": [
+      "vtex.menu@2.x:menu#menuMb--dep-1--menu"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__content",
+        "menuMb__departmentContent"
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#menuMb--dep-1--menu": {
+    "children": [
+      "menu-item#header-menu-cabelos-mob-ver-todos",
+      "vtex.menu@2.x:menu#header-menu-cabelos-shampoo",
+      "vtex.menu@2.x:menu#header-menu-cabelos-condicionador",
+      "vtex.menu@2.x:menu#header-menu-cabelos-col-2"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__departmentMenu"
+      ]
+    },
+    "title": "Department 1 Menu"
+  },
+  "menu-item#header-menuMb-dep1-ver-todos": {
+    "props": {
+      "id": "menu-item-header-menu-cabelos-mob-ver-todos",
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cabelos",
+        "noFollow": false,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      },
+      "blockClass": "header-submenu"
+    }
+  }
+}

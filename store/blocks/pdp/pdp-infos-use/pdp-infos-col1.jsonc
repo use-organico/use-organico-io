@@ -1,0 +1,27 @@
+{
+    "flex-layout.col#pdp-infos-col1": {
+        "title": "Produto Col 1",
+        "children": [
+            "flex-layout.row#pdp-brand-ref",
+            "vtex.store-components:product-name#pdp",
+            "product-rating-summary",
+            "product-specification-badges#short-description"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "pdp-infos"
+        }
+    },
+    "product-specification-badges#short-description": {
+        "props": {
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "texto-descricao-curta",
+                    "displayValue": "SPECIFICATION_VALUE"
+                }
+            ],
+            "blockClass": "pdp-short-description"
+        }
+    }
+}

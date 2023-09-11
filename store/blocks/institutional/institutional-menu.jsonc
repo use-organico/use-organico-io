@@ -1,0 +1,131 @@
+{
+    "vtex.menu@2.x:menu#institutional": {
+        "title": "Menu Institucional",
+        "children": [
+            "menu-item#institutional-manifesto-use",
+            "menu-item#institutional-selos-e-certificacoes",
+            "menu-item#institutional-politica-de-privacidade",
+            "menu-item#institutional-troca-e-devolucao",
+            "menu-item#institutional-formas-de-pagamento",
+            "menu-item#institutional-regra-de-frete"
+        ],
+        "props": {
+            "orientation": "horizontal",
+            "blockClass": "institutional"
+        }
+    },
+    "menu-item#institutional-manifesto-use": {
+        "props": {
+            "id": "item-institutional-manifesto-use",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/institucional/sobre",
+                "tagTitle": "Manifesto Use Orgânico",
+                "text": "Manifesto Use Orgânico"
+            },
+            "blockClass": [
+                "institutional",
+                "institutional-manifesto-use"
+            ]
+        }
+    },
+    "menu-item#institutional-selos-e-certificacoes": {
+        "props": {
+            "id": "item-institutional-selos-e-certificacoes",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/institucional/selos-e-certificacoes",
+                "tagTitle": "Selos e Certificações",
+                "text": "Selos e Certificações"
+            },
+            "blockClass": [
+                "institutional",
+                "institutional-selos-e-certificacoes"
+            ]
+        }
+    },
+    "menu-item#institutional-politica-de-privacidade": {
+        "props": {
+            "id": "item-institutional-politica-de-privacidade",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/institucional/politica-de-privacidade",
+                "tagTitle": "Política de Privacidade",
+                "text": "Política de Privacidade"
+            },
+            "blockClass": [
+                "institutional",
+                "institutional-politica-de-privacidade"
+            ]
+        }
+    },
+    "menu-item#institutional-troca-e-devolucao": {
+        "props": {
+            "id": "item-institutional-troca-e-devolucao",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/institucional/troca-e-devolucao",
+                "tagTitle": "Troca e Devolução",
+                "text": "Troca e Devolução"
+            },
+            "blockClass": [
+                "institutional",
+                "institutional-troca-e-devolucao"
+            ]
+        }
+    },
+    "menu-item#institutional-formas-de-pagamento": {
+        "props": {
+            "id": "item-institutional-formas-de-pagamento",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/institucional/formas-de-pagamento",
+                "tagTitle": "Formas de Pagamento",
+                "text": "Formas de Pagamento"
+            },
+            "blockClass": [
+                "institutional",
+                "institutional-formas-de-pagamento"
+            ]
+        }
+    },
+    "menu-item#institutional-regra-de-frete": {
+        "props": {
+            "id": "item-institutional-regra-de-frete",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/institucional/regra-de-frete",
+                "tagTitle": "Regra de Frete",
+                "text": "Regra de Frete"
+            },
+            "blockClass": [
+                "institutional",
+                "institutional-regra-de-frete"
+            ]
+        }
+    }
+}

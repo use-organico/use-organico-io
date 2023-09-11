@@ -1,0 +1,74 @@
+{
+    "responsive-layout.desktop#pdp-sticky-bar": {
+        "children": [
+            "sticky-layout#pdp-sticky-bar-desk"
+        ]
+    },
+    "sticky-layout#pdp-sticky-bar-desk": {
+        "children": [
+            "flex-layout.row#pdp-sticky-bar-desk"
+        ],
+        "props": {
+            "position": "top",
+            "blockClass": "pdp-sticky-bar-desk"
+        }
+    },
+    "flex-layout.row#pdp-sticky-bar-desk": {
+        "children": [
+            "flex-layout.col#pdp-sticky-bar-desk-2"
+        ],
+        "props": {
+            "fullWidth": false,
+            "colSizing": "auto",
+            "blockClass": "pdp-sticky-bar-desk"
+        }
+    },
+    "flex-layout.col#pdp-sticky-bar-desk-1": {
+        "children": [
+            "menu-product-information"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "pdp-sticky-bar-desk-1"
+        }
+    },
+    "flex-layout.col#pdp-sticky-bar-desk-2": {
+        "children": [
+            "flex-layout.row#pdp-sticky-content"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "pdp-sticky-bar-desk-2"
+        }
+    },
+    "flex-layout.row#pdp-sticky-content": {
+        "children": [
+            "flex-layout.col#pdp-quantity",
+            "flex-layout.col#pdp-buy-btn-sticky"
+        ],
+        "props": {
+            "colGap": 5,
+            "colSizing": "auto",
+            "blockClass": "pdp-sticky-content"
+        }
+    },
+    "flex-layout.col#pdp-sticky-prices": {
+        "children": [
+            "product-selling-price#pdp",
+            "product-installments#pdp"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "pdp-sticky-prices"
+        }
+    },
+    "flex-layout.col#pdp-buy-btn-sticky": {
+        "children": [
+            "add-to-cart-button#pdp"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "pdp-buy-btn-sticky"
+        }
+    }
+}

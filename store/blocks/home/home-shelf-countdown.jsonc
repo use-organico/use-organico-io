@@ -1,0 +1,53 @@
+{
+    "flex-layout.row#home-shelf-countdown": {
+        "title": "Shelf Countdown",
+        "children": [
+            "container-countdown"
+        ],
+        "props": {
+            "fullWidth": true,
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass": "home-shelf-countdown"
+        }
+    },
+    "container-countdown": {
+        "children": [
+            "list-context.product-list#home-shelf-countdown"
+        ],
+        "props": {
+            "countdownTitle": "Promoção Relâmpago",
+            "countdownSubTitle":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+            "isActive": true
+        }
+    },
+    "list-context.product-list#home-shelf-countdown": {
+        "title": "Shelf Countdown",
+        "blocks": [
+            "product-summary.shelf#shelf-countdown"
+        ],
+        "children": [
+            "slider-layout#shelf-ofertas"
+        ],
+        "props": {
+            "collection": "139",
+            "__unstableProductOriginVtex": true
+        }
+    },
+    "slider-layout#shelf-ofertas": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 1,
+                "phone": 1
+            },
+            "arrowSize": 16,
+            "infinite": true,
+            "fullWidth": true,
+            "centerModeSlidesGap": 1,
+            "showPaginationDots": "always",
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "shelf"
+        }
+    }
+}

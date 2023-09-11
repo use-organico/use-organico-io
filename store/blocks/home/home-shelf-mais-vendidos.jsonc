@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#home-mais-vendidos": {
+        "title": "Shelf Os mais vendidos",
+        "children": [
+            "flex-layout.col#home-mais-vendidos"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "blockClass": "home-mais-vendidos"
+        }
+    },
+    "flex-layout.col#home-mais-vendidos": {
+        "children": [
+            "rich-text#home-mais-vendidos",
+            "rich-text#home-mais-vendidos-subtitle",
+            "list-context.product-list#home-mais-vendidos"
+        ],
+        "props": {
+            "blockClass": "home-mais-vendidos"
+        }
+    },
+    "rich-text#home-mais-vendidos": {
+        "title": "Título",
+        "props": {
+            "text": "Os mais vendidos",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "shelf-titulo"
+        }
+    },
+    "rich-text#home-mais-vendidos-subtitle": {
+        "title": "Subtítulo",
+        "props": {
+            "text": "Navegue pelos produtos mais vendidos na loja",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "shelf-subtitulo"
+        }
+    },
+    "list-context.product-list#home-mais-vendidos": {
+        "title": "Shelf Os mais vendidos",
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#shelf"
+        ],
+        "props": {
+            "collection": "139",
+            "__unstableProductOriginVtex": true
+        }
+    }
+}

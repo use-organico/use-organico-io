@@ -1,0 +1,32 @@
+{
+  "flex-layout.col#institutional-contact": {
+    "children": [
+      "rich-text#institutional-breadcrumb",
+      "rich-text#institutional-fale-conosco",
+      "rich-text#institutional-contact"
+    ],
+    "props": {
+      "width": "30%",
+      "preventVerticalStretch": true,
+      "blockClass": "institutional-contact"
+    }
+  },
+  "rich-text#institutional-breadcrumb": {
+    "props": {
+      "text": "[Home](/) > [Institutional](/institutional)",
+      "blockClass": "institutional-breadcrumb"
+    }
+  },
+  "rich-text#institutional-fale-conosco": {
+    "props": {
+      "text": "# Fale com a gente! \n\n Dúvida, elogio, reclamação ou sugestão? Entre em contato, estamos aqui para te ajudar :)",
+      "blockClass": "institutional-fale-conosco"
+    }
+  },
+  "rich-text#institutional-contact": {
+    "props": {
+      "text": "contato@useorganico.com.br \n\n *+55 11 96335-4787* \n\n Segunda a Sexta das 9:30 as 17:30",
+      "blockClass": "institutional-contact"
+    }
+  }
+}

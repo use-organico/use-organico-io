@@ -1,0 +1,53 @@
+{
+  "responsive-layout.mobile#pdp-traditional-mobile": {
+    "title": "PDP Traditional Mobile",
+    "children": [
+      "flex-layout.row#pdp-traditional-mobile"
+    ]
+  },
+  "flex-layout.row#pdp-traditional-mobile": {
+    "children": [
+      "flex-layout.col#pdp-traditional-mobile"
+    ],
+    "props": {
+      "blockClass": "pdp-traditional-mobile"
+    }
+  },
+  "flex-layout.col#pdp-traditional-mobile": {
+    "children": [
+      "flex-layout.row#pdp-mobile-stars-row",
+      "flex-layout.row#pdp-container-infos-mobile"
+    ],
+    "props": {
+      "blockClass": "pdp-traditional"
+    }
+  },
+  "flex-layout.row#pdp-mobile-stars-row": {
+    "children": [
+      "vtex.store-components:product-brand",
+      "flex-layout.col#pdp-mobile-stars-col"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "between",
+      "colSizing": "auto",
+      "blockClass": "pdp-mobile-stars-row"
+    }
+  },
+  "rich-text#pdp-mobile-stars-row-text": {
+    "props": {
+      "text": "Use Orgânico",
+       "blockClass": "pdp-mobile-stars-row-text"
+    }
+  },
+  "flex-layout.col#pdp-mobile-stars-col": {
+    "title": "Container Ratings",
+    "children": [
+      "product-rating-summary"
+    ],
+    "props": {
+      "blockClass": "pdp-mobile-stars-col",
+      "verticalAlign": "middle"
+    }
+  }
+}

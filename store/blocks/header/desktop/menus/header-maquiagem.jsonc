@@ -1,0 +1,434 @@
+{
+    "menu-item#header-menu-maquiagem": {
+        "props": {
+            "id": "item-header-menu-maquiagem",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "href": "/maquiagem",
+                "tagTitle": "Maquiagem",
+                "text": "Maquiagem"
+            },
+            "blockClass": [
+                "header",
+                "header-hover",
+                "header-maquiagem"
+            ]
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#header-menu-maquiagem"
+        ]
+    },
+    "vtex.menu@2.x:submenu#header-menu-maquiagem": {
+        "children": [
+            "flex-layout.row#header-menu-maquiagem"
+        ],
+        "props": {
+            "blockClass": "header"
+        }
+    },
+    "flex-layout.row#header-menu-maquiagem": {
+        "children": [
+            "flex-layout.col#header-menu-maquiagem-menus-col",
+            "flex-layout.col#header-menu-maquiagem-4"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-maquiagem-menus-col": {
+        "children": [
+            "flex-layout.row#header-menu-maquiagem-menus-row"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu-menus-col",
+            "width": "grow"
+        }
+    },
+    "flex-layout.row#header-menu-maquiagem-menus-row": {
+        "children": [
+            "flex-layout.col#header-menu-maquiagem-1",
+            "flex-layout.col#header-menu-maquiagem-2",
+            "flex-layout.col#header-menu-maquiagem-3"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "header-menu-menus-row"
+        }
+    },
+    "flex-layout.col#header-menu-maquiagem-1": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-maquiagem-rosto"
+        ],
+        "props": {
+            "rowGap": 5,
+            "preventVerticalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-maquiagem-rosto": {
+        "title": "Menu Rosto",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-maquiagem-rosto-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/rosto",
+                        "noFollow": false,
+                        "tagTitle": "Rosto",
+                        "text": "Rosto"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-rosto-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/rosto/blush",
+                        "noFollow": false,
+                        "tagTitle": "Blush",
+                        "text": "Blush"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-rosto-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/rosto/iluminador",
+                        "noFollow": false,
+                        "tagTitle": "Iluminador",
+                        "text": "Iluminador"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-rosto-4",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/rosto/po-compacto",
+                        "noFollow": false,
+                        "tagTitle": "Pó Facial",
+                        "text": "Pó Facial"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-rosto-5",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/rosto/demaquilante",
+                        "noFollow": false,
+                        "tagTitle": "Demaquilante",
+                        "text": "Demaquilante"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-rosto-6",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/rosto/bronzer-facial",
+                        "noFollow": false,
+                        "tagTitle": "Bronzer Facial",
+                        "text": "Bronzer Facial"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-rosto-7",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/rosto/base",
+                        "noFollow": false,
+                        "tagTitle": "Base",
+                        "text": "Base"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-rosto-8",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/rosto/corretivo",
+                        "noFollow": false,
+                        "tagTitle": "Corretivo",
+                        "text": "Corretivo"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-rosto-9",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/rosto/bb-cream",
+                        "noFollow": false,
+                        "tagTitle": "BB Cream",
+                        "text": "BB Cream"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-rosto-10",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/rosto/primer",
+                        "noFollow": false,
+                        "tagTitle": "Primer",
+                        "text": "Primer"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-maquiagem-2": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-maquiagem-olhos-sobrancelhas"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-maquiagem-olhos-sobrancelhas": {
+        "title": "Menu Olhos e Sobrancelhas",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-maquiagem-olhos-sobrancelhas-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/olhos-e-sobrancelhas",
+                        "noFollow": false,
+                        "tagTitle": "Olhos e Sobrancelhas",
+                        "text": "Olhos e Sobrancelhas"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-olhos-sobrancelhas-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/olhos-e-sobrancelhas/sombra",
+                        "noFollow": false,
+                        "tagTitle": "Sombra",
+                        "text": "Sombra"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-olhos-sobrancelhas-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/olhos-e-sobrancelhas/delineador-e-lapis-de-olhos-e-sobrancelhas",
+                        "noFollow": false,
+                        "tagTitle": "Delineador e Lápis de Olhos e Sobrancelhas",
+                        "text": "Delineador e Lápis de Olhos e Sobrancelhas"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-olhos-sobrancelhas-4",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/olhos-e-sobrancelhas/mascara-para-cilios",
+                        "noFollow": false,
+                        "tagTitle": "Máscara para Cílios",
+                        "text": "Máscara para Cílios"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-olhos-sobrancelhas-5",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/olhos-e-sobrancelhas/henna-para-sobrancelha",
+                        "noFollow": false,
+                        "tagTitle": "Henna para Sobrancelha",
+                        "text": "Henna para Sobrancelha"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-olhos-sobrancelhas-5",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/olhos-e-sobrancelhas/demaquilante-para-olhos",
+                        "noFollow": false,
+                        "tagTitle": "Demaquilante para Olhos",
+                        "text": "Demaquilante para Olhos"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-maquiagem-3": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-maquiagem-kits-boca"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-maquiagem-kits-boca": {
+        "title": "Menu Kits de Maquiagem Boca",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-maquiagem-kits-boca-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/kits-de-maquiagem",
+                        "noFollow": false,
+                        "tagTitle": "Kits de Maquiagem Boca",
+                        "text": "Kits de Maquiagem Boca"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-kits-boca-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/boca",
+                        "noFollow": false,
+                        "tagTitle": "Boca",
+                        "text": "Boca"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-kits-boca-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/boca/batom-e-lapis-labial",
+                        "noFollow": false,
+                        "tagTitle": "Batom e Lápis Labial",
+                        "text": "Batom e Lápis Labial"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-kits-boca-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/boca/gloss-labial",
+                        "noFollow": false,
+                        "tagTitle": "Gloss Labial",
+                        "text": "Gloss Labial"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-kits-boca-4",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/boca/hidratante-labial",
+                        "noFollow": false,
+                        "tagTitle": "Hidratante Labial",
+                        "text": "Hidratante Labial"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-kits-boca-5",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem/pinceis-e-acessorios",
+                        "noFollow": false,
+                        "tagTitle": "Pincéis e Acessórios",
+                        "text": "Pincéis e Acessórios"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-maquiagem-kits-boca-5",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/marcas",
+                        "noFollow": false,
+                        "tagTitle": "Marcas",
+                        "text": "Marcas"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-maquiagem-4": {
+        "children": [
+            "image#header-menu-maquiagem-img"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": ["header-menu", "header-menu-image-col"]
+        }
+    },
+    "image#header-menu-maquiagem-img": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/168965/20220914-ajuste-banners-menu04.png?v=637991996369370000",
+            "maxWidth": "205px",
+            "blockClass": "header-menu"
+        }
+    }
+}

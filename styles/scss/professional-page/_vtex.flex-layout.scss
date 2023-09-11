@@ -1,0 +1,17 @@
+@import "../_variables";
+
+.flexRowContent{
+  &--professional-page{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 0;
+  }
+  &--be-a-reseller {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 0;
+    @media screen and (max-width:768px) {
+      padding: 0 0 80px 0;
+    }
+  }
+}

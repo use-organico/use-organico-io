@@ -1,0 +1,22 @@
+@import "../_variables";
+
+.wishlistIconContainer {
+  :global(.vtex-button) {
+    border: none;
+    :global(.vtex-button__label) {
+      padding: 0 !important;
+    }
+  }
+  .iconSize {
+    width: 20px;
+    height: 20px;
+  }
+  .outline {
+    background: url(/arquivos/icon-whishlist-added.png) no-repeat;
+    background-size: contain;
+  }
+  .fill {
+    background: url(/arquivos/icon-whishlist-added-green.png) no-repeat;
+    background-size: contain;
+  }
+}

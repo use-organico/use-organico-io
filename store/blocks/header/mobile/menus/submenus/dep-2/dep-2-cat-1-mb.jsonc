@@ -1,0 +1,414 @@
+{
+  "vtex.menu@2.x:menu#menuMb--dep-2-cat-1--menu": {
+    "children": [
+      "menu-item#dep-2-cat-1-subcat-1-mb",
+      "menu-item#dep-2-cat-1-subcat-2-mb",
+      "menu-item#dep-2-cat-1-subcat-3-mb",
+      "menu-item#dep-2-cat-1-subcat-4-mb",
+      "menu-item#dep-2-cat-1-subcat-5-mb",
+      "menu-item#dep-2-cat-1-subcat-6-mb",
+      "menu-item#dep-2-cat-1-subcat-7-mb",
+      "menu-item#dep-2-cat-1-subcat-8-mb",
+      "menu-item#dep-2-cat-1-subcat-9-mb",
+      "menu-item#dep-2-cat-1-subcat-10-mb",
+      "menu-item#dep-2-cat-1-subcat-11-mb",
+      "menu-item#dep-2-cat-1-subcat-12-mb",
+      "menu-item#dep-2-cat-1-subcat-13-mb",
+      "menu-item#dep-2-cat-1-subcat-14-mb",
+      "menu-item#dep-2-cat-1-subcat-15-mb",
+      "menu-item#dep-2-cat-1-subcat-16-mb",
+      "menu-item#dep-2-cat-1-subcat-17-mb",
+      "menu-item#dep-2-cat-1-subcat-18-mb",
+      "menu-item#dep-2-cat-1-subcat-19-mb",
+      "menu-item#dep-2-cat-1-subcat-20-mb",
+      "menu-item#dep-2-cat-1-subcat-21-mb"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__categoryMenu"
+      ]
+    },
+    "title": "Department 2 Category 1 Menu"
+  },
+
+  
+  "menu-item#dep-2-cat-1-subcat-1-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--1-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Rosto",
+          "text": "Rosto"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--brands"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-2-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--2-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Sabonete Facial",
+          "text": "Sabonete Facial"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--sale"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-3-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--3-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Limpeza de Pele",
+          "text": "Limpeza de Pele"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--subscription"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-4-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--4-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Protetor Solar",
+          "text": "Protetor Solar"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--myOrders"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-5-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--5-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Sórum e Concentrados",
+          "text": "Sórum e Concentrados"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-6-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--6-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Hidratante Facial",
+          "text": "Hidratante Facial"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-7-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--7-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Clareador de Manchas",
+          "text": "Clareador de Manchas"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-8-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--8-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Antiacne",
+          "text": "Antiacne"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-9-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--9-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Tratamento Anti-idade",
+          "text": "Tratamento Anti-idade"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-10-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--10-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Argila Facial",
+          "text": "Argila Facial"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-11-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--11-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Lábios",
+          "text": "Lábios"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-12-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--12-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Corpo",
+          "text": "Corpo"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-13-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--13-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Sabonete",
+          "text": "Sabonete"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-14-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--14-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Hidratante",
+          "text": "Hidratante"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-15-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--15-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Tratamento de Celulite",
+          "text": "Tratamento de Celulite"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-16-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--16-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Tratamento para Flacidez",
+          "text": "Tratamento para Flacidez"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-17-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--17-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Olhos",
+          "text": "Olhos"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-18-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat-18-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Antiaging",
+          "text": "Antiaging"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-19-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--19-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Olheiras",
+          "text": "Olheiras"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-20-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--20-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Kits de Tratamento",
+          "text": "Kits de Tratamento"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-2-cat-1-subcat-21-mb": {
+    "props": {
+      "id": "dep-2-cat-1-subcat--21-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Marcas",
+          "text": "Marcas"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  }
+}

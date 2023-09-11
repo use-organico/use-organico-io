@@ -1,0 +1,59 @@
+{
+  "menu-item#header-menu-maquiagem-mob": {
+    "props": {
+      "id": "item-header-menu-maquiagem-mob",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "href": "#",
+        "tagTitle": "Maquiagem",
+        "text": "Maquiagem"
+      },
+      "blockClass": "header"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#header-menu-maquiagem-mob"]
+  },
+  "vtex.menu@2.x:submenu.accordion#header-menu-maquiagem-mob": {
+    "children": ["flex-layout.row#header-menu-maquiagem-mob"],
+    "props": {
+      "blockClass": "header"
+    }
+  },
+  "flex-layout.row#header-menu-maquiagem-mob": {
+    "children": ["flex-layout.col#header-menu-maquiagem-mob"],
+    "props": {
+      "blockClass": "header-submenu"
+    }
+  },
+  "flex-layout.col#header-menu-maquiagem-mob": {
+    "children": [
+      "menu-item#header-menu-maquiagem-mob-ver-todos",
+      "vtex.menu@2.x:menu#header-menu-maquiagem-rosto",
+      "vtex.menu@2.x:menu#header-menu-maquiagem-olhos-sobrancelhas",
+      "vtex.menu@2.x:menu#header-menu-maquiagem-kits-boca"
+    ],
+    "props": {
+      "rowGap": 0,
+      "preventVerticalStretch": true,
+      "blockClass": "header-submenu"
+    }
+  },
+  "menu-item#header-menu-maquiagem-mob-ver-todos": {
+    "props": {
+      "id": "menu-item-header-menu-maquiagem-mob-ver-todos",
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maquiagem",
+        "noFollow": false,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      },
+      "blockClass": "header-submenu"
+    }
+  }
+}

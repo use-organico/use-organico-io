@@ -1,0 +1,13 @@
+{
+  "flex-layout.row#search-banner-seo-mob": {
+    "title": "Banner and Seo Text",
+    "children": [
+      "flex-layout.col#search-banner-seo-image",
+      "flex-layout.col#search-banner-seo-text"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "search-banner-seo"
+    }
+  }
+}

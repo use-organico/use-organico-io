@@ -1,0 +1,108 @@
+{
+    "rich-text#footer-menus-institucional": {
+        "title": "Institucional Título",
+        "props": {
+            "text": "Institucional",
+            "blockClass": "footer-titles"
+        }
+    },
+    "vtex.menu@2.x:menu#footer-institucional": {
+        "title": "Menu Institucional",
+        "props": {
+            "items": [
+                {
+                    "id": "menu-item-footer-institucional-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/institucional/sobre-a-use",
+                        "noFollow": true,
+                        "tagTitle": "Sobre Use Orgânico",
+                        "text": "Sobre Use Orgânico"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-institucional-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/caixa-organica-sustentavel-ecologica-use-organico ",
+                        "noFollow": true,
+                        "tagTitle": "Conheça Nossa Embalagem",
+                        "text": "Conheça Nossa Embalagem"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-institucional-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/dia-da-arvore",
+                        "noFollow": true,
+                        "tagTitle": "Sustentabilidade",
+                        "text": "Sustentabilidade"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-institucional-4",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "external",
+                        "href": "https://blog.useorganico.com.br",
+                        "noFollow": true,
+                        "tagTitle": "Nosso Blog",
+                        "text": "Nosso Blog"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-institucional-5",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/use-organico-e-confiavel",
+                        "noFollow": true,
+                        "tagTitle": "A Use Orgânico é Confiável?",
+                        "text": "A Use Orgânico é Confiável?"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-institucional-6",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/programa-de-fidelidade",
+                        "noFollow": true,
+                        "tagTitle": "Programa de fidelidade - Use pontos",
+                        "text": "Programa de fidelidade - Use pontos"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-institucional-7",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/profissionais-da-saude",
+                        "noFollow": true,
+                        "tagTitle": "Prescritores",
+                        "text": "Prescritores"
+                    }
+                }
+            ],
+            "blockClass": ["footer", "footer-institucional"]
+        }
+    }
+}

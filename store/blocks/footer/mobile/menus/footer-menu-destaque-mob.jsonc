@@ -1,0 +1,32 @@
+{
+    "menu-item#footer-menu-destaque-mob": {
+        "props": {
+            "id": "item-footer-menu-destaque-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "#",
+                "tagTitle": "Destaques",
+                "text": "Destaques"
+            },
+            "blockClass": [
+                "footer-mobile",
+                "footer-mobile-destaques"
+            ]
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#footer-menu-destaque-mob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#footer-menu-destaque-mob": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-destaque"
+        ],
+        "props": {
+            "blockClass": "footer-mobile"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "flex-layout.row#pdp-use-tabs-row-5": {
+        "children": [
+            "flex-layout.col#pdp-use-tabs-row-5"
+        ],
+        "props": {
+            "fullWidth": false,
+            "blockClass": "pdp-use-tabs-row-5"
+        }
+    },
+    "flex-layout.col#pdp-use-tabs-row-5": {
+        "children": [
+            "rich-text#pdp-use-tabs-row-5",
+            "product-selling-price#pdp",
+            "flex-layout.row#pdp-quantity-buy-btn"
+        ],
+        "props": {
+            "width": "32%",
+            "verticalAlign": "middle",
+            "blockClass": "pdp-use-tabs-row-5"
+        }
+    },
+    "rich-text#pdp-use-tabs-row-5": {
+        "props": {
+            "text": "### ESCOLHA O PODER DA NATUREZA \n\n Compre agora o Novo Creme Dental Natural da Use Orgânico",
+            "blockClass": "pdp-use-tabs-row-5"
+        }
+    }
+}

@@ -1,0 +1,217 @@
+@import "../variables";
+
+.sliderLayoutContainer--home-banner {
+  .sliderArrows {
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    border-radius: 50%;
+    background: $useorganico-white !important;
+  }
+
+  .paginationDotsContainer {
+    bottom: 13px;
+    
+    @media (max-width: 1024px) {
+      bottom: 14px;
+    } 
+    .paginationDot {
+      border-radius: initial;
+      width: 10px !important;
+      height: 3px !important;
+      padding:0;
+      border:none;
+      background-color: #0C1E1B;
+      opacity: 0.3;
+      // box-shadow: 0 0 8px rgb(0 0 0 / 40%);
+      transition: background 0.3s ease, border-color 0.3s ease;
+      &--isActive {
+        width: 25px !important;
+        opacity: 1;
+      }
+    }
+  }
+  .slideChildrenContainer,
+  .imageElementLink,
+  .imageElement {
+    width: 100%;
+  }
+}
+
+.sliderLayoutContainer--shelf {
+  .sliderTrack {
+    padding: 10px 0;
+  }
+  .sliderArrows {
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px rgb(0 0 0 / 10%);
+    background: $useorganico-white !important;
+  }
+  .paginationDotsContainer {
+    bottom: -13px;
+
+    @media (max-width: 1024px) {
+      bottom: 14px;
+    }
+
+    .paginationDot {
+      border-radius: initial;
+      width: 10px !important;
+      height: 3px !important;
+      padding:0;
+      opacity: 0.3;
+      border: none;
+      background-color: #0C1E1B;
+      transition: background 0.3s ease, border-color 0.3s ease;
+      &--isActive {
+        width: 25px !important;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.infoCardContainer--home-posts {
+  display: flex;
+  margin: 0 20px;
+  border-radius: 10px;
+  flex-direction: column-reverse;
+  background-color: $useorganico-white;
+  .infoCardTextContainer {
+    width: 100%;
+    display: flex;
+    padding: 38px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    align-items: center;
+    color: $useorganico-black;
+    .infoCardHeadline {
+      margin: 0;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 38px;
+      text-align: center;
+    }
+    .infoCardSubhead {
+      margin: 0;
+      height: 0px;
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 1px;
+      text-align: center;
+    }
+    .infoCardCallActionContainer {
+      display: none;
+    }
+  }
+  .infoCardImageContainer {
+    width: 100%;
+    font-size: 0;
+  }
+}
+
+.infoCardContainer--home-benefits {
+  display: flex;
+  background-color: $useorganico-green;
+  .infoCardTextContainer {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: auto !important;
+    .infoCardHeadline,
+    .infoCardSubhead {
+      margin: 0 2px;
+      font-size: 12px;
+      line-height: 24px;
+      color: $useorganico-white;
+    }
+  }
+  .infoCardImageContainer {
+    height: auto;
+    max-width: 30px;
+    margin-right: 3px;
+    width: auto !important;
+  }
+}
+.infoCardContainer--home-banner {
+  display: flex;
+  align-items: flex-start;
+  background-color: $useorganico-white;
+  height: calc(100vw / 3.13);
+  width: 100vw;
+  background-position: center center;
+
+  .infoCardTextContainer {
+    width: 100%;
+    display: flex;
+    color: #0C1E1B;
+    justify-content: center;
+    height: 100%;
+    max-width: 940px;
+    margin-inline: auto;
+
+    .infoCardHeadline {
+      margin: 0;
+      margin-bottom:9px;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 34px;
+      text-align: center;
+    }
+    .infoCardSubhead {
+      margin: 0;
+      margin-bottom:16px;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+    }
+    .infoCardCallActionContainer{
+      margin:0;
+      :global(.vtex-button){
+        background-color: #2c4944;
+        border: 1px solid #2c4944;
+        font-size: 14px;
+        text-transform: initial;
+        font-weight: 400;
+        :global(.vtex-button__label){
+          padding:10px 24px;
+        }
+      }
+    }
+  }
+  .infoCardImageContainer {
+    width: 100%;
+  }
+}
+@media (max-width:1024px){
+  .infoCardContainer--home-banner {
+    .infoCardTextContainer {
+      padding-block: 20px;
+      max-width: 227px;
+    }
+  }
+
+  .slideChildrenContainer--home-destaques {
+    padding-inline: 5px;
+  }
+
+  .paginationDotsContainer--home-destaques {
+    bottom: -13px !important;
+  }
+
+  .sliderLayoutContainer--slider-layout-shelf-offerings {
+    padding-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 640px){
+  .infoCardContainer--home-banner {
+    height: calc(100vw / 0.94)
+  }
+}

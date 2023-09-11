@@ -1,0 +1,370 @@
+{
+    "menu-item#header-menu-aromaterapia": {
+        "props": {
+            "id": "item-header-menu-aromaterapia",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "href": "/aromaterapia",
+                "tagTitle": "Aromaterapia",
+                "text": "Aromaterapia"
+            },
+            "blockClass": [
+                "header",
+                "header-hover",
+                "header-aromaterapia"
+            ]
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#header-menu-aromaterapia"
+        ]
+    },
+    "vtex.menu@2.x:submenu#header-menu-aromaterapia": {
+        "children": [
+            "flex-layout.row#header-menu-aromaterapia"
+        ],
+        "props": {
+            "blockClass": "header"
+        }
+    },
+    "flex-layout.row#header-menu-aromaterapia": {
+        "children": [
+            "flex-layout.col#header-menu-aromaterapia-menus-col",
+            "flex-layout.col#header-menu-aromaterapia-3"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-aromaterapia-menus-col": {
+        "children": [
+            "flex-layout.row#header-menu-aromaterapia-menus-row"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu-menus-col",
+            "width": "grow"
+        }
+    },
+    "flex-layout.row#header-menu-aromaterapia-menus-row": {
+        "children": [
+            "flex-layout.col#header-menu-aromaterapia-1",
+            "flex-layout.col#header-menu-aromaterapia-2"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "header-menu-menus-row"
+        }
+    },
+    "flex-layout.col#header-menu-aromaterapia-1": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-aromaterapia-bem-estar",
+            "vtex.menu@2.x:menu#header-menu-aromaterapia-difusor-aromas",
+            "vtex.menu@2.x:menu#header-menu-aromaterapia-col-1"
+        ],
+        "props": {
+            "rowGap": 5,
+            "preventVerticalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-aromaterapia-bem-estar": {
+        "title": "Menu Bem Estar",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-aromaterapia-bem-estar-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/aromaterapia/bem-estar",
+                        "noFollow": false,
+                        "tagTitle": "Bem Estar",
+                        "text": "Bem Estar"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-aromaterapia-bem-estar-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/rosto/mascara-e-argila",
+                        "noFollow": false,
+                        "tagTitle": "Argila Natural",
+                        "text": "Argila Natural"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-aromaterapia-bem-estar-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/aromaterapia/bem-estar/roll---on-natural",
+                        "noFollow": false,
+                        "tagTitle": "Perfume Natural",
+                        "text": "Perfume Natural"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-aromaterapia-difusor-aromas": {
+        "title": "Menu Difusor de Aromas",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-aromaterapia-difusor-aromas-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/aromaterapia/difusor-de-aromas",
+                        "noFollow": false,
+                        "tagTitle": "Difusor de Aromas",
+                        "text": "Difusor de Aromas"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-aromaterapia-difusor-aromas-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/aromaterapia/difusor-de-aromas/difusor-de-ambiente",
+                        "noFollow": false,
+                        "tagTitle": "Difusores de ambiente",
+                        "text": "Difusores de ambiente"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-aromaterapia-difusor-aromas-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/aromaterapia/difusor-de-aromas/difusor-pessoal",
+                        "noFollow": false,
+                        "tagTitle": "Difusores pessoais",
+                        "text": "Difusores pessoais"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-aromaterapia-col-1": {
+        "title": "Menu Coluna 1",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-aromaterapia-col-1-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/aromaterapia/oleo-essencial",
+                        "noFollow": false,
+                        "tagTitle": "Óleo Essencial",
+                        "text": "Óleo Essencial"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-aromaterapia-col-1-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/aromaterapia/oleo-vegetal",
+                        "noFollow": false,
+                        "tagTitle": "Óleo Vegetal",
+                        "text": "Óleo Vegetal"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-aromaterapia-col-1-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/aromaterapia/massagem-corporal",
+                        "noFollow": false,
+                        "tagTitle": "Massagem Corporal",
+                        "text": "Massagem Corporal"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-aromaterapia-2": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-aromaterapia-col-2"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-aromaterapia-col-2": {
+        "title": "Menu Coluna 2",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-aromaterapia-col-2-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/aromaterapia/sinergia-de-oleo-essencial",
+                        "noFollow": false,
+                        "tagTitle": "Sinergias / Blends",
+                        "text": "Sinergias / Blends"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-aromaterapia-col-2-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/aromaterapia/bases-neutras",
+                        "noFollow": false,
+                        "tagTitle": "Bases neutras",
+                        "text": "Bases neutras"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-aromaterapia-col-2-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/aromaterapia/agua-perfumada",
+                        "noFollow": false,
+                        "tagTitle": "Spray de Ambiente Natural",
+                        "text": "Spray de Ambiente Natural"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-aromaterapia-col-2-4",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/aromaterapia/agua-floral",
+                        "noFollow": false,
+                        "tagTitle": "Água Floral / Hidrolato",
+                        "text": "Água Floral / Hidrolato"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-aromaterapia-col-2-5",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/aromaterapia/kits-aromaterapia",
+                        "noFollow": false,
+                        "tagTitle": "Kits Aromaterapia",
+                        "text": "Kits Aromaterapia"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-aromaterapia-col-2-6",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/aromaterapia/acessorios-de-aromaterapia",
+                        "noFollow": false,
+                        "tagTitle": "Acessórios de Aromaterapia",
+                        "text": "Acessórios de Aromaterapia"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-aromaterapia-col-2-7",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/aromaterapia/livros-sobre-aromaterapia-e-oleos-essenciais",
+                        "noFollow": false,
+                        "tagTitle": "Livros",
+                        "text": "Livros"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-aromaterapia-col-2-8",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colecao/ofertas-de-aromaterapia",
+                        "noFollow": false,
+                        "tagTitle": "Ofertas de Aromaterapia",
+                        "text": "Ofertas de Aromaterapia"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-aromaterapia-col-2-9",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/marcas",
+                        "noFollow": false,
+                        "tagTitle": "Marcas",
+                        "text": "Marcas"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-aromaterapia-3": {
+        "children": [
+            "image#header-menu-aromaterapia-img"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": ["header-menu", "header-menu-image-col"]
+        }
+    },
+    "image#header-menu-aromaterapia-img": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/168964/20220914-ajuste-banners-menu05.png?v=637991996011070000",
+            "maxWidth": "205px",
+            "blockClass": "header-menu"
+        }
+    }
+}

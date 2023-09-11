@@ -1,0 +1,193 @@
+@import "../_variables";
+
+.flexRow {
+  &--home {
+    &-mais-vendidos,
+    &-yourviews,
+    &-destaques{
+      margin-top:59px;
+    }
+
+    &-benefits {
+      padding: 30px 0;
+      background-color: #fff;
+    }
+    &-shelf {
+      &-ofertas {
+        margin-top: 60px;
+        background-color: $useorganico-white;
+
+        @media (max-width: 1024px) {
+          :global(.vtex-button) {
+            height: 39px !important;
+          }
+        }
+      }
+      &-recentes {
+        padding: 35px 0;
+      }
+    }
+    &-destaques {
+      background-color: $useorganico-white;
+
+      @media (max-width: 1024px) {
+        margin-top: 30px;
+      }
+    }
+    // &-indicados {
+    //   padding: 40px 0;
+    //   background: linear-gradient(
+    //     to bottom,
+    //     #d8e2c2 50%,
+    //     $useorganico-grey-background 50%
+    //   );
+    // }
+    &-posts {
+      padding: 120px 0;
+      background-color: $useorganico-grey-background;
+    }
+    &-marcas {
+      padding: 35px 0;
+      background-color: $useorganico-white;
+
+      @media (max-width: 1024px) {
+        padding: 10px 0;
+      }
+    }
+    &-seo {
+      padding: 20px 0 70px;
+      background-color: #F3F1E5;
+    }
+    &-insta {
+      background-color: $useorganico-grey-background;
+    }
+  }
+  &--wrapper{
+    &-img-marcas-1{
+          background: #4B6D47;
+          padding: 0 24px;
+          border-radius: 20px 20px 20px 0;
+
+          @media (min-width: 1025px) {
+            display: flex;
+            align-items: center;
+            margin-right: 12px;
+          }
+        }
+  }
+}
+.flexCol{
+  &--wrapper{
+    &-img-marcas-2{
+      background: #BED6AB;
+      padding: 26px 21px;
+      border-radius: 0 20px 20px 20px;
+    }
+    &-img-marcas-3{
+      background: #F3F1E5;
+      padding: 20px 32px;
+      border-radius: 20px 20px 0 20px;
+    }
+    &-img-marcas-4{
+      background: #D1D485;
+      padding: 27px 17px;
+      border-radius:20px 20px 0 20px;
+    }
+    &-img-marcas-5{
+      background: #2C4944;
+      padding: 18px 36px;
+      border-radius:20px 0 20px 20px;
+    }
+  }
+}
+.flexRowContent{
+  &--wrapper{
+    &-img-marcas-2-3,
+    &-img-marcas-4-5{
+      display: flex;
+      flex-direction: row;
+      gap: 12px;
+
+      @media (max-width: 1024px) {
+        gap: 4px;
+      }
+    }
+
+    &-img-marcas-2-3 {
+      @media (min-width: 1025px) {
+        margin-bottom: 12px;
+      }
+    }
+  }
+}
+
+.flexRowContent--row-home-benefits-benefit {
+  justify-content: center;
+}
+
+.flexRowContent--home-marcas-desktop {
+  max-width: 930px;
+  margin: 90px auto 60px auto;
+}
+
+
+@media (min-width: 1025px) {
+  .flexCol--average-percentage-your-views-button {
+    padding-left: 33px;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .flexRow {
+    &--home {
+      &-mais-vendidos,
+      &-yourviews {
+        margin-top: 35px;
+        :global(.vtex-button) {
+          height: 39px !important;
+        }
+      }
+    }
+  }
+}
+
+.flexCol--container-imgs-marcas {
+  gap: 12px;
+}
+
+@media (max-width: 1024px) {
+  .flexCol--container-imgs-marcas {
+    gap: 4px;
+  }
+}
+// @media (min-width: 1025px) {
+//   .flexRow {
+//     &--home {
+//       &-indicados {
+//         &-person-shelf {
+//           border-radius: 10px;
+//           background-color: $useorganico-white;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @media (max-width: 1024px) {
+//   .flexCol {
+//     &--home {
+//       &-indicados {
+//         &-shelf {
+//           padding: 0 16px;
+//           border-radius: 10px;
+//           background-color: $useorganico-white;
+//         }
+//       }
+//     }
+//   }
+//   .flexRowContent--product-summary-home-indicados {
+//     display: flex;
+//     flex-direction: column-reverse;
+//   }
+// }

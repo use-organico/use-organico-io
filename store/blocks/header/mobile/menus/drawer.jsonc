@@ -1,0 +1,64 @@
+{
+    "drawer": {
+        "title": "Menu Drawer",
+        "children": [
+            "flex-layout.row#drawer"
+        ],
+        "blocks": [
+            "drawer-header"
+        ],
+        "props": {
+            "renderingStrategy": "eager",
+            "blockClass": "principal"
+        }
+    },
+    "drawer-header": {
+        "children": [
+            "drawer-close-button",
+            "rich-text#drawer-header"
+        ]
+    },
+    "drawer-close-button": {
+        "props": {
+            "size": 16
+        }
+    },
+    "rich-text#drawer-header": {
+        "title": "Título Drawer",
+        "props": {
+            "text": "Menu",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "drawer-header"
+        }
+    },
+    "flex-layout.row#drawer": {
+        "children": [
+            "flex-layout.col#drawer"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "container-drawer"
+        }
+    },
+    "flex-layout.col#drawer": {
+        "children": [
+            "menu-item#header-menu-cabelos-mob",
+            "menu-item#header-menu-tratamentos-mob",
+            "menu-item#header-menu-corpo-banho-mob",
+            "menu-item#header-menu-gestante-bebe-mob",
+            "menu-item#header-menu-mundo-pet-mob",
+            "menu-item#header-menu-maquiagem-mob",
+            "menu-item#header-menu-aromaterapia-mob",
+            "menu-item#header-menu-casa-ambiente-mob",
+            "menu-item#header-menu-marcas-mob",
+            "menu-item#header-menu-baratinhos-mob",
+            "menu-item#header-menu-ofertas-mob",
+            "menu-item#header-menu-novidades-mob"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "drawer"
+        }
+    }
+}

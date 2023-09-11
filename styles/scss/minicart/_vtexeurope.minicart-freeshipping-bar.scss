@@ -1,0 +1,61 @@
+@import "../_variables";
+
+.freigthScaleContainer {
+  padding: 0;
+  box-shadow: none;
+  position: relative;
+  .text1 {
+    display: none;
+  }
+  .sliderContainer {
+    margin: 0;
+    height: 40px;
+    border-radius: 0;
+    border-color: #342e2e;
+    background-color: #342e2e;
+    .barContainer {
+      height: 38px;
+      border-radius: 0;
+      background: $useorganico-green;
+    }
+  }
+  .sliderText {
+    gap: 5px;
+    margin: 0;
+    left: 12%;
+    bottom: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    align-items: center;
+    .text3,
+    .currencyContainer {
+      font-size: 14px;
+      white-space: nowrap;
+      color: $useorganico-white;
+      text-transform: uppercase;
+    }
+    .currencyText {
+      font-size: 0;
+    }
+    &::after {
+      content: "PARA O FRETE GRÁTIS";
+      font-size: 14px;
+      color: $useorganico-white;
+      text-transform: uppercase;
+    }
+  }
+  .text4 {
+    margin: 0;
+    left: 25%;
+    bottom: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    position: absolute;
+    align-items: center;
+    white-space: nowrap;
+    color: $useorganico-white;
+    text-transform: uppercase;
+  }
+}

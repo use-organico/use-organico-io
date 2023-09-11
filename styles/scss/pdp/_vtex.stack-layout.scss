@@ -1,0 +1,11 @@
+@import "../_variables";
+
+.stackItem--pdp-flags-mobile {
+  width: 100%;
+}
+
+@media (min-width: 1025px) {
+  .stackItem--pdp-flags {
+    left: 110px;
+  }
+}

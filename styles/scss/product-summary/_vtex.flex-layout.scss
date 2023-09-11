@@ -1,0 +1,77 @@
+@import "../_variables";
+
+.flexRow {
+  &--product-summary {
+    &-buybtn {
+      :global(.vtex-button) {
+        @media (min-width: 1025px) {
+          margin-top: 15px;
+          width: 100%;
+        }
+        height: 50px;
+        border-radius: 4px;
+        border-color: #ffc001;
+        background-color: #ffc001;
+        display: block;
+        
+        :global(.vtex-button__label){
+          padding:0;
+        }
+        :global(.vtex-add-to-cart-button-0-x-buttonText) {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 20px;
+          color: $useorganico-white;
+          text-transform: capitalize;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          &::before{
+            content:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgdmlld0JveD0iMCAwIDIyIDIyIj4KICA8ZyBpZD0iR3J1cG9fNDk2MCIgZGF0YS1uYW1lPSJHcnVwbyA0OTYwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNzMuOTMyIDUpIj4KICAgIDxyZWN0IGlkPSJSZXTDom5ndWxvXzI2OTYiIGRhdGEtbmFtZT0iUmV0w6JuZ3VsbyAyNjk2IiB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDczLjkzMiAtNSkiIGZpbGw9Im5vbmUiLz4KICAgIDxnIGlkPSJhZGRfc2hvcHBpbmdfY2FydCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNzMuOTMyIC01LjUpIj4KICAgICAgPHBhdGggaWQ9IkNhbWluaG9fMjc0OSIgZGF0YS1uYW1lPSJDYW1pbmhvIDI3NDkiIGQ9Ik03LDE4YTIsMiwwLDEsMCwyLDJBMiwyLDAsMCwwLDcsMThabTEwLDBhMiwyLDAsMSwwLDIsMkEyLDIsMCwwLDAsMTcsMThaTTcuMTcsMTQuNzVsLjAzLS4xMkw4LjEsMTNoNy40NWExLjk5MSwxLjk5MSwwLDAsMCwxLjc1LTEuMDNsMy44Ni03LjAxTDE5LjQyLDRoLS4wMWwtMS4xLDItMi43Niw1SDguNTNsLS4xMy0uMjdMNi4xNiw2LDUuMjEsNCw0LjI3LDJIMVY0SDNsMy42LDcuNTlMNS4yNSwxNC4wNEExLjkzMywxLjkzMywwLDAsMCw1LDE1YTIuMDA2LDIuMDA2LDAsMCwwLDIsMkgxOVYxNUg3LjQyQS4yNTQuMjU0LDAsMCwxLDcuMTcsMTQuNzVaIiBmaWxsPSIjZmZmIi8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K");
+          }
+        }
+      }
+    }
+  }
+}
+
+.flexRowContent--product-summary-quantity-buybtn-countdown {
+  :global(.vtex-button) {
+    margin-top: 0;
+  }
+}
+
+.flexColChild {
+  &--product-summary-price {
+    display: flex;
+    justify-content: flex-start;
+    
+    @media (max-width: 1024px) {
+      padding: 0;
+    }
+  }
+}
+
+.flexRowContent{
+  &--product-summary{
+    @media (min-width: 1025px) {
+      &-highlights-wishlist-btn {
+        padding: 9px 12px;
+      }
+    }
+
+    &-selling-price-installments {
+      align-items: baseline;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .flexRow {
+    &--product-summary {
+      &-price {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

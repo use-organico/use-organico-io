@@ -1,0 +1,24 @@
+.container {
+  &--pdp-sticky-bar {
+    &-desk,
+    &-mob {
+      background-color: $useorganico-white;
+    }
+  }
+}
+
+.wrapper--pdp-sticky-bar {
+  &-desk,
+  &-mob {
+    visibility: hidden;
+    height: 0 !important;
+    &--stuck {
+      visibility: visible;
+      height: max-content !important;
+      // .container--pdp-sticky-bar-mob {
+      //   top: 0;
+      //   bottom: auto !important;
+      // }
+    }
+  }
+}

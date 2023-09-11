@@ -1,0 +1,31 @@
+{
+    "flex-layout.row#home-insta": {
+        "title": "Instagram Container",
+        "children": [
+            "link#insta-text"
+        ],
+        "props": {
+            "blockClass": "home-insta"
+        }
+    },
+    "link#insta-text": {
+        "title": "Instagram Link",
+        "children": [
+            "rich-text#insta-text"
+        ],
+        "props": {
+            "target": "_blank",
+            "href": "https://www.instagram.com/useorganico/",
+            "blockClass": "home-insta"
+        }
+    },
+    "rich-text#insta-text": {
+        "title": "Instagram Texto",
+        "props": {
+            "text": "#### Segue a gente: *@useorganico* \n\n Nos acompanhe e fique por dentro das novidades.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "home-insta"
+        }
+    }
+}

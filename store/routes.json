@@ -1,0 +1,47 @@
+{
+    "store.custom#institutional-manifesto-use": {
+        "path": "/institucional/sobre-a-use"
+    },
+    "store.custom#institutional-selos-e-certificacoes": {
+        "path": "/institucional/selos-e-certificacoes"
+    },
+    "store.custom#institutional-politica-de-privacidade": {
+        "path": "/institucional/politica-de-privacidade"
+    },
+    "store.custom#institutional-troca-e-devolucao": {
+        "path": "/institucional/troca-e-devolucao"
+    },
+    "store.custom#institutional-formas-de-pagamento": {
+        "path": "/institucional/formas-de-pagamento"
+    },
+    "store.custom#institutional-regra-de-frete": {
+        "path": "/institucional/regra-de-frete"
+    },
+    "store.custom#institutional-fale-conosco": {
+        "path": "/institucional/fale-conosco"
+    },
+    "store.custom#lp-dia-da-arvore": {
+        "path": "/dia-da-arvore"
+    },
+    "store.custom#lp-programa-de-fidelidade": {
+        "path": "/programa-de-fidelidade"
+    },
+    "store.custom#professional-page": {
+        "path": "/profissionais-da-saude"
+    },
+    "store.custom#use-organico-confiavel": {
+        "path": "/use-organico-e-confiavel"
+    },
+    "store.custom#marcas": {
+        "path": "/marcas"
+    },
+    "store.custom#embalagem-use": {
+        "path": "/caixa-organica-sustentavel-ecologica-use-organico"
+    },
+    "store.custom#be-a-reseller": {
+        "path": "/seja-um-revendedor"
+    },
+    "store.custom#all-brands": {
+        "path": "/todas-as-marcas"
+    }
+}

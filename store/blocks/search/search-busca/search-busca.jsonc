@@ -1,0 +1,9 @@
+{
+    "search-result-layout#busca": {
+        "blocks": [
+            "search-result-layout.desktop#busca",
+            "search-result-layout.mobile#busca",
+            "search-not-found-layout"
+        ]
+    }
+}

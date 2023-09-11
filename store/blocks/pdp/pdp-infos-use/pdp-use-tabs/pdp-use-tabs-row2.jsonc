@@ -1,0 +1,65 @@
+{
+    "flex-layout.row#pdp-use-tabs-row-2": {
+        "children": [
+            "responsive-layout.desktop#pdp-use-tabs-row-2",
+            "flex-layout.col#pdp-use-tabs-row-2-2"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "pdp-use-tabs-row-2"
+        }
+    },
+    "responsive-layout.desktop#pdp-use-tabs-row-2": {
+        "children": [
+            "flex-layout.col#pdp-use-tabs-row-2-1"
+        ]
+    },
+    "flex-layout.col#pdp-use-tabs-row-2-1": {
+        "children": [
+            "image#pdp-use-tabs-row-2"
+        ],
+        "props": {
+            "width": "27%",
+            "blockClass": "pdp-use-tabs-row-2"
+        }
+    },
+    "image#pdp-use-tabs-row-2": {
+        "props": {
+            "src": "/arquivos/new-pdp-marca-product-bg.png",
+            "blockClass": "pdp-use-tabs-row-2"
+        }
+    },
+    "flex-layout.col#pdp-use-tabs-row-2-2": {
+        "children": [
+            "rich-text#pdp-use-tabs-row-2-1",
+            "responsive-layout.mobile#pdp-use-tabs-row-2",
+            "rich-text#pdp-use-tabs-row-2-2"
+        ],
+        "props": {
+            "blockClass": "pdp-use-tabs-row-2"
+        }
+    },
+    "rich-text#pdp-use-tabs-row-2-1": {
+        "props": {
+            "text": "### Escolha o Poder da Natureza \n\n Para oferecer uma incrível experiência, além de todos os benefícios, o Novo Creme Dental Vegano e Natural da Use Orgânico combina a refrescância da Menta com um ingrediente milenar: a Melaleuca. Com poderes antissépticos e bactericidas, a Melaleuca traz a sabedoria do antigo povo australiano. O sabor que a Use Orgânico desenvolveu para o seu novo creme dental vegano tem a essência dos poderes místicos do nosso planeta. Um produto natural, um creme dental com o poder da natureza.",
+            "blockClass": "pdp-use-tabs-row-2-1"
+        }
+    },
+    "responsive-layout.mobile#pdp-use-tabs-row-2": {
+        "children": [
+            "image#pdp-use-tabs-row-2-mobile"
+        ]
+    },
+    "image#pdp-use-tabs-row-2-mobile": {
+        "props": {
+            "src": "/arquivos/new-pdp-marca-product-bg-mobile.png",
+            "blockClass": "pdp-use-tabs-row-2-mobile"
+        }
+    },
+    "rich-text#pdp-use-tabs-row-2-2": {
+        "props": {
+            "text": "#### Uma lista de poder natural \n Nossa lista de ingredientes naturais e orgânicos inclui desde o óleo puro de Folha de Menta, até o óleo de Folha de Eucalipto, óleo de Coco (Orgânico), e o milenar óleo da Folha De Melaleuca Alternifolia (Orgânico). \n\n #### É o Poder da Natureza promovendo efeitos antibacterianos, sabor e hálito refrescante, além de cuidado para a saúde das gengivas.",
+            "blockClass": "pdp-use-tabs-row-2-2"
+        }
+    }
+}

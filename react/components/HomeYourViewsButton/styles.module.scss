@@ -1,0 +1,21 @@
+.button {
+  background: #fff;
+  color: #4B6D47;
+  border: solid 1px #4B6D47;
+  text-transform: none;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  transition: .3s;
+  border-radius: 4px;
+  min-width: 138px;
+  margin: 30px auto 0 auto;
+
+  &:hover {
+    opacity: .7;
+  }
+
+}

@@ -1,0 +1,54 @@
+{
+  "store.search": {
+    "blocks": ["search-result-layout#busca"],
+    "props": {
+      "context": {
+        "maxItemsPerPage": 16,
+        "orderByField": "OrderByTopSaleDESC"
+      }
+    }
+  },
+  "store.search#category": {
+    "blocks": ["search-result-layout", "flex-layout.row#search-seo"],
+    "props": {
+      "context": {
+        "maxItemsPerPage": 16,
+        "orderByField": "OrderByTopSaleDESC"
+      }
+    }
+  },
+  "store.search#brand": {
+    "blocks": ["search-result-layout#marcas"],
+    "props": {
+      "context": {
+        "maxItemsPerPage": 16,
+        "orderByField": "OrderByTopSaleDESC"
+      }
+    }
+  },
+  "store.search#department": {
+    "blocks": ["search-result-layout", "flex-layout.row#search-seo"],
+    "props": {
+      "context": {
+        "maxItemsPerPage": 16,
+        "orderByField": "OrderByTopSaleDESC"
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "blocks": ["search-result-layout", "flex-layout.row#search-seo"],
+    "props": {
+      "context": {
+        "maxItemsPerPage": 16,
+        "orderByField": "OrderByTopSaleDESC"
+      }
+    }
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

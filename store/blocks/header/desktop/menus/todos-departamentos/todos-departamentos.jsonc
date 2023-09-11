@@ -1,0 +1,79 @@
+{
+    "menu-item#header-menu-todos-departamentos": {
+        "props": {
+            "id": "item-header-menu-todos-departamentos",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "#",
+                "tagTitle": "Ver tudo",
+                "text": "Ver tudo"
+            },
+            "iconProps": {
+                "id": "hpa-hamburguer-menu",
+                "size": 16,
+                "viewBox": "0 0 16 16"
+            },
+            "iconPosition": "left",
+            "blockClass": [
+                "header",
+                "header-verde",
+                "header-all-departments"
+            ]
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#header-menu-todos-departamentos"
+        ]
+    },
+    "vtex.menu@2.x:submenu#header-menu-todos-departamentos": {
+        "children": [
+            "flex-layout.row#header-menu-todos-departamentos"
+        ],
+        "props": {
+            "blockClass": "header-verde"
+        }
+    },
+    "flex-layout.row#header-menu-todos-departamentos": {
+        "children": [
+            "flex-layout.col#header-menu-todos-departamentos-1"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "header-submenu-verde"
+        }
+    },
+    "flex-layout.col#header-menu-todos-departamentos-1": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-todos-departamentos"
+        ],
+        "props": {
+            "rowGap": 5,
+            "preventVerticalStretch": true,
+            "blockClass": "header-submenu-verde"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-todos-departamentos": {
+        "title": "Menu Todos os Departamentos",
+        "children": [
+            "menu-item#header-menu-cabelos",
+            "menu-item#header-menu-tratamentos",
+            "menu-item#header-menu-corpo-banho",
+            "menu-item#header-menu-gestante-bebe",
+            "menu-item#header-menu-mundo-pet",
+            "menu-item#header-menu-maquiagem",
+            "menu-item#header-menu-homem",
+            "menu-item#header-menu-aromaterapia",
+            "menu-item#header-menu-casa-ambiente",
+            "menu-item#header-menu-marcas",
+            "menu-item#header-menu-baratinhos",
+            "menu-item#header-menu-ofertas",
+            "menu-item#header-menu-novidades"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "header-submenu-verde"
+        }
+    }
+}

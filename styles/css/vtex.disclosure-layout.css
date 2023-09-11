@@ -1,0 +1,1 @@
+.trigger--disclosure-trigger:focus{outline:none}.content{transition:opacity 250ms,height 250ms,transform 250ms;opacity:0;height:0;transform:translate3d(0, -10%, 0)}.content[data-enter]{opacity:1;height:fit-content;transform:translate3d(0, 0, 0)}.content[data-leave]{height:0;overflow:hidden}.trigger--use-organico-confiavel{display:flex;justify-content:space-between}

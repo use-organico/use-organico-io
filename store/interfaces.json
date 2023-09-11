@@ -1,0 +1,78 @@
+{
+  "seo-text": {
+    "component": "SeoText"
+  },
+  "container-countdown": {
+    "component": "ContainerCountdown",
+    "composition": "children",
+    "allowed": ["list-context.product-list"]
+  },
+  "flag-countdown": {
+    "component": "FlagCountdown"
+  },
+  "flag-stock": {
+    "component": "FlagStock"
+  },
+  "product-information": {
+    "component": "ProductInformation"
+  },
+  "seal": {
+    "component": "Seal"
+  },
+  "contact": {
+    "component": "Contact"
+  },
+  "buy-together-component": {
+    "component": "BuyTogetherComponent",
+    "composition": "children"
+  },
+  "buy-together-custom": {
+    "component": "BuyTogetherCustom"
+  },
+  "professional-form": {
+    "component": "ProfessionalForm"
+  },
+  "use-pontos": {
+    "component": "UsePontos"
+  },
+  "brands-page-component": {
+    "component": "BrandsPageComponent"
+  },
+  "brands-page": {
+    "component": "BrandsPage"
+  },
+  "brands-menu-component": {
+    "component": "BrandsMenuComponent"
+  },
+  "menu-product-information": {
+    "component": "MenuProductInformation"
+  },
+  "validation-header-pdp": {
+    "component": "ValidationHeaderPDP"
+  },
+  "reseller-form": {
+    "component": "ResellerForm"
+  },
+  "search-pagination": {
+    "component": "SearchPagination"
+  },
+  "home-your-views-button": {
+    "component": "HomeYourViewsButton"
+  },
+  "home-your-views-reviews": {
+    "component": "HomeYourViewsReviews",
+    "composition": "children"
+  },
+  "similars-selector": {
+    "component": "SimilarsSelector"
+  },
+  "brands-menu-initials": {
+    "component": "BandsMenuInitials"
+  },
+  "lgpd-modal": {
+    "component": "LGPD"
+  },
+  "similars-summary": {
+    "component": "SimilarsSummary"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "drawer#menuMb--dep-7": {
+    "children": [
+      "flex-layout.row#menuMb--dep-7--content"
+    ],
+    "blocks": [
+      "drawer-header#menuMb--dep-7",
+      "drawer-trigger#menuMb--dep-7--trigger"
+    ],
+    "props": {
+      "isFullWidth": true,
+      "slideDirection": "leftToRight",
+      "maxWidth": "80%",
+      "renderingStrategy": "eager",
+      "blockClass": [
+        "menuMb",
+        "menuMb__department"
+      ]
+    }
+  },
+  "drawer-header#menuMb--dep-7": {
+    "children": [
+      "drawer-close-button#menuMb--return"
+      // "rich-text#menuMb--dep-7--title"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__menuDepartment"
+      ]
+    }
+  },
+  // "rich-text#menuMb--dep-7--title": {
+  //   "props": {
+  //     "text": "Voltar",
+  //     "blockClass": [
+  //       "menuMb__title",
+  //       "menuMb__departmentTitle"
+  //     ]
+  //   },
+  //   "title": "Department 7 - Title"
+  // },
+  "drawer-trigger#menuMb--dep-7--trigger": {
+    "children": [
+      "rich-text#menu-mobile--dep-7--trigger"
+    ]
+  },
+  "rich-text#menu-mobile--dep-7--trigger": {
+    "props": {
+      "text": "Aromaterapia",
+      "blockClass": [
+        "menuMb__trigger",
+        "menuMb__departmentTrigger"
+      ]
+    },
+    "title": "Department 7 - Trigger"
+  },
+  "flex-layout.row#menuMb--dep-7--content": {
+    "children": [
+      "vtex.menu@2.x:menu#menuMb--dep-7--menu"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__content",
+        "menuMb__departmentContent"
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#menuMb--dep-7--menu": {
+    "children": [
+      "menu-item#header-menu-aromaterapia-mob-ver-todos",
+      "vtex.menu@2.x:menu#header-menu-aromaterapia-bem-estar",
+      "vtex.menu@2.x:menu#header-menu-aromaterapia-difusor-aromas",
+      "vtex.menu@2.x:menu#header-menu-aromaterapia-col-1",
+      "vtex.menu@2.x:menu#header-menu-aromaterapia-col-2"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__departmentMenu"
+      ]
+    },
+    "title": "Department 7 Menu"
+  }
+}

@@ -1,0 +1,248 @@
+{
+    "menu-item#header-menu-mundo-pet": {
+        "props": {
+            "id": "item-header-menu-mundo-pet",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "href": "/mundo-pet",
+                "tagTitle": "Mundo Pet",
+                "text": "Mundo Pet"
+            },
+            "blockClass": [
+                "header",
+                "header-hover",
+                "header-mundo-pet"
+            ]
+        },
+        "blocks": []
+    },
+    "vtex.menu@2.x:submenu#header-menu-mundo-pet": {
+        "children": [
+            "flex-layout.row#header-menu-mundo-pet"
+        ],
+        "props": {
+            "blockClass": "header"
+        }
+    },
+    "flex-layout.row#header-menu-mundo-pet": {
+        "children": [
+            "flex-layout.col#header-menu-mundo-pet-1",
+            "flex-layout.col#header-menu-mundo-pet-2",
+            "flex-layout.col#header-menu-mundo-pet-3"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-mundo-pet-1": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-mundo-pet-shampoo",
+            "vtex.menu@2.x:menu#header-menu-mundo-pet-condicionador"
+        ],
+        "props": {
+            "rowGap": 5,
+            "preventVerticalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-mundo-pet-shampoo": {
+        "title": "Menu Shampoo",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-mundo-pet-shampoo-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Shampoo",
+                        "text": "Shampoo"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-mundo-pet-shampoo-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Shampoo Líquido",
+                        "text": "Shampoo Líquido"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-mundo-pet-shampoo-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Shampoo Barra",
+                        "text": "Shampoo Barra"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-mundo-pet-condicionador": {
+        "title": "Menu Condicionador",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-mundo-pet-condicionador-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Condicionador",
+                        "text": "Condicionador"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-mundo-pet-condicionador-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Condicionador Líquido",
+                        "text": "Condicionador Líquido"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-mundo-pet-condicionador-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Condicionador Barra",
+                        "text": "Condicionador Barra"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-mundo-pet-2": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-mundo-pet-col-2"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-mundo-pet-col-2": {
+        "title": "Menu Coluna 2",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-mundo-pet-col-2-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Finalizador",
+                        "text": "Finalizador"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-mundo-pet-col-2-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Tratamento Capilar",
+                        "text": "Tratamento Capilar"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-mundo-pet-col-2-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Tintura Henna",
+                        "text": "Tintura Henna"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-mundo-pet-col-2-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Kits de Tratamento Capilar",
+                        "text": "Kits de Tratamento Capilar"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-mundo-pet-col-2-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Marcas",
+                        "text": "Marcas"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-mundo-pet-3": {
+        "children": [
+            "image#header-menu-mundo-pet-img"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu"
+        }
+    },
+    "image#header-menu-mundo-pet-img": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/167428/banner_319x372_mundo-pet.png",
+            "maxWidth": "205px",
+            "blockClass": "header-menu"
+        }
+    }
+}

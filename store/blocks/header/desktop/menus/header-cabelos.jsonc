@@ -1,0 +1,269 @@
+{
+    "menu-item#header-menu-cabelos": {
+        "props": {
+            "id": "item-header-menu-cabelos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "href": "/cabelos",
+                "tagTitle": "Cabelos",
+                "text": "Cabelos"
+            },
+            "blockClass": [
+                "header",
+                "header-hover",
+                "header-cabelos"
+            ]
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#header-menu-cabelos"
+        ]
+    },
+    "vtex.menu@2.x:submenu#header-menu-cabelos": {
+        "children": [
+            "flex-layout.row#header-menu-cabelos"
+        ],
+        "props": {
+            "blockClass": "header"
+        }
+    },
+    "flex-layout.row#header-menu-cabelos": {
+        "children": [
+            "flex-layout.col#header-menu-cabelos-menus-col",
+            "flex-layout.col#header-menu-cabelos-3"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-cabelos-menus-col": {
+        "children": [
+            "flex-layout.row#header-menu-cabelos-menus-row"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu-menus-col",
+            "width": "grow"
+        }
+    },
+    "flex-layout.row#header-menu-cabelos-menus-row": {
+        "children": [
+            "flex-layout.col#header-menu-cabelos-1",
+            "flex-layout.col#header-menu-cabelos-2"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "header-menu-menus-row"
+        }
+    },
+    "flex-layout.col#header-menu-cabelos-1": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-cabelos-shampoo",
+            "vtex.menu@2.x:menu#header-menu-cabelos-condicionador"
+        ],
+        "props": {
+            "rowGap": 5,
+            "preventVerticalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-cabelos-shampoo": {
+        "title": "Menu Shampoo",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-cabelos-shampoo-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/cabelos/shampoo",
+                        "noFollow": false,
+                        "tagTitle": "Shampoo",
+                        "text": "Shampoo"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-cabelos-shampoo-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/cabelos/shampoo/shampoo-liquido",
+                        "noFollow": false,
+                        "tagTitle": "Shampoo Líquido",
+                        "text": "Shampoo Líquido"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-cabelos-shampoo-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/cabelos/shampoo/shampoo-em-barra",
+                        "noFollow": false,
+                        "tagTitle": "Shampoo Barra",
+                        "text": "Shampoo Barra"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-cabelos-condicionador": {
+        "title": "Menu Condicionador",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-cabelos-condicionador-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/cabelos/condicionador",
+                        "noFollow": false,
+                        "tagTitle": "Condicionador",
+                        "text": "Condicionador"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-cabelos-condicionador-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/cabelos/condicionador/condicionador-liquido",
+                        "noFollow": false,
+                        "tagTitle": "Condicionador Líquido",
+                        "text": "Condicionador Líquido"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-cabelos-condicionador-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/cabelos/condicionador/condicionador-em-barra",
+                        "noFollow": false,
+                        "tagTitle": "Condicionador Barra",
+                        "text": "Condicionador Barra"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-cabelos-2": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-cabelos-col-2"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-cabelos-col-2": {
+        "title": "Menu Coluna 2",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-cabelos-col-2-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/cabelos/finalizador",
+                        "noFollow": false,
+                        "tagTitle": "Finalizador",
+                        "text": "Finalizador"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-cabelos-col-2-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/cabelos/tratamento-capilar",
+                        "noFollow": false,
+                        "tagTitle": "Tratamento Capilar",
+                        "text": "Tratamento Capilar"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-cabelos-col-2-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/cabelos/tintura-Henna",
+                        "noFollow": false,
+                        "tagTitle": "Tintura Henna",
+                        "text": "Tintura Henna"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-cabelos-col-2-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/cabelos/kits-de-tratamento-capilar",
+                        "noFollow": false,
+                        "tagTitle": "Kits de Tratamento Capilar",
+                        "text": "Kits de Tratamento Capilar"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-cabelos-col-2-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/marcas",
+                        "noFollow": false,
+                        "tagTitle": "Marcas",
+                        "text": "Marcas"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-cabelos-3": {
+        "children": [
+            "image#header-menu-cabelos-img"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": ["header-menu", "header-menu-image-col"]
+        }
+    },
+    "image#header-menu-cabelos-img": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/168966/20220914-ajuste-banners-menu02.png?v=637991996803070000",
+            "maxWidth": "205px",
+            "blockClass": "header-menu"
+        }
+    }
+}

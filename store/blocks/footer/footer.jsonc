@@ -1,0 +1,29 @@
+{
+  "footer": {
+    "title": "Footer",
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "link#whatsapp": {
+    "title": "Instagram Link",
+    "children": [
+      "rich-text#whatsapp"
+    ],
+    "props": {
+      "target": "_blank",
+      "href": "https://www.instagram.com/useorganico/",
+      "blockClass": "whatsapp"
+    }
+  },
+  "rich-text#whatsapp": {
+    "title": "Instagram Texto",
+    "props": {
+      "text": "![Whatsapp](https://iouseorganico.vteximg.com.br/arquivos/whatsapp.png) \n\n Whatsapp",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "whatsapp"
+    }
+  }
+}

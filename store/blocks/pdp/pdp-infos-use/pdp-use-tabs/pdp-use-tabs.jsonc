@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#pdp-use-tabs": {
+        "children": [
+            "tab-layout#pdp-use"
+        ],
+        "props": {
+            "blockClass": "pdp-use-tabs"
+        }
+    },
+    "tab-layout#pdp-use": {
+        "children": [
+            "tab-list#pdp-use",
+            "tab-content#pdp-use"
+        ],
+        "props": {
+            "blockClass": "pdp",
+            "defaultActiveTabId": "pdp2"
+        }
+    },
+    "tab-list#pdp-use": {
+        "children": [
+            "tab-list.item#pdp2",
+            "tab-list.item#pdp1"
+        ]
+    },
+    "tab-content#pdp-use": {
+        "children": [
+            "tab-content.item#pdp-use-2",
+            "tab-content.item#pdp-use-1"
+        ]
+    },
+    "tab-content.item#pdp-use-1": {
+        "children": [
+            "product-reviews"
+        ],
+        "props": {
+            "tabId": "pdp1"
+        }
+    },
+    "tab-content.item#pdp-use-2": {
+        "children": [
+            "flex-layout.row#pdp-use-tabs-row-1",
+            "flex-layout.row#pdp-use-tabs-row-2",
+            "flex-layout.row#pdp-use-tabs-row-3",
+            "flex-layout.row#pdp-use-tabs-row-4",
+            "flex-layout.row#pdp-use-tabs-row-5",
+            "flex-layout.row#pdp-use-tabs-row-6",
+            "product-information"
+        ],
+        "props": {
+            "tabId": "pdp2"
+        }
+    }
+}

@@ -1,0 +1,175 @@
+{
+  "header-layout.desktop": {
+    "title": "Header Desktop",
+    "children": ["sticky-layout#header-desktop","lgpd-modal"]
+  },
+  "flex-layout.row#header-infoBar": {
+    "title":"Primeira Linha do Header",
+    "children": ["slider-layout#header-infoBar--slider"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "header-infoBar"
+    }
+  },
+  
+  "slider-layout#header-infoBar--slider": {
+    "title":"Slider de textos do Header",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots":"never",
+      "arrowSize":15,
+      "blockClass": "header-infoBar--slider"
+    },
+    "children": [
+      "slider-layout#slider-header"
+    ]
+  },
+  "slider-layout#slider-header": {
+    "title":"Slider Primeira Linha do Header",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "blockClass":"slider-header",
+      "infinite": true,
+      "showPaginationDots":"never",
+      "showNavigationArrows": "never",
+      "fullWidth": true,
+      "autoplay":{
+        "timeout":4000,
+        "stopOnHover":true
+      }
+    },
+    "children": ["rich-text#infoBar--slider__text1", "rich-text#infoBar--slider__text2"]
+  },
+  "rich-text#infoBar--slider__text1": {
+    "title":"Texto 1 - Slider Header",
+    "props": {
+      "text": "Use o cupom PRIMEIRACAIXINHA e ganhe desconto na primeira compra!",
+      "blockClass":"infoBar--slider__text"
+    }
+  },
+  "rich-text#infoBar--slider__text2": {
+    "title":"Texto 1 - Slider Header",
+    "props": {
+      "text": "# Por que a Use Orgânico é tão diferenciada das demais empresas? [Confira!](/institucional/sobre-a-use)",
+      "blockClass":"infoBar--slider__text"
+    }
+  },
+
+  "flex-layout.row#header-topbar": {
+    "children": ["image#header-topbar"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "header-topbar"
+    }
+  },
+  "image#header-topbar": {
+    "title": "Image Topbar",
+    "props": {
+      "src": "https://useorganico.vteximg.com.br/arquivos/ids/169552/20220729-campanha-ganhe-garoa-mini.png?v=638113128913970000",
+      "blockClass": "header-topbar"
+    }
+  },
+  "sticky-layout#header-desktop": {
+    "children": [
+      "flex-layout.row#header-infoBar",
+      "flex-layout.row#header-topbar",
+      "flex-layout.row#header-desktop",
+      "flex-layout.row#header-menus"
+    ],
+    "props": {
+      "blockClass": "header-desktop"
+    }
+  },
+  "flex-layout.row#header-desktop": {
+    "children": [
+      "flex-layout.col#header-logo-desktop",
+      "flex-layout.col#header-search-bar",
+      "flex-layout.col#header-wishlist-account-minicart"
+    ],
+    "props": {
+      "colGap": 7,
+      "verticalAlign": "middle",
+      "blockClass": ["header-desktop", "align-items-center"],
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#header-logo-desktop": {
+    "children": ["logo"],
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "header-logo-desktop"
+    }
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://iouseorganico.vteximg.com.br/arquivos/novo-logo-use.png"
+    }
+  },
+  "flex-layout.col#header-search-bar": {
+    "children": ["search-bar"],
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "header-search-bar",
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#header-wishlist-account-minicart": {
+    "children": ["flex-layout.row#header-wishlist-account-minicart"],
+    "props": {
+      "blockClass": "header-wishlist-account-minicart"
+    }
+  },
+  "flex-layout.row#header-wishlist-account-minicart": {
+    "children": [
+      "menu-item#header-wishlist",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "colGap": 6,
+      "colSizing": "auto",
+      "verticalAlign": "middle",
+      "horizontalAlign": "right",
+      "blockClass": ["header-wishlist-account-minicart", "align-items-center"]
+    }
+  },
+  "menu-item#header-wishlist": {
+    "title": "Link Wishlist",
+    "props": {
+      "id": "menu-item-header-wishlist",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/wishlist",
+        "noFollow": false,
+        "tagTitle": "Lista de desejos",
+        "text": ""
+      },
+      "iconProps": {
+        "id": "mpa-wishlist",
+        "size": 20,
+        "viewBox": "0 0 20 20"
+      },
+      "iconPosition": "left",
+      "blockClass": "header-wishlist"
+    }
+  }
+}

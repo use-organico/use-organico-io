@@ -1,0 +1,10 @@
+{
+    "search-result-layout.desktop#busca": {
+        "children": [
+            "flex-layout.row#search-content-busca"
+        ],
+        "props": {
+            "pagination": "show-more"
+        }
+    }
+}

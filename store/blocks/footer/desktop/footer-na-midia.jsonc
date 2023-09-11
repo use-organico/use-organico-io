@@ -1,0 +1,93 @@
+{
+    "flex-layout.row#footer-na-midia": {
+        "title": "Selos pagamento e certificados - Container",
+        "children": [
+            "flex-layout.col#footer-na-midia"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "footer-na-midia"
+        }
+    },
+    "flex-layout.col#footer-na-midia": {
+        "title": "Na Midia - Container",
+        "children": [
+            "rich-text#footer-na-midia",
+            "list-context.image-list#footer-na-midia"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "preventVerticalStretch": true,
+            "blockClass": "footer-na-midia"
+        }
+    },
+    "rich-text#footer-na-midia": {
+        "title": "Título - Na Midia",
+        "props": {
+            "text": "Na Midia",
+            "blockClass": "footer-titles"
+        }
+    },
+    "list-context.image-list#footer-na-midia": {
+        "children": [
+            "list-context-renderer#footer-na-midia"
+        ],
+        "props": {
+            "height": 31,
+            "images": [
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/midia-001-new-footer.png?v=637972231138100000",
+                    "description": "Pequenas Empresas & Grande Negócios"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/midia-002-new-footer.png?v=637972231139800000",
+                    "description": "Economia S/A"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/midia-003-new-footer.png?v=637972231140730000",
+                    "description": "Cultura"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/midia-004-new-footer.png?v=637972231142000000",
+                    "description": "Exame"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/midia-005-new-footer.png?v=637972231143630000",
+                    "description": "Claudia"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/midia-006-new-footer.png?v=637972231145370000",
+                    "description": "Bazaar"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/midia-007-new-footer.png?v=637972231147100000",
+                    "description": "Boa Forma"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/midia-008-new-footer.png?v=637972231148970000",
+                    "description": "Marie Claire"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/midia-009-new-footer.png?v=637972231150500000",
+                    "description": "Yahoo"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/midia-010-new-footer.png?v=637972231152400000",
+                    "description": "A Gazeta"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/midia-011-new-footer.png?v=637972231153800000",
+                    "description": "Cosmetic Innovation"
+                }
+            ],
+            "blockClass": "footer-na-midia"
+        }
+    },
+    "list-context-renderer#footer-na-midia": {
+        "props": {
+            "listElement": "div",
+            "itemElement": "div",
+            "blockClass": "footer-na-midia"
+        }
+    }
+}

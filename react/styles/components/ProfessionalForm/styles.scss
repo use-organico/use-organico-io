@@ -1,0 +1,277 @@
+@import "../../../../styles/scss/variables";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container_ProfessionalForm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  form {
+    width: 100%;
+    .content_ProfessionalForm {
+      margin-bottom: 30px;
+      h3 {
+        font-size: 30px;
+        position: relative;
+        display: block;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+        &:after {
+          content: "";
+          width: 100%;
+          display: block;
+          height: 1px;
+          background-color: #000;
+          position: absolute;
+          bottom: -15px;
+        }
+      }
+      .ProfessionalForm_line {
+        .ProfessionalForm_checkbox {
+          display: flex;
+          margin-top: 20px;
+          input {
+            width: 16px;
+            height: 24px;
+            margin: 2px 0 0;
+          }
+          span {
+            font-size: 20px;
+            margin-left: 5px;
+            max-width: 492px;
+            line-height: 30px;
+            a {
+              margin-left: 5px;
+              text-decoration: none;
+              color: $useorganico-green;
+            }
+          }
+        }
+        .ProfessionalForm_btn {
+          margin-top: 20px;
+          .ProfessionalForm_agrad {
+            font-size: 20px;
+            max-width: 324px;
+            line-height: 30px;
+            span {
+              color: #85603b;
+              font-weight: 700;
+              margin-left: 5px;
+              strong {
+                color: #a1b731;
+              }
+            }
+          }
+        }
+      }
+    }
+    input {
+      height: 57.5px;
+      font-size: 20px;
+      border-radius: 5px;
+      padding: 10px 25px;
+      margin-bottom: 15px;
+      border: 1px solid #343434;
+    }
+    select {
+      height: 57.5px;
+      font-size: 20px;
+      border-radius: 5px;
+      padding: 10px 25px;
+      margin-bottom: 15px;
+      border: 1px solid #343434;
+    }
+    .select_registerType {
+      width: 100%;
+    }
+    button {
+      width: 185px;
+      height: 44px;
+      color: #000;
+      font-size: 24px;
+      font-weight: 700;
+      margin-top: 25px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      border: 1px solid #a1b731;
+      background-color: #a1b731;
+    }
+  }
+  &_success {
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;
+    h6 {
+      font-size: 20px;
+      line-height: 500;
+      line-height: 30px;
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .container_ProfessionalForm {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    form {
+      width: 100%;
+      .content_ProfessionalForm {
+        margin-bottom: 30px;
+        h3 {
+          font-size: 30px;
+          position: relative;
+          display: block;
+          font-weight: 700;
+          text-transform: uppercase;
+          margin-bottom: 50px;
+          &:after {
+            content: "";
+            width: 100%;
+            display: block;
+            height: 1px;
+            background-color: #000;
+            position: absolute;
+            bottom: -15px;
+          }
+        }
+        .ProfessionalForm_line {
+          display: flex;
+          justify-content: space-between;
+          input,
+          select {
+            width: 47%;
+          }
+          .ProfessionalForm_checkbox {
+            width: 47%;
+            display: flex;
+            margin-top: 20px;
+            input {
+              width: 16px;
+              height: 24px;
+              margin: 2px 0 0;
+            }
+            span {
+              font-size: 20px;
+              margin-left: 5px;
+              max-width: 492px;
+              line-height: 30px;
+              a {
+                margin-left: 5px;
+                text-decoration: none;
+                color: $useorganico-green;
+              }
+            }
+          }
+          .ProfessionalForm_btn {
+            width: 47%;
+            margin-top: 20px;
+            .ProfessionalForm_agrad {
+              font-size: 20px;
+              max-width: 324px;
+              line-height: 30px;
+              span {
+                color: #85603b;
+                font-weight: 700;
+                margin-left: 5px;
+                strong {
+                  color: #a1b731;
+                }
+              }
+            }
+          }
+        }
+      }
+      input {
+        height: 57.5px;
+        font-size: 20px!important;
+        border-radius: 5px;
+        padding: 10px 25px;
+        margin-bottom: 15px;
+        border: 1px solid #343434;
+      }
+      select {
+        height: 57.5px;
+        font-size: 20px;
+        border-radius: 5px;
+        padding: 10px 25px;
+        margin-bottom: 15px;
+        border: 1px solid #343434;
+      }
+      .select_registerType {
+        width: 100%;
+      }
+      button {
+        width: 185px;
+        height: 44px;
+        color: #000;
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 25px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        border: 1px solid #a1b731;
+        background-color: #a1b731;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .container_ProfessionalForm {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    form {
+      width: 100%;
+      .content_ProfessionalForm {
+        .ProfessionalForm_line {
+          .ProfessionalForm_checkbox {
+            display: flex;
+            margin-top: 20px;
+            input {
+              width: 35px;
+              height: 25px;
+            }
+            span {
+              font-size: 14px;
+            }
+          }
+          .ProfessionalForm_btn {
+            margin-top: 20px;
+            .ProfessionalForm_agrad {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      input,
+      select {
+        width: 100%;
+        height: 46px;
+        padding: 10px;
+        font-size: 16px;
+        margin: 0 auto 15px;
+      }
+      .select_registerType {
+        width: 100%;
+      }
+      button {
+        width: 100%;
+      }
+    }
+  }
+}

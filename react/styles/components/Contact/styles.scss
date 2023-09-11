@@ -1,0 +1,59 @@
+@import "../../../../styles/scss/variables";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container_contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  form {
+    width: 100%;
+    .input_contact {
+      display: flex;
+      flex-direction: column;
+      label {
+        font-size: 12px;
+        color: #6d6d6d;
+        margin-top: 10px;
+        margin-bottom: 5px;
+      }
+      input,
+      select {
+        height: 37px;
+        font-size: 14px;
+        max-width: 730px;
+        padding: 7px 10px;
+        border-radius: 3px;
+        border: 1px solid #c7c7c7;
+      }
+      select {
+        margin-top: 10px;
+      }
+    }
+    button {
+      width: 50%;
+      height: 40px;
+      border: none;
+      font-size: 14px;
+      margin-top: 10px;
+      border-radius: 3px;
+      color: $useorganico-white;
+      background: $useorganico-yellow;
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+}
+
+@media (max-width: 1024px) {
+}

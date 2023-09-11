@@ -1,0 +1,60 @@
+{
+    "flex-layout.row#home-shelf-ofertas": {
+        "title": "Shelf Ofertas",
+        "children": [
+            "flex-layout.col#home-shelf-ofertas"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "blockClass": "home-shelf-ofertas"
+        }
+    },
+    "flex-layout.col#home-shelf-ofertas": {
+        "children": [
+            "rich-text#home-shelf-ofertas",
+            "list-context.product-list#home-shelf-ofertas"
+        ],
+        "props": {
+            "blockClass": "home-shelf-ofertas"
+        }
+    },
+    "rich-text#home-shelf-ofertas": {
+        "title": "Título",
+        "props": {
+            "text": "Ofertas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "shelf-titulo"
+        }
+    },
+    "list-context.product-list#home-shelf-ofertas": {
+        "title": "Shelf Ofertas",
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#shelf"
+        ],
+        "props": {
+            "collection": "139",
+            "__unstableProductOriginVtex": true
+        }
+    },
+    "slider-layout#shelf": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "arrowSize": 16,
+            "infinite": true,
+            "fullWidth": true,
+            "centerModeSlidesGap": 1,
+            "showPaginationDots": "always",
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": ["shelf", "slider-layout-shelf-offerings"]
+        }
+    }
+}

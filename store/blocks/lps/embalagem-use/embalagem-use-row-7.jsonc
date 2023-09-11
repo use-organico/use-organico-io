@@ -1,0 +1,43 @@
+{
+    "flex-layout.row#embalagem-use-7": {
+        "children": [
+            "flex-layout.col#embalagem-use-7"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "embalagem-use-7"
+        }
+    },
+    "flex-layout.col#embalagem-use-7": {
+        "children": [
+            "rich-text#embalagem-use-7-1",
+            "rich-text#embalagem-use-7-2"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "embalagem-use-7"
+        }
+    },
+    "rich-text#embalagem-use-7-1": {
+        "props": {
+            "text": "Agora essa linda embalagem pode chegar em suas mãos com muito amor! \n\n Compartilhe conosco o seu momento quando receber a caixinha usando a **#penseverde** \n\n Experimente os incríveis benefícios dos produtos naturais, garantindo mais saúde e respeitando o planeta.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "embalagem-use",
+                "embalagem-use-7-1"
+            ]
+        }
+    },
+    "rich-text#embalagem-use-7-2": {
+        "props": {
+            "text": "[DESCUBRA OS PRODUTOS FAVORITOS](/)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "embalagem-use",
+                "embalagem-use-7-2"
+            ]
+        }
+    }
+}

@@ -1,0 +1,418 @@
+{
+    "responsive-layout.mobile#row-home-marcas": {
+        "children": [
+            "flex-layout.row#home-marcas"
+        ]
+    },
+    "responsive-layout.desktop#row-home-marcas": {
+        "children": [
+            "flex-layout.row#home-marcas-desktop"
+        ]
+    },
+    "flex-layout.row#home-marcas": {
+        "title": "Marcas",
+        "children": [
+            "flex-layout.col#home-marcas"
+        ],
+        "props": {
+            "blockClass": "home-marcas"
+        }
+    },
+    "flex-layout.row#home-marcas-desktop": {
+        "title": "Marcas",
+        "children": [
+            "flex-layout.col#home-marcas-desktop",
+            "flex-layout.row#container-imgs-marcas-desktop"
+        ],
+        "props": {
+            "blockClass": "home-marcas-desktop"
+        }
+    },
+    "flex-layout.col#home-marcas-desktop": {
+        "children": [
+            "rich-text#home-marcas-title",
+            "rich-text#home-marcas-subtitle",
+            "link#home-marcas-page"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "verticalAlign": "middle",
+            "width": "34%"
+        }
+    },
+    "flex-layout.col#home-marcas": {
+        "children": [
+            "rich-text#home-marcas-title",
+            "rich-text#home-marcas-subtitle",
+            "link#home-marcas-page",
+            "flex-layout.col#container-imgs-marcas"
+            // "slider-layout#home-marcas"
+        ],
+        "props": {
+            "blockClass": "home-marcas"
+        }
+    },
+    "rich-text#home-marcas-title": {
+        "title": "Título Marcas",
+        "props": {
+            "text": "### Marcas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "home-marcas-title",
+                "shelf-titulo"
+            ]
+        }
+    },
+    "rich-text#home-marcas-subtitle": {
+        "title": "Subtítulo Marcas",
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod .",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "home-marcas-subtitle",
+                "shelf-subtitulo"
+            ]
+        }
+    },
+    "link#home-marcas-page": {
+        "props": {
+            "href": "/marcas",
+            "label": "Ver todas as marcas",
+            "blockClass": "home-marcas-page"
+        }
+    },
+    "flex-layout.col#container-imgs-marcas":{
+        "props":{
+            "blockClass": "container-imgs-marcas"
+        },
+        "children":[
+            "flex-layout.row#wrapper-img-marcas-1",
+            "flex-layout.row#wrapper-img-marcas-2-3",
+            "flex-layout.row#wrapper-img-marcas-4-5"
+        ]
+    },
+    "flex-layout.row#container-imgs-marcas-desktop": {
+        "children": [
+            "flex-layout.row#wrapper-img-marcas-1",
+            "flex-layout.col#container-imgs-marcas-desktop-col-2"
+        ]
+    },
+    "flex-layout.col#container-imgs-marcas-desktop-col-2": {
+        "children": [
+            "flex-layout.row#wrapper-img-marcas-2-3",
+            "flex-layout.row#wrapper-img-marcas-4-5"
+        ]
+    },
+    "flex-layout.row#wrapper-img-marcas-1":{
+        "props":{
+            "verticalAlign":"middle",
+            "horizontalAlign":"center",
+            "blockClass": "wrapper-img-marcas-1"
+        },
+        "children":[
+            "image#img-marcas-1"
+        ]
+    },
+    "flex-layout.row#wrapper-img-marcas-2-3":{
+        "props":{
+            "verticalAlign":"middle",
+            "horizontalAlign":"center",
+            "blockClass": "wrapper-img-marcas-2-3"
+        },
+        "children":[
+            "flex-layout.col#wrapper-img-marcas-2",
+            "flex-layout.col#wrapper-img-marcas-3"
+        ]
+    },
+    "flex-layout.col#wrapper-img-marcas-2":{
+        "props":{
+            "verticalAlign":"middle",
+            "horizontalAlign":"center",
+            "blockClass": "wrapper-img-marcas-2"
+        },
+        "children":[
+            "image#img-marcas-2"
+        ]
+    },
+    "flex-layout.col#wrapper-img-marcas-3":{
+        "props":{
+            "verticalAlign":"middle",
+            "horizontalAlign":"center",
+            "blockClass": "wrapper-img-marcas-3"
+        },
+        "children":[
+            "image#img-marcas-3"
+        ]
+    },
+    "flex-layout.row#wrapper-img-marcas-4-5":{
+        "props":{
+            "verticalAlign":"middle",
+            "horizontalAlign":"center",
+            "blockClass": "wrapper-img-marcas-4-5"
+        },
+        "children":[
+            "flex-layout.col#wrapper-img-marcas-4",
+            "flex-layout.col#wrapper-img-marcas-5"
+        ]
+    },
+    "flex-layout.col#wrapper-img-marcas-4":{
+        "props":{
+            "verticalAlign":"middle",
+            "horizontalAlign":"center",
+            "blockClass": "wrapper-img-marcas-4"
+        },
+        "children":[
+            "image#img-marcas-4"
+        ]
+    },
+    "flex-layout.col#wrapper-img-marcas-5":{
+        "props":{
+            "verticalAlign":"middle",
+            "horizontalAlign":"center",
+            "blockClass": "wrapper-img-marcas-5"
+        },
+        "children":[
+            "image#img-marcas-5"
+        ]
+    },
+    "image#img-marcas-1":{
+        "props":{
+            "alt":"",
+            "link":"",
+            "src":"/arquivos/img-marcas-useorganico.png",
+            "blockClass":"img-marcas-1"
+        }
+    },
+    "image#img-marcas-2":{
+        "props":{
+            "alt":"",
+            "link":"",
+            "src":"/arquivos/img-marcas-alva.png",
+            "blockClass":"img-marcas-2"
+        }
+    },
+    "image#img-marcas-3":{
+        "props":{
+            "alt":"",
+            "link":"",
+            "src":"/arquivos/img-marcas-artedosaromas.png",
+            "blockClass":"img-marcas-3"
+        }
+    },
+    "image#img-marcas-4":{
+        "props":{
+            "alt":"",
+            "link":"",
+            "src":"/arquivos/img-marcas-organiconatural.png",
+            "blockClass":"img-marcas-4"
+        }
+    },
+    "image#img-marcas-5":{
+        "props":{
+            "alt":"",
+            "link":"",
+            "src":"/arquivos/img-marcas-ahoaloe.png",
+            "blockClass":"img-marcas-5"
+        }
+    }
+    // "slider-layout#home-marcas": {
+    //     "children": [
+    //         "link#home-marcas-1",
+    //         "link#home-marcas-2",
+    //         "link#home-marcas-3",
+    //         "link#home-marcas-4",
+    //         "link#home-marcas-5",
+    //         "link#home-marcas-6",
+    //         "link#home-marcas-7",
+    //         "link#home-marcas-8",
+    //         "link#home-marcas-9"
+    //     ],
+    //     "props": {
+    //         "itemsPerPage": {
+    //             "desktop": 5,
+    //             "tablet": 1,
+    //             "phone": 1
+    //         },
+    //         "infinite": true,
+    //         "showPaginationDots": "always",
+    //         "showNavigationArrows": "always",
+    //         "blockClass": [
+    //             "home-marcas",
+    //             "shelf"
+    //         ]
+    //     }
+    // },
+    // "link#home-marcas-1": {
+    //     "children": [
+    //         "rich-text#home-marcas-1"
+    //     ],
+    //     "props": {
+    //         "blockClass": "home-marcas"
+    //     }
+    // },
+    // "rich-text#home-marcas-1": {
+    //     "props": {
+    //         "text": "![](/arquivos/home_brand_logo_01.jpg) \n\n Alva",
+    //         "textAlignment": "CENTER",
+    //         "textPosition": "CENTER",
+    //         "blockClass": [
+    //             "home-marcas",
+    //             "home-marcas-1"
+    //         ]
+    //     }
+    // },
+    // "link#home-marcas-2": {
+    //     "children": [
+    //         "rich-text#home-marcas-2"
+    //     ],
+    //     "props": {
+    //         "blockClass": "home-marcas"
+    //     }
+    // },
+    // "rich-text#home-marcas-2": {
+    //     "props": {
+    //         "text": "![](/arquivos/home_brand_logo_02.jpg) \n\n Ahoaloe",
+    //         "textAlignment": "CENTER",
+    //         "textPosition": "CENTER",
+    //         "blockClass": [
+    //             "home-marcas",
+    //             "home-marcas-2"
+    //         ]
+    //     }
+    // },
+    // "link#home-marcas-3": {
+    //     "children": [
+    //         "rich-text#home-marcas-3"
+    //     ],
+    //     "props": {
+    //         "blockClass": "home-marcas"
+    //     }
+    // },
+    // "rich-text#home-marcas-3": {
+    //     "props": {
+    //         "text": "![](/arquivos/home_brand_logo_03.jpg) \n\n Arte dos Aromas",
+    //         "textAlignment": "CENTER",
+    //         "textPosition": "CENTER",
+    //         "blockClass": [
+    //             "home-marcas",
+    //             "home-marcas-3"
+    //         ]
+    //     }
+    // },
+    // "link#home-marcas-4": {
+    //     "children": [
+    //         "rich-text#home-marcas-4"
+    //     ],
+    //     "props": {
+    //         "blockClass": "home-marcas"
+    //     }
+    // },
+    // "rich-text#home-marcas-4": {
+    //     "props": {
+    //         "text": "![](/arquivos/home_brand_logo_04.jpg) \n\n Orgânico Natural",
+    //         "textAlignment": "CENTER",
+    //         "textPosition": "CENTER",
+    //         "blockClass": [
+    //             "home-marcas",
+    //             "home-marcas-4"
+    //         ]
+    //     }
+    // },
+    // "link#home-marcas-5": {
+    //     "children": [
+    //         "rich-text#home-marcas-5"
+    //     ],
+    //     "props": {
+    //         "blockClass": "home-marcas"
+    //     }
+    // },
+    // "rich-text#home-marcas-5": {
+    //     "props": {
+    //         "text": "![](/arquivos/home_brand_logo_05.jpg) \n\n By Samia",
+    //         "textAlignment": "CENTER",
+    //         "textPosition": "CENTER",
+    //         "blockClass": [
+    //             "home-marcas",
+    //             "home-marcas-5"
+    //         ]
+    //     }
+    // },
+    // "link#home-marcas-6": {
+    //     "children": [
+    //         "rich-text#home-marcas-6"
+    //     ],
+    //     "props": {
+    //         "blockClass": "home-marcas"
+    //     }
+    // },
+    // "rich-text#home-marcas-6": {
+    //     "props": {
+    //         "text": "![](/arquivos/home_brand_logo_06.jpg) \n\n Cativa Natureza",
+    //         "textAlignment": "CENTER",
+    //         "textPosition": "CENTER",
+    //         "blockClass": [
+    //             "home-marcas",
+    //             "home-marcas-6"
+    //         ]
+    //     }
+    // },
+    // "link#home-marcas-7": {
+    //     "children": [
+    //         "rich-text#home-marcas-7"
+    //     ],
+    //     "props": {
+    //         "blockClass": "home-marcas"
+    //     }
+    // },
+    // "rich-text#home-marcas-7": {
+    //     "props": {
+    //         "text": "![](/arquivos/home_brand_logo_07.jpg) \n\n Urtekram",
+    //         "textAlignment": "CENTER",
+    //         "textPosition": "CENTER",
+    //         "blockClass": [
+    //             "home-marcas",
+    //             "home-marcas-7"
+    //         ]
+    //     }
+    // },
+    // "link#home-marcas-8": {
+    //     "children": [
+    //         "rich-text#home-marcas-8"
+    //     ],
+    //     "props": {
+    //         "blockClass": "home-marcas"
+    //     }
+    // },
+    // "rich-text#home-marcas-8": {
+    //     "props": {
+    //         "text": "![](/arquivos/home_brand_logo_08.jpg) \n\n Souvie",
+    //         "textAlignment": "CENTER",
+    //         "textPosition": "CENTER",
+    //         "blockClass": [
+    //             "home-marcas",
+    //             "home-marcas-8"
+    //         ]
+    //     }
+    // },
+    // "link#home-marcas-9": {
+    //     "children": [
+    //         "rich-text#home-marcas-9"
+    //     ],
+    //     "props": {
+    //         "blockClass": "home-marcas"
+    //     }
+    // },
+    // "rich-text#home-marcas-9": {
+    //     "props": {
+    //         "text": "![](/arquivos/home_brand_logo_09.jpg) \n\n You & Oil",
+    //         "textAlignment": "CENTER",
+    //         "textPosition": "CENTER",
+    //         "blockClass": [
+    //             "home-marcas",
+    //             "home-marcas-9"
+    //         ]
+    //     }
+    // }
+}

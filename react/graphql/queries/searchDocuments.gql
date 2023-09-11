@@ -1,0 +1,27 @@
+query Documents(
+  $acronym: String
+  $fields: [String]
+  $page: Int = 1
+  $pageSize: Int = 15
+  $where: String
+  $sort: String
+  $schema: String
+  $account: String
+) {
+  documents(
+    acronym: $acronym
+    fields: $fields
+    page: $page
+    pageSize: $pageSize
+    where: $where
+    sort: $sort
+    schema: $schema
+    account: $account
+  ) {
+    id
+    fields {
+      key
+      value
+    }
+  }
+}

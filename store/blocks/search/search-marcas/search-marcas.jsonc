@@ -1,0 +1,9 @@
+{
+  "search-result-layout#marcas": {
+    "blocks": [
+      "search-result-layout.desktop#marcas",
+      "search-result-layout.mobile#marcas",
+      "search-not-found-layout"
+    ]
+  }
+}

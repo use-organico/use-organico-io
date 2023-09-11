@@ -1,0 +1,137 @@
+@import "../_variables";
+
+.flexRow {
+  &--search {
+    &-breadcrumb {
+      margin-top: 20px;
+    }
+    &-orderby,
+    &-filter-orderby {
+      margin-bottom: 15px;
+      
+      @media (max-width: 1024px) {
+        border-bottom: solid 1px #ddd;
+        padding-bottom: 12px;
+      }
+    }
+    &-seo {
+      padding: 0;
+      background-color: #F3F1E5;
+
+      @media (max-width: 1024px) {
+        padding: 0 20px;
+        background-color: #f3f1e5;
+      }
+    }
+    &-not-found {
+      &-texts {
+        min-height: 300px;
+        padding: 50px 0 40px;
+        background: url(/arquivos/bg-busca-vazia-2020.png) no-repeat 50%;
+        background-size: 100% 100%;
+      }
+      &-termo-buscado {
+        margin-bottom: 15px;
+        .flexRowContent--search-not-found-termo-buscado {
+          gap: 5px;
+        }
+      }
+    }
+    &-banner-seo {
+      padding: 10px;
+      background: #fff;
+      margin-bottom: 20px;
+    }
+  }
+}
+.flexCol {
+  &--search {
+    &-banner-seo {
+      background: #fff;
+      padding: 10px;
+    }
+  }
+}
+
+.flexRowContent--search-orderby {
+  border-bottom: solid 1px #eee;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 1025px) {
+  .flexRowContent--search-termo-buscado {
+    justify-content: flex-end;
+  }
+  .flexCol {
+    &--search {
+      &-banner-seo {
+        &-text {
+          padding: 40px;
+        }
+        &-image {
+          padding: 40px;
+          .flexColChild {
+            display: flex;
+            display: -ms-flexbox;
+            align-items: center;
+            -ms-flex-align: center;
+            justify-content: center;
+            -ms-flex-pack: center;
+          }
+        }
+      }
+    }
+  }
+
+  .flexRowContent--search-breadcrumb-mobile {
+    justify-content: center;
+    padding-top: 36px;
+  }
+
+  .flexRowContent--search-termo-buscado {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px #000;
+    padding-bottom: 47px;
+  }
+
+  .flexRowContent--search-title-category-row {
+    :global(.vtex-search-result-3-x-galleryTitle--layout) {
+      text-align: center !important;
+      margin-top: 0 !important;
+    }
+  }
+
+  .flexCol--search-content {
+    border-top: solid 1px #000;
+  }
+
+  .flexRow--search-content {
+    max-width: 1240px;
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .flexCol {
+    &--search {
+      &-banner-seo {
+        &-text {
+          padding: 10px;
+        }
+        &-image {
+          padding: 10px;
+          .flexColChild {
+            width: 30%;
+          }
+        }
+      }
+    }
+  }
+
+  .flexRowContent--search-termo-buscado {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,174 @@
+{
+    "menu-item#header-menu-gestante-bebe": {
+        "props": {
+            "id": "item-header-menu-gestante-bebe",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "href": "/gestante-e-bebe",
+                "tagTitle": "Gestante e Bebê",
+                "text": "Gestante e Bebê"
+            },
+            "blockClass": [
+                "header",
+                "header-hover",
+                "header-gestante-bebe"
+            ]
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#header-menu-gestante-bebe"
+        ]
+    },
+    "vtex.menu@2.x:submenu#header-menu-gestante-bebe": {
+        "children": [
+            "flex-layout.row#header-menu-gestante-bebe"
+        ],
+        "props": {
+            "blockClass": "header"
+        }
+    },
+    "flex-layout.row#header-menu-gestante-bebe": {
+        "children": [
+            "flex-layout.col#header-menu-gestante-bebe-1",
+            "flex-layout.col#header-menu-gestante-bebe-2"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-gestante-bebe-1": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-gestante-bebe-gestante"
+        ],
+        "props": {
+            "rowGap": 5,
+            "preventVerticalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-gestante-bebe-gestante": {
+        "title": "Menu Gestante",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-gestante-bebe-gestante-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/gestante-e-bebe/gestante",
+                        "noFollow": false,
+                        "tagTitle": "Gestante",
+                        "text": "Gestante"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-gestante-bebe-gestante-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/gestante-e-bebe/gestante/cuidados-com-o-rosto",
+                        "noFollow": false,
+                        "tagTitle": "Cuidados com o Rosto",
+                        "text": "Cuidados com o Rosto"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-gestante-bebe-gestante-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/gestante-e-bebe/gestante/cuidados-com-o-corpo",
+                        "noFollow": false,
+                        "tagTitle": "Cuidados com o Corpo",
+                        "text": "Cuidados com o Corpo"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-gestante-bebe-2": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-gestante-bebe-col-2"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-gestante-bebe-col-2": {
+        "title": "Menu Coluna 2",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-gestante-bebe-col-2-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/gestante-e-bebe/kits-gestante-e-bebe",
+                        "noFollow": false,
+                        "tagTitle": "Kits Gestante e Bebê",
+                        "text": "Kits Gestante e Bebê"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-gestante-bebe-col-2-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/gestante-e-bebe/bebe",
+                        "noFollow": false,
+                        "tagTitle": "Bebê",
+                        "text": "Bebê"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-gestante-bebe-col-2-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/marcas",
+                        "noFollow": false,
+                        "tagTitle": "Marcas",
+                        "text": "Marcas"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-gestante-bebe-3": {
+        "children": [
+            "image#header-menu-gestante-bebe-img"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu"
+        }
+    },
+    "image#header-menu-gestante-bebe-img": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/167428/banner_319x372_gestante-bebe.png",
+            "maxWidth": "205px",
+            "blockClass": "header-menu"
+        }
+    }
+}

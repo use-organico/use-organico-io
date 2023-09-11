@@ -1,0 +1,201 @@
+{
+    "flex-layout.row#home-yourviews": {
+        "title": "Yourviews",
+        "children": [
+            "flex-layout.col#home-yourviews"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "blockClass": "home-yourviews"
+        }
+    },
+    "flex-layout.col#home-yourviews": {
+        "children": [
+            "rich-text#home-yourviews",
+            "flex-layout.row#home-average-container--home-yourviews",
+            "responsive-layout.desktop#home-yourviews-desktop",
+            "responsive-layout.mobile#home-yourviews-mobile"
+        ],
+        "props": {
+            "blockClass": "home-yourviews"
+        }
+    },
+    "responsive-layout.desktop#home-yourviews-desktop": {
+        "children": [
+            "home-your-views-reviews"
+        ]
+    },
+    "responsive-layout.mobile#home-yourviews-mobile": {
+        "children": [
+            "testimonials"
+        ]
+    },
+    "home-your-views-reviews": {
+        "children": [
+            "testimonials"
+        ]
+    },
+    "flex-layout.row#home-average-container--home-yourviews": {
+        "children": [
+            "flex-layout.col#average-container--home-yourviews",
+            "flex-layout.col#average-percentage-your-views-button"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "blockClass": "home-average-container--home-yourviews",
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.col#average-percentage-your-views-button": {
+        "children": [
+            "flex-layout.row#average-percentage",
+            "responsive-layout.desktop#home-your-views-button"
+        ],
+        "props": {
+            "blockClass": "average-percentage-your-views-button",
+            "preventVerticalStretch": true
+        }
+    },
+    "responsive-layout.desktop#home-your-views-button": {
+        "children": [
+            "home-your-views-button"
+        ]
+    },
+    "flex-layout.col#average-container--home-yourviews": {
+        "children": [
+            "flex-layout.row#container-average-numbers",
+            "rich-text#text-bellow-average-number",
+            "flex-layout.row#wrapper-average-stars-image",
+            "rich-text#average-quantity"
+        ],
+        "props": {
+            "horizontalAlign":"center",
+            "blockClass": "average-container--home-yourviews"
+        }
+    },
+
+    "flex-layout.row#container-average-numbers": {
+        "children": [
+            "image#average-number",
+            "image#average-number-right"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "horizontalAlign":"center",
+            "blockClass": "wrapper-average-number"
+        }
+    },
+
+    "flex-layout.col#wrapper-average-number": {
+        "children": [
+            "image#average-number"
+        ],
+        "props": {
+            "blockClass": ["wrapper-average-number","wrapper-average-number-left"]
+        }
+    },
+    "image#average-number":{
+        "title":"Imagem do número de avaliações a esquerda",
+        "props":{
+            "alt":"",
+            "src":"/arquivos/number-average.png",
+            "blockClass":"average-number"
+        }
+    },
+
+    "flex-layout.col#wrapper-average-number-right": {
+        "children": [
+            "image#average-number-right"
+        ],
+        "props": {
+            "blockClass": ["wrapper-average-number", "wrapper-average-number-right"]
+        }
+    },
+    "image#average-number-right":{
+        "title":"Imagem do número a direita",
+        "props":{
+            "width": 25,
+            "height": 30,
+            "alt":"",
+            "src":"/arquivos/number-right-average.png",
+            "blockClass":"average-number-right"
+        }
+    },
+
+    "rich-text#text-bellow-average-number": {
+        "title": "Texto abaixo do número de média de avaliações",
+        "props": {
+            "text": "MÉDIA DE AVALIAÇÕES",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "text-average-home-yourviews"
+        }
+    },
+
+    "flex-layout.row#wrapper-average-stars-image": {
+        "children": [
+            "image#average-stars-image"
+        ],
+        "props": {
+            "blockClass": "wrapper-average-stars-image"
+        }
+    },
+    "image#average-stars-image":{
+        "title":"Imagem das estrelas de avaliações",
+        "props":{
+            "alt":"",
+            "src":"/arquivos/stars-average.png",
+            "blockClass":"average-stars-image"
+        }
+    },
+    "rich-text#average-quantity": {
+        "title": "Texto quantidade de avaliações",
+        "props": {
+            "text": "Baseado em 125 avaliações",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": ["text-average-home-yourviews", "text-quantity-average-home-yourviews"]
+        }
+    },
+
+    "flex-layout.row#average-percentage": {
+        "children": [
+            "image#average-percentage-image",
+            "rich-text#average-percentage-text"
+        ],
+        "props": {
+            "horizontalAlign":"center",
+            "preventHorizontalStretch":true,
+            "blockClass": "average-percentage"
+        }
+    },
+    "image#average-percentage-image":{
+        "title":"Imagem da porcentagem de avaliações",
+        "props":{
+            "alt":"",
+            "src":"/arquivos/percentage-average.png",
+            "blockClass":"average-percentage-image"
+        }
+    },
+    "rich-text#average-percentage-text": {
+        "title": "Texto ao lado  da porcentagem de avaliações",
+        "props": {
+            "text": "dos clientes recomendam nossa loja",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "text-average-home-yourviews"
+        }
+    },
+
+    "rich-text#home-yourviews": {
+        "title": "Título",
+        "props": {
+            "text": "Confira a opinião dos nossos clientes",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "shelf-titulo"
+        }
+    }
+}

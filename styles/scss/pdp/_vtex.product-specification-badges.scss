@@ -1,0 +1,51 @@
+@import "../_variables";
+
+.groupContainer {
+  &--pdp {
+    &-short-description {
+      margin: 0;
+      .badgeContainer {
+        margin: 20px 0;
+        .badgeText {
+          margin: 0;
+          font-size: 16px;
+          line-height: 23px;
+          text-align: justify;
+          color: $useorganico-black;
+        }
+      }
+    }
+    &-flag-discount {
+      margin: 0;
+      background-color: transparent;
+      .badgeContainer {
+        padding: 5px 19px;
+        border-radius: 10px;
+        max-width: 100px;
+        white-space: normal;
+        display: block;
+        border-color: #000;
+        background: #000;
+        text-align: center;
+
+        @media (max-width: 1024px) {
+          padding: 5px;
+        }
+        
+        .badgeText {
+          text-align: center;
+          color: #D1D485 !important;
+          margin: 0;
+          font-size: 12px;
+          line-height: 18px;
+          &::before {
+            content: "Produto Valido até";
+            font-size: 12px;
+            line-height: 18px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}

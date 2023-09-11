@@ -1,0 +1,306 @@
+@media (max-width: 1024px) {
+  .flexRow {
+    &--embalagem-use {
+      &-1 {
+        background: url(/arquivos/landing_top_mobile-27-08.png) no-repeat 50%;
+        width: 100%;
+        height: auto;
+        min-height: 550px;
+        background-size: 100%;
+        &-1 {
+          .flexRowContent {
+            left: -10px;
+            display: flex;
+            position: relative;
+            justify-content: center;
+          }
+        }
+      }
+      &-2 {
+        width: 100%;
+        height: auto;
+        min-height: 530px;
+        background: url(/arquivos/bg_scroll_one_desktop-01-09.png) no-repeat 50%;
+        padding: 20px;
+      }
+      &-3 {
+        width: 100%;
+        min-height: 530px;
+        background: url(/arquivos/bg_scroll_one_desktop-01-09.png) no-repeat 50%;
+        padding: 20px;
+      }
+      &-4 {
+        width: 100%;
+        min-height: 530px;
+        background: url(/arquivos/bg_scroll_three_desktop-02-09.png) no-repeat
+          50%;
+        padding: 20px;
+      }
+      &-5 {
+        width: 100%;
+        min-height: 530px;
+        background: url(/arquivos/bg_scroll_four_desktop-02-09.png) no-repeat
+          50%;
+        padding: 20px;
+      }
+      &-6 {
+        width: 100%;
+        min-height: 530px;
+        background: url(/arquivos/bg_scroll_five_desktop-02-09.png) no-repeat
+          50%;
+        padding: 20px;
+      }
+      &-7 {
+        background: url(/arquivos/bg_bottom_landing_mobile-06-09.png) no-repeat
+          50%;
+        background-size: 100%;
+        min-height: 550px;
+      }
+      &-8 {
+        padding: 10px 0;
+        background-color: #8dba3f;
+        .flexRowContent {
+          align-items: center;
+          justify-content: center;
+          :first-child {
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+    }
+    &--embalagem-use-content-box-white {
+      max-width: 1050px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      .flexRowContent--embalagem-use-content-box-white {
+        height: 320px;
+        padding: 20px 40px;
+        border: 2px solid #209f5a;
+      }
+    }
+  }
+  .flexCol {
+    &--embalagem-use {
+      &-1 {
+        &-1 {
+          margin-top: 105px;
+        }
+      }
+      &-2 {
+        &-1 {
+          background: url(/arquivos/landing_plastico_desktop-01-09.png?v=637031188137400000)
+            no-repeat 50%;
+          background-position-y: unset;
+          background-size: 85%;
+          margin-bottom: 30px;
+          min-height: 150px;
+        }
+      }
+      &-3 {
+        &-1 {
+          background: url(/arquivos/landing_carinho_desktop-01-09.png?v=637031188104800000)
+            no-repeat 150%;
+          background-position-y: bottom;
+          background-size: 90%;
+          min-height: 150px;
+        }
+      }
+      &-4 {
+        &-1 {
+          padding-top: 10px;
+          background: url(/arquivos/landing_cor_desktop-01-09.png?v=637031188117500000)
+            no-repeat 240%;
+          background-position-y: bottom;
+          background-size: 88%;
+          min-height: 150px;
+        }
+      }
+      &-5 {
+        &-1 {
+          background: url(/arquivos/landing_seda_desktop-01-09.png?v=637031188147330000)
+            no-repeat 70%;
+          background-size: 55%;
+          min-height: 150px;
+        }
+      }
+      &-6 {
+        &-1 {
+          background: url(/arquivos/landing_nfe_desktop-01-09.png?v=637031188127230000)
+            no-repeat 80%;
+          background-size: 55%;
+          min-height: 150px;
+        }
+      }
+    }
+    .flexColChild--embalagem-use-1 {
+      &-1 {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .flexRow {
+    .flexRowContent {
+      &--embalagem-use {
+        &-1 {
+          background: url(/arquivos/bg_top_landing_desktop-01-09.png) no-repeat
+            50%;
+          width: 100%;
+          height: auto;
+          min-height: 550px;
+          background-size: 100%;
+          &-1 {
+            position: relative;
+            justify-content: flex-end;
+          }
+        }
+        &-2 {
+          width: 100%;
+          height: auto;
+          min-height: 580px;
+          background: url(/arquivos/bg_scroll_one_desktop-01-09.png) no-repeat
+            50%;
+          padding: 20px;
+        }
+        &-3 {
+          width: 100%;
+          min-height: 580px;
+          background: url(/arquivos/bg_scroll_one_desktop-01-09.png) no-repeat
+            50%;
+          padding: 20px;
+        }
+        &-4 {
+          width: 100%;
+          min-height: 580px;
+          background: url(/arquivos/bg_scroll_three_desktop-02-09.png) no-repeat
+            50%;
+          padding: 20px;
+        }
+        &-5 {
+          width: 100%;
+          min-height: 580px;
+          background: url(/arquivos/bg_scroll_four_desktop-02-09.png) no-repeat
+            50%;
+          padding: 20px;
+        }
+        &-6 {
+          width: 100%;
+          min-height: 580px;
+          background: url(/arquivos/bg_scroll_five_desktop-02-09.png) no-repeat
+            50%;
+          padding: 20px;
+        }
+        &-7 {
+          display: -ms-flexbox;
+          display: flex;
+          width: 100%;
+          height: auto;
+          min-height: 550px;
+          background: url(/arquivos/landing_bg_bottom-24-08-min.png) no-repeat
+            top;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -ms-flex-align: center;
+          align-items: center;
+          background-size: 100%;
+          position: relative;
+          line-height: 21px;
+        }
+        &-8 {
+          padding: 10px 0;
+          background-color: #8dba3f;
+        }
+      }
+    }
+    &--embalagem-use-content-box-white {
+      max-width: 1050px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      .flexRowContent--embalagem-use-content-box-white {
+        height: 320px;
+        padding: 20px 40px;
+        border: 2px solid #209f5a;
+      }
+    }
+  }
+  .flexCol {
+    &--embalagem-use {
+      &-1 {
+        position: relative;
+        &-1 {
+          width: 100%;
+          height: auto;
+          margin: 0 auto;
+          text-align: end;
+          background: url(/arquivos/box_top_container_desktop-02-09.png)
+            no-repeat 50%;
+          background-size: 100%;
+          min-height: 600px;
+        }
+      }
+      &-2 {
+        &-1 {
+          background: url(/arquivos/landing_plastico_desktop-01-09.png?v=637031188137400000)
+            no-repeat 50%;
+          background-position-y: unset;
+          background-size: 80%;
+          max-height: 240px;
+        }
+      }
+      &-3 {
+        &-1 {
+          padding-top: 40px;
+          background: url(/arquivos/landing_carinho_desktop-01-09.png?v=637031188104800000)
+            no-repeat 150%;
+          background-position-y: bottom;
+          background-size: 90%;
+          min-height: 150px;
+        }
+      }
+      &-4 {
+        &-1 {
+          padding-top: 40px;
+          background: url(/arquivos/landing_cor_desktop-01-09.png?v=637031188117500000)
+            no-repeat 240%;
+          background-position-y: bottom;
+          background-size: 90%;
+          min-height: 150px;
+        }
+      }
+      &-5 {
+        &-1 {
+          padding-top: 10px;
+          background: url(/arquivos/landing_seda_desktop-01-09.png?v=637031188147330000)
+            no-repeat 70%;
+          background-size: 60%;
+        }
+      }
+      &-6 {
+        &-1 {
+          padding-top: 10px;
+          background: url(/arquivos/landing_nfe_desktop-01-09.png?v=637031188127230000)
+            no-repeat 80%;
+          background-size: 60%;
+        }
+      }
+      &-7 {
+        margin-top: 65px;
+      }
+    }
+    .flexColChild--embalagem-use-1 {
+      &:last-child {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+      }
+    }
+  }
+}

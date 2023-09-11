@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#footer-copyright": {
+        "title": "Copyright  - Container",
+        "children": [
+            "rich-text#footer-copyright"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "footer-copyright"
+        }
+    },
+    "rich-text#footer-copyright": {
+        "title": "Texto Copyright",
+        "props": {
+            "text": "Copyright © 2023 UseOrganico.com.br. Todos os direitos reservados. Todo o conteúdo do site, todas as fotos, imagens, logotipos, marcas, dizeres, som, software, conjunto imagem, layout, trade dress, aqui veiculados são de propriedade exclusiva da Use Orgânico Comercio Varejista de Cosméticos LTDA É vedada qualquer reprodução, total ou parcial, de qualquer elemento de identidade, sem expressa autorização. A violação de qualquer direito mencionado implicará na responsabilização cível e criminal nos termos da Lei. \n\n Av São Luís 94 - São Paulo - SP - CEP 01046000 - CNPJ: 27.547.121/0001-04 – Inscrição Estadual: 141.967.101.115",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "footer-copyright"
+        }
+    }
+}

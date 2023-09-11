@@ -1,0 +1,61 @@
+@import "../_variables";
+
+.container {
+  &--marcas {
+    &-breadcrumb {
+      .paragraph {
+        .link {
+          color: #000;
+          font-size: 14px;
+          line-height: 14px;
+          text-decoration: none;
+        }
+      }
+    }
+    &-slider-list {
+      &-title {
+        .heading {
+          font-size: 30px;
+          font-weight: 500;
+          margin: 10px auto 30px;
+        }
+      }
+      &-item {
+        margin: 0 auto;
+        max-width: 120px;
+        padding-top: 10px;
+        position: relative;
+        .paragraph {
+          font-size: 16px;
+          color: $useorganico-white;
+          &:last-child {
+            left: -25px;
+            width: 172px;
+            height: 28px;
+            bottom: -10px;
+            position: absolute;
+            border-radius: 50px;
+            background: $useorganico-yellow;
+          }
+          .image {
+            width: 120px;
+            height: 120px;
+          }
+        }
+      }
+    }
+    &-component-list-title {
+      max-width: 1070px;
+      margin: 0 auto;
+      .heading {
+        font-size: 30px;
+        font-weight: 500;
+        margin: 10px auto 30px;
+      }
+      .paragraph {
+        font-size: 14px;
+        line-height: 14px;
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "drawer#menuMb--dep-3": {
+    "children": [
+      "flex-layout.row#menuMb--dep-3--content"
+    ],
+    "blocks": [
+      "drawer-header#menuMb--dep-3",
+      "drawer-trigger#menuMb--dep-3--trigger"
+    ],
+    "props": {
+      "isFullWidth": true,
+      "slideDirection": "leftToRight",
+      "maxWidth": "80%",
+      "renderingStrategy": "eager",
+      "blockClass": [
+        "menuMb",
+        "menuMb__department"
+      ]
+    }
+  },
+  "drawer-header#menuMb--dep-3": {
+    "children": [
+      "drawer-close-button#menuMb--return"
+      // "rich-text#menuMb--dep-3--title"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__menuDepartment"
+      ]
+    }
+  },
+  // "rich-text#menuMb--dep-3--title": {
+  //   "props": {
+  //     "text": "Voltar",
+  //     "blockClass": [
+  //       "menuMb__title",
+  //       "menuMb__departmentTitle"
+  //     ]
+  //   },
+  //   "title": "Department 3 - Title"
+  // },
+  "drawer-trigger#menuMb--dep-3--trigger": {
+    "children": [
+      "rich-text#menu-mobile--dep-3--trigger"
+    ]
+  },
+  "rich-text#menu-mobile--dep-3--trigger": {
+    "props": {
+      "text": "Corpo e Banho",
+      "blockClass": [
+        "menuMb__trigger",
+        "menuMb__departmentTrigger"
+      ]
+    },
+    "title": "Department 3 - Trigger"
+  },
+  "flex-layout.row#menuMb--dep-3--content": {
+    "children": [
+      "vtex.menu@2.x:menu#menuMb--dep-3--menu"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__content",
+        "menuMb__departmentContent"
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#menuMb--dep-3--menu": {
+    "children": [
+      "menu-item#header-menu-corpo-banho-mob-ver-todos",
+      "vtex.menu@2.x:menu#header-menu-corpo-banho-cuidado-com-corpo",
+      "vtex.menu@2.x:menu#header-menu-corpo-banho-higiene-bucal",
+      "vtex.menu@2.x:menu#header-menu-corpo-banho-ciclo-menstrual",
+      "vtex.menu@2.x:menu#header-menu-corpo-banho-col-3",
+      "vtex.menu@2.x:menu#header-menu-corpo-banho-col-4"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__departmentMenu"
+      ]
+    },
+    "title": "Department 3 Menu"
+  }
+}

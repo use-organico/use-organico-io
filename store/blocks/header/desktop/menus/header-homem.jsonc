@@ -1,0 +1,248 @@
+{
+    "menu-item#header-menu-homem": {
+        "props": {
+            "id": "item-header-menu-homem",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "href": "/homem",
+                "tagTitle": "Homem",
+                "text": "Homem"
+            },
+            "blockClass": [
+                "header",
+                "header-hover",
+                "header-homem"
+            ]
+        },
+        "blocks": []
+    },
+    "vtex.menu@2.x:submenu#header-menu-homem": {
+        "children": [
+            "flex-layout.row#header-menu-homem"
+        ],
+        "props": {
+            "blockClass": "header"
+        }
+    },
+    "flex-layout.row#header-menu-homem": {
+        "children": [
+            "flex-layout.col#header-menu-homem-1",
+            "flex-layout.col#header-menu-homem-2",
+            "flex-layout.col#header-menu-homem-3"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-homem-1": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-homem-shampoo",
+            "vtex.menu@2.x:menu#header-menu-homem-condicionador"
+        ],
+        "props": {
+            "rowGap": 5,
+            "preventVerticalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-homem-shampoo": {
+        "title": "Menu Shampoo",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-homem-shampoo-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Shampoo",
+                        "text": "Shampoo"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-homem-shampoo-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Shampoo Líquido",
+                        "text": "Shampoo Líquido"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-homem-shampoo-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Shampoo Barra",
+                        "text": "Shampoo Barra"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-homem-condicionador": {
+        "title": "Menu Condicionador",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-homem-condicionador-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Condicionador",
+                        "text": "Condicionador"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-homem-condicionador-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Condicionador Líquido",
+                        "text": "Condicionador Líquido"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-homem-condicionador-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Condicionador Barra",
+                        "text": "Condicionador Barra"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-homem-2": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-homem-col-2"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-homem-col-2": {
+        "title": "Menu Coluna 2",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-homem-col-2-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Finalizador",
+                        "text": "Finalizador"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-homem-col-2-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Tratamento Capilar",
+                        "text": "Tratamento Capilar"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-homem-col-2-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Tintura Henna",
+                        "text": "Tintura Henna"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-homem-col-2-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Kits de Tratamento Capilar",
+                        "text": "Kits de Tratamento Capilar"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-homem-col-2-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Marcas",
+                        "text": "Marcas"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-homem-3": {
+        "children": [
+            "image#header-menu-homem-img"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu"
+        }
+    },
+    "image#header-menu-homem-img": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/167428/banner_319x372_homem.png",
+            "maxWidth": "205px",
+            "blockClass": "header-menu"
+        }
+    }
+}

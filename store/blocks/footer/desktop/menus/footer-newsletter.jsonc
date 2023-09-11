@@ -1,0 +1,57 @@
+{
+    "flex-layout.row#footer-newsletter": {
+        "title": "Newsletter Container",
+        "children": [
+            "flex-layout.col#footer-newsletter"
+        ],
+        "props": {
+            "blockClass": "footer-newsletter"
+        }
+    },
+    "flex-layout.col#footer-newsletter": {
+        "title": "Newsletter",
+        "children": [
+            "rich-text#footer-newsletter",
+            "newsletter-form",
+            "rich-text#footer-newsletter-term"
+        ],
+        "props": {
+            "verticalAlign": "top",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "footer-menus",
+                "footer-newsletter"
+            ]
+        }
+    },
+    "rich-text#footer-newsletter": {
+        "title": "Texto - Newsletter",
+        "props": {
+            "text": "Junte-se às mais de 100 mil pessoas que recebem novidades e descontos exclusivos e ganhe **10% OFF** na primeira compra.",
+            "blockClass": "footer-newsletter"
+        }
+    },
+    "newsletter-form": {
+        "children": [
+            "newsletter-input-email",
+            "newsletter-submit"
+        ]
+    },
+    "newsletter-input-email": {
+        "props": {
+            "placeholderText": "Digite seu e-mail aqui"
+        }
+    },
+    "newsletter-submit": {
+        "props": {
+            "submitButtonLabel": "Cadastrar"
+        }
+    },
+    "rich-text#footer-newsletter-term": {
+        "title": "Termo de cadastro - Newsletter",
+        "props": {
+            "text": "Ao clicar em “Cadastrar”, aceito receber e-mails com novidades e promoções Use Orgânico (cupom não cumulativo).",
+            "blockClass": "footer-newsletter-term"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+@import "./variables";
+
+@import "./header/vtex.list-context";
+@import "./footer/vtex-list-context";
+@import "./home/vtex.list-context";
+
+@media (min-width: 1025px) {
+  .list--wishlist {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: $container-width;
+    justify-content: space-between;
+    .item {
+      width: 25%;
+      padding: 10px;
+      max-width: 350px;
+      :global(.vtex-product-summary-2-x-container--shelf) {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .list--wishlist {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: $container-width;
+    justify-content: space-between;
+    .item {
+      width: 50%;
+      padding: 10px;
+      max-width: 350px;
+      :global(.vtex-product-summary-2-x-container--shelf) {
+        margin: 0;
+      }
+    }
+  }
+}

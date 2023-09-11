@@ -1,0 +1,43 @@
+{
+    "flex-layout.row#search-banner": {
+        "title": "Banner",
+        "children": [
+            "stack-layout#search-banner"
+        ],
+        "props": {
+            "blockClass": "search-banner"
+        }
+    },
+    "stack-layout#search-banner": {
+        "children": [
+            "image#search-banner",
+            "flex-layout.row#search-banner-title"
+        ],
+        "props": {
+            "blockClass": "search-banner"
+        }
+    },
+    "image#search-banner": {
+        "title": "Banner Image",
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/166644/banner_geral_categorias.png",
+            "blockClass": "search-banner-image"
+        }
+    },
+    "flex-layout.row#search-banner-title": {
+        "title": "Container Title",
+        "children": [
+            "rich-text#search-title"
+        ],
+        "props": {
+            "blockClass": "search-banner-title"
+        }
+    },
+    "rich-text#search-title": {
+        "title": "Search Title",
+        "props": {
+            "text": "# Use",
+            "blockClass": "search-title"
+        }
+    }
+}

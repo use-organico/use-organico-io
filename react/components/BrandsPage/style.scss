@@ -1,0 +1,107 @@
+.brand_filter_item {
+  width: 44px;
+  height: 44px;
+  background: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-shadow: -2px -3px 16px -7px rgba(0, 0, 0, 0.11);
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+.brand_filter_item_active,
+.brand_filter_item:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+.brand_list_all_filter {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.brand_destaque_letter {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e1e1e1;
+}
+.base_brands {
+  background: #f5f5f5;
+}
+.brand_list_item_filtered {
+  display: table;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.brand_destaque_list {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 200px;
+  margin-top: 25px;
+  flex-direction: column;
+  align-items: flex-start;
+  @media (min-width: 1025px) {
+    max-height: 100px;
+  }
+  .brand_destaque_list_item {
+    width: 100%;
+    margin-left: 20px;
+    list-style-type: none;
+    @media (min-width: 1025px) {
+      max-width: 200px;
+    }
+    a {
+      text-decoration: none;
+      .brand_destaque_list_item_content {
+        display: flex;
+        text-align: left;
+        align-items: center;
+        justify-content: flex-start;
+        .brand_name {
+          color: #000;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .brand_destaque_list_item {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .brand_destaque_list {
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .brand_list_all_filter {
+    flex-wrap: wrap;
+    justify-content: center;
+    .brand_filter_item {
+      margin: 0 5px 5px 0;
+      border-radius: 0 !important;
+      border-bottom: 1px solid #f4f4f4;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+    "flex-layout.row#home-shelf-recentes": {
+        "title": "Shelf Acabaram de Chegar",
+        "children": [
+            "flex-layout.col#home-shelf-recentes"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "blockClass": "home-shelf-recentes"
+        }
+    },
+    "flex-layout.col#home-shelf-recentes": {
+        "children": [
+            "rich-text#home-shelf-recentes",
+            "list-context.product-list#home-shelf-recentes"
+        ],
+        "props": {
+            "blockClass": "home-shelf-recentes"
+        }
+    },
+    "rich-text#home-shelf-recentes": {
+        "title": "Título",
+        "props": {
+            "text": "Acabaram de Chegar",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "shelf-titulo"
+        }
+    },
+    "list-context.product-list#home-shelf-recentes": {
+        "title": "Shelf Acabaram de Chegar",
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#shelf"
+        ],
+        "props": {
+            "collection": "139",
+            "__unstableProductOriginVtex": true
+        }
+    }
+}

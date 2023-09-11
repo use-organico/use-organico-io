@@ -1,0 +1,38 @@
+{
+    "flex-layout.row#footer-atendimento": {
+        "children": [
+            "flex-layout.col#footer-atendimento"
+        ],
+        "props": {
+            "blockClass": "footer-atendimento"
+        }
+    },
+    "flex-layout.col#footer-atendimento": {
+        "children": [
+            "rich-text#footer-menus-atendimento",
+            "link#footer-menus-atendimento"
+        ],
+        "props": {
+            "blockClass": "footer-atendimento"
+        }
+    },
+    "rich-text#footer-menus-atendimento": {
+        "title": "Atendimento Título",
+        "props": {
+            "text": "**Relacionamento com o Cliente** \n\n Estamos preparados para esclarecer suas dúvidas",
+            "blockClass": [
+                "footer-titles-mgtop",
+                "footer-menus-atendimento"
+            ]
+        }
+    },
+    "link#footer-menus-atendimento": {
+        "title": "Fale conosco Botão",
+        "props": {
+            "label": "Fale conosco",
+            "displayMode": "button",
+            "href": "/institucional/fale-conosco",
+            "blockClass": "footer-menus-atendimento"
+        }
+    }
+}

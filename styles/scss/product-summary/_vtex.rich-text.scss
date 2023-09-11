@@ -1,0 +1,10 @@
+@import "../_variables";
+
+.container {
+  &--product-summary-unavailable {
+    font-size: 16px;
+    color: #888;
+    justify-content: center;
+  }
+
+}

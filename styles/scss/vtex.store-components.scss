@@ -1,0 +1,32 @@
+@import "./variables";
+
+// General Start
+
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.logoLink {
+  width: auto !important;
+  .logoContainer {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1400px) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
+// General End
+
+@import "./header/vtex.store-components";
+@import "./footer/vtex.store-components";
+@import "./home/vtex.store-components";
+@import "./product-summary/vtex.store-components";
+@import "./search/vtex.store-components";
+@import "./pdp/vtex.store-components";
+@import "./lps/vtex.store-components";

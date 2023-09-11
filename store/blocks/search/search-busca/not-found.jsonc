@@ -1,0 +1,92 @@
+{
+  "search-not-found-layout": {
+    "children": [
+      "flex-layout.row#not-found-texts",
+      "flex-layout.row#not-found-shelf"
+    ]
+  },
+  "flex-layout.row#not-found-texts": {
+    "children": [
+      "flex-layout.col#not-found-texts"
+    ],
+    "props": {
+      "blockClass": "search-not-found-texts"
+    }
+  },
+  "flex-layout.col#not-found-texts": {
+    "children": [
+      "rich-text#not-found-termo-ops",
+      "flex-layout.row#not-found-termo-buscado",
+      "rich-text#not-found-text"
+    ],
+    "props": {
+      "blockClass": "search-not-found-texts"
+    }
+  },
+  "rich-text#not-found-termo-ops": {
+    "props": {
+      "text": "OPS.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "search-not-found-ops"
+    }
+  },
+  "flex-layout.row#not-found-termo-buscado": {
+    "children": [
+      "rich-text#not-found-termo-buscado",
+      "search-title.v2#not-found"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "blockClass": "search-not-found-termo-buscado"
+    }
+  },
+  "rich-text#not-found-termo-buscado": {
+    "props": {
+      "text": "Você buscou por:",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "search-not-found-termo-buscado"
+    }
+  },
+  "search-title.v2#not-found": {
+    "props": {
+      "blockClass": "search-not-found"
+    }
+  },
+  "rich-text#not-found-text": {
+    "props": {
+      "text": "Mas infelizmente não encontramos o termo buscado.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "search-not-found-text"
+    }
+  },
+  "flex-layout.row#not-found-shelf": {
+    "children": [
+      "flex-layout.col#not-found-shelf"
+    ],
+    "props": {
+      "blockClass": "search-not-found-shelf"
+    }
+  },
+  "flex-layout.col#not-found-shelf": {
+    "children": [
+      "rich-text#not-found-shelf-title",
+      "list-context.product-list#home-shelf-ofertas"
+    ],
+    "props": {
+      "blockClass": "search-not-found-shelf"
+    }
+  },
+  "rich-text#not-found-shelf-title": {
+    "props": {
+      "text": "## Produtos em oferta",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "search-not-found-shelf-title"
+    }
+  }
+}

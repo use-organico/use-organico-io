@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#row-home-benefits-benefit-2": {
+    "children": [
+      "image#image-home-benefits-benefit-2",
+      "rich-text#text-home-benefits-benefit-2"
+    ],
+    "props": {
+      "blockClass": ["row-home-benefits-benefit", "row-home-benefits-benefit-2"],
+      "horizontalAlign": "left",
+      "colSizing": "auto"
+    }
+  },
+  "image#image-home-benefits-benefit-2": {
+    "props": {
+      "src": "assets/images/home-benefits-2.png",
+      "maxHeight": 40
+    }
+  },
+  "rich-text#text-home-benefits-benefit-2": {
+    "props": {
+      "blockClass": ["text-home-benefits-benefit", "text-home-benefits-benefit-2"],
+      "text": "Pagamentos em até 6x sem juros" 
+    }
+  }
+}

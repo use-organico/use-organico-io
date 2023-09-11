@@ -1,0 +1,18 @@
+@import "../_variables";
+
+.summarySmallDisclaimer {
+  display: none;
+}
+
+.summaryItemContainer {
+  .summaryItemLabel,
+  .summaryItemPrice {
+    font-size: 14px;
+  }
+  &:last-child {
+    .summaryItemLabel,
+    .summaryItemPrice {
+      font-weight: 700;
+    }
+  }
+}

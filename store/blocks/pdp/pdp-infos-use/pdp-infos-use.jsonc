@@ -1,0 +1,70 @@
+{
+    "flex-layout.row#pdp-container-infos-use": {
+        "title": "Produto",
+        "children": [
+            "flex-layout.col#pdp-container-infos-use"
+        ],
+        "props": {
+            "blockClass": "pdp-container-infos"
+        }
+    },
+    "flex-layout.col#pdp-container-infos-use": {
+        "title": "Produto",
+        "children": [
+            "responsive-layout.desktop#pdp-infos-use",
+            "responsive-layout.mobile#pdp-infos-use"
+        ],
+        "props": {
+            "blockClass": "pdp-container-infos"
+        }
+    },
+    "responsive-layout.desktop#pdp-infos-use": {
+        "children": [
+            "flex-layout.row#pdp-infos-use-desktop"
+        ]
+    },
+    "flex-layout.row#pdp-infos-use-desktop": {
+        "title": "Produto",
+        "children": [
+            "flex-layout.col#pdp-infos-col1",
+            "flex-layout.col#pdp-infos-col2",
+            "flex-layout.col#pdp-infos-col3"
+        ],
+        "props": {
+            "colJustify": "between",
+            "blockClass": "pdp-infos-desktop"
+        }
+    },
+    "responsive-layout.mobile#pdp-infos-use": {
+        "children": [
+            "flex-layout.row#pdp-infos-use-mobile"
+        ]
+    },
+    "flex-layout.row#pdp-infos-use-mobile": {
+        "title": "Produto",
+        "children": [
+            "flex-layout.col#pdp-infos-use-mobile"
+        ],
+        "props": {
+            "blockClass": "pdp-infos-mobile"
+        }
+    },
+    "flex-layout.col#pdp-infos-use-mobile": {
+        "title": "Produto",
+        "children": [
+            "stack-layout#pdp-images",
+            "flex-layout.row#pdp-brand-ref-wishlist",
+            "vtex.store-components:product-name#pdp",
+            "product-rating-summary",
+            "flex-layout.col#product-summary-wishlist-btn",
+            "share",
+            "sku-selector",
+            "flex-layout.row#pdp-price",
+            "flex-layout.row#pdp-quantity-buy-btn",
+            "flex-layout.row#pdp-shipping"
+        ],
+        "props": {
+            "blockClass": "pdp-infos-mobile"
+        }
+    }
+}

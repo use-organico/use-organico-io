@@ -1,0 +1,36 @@
+{
+    "search-result-layout.desktop": {
+        "title": "Search Desktop",
+        "children": [
+            "flex-layout.row#search-breadcrumb",
+            "flex-layout.row#search-title-category-row",
+            "rich-text#category-seo-top",
+            "flex-layout.row#search-content"
+        ],
+        "props": {
+            "preventRouteChange": true,
+            "defaultGalleryLayout":"grid"
+        }
+    },
+    "flex-layout.row#search-title-category-row": {
+        "children": [
+            "search-title.v2#category"
+        ],
+        "props": {
+            "blockClass": "search-title-category-row",
+            "horizontalAlign": "center"
+        }
+    },
+    "search-title.v2#category": {
+        "props": {
+            "blockClass": "search-title-category"
+        }
+    },
+    "rich-text#category-seo-top": {
+        "title": "Category SEO top",
+        "props": {
+            "text": "Nesta seção especial você encontra Desodorantes Orgânicos, Roll-on Naturais, Sprays Veganos, Cristais Naturais e Veganos, Spray Naturais e vários outros.",
+            "blockClass": "category-seo-top"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "store.custom#institutional-politica-de-privacidade": {
+    "blocks": ["flex-layout.row#institutional-politica-de-privacidade"]
+  },
+  "flex-layout.row#institutional-politica-de-privacidade": {
+    "children": [
+      "flex-layout.col#institutional-contact",
+      "flex-layout.col#institutional-content-politica-de-privacidade"
+    ],
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "blockClass": "institutional"
+    }
+  },
+  "flex-layout.col#institutional-content-politica-de-privacidade": {
+    "children": [
+      "vtex.menu@2.x:menu#institutional",
+      "rich-text#institutional-text-politica-de-privacidade"
+    ],
+    "props": {
+      "blockClass": [
+        "institutional-content",
+        "institutional-content-politica-de-privacidade"
+      ]
+    }
+  },
+  "rich-text#institutional-text-politica-de-privacidade": {
+    "props": {
+      "text": "# Política de privacidade \n\n A **Use Orgânico** respeita a sua privacidade porque garante o sigilo total das informações que você nos fornece. Seus dados pessoais são armazenados de forma sigilosa, em nosso banco de dados, apenas para evitar que precisem ser digitados novamente em uma próxima compra, e para garantir um melhorar relacionamento através de e-mail, mala-direta, telemarketing, entre outras formas de interação. Assim, podemos sempre lhe oferecer os melhores produtos e serviços; \n\n Os seus dados pessoais nunca são enviados ou disponibilizados a terceiros. Nossa base de dados é utilizada apenas para o envio de nossos próprios e-mails. \n\n Fique tranquila(o), o número do seu cartão de crédito é usado somente no processamento de compra, não sendo, de modo algum, guardado nos arquivos depois da operação. Ficam arquivados apenas os seus dados pessoais de cadastro. \n\n O seu endereço de e-mail será utilizado para divulgação de promoções e lançamentos de nosso site, desde que previamente autorizado por você em seu cadastro na **Use Orgânico**. Caso não deseje mais receber estes e-mails solicite para [contato@useorganico.com.br](mailto:contato@useorganico.com.br) \n\n **Segurança** \n\n O site **Use Orgânico** é **100% seguro** em todas suas transações. Investimos nas tecnologias mais avançadas em proteção de dados para que você possa realizar suas compras num ambiente moderno, prático e com total segurança. \n\n Possuímos **Certificado de Segurança** de uma das maiores empresas mundiais de certificação digital. Isso significa que a **Use Orgânico** foi avaliada por diversos analistas para assegurar sua confiabilidade. nunca será contaminado com um vírus através de nossos e-mails. \n\n Em caso de dúvidas ou sugestões em relação à nossa política de privacidade, por favor, entre em contato:<br>Telefone: (11) 42007780 <br>E-mail: contato@useorganico.com.br \n\n Seja bem vindo! \n\n **#useorganico**</p>",
+      "blockClass": "institutional-text"
+    }
+  }
+}

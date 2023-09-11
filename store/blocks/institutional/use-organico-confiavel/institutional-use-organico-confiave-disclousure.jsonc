@@ -1,0 +1,233 @@
+{
+    "disclosure-layout#use-organico-confiavel-1": {
+        "children": [
+            "disclosure-trigger#use-organico-confiavel-1",
+            "disclosure-content#use-organico-confiavel-1"
+        ],
+        "props": {
+            "animated": true,
+            "initialVisibility": "hidden",
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "disclosure-trigger#use-organico-confiavel-1": {
+        "children": [
+            "rich-text#use-organico-confiavel-question-1",
+            "rich-text#use-organico-confiavel-icon"
+        ],
+        "props": {
+            "as": "div",
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "disclosure-content#use-organico-confiavel-1": {
+        "children": [
+            "rich-text#use-organico-confiavel-answer-1"
+        ],
+        "props": {
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "rich-text#use-organico-confiavel-question-1": {
+        "props": {
+            "text": "### Certificações e Segurança",
+            "textPosition": "CENTER",
+            "blockClass": "use-organico-confiavel-question"
+        }
+    },
+    "rich-text#use-organico-confiavel-answer-1": {
+        "props": {
+            "text": "Disponibilizamos a todos os clientes nossos selos e certificações de segurança. \n\n ![Certificado VTEX](https://useorganico.vteximg.com.br/arquivos/use-confiavel-vtex-certificado.png) \n ![Eu Reciclo](https://useorganico.vteximg.com.br/arquivos/use-confiavel-eu-reciclo-verde.png) \n ![Konduto](https://useorganico.vteximg.com.br/arquivos/use-confiavel-konduto.png)",
+            "blockClass": [
+                "use-organico-confiavel-answer",
+                "use-organico-confiavel-answer-1"
+            ]
+        }
+    },
+    "disclosure-layout#use-organico-confiavel-2": {
+        "children": [
+            "disclosure-trigger#use-organico-confiavel-2",
+            "disclosure-content#use-organico-confiavel-2"
+        ],
+        "props": {
+            "animated": true,
+            "initialVisibility": "hidden",
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "disclosure-trigger#use-organico-confiavel-2": {
+        "children": [
+            "rich-text#use-organico-confiavel-question-2",
+            "rich-text#use-organico-confiavel-icon"
+        ],
+        "props": {
+            "as": "div",
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "disclosure-content#use-organico-confiavel-2": {
+        "children": [
+            "rich-text#use-organico-confiavel-answer-2"
+        ],
+        "props": {
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "rich-text#use-organico-confiavel-question-2": {
+        "props": {
+            "text": "### Formas de Pagamento",
+            "textPosition": "CENTER",
+            "blockClass": "use-organico-confiavel-question"
+        }
+    },
+    "rich-text#use-organico-confiavel-answer-2": {
+        "props": {
+            "text": "Trabalhamos com as melhores formas de pagamento e as compras em cartão de crédito podem ser parceladas em até 6x sem juros com parcelas mínimas de R$ 20,00. \n\n ![Pague com Mastercard](https://useorganico.vteximg.com.br/arquivos/use-confiavel-mastercard.png) \n ![Pague com Visa](/arquivos/use-confiavel-visa.png) \n ![Pague com Diners Club](/arquivos/use-confiavel-diners-club.png) \n ![Pague com American Express](/arquivos/use-confiavel-american-express.png) \n ![Use o Visa Checkout](/arquivos/use-confiavel-visa-checkout.png) \n ![Use o Visa Checkout](/arquivos/use-confiavel-visa-checkout.png) \n ![Pague com Hypercard](/arquivos/use-confiavel-hypercard.png) \n ![Pague com Elo](/arquivos/use-confiavel-elo.png) \n ![Pague com Boleto](/arquivos/use-confiavel-boleto.png) \n ![Pague com Paymee](/arquivos/use-confiavel-paymee.png) \n ![Pague com Mercado Pago](/arquivos/use-confiavel-mercado-pago.png) \n ![Pague com Pix](/arquivos/use-confiavel-pix.png)",
+            "blockClass": [
+                "use-organico-confiavel-answer",
+                "use-organico-confiavel-answer-2"
+            ]
+        }
+    },
+    "disclosure-layout#use-organico-confiavel-3": {
+        "children": [
+            "disclosure-trigger#use-organico-confiavel-3",
+            "disclosure-content#use-organico-confiavel-3"
+        ],
+        "props": {
+            "animated": true,
+            "initialVisibility": "hidden",
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "disclosure-trigger#use-organico-confiavel-3": {
+        "children": [
+            "rich-text#use-organico-confiavel-question-3",
+            "rich-text#use-organico-confiavel-icon"
+        ],
+        "props": {
+            "as": "div",
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "disclosure-content#use-organico-confiavel-3": {
+        "children": [
+            "rich-text#use-organico-confiavel-answer-3"
+        ],
+        "props": {
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "rich-text#use-organico-confiavel-question-3": {
+        "props": {
+            "text": "### Política de Privacidade",
+            "textPosition": "CENTER",
+            "blockClass": "use-organico-confiavel-question"
+        }
+    },
+    "rich-text#use-organico-confiavel-answer-3": {
+        "props": {
+            "text": "Todos os dados fornecidos ao site são armazenados de forma sigilosa em nosso banco de dados. Os dados pessoais nunca são enviados ou disponibilizados a terceiros. \n\n O número do seu cartão de crédito é usado somente no processamento de compra, não sendo, de modo algum, guardado nos arquivos depois da operação. \n\n O endereço de e-mail será utilizado para divulgação de promoções e lançamentos de nosso site, desde que previamente autorizado por você em seu cadastro na Use Orgânico. Caso não deseje mais receber estes e-mails solicite para [contato@useorganico.com.br](mailto:contato@useorganico.com.br)",
+            "blockClass": [
+                "use-organico-confiavel-answer",
+                "use-organico-confiavel-answer-3"
+            ]
+        }
+    },
+    "disclosure-layout#use-organico-confiavel-4": {
+        "children": [
+            "disclosure-trigger#use-organico-confiavel-4",
+            "disclosure-content#use-organico-confiavel-4"
+        ],
+        "props": {
+            "animated": true,
+            "initialVisibility": "hidden",
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "disclosure-trigger#use-organico-confiavel-4": {
+        "children": [
+            "rich-text#use-organico-confiavel-question-4",
+            "rich-text#use-organico-confiavel-icon"
+        ],
+        "props": {
+            "as": "div",
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "disclosure-content#use-organico-confiavel-4": {
+        "children": [
+            "rich-text#use-organico-confiavel-answer-4"
+        ],
+        "props": {
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "rich-text#use-organico-confiavel-question-4": {
+        "props": {
+            "text": "### Selos e Certificações de Produtos",
+            "textPosition": "CENTER",
+            "blockClass": "use-organico-confiavel-question"
+        }
+    },
+    "rich-text#use-organico-confiavel-answer-4": {
+        "props": {
+            "text": "As marcas encontradas na Use Orgânico possuem selos de certificação nacional e internacional que comprovam a sua qualidade e procedência, proporcionando para você credibilidade e confiança em cada um de nossos produtos. \n\n Conheça os principais selos ecológicos do mundo: \n\n ![Veganos](/arquivos/use-confiavel-vegan-seal.png) \n ![Cruelty Free](/arquivos/use-confiavel-cruelty-free.png) \n ![Ecocert](/arquivos/use-confiavel-ecocert.png) \n ![Ecolabel](/arquivos/use-confiavel-ecolabel.png) \n ![Ethical Award](/arquivos/use-confiavel-ethical-award.png) \n ![Eu Reciclo](/arquivos/use-confiavel-eu-reciclo-new.png) \n ![Fairtrade](/arquivos/use-confiavel-fairtrade.png) \n ![Forest All Forever](/arquivos/use-confiavel-forest-all-forever.png) \n ![IBD Natural](/arquivos/use-confiavel-ibd-natural.png) \n ![IBD Orgânico](/arquivos/use-confiavel-ibd-organic.png) \n ![Nature](/arquivos/use-confiavel-nature.png) \n ![Nordic Ecolabel](/arquivos/use-confiavel-nordic-ecolabel.png) \n ![Rain Forest](/arquivos/use-confiavel-rain-forest.png) \n ![Vegetarian Society](/arquivos/use-confiavel-vegetarian-society.png?) \n ![USDA](/arquivos/use-confiavel-usda.png) \n ![Produto Orgânico Brasil](/arquivos/use-confiavel-produto-organico-brasil.png) \n\n Além dos selos mundiais, a Use Orgânico disponibiliza selos próprios para informar detalhes dos produtos: \n\n ![Selo Vegano Use](/arquivos/use-confiavel-use-vegano.png) \n ![Selo Orgânico Use](/arquivos/use-confiavel-use-organico.png) \n ![Selo Livre de Parabenos Use](/arquivos/use-confiavel-use-livre-de-parabenos.png) \n ![Selo Não Testado em Animais Use](/arquivos/use-confiavel-use-nao-testado-em-animais.png) \n ![Selo Não Tóxico Use](/arquivos/use-confiavel-use-nao-toxico.png) \n ![Selo Gluten Free Use](/arquivos/use-confiavel-use-gluten-free.png) \n ![Selo Clean Beauty Use](/arquivos/use-confiavel-use-clean-beauty.png)",
+            "blockClass": [
+                "use-organico-confiavel-answer",
+                "use-organico-confiavel-answer-4"
+            ]
+        }
+    },
+    "disclosure-layout#use-organico-confiavel-5": {
+        "children": [
+            "disclosure-trigger#use-organico-confiavel-5",
+            "disclosure-content#use-organico-confiavel-5"
+        ],
+        "props": {
+            "animated": true,
+            "initialVisibility": "hidden",
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "disclosure-trigger#use-organico-confiavel-5": {
+        "children": [
+            "rich-text#use-organico-confiavel-question-5",
+            "rich-text#use-organico-confiavel-icon"
+        ],
+        "props": {
+            "as": "div",
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "disclosure-content#use-organico-confiavel-5": {
+        "children": [
+            "rich-text#use-organico-confiavel-answer-5"
+        ],
+        "props": {
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "rich-text#use-organico-confiavel-question-5": {
+        "props": {
+            "text": "### Ainda tem dúvidas? Entre em contato com a gente!",
+            "textPosition": "CENTER",
+            "blockClass": "use-organico-confiavel-question"
+        }
+    },
+    "rich-text#use-organico-confiavel-answer-5": {
+        "props": {
+            "text": "Caso ainda tenha ficado alguma dúvida sobre a Use Orgânico, nosso trabalho, nossos processos ou outro assunto, você pode entrar em contato com a gente! \n\n <span class='vtex-icon-tel'></span> \n [(11) 4200-7780](tel:+55114200-7780) \n\n <span class='vtex-icon-whats'></span> \n [(11) 4200-7780](https://api.whatsapp.com/send?phone=551142007780&text=Ol%C3%A1%2C%20Use%20Org%C3%A2nico) \n\n <span class='vtex-icon-email'></span> \n [contato@useorganico.com.br](mailto:contato@useorganico.com.br) \n\n ##### Segue a gente: \n\n <span class='vtex-icon-face'></span> \n [facebook.com/useorganico](https://www.facebook.com/useorganico)  \n\n <span class='vtex-icon-insta'></span> \n [instagram.com/useorganico](https://www.instagram.com/useorganico)",
+            "blockClass": [
+                "use-organico-confiavel-answer",
+                "use-organico-confiavel-answer-5"
+            ]
+        }
+    },
+    "rich-text#use-organico-confiavel-icon": {
+        "props": {
+            "text": "<span class='vtex-icon-disclosure'></span>",
+            "blockClass": "use-organico-confiavel-icon"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "responsive-layout.mobile#pdp-sticky-bar": {
+        "children": [
+            "sticky-layout#pdp-sticky-bar-mob"
+        ]
+    },
+    "sticky-layout#pdp-sticky-bar-mob": {
+        "children": [
+            "menu-product-information"
+        ],
+        "props": {
+            "position": "top",
+            "blockClass": "pdp-sticky-bar-mob"
+        }
+    },
+    "responsive-layout.mobile#pdp-fixed-bar": {
+        "children": [
+            "flex-layout.row#pdp-fixed-bar-mob"
+        ]
+    },
+    "flex-layout.row#pdp-fixed-bar-mob": {
+        "children": [
+            "flex-layout.col#pdp-sticky-prices",
+            "flex-layout.col#pdp-quantity",
+            "flex-layout.col#pdp-buy-btn-sticky"
+        ],
+        "props": {
+            "colGap": 3,
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": true,
+            "blockClass": "pdp-fixed-bar-mob"
+        }
+    }
+}

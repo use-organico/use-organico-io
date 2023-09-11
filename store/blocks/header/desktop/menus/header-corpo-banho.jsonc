@@ -1,0 +1,424 @@
+{
+    "menu-item#header-menu-corpo-banho": {
+        "props": {
+            "id": "item-header-menu-corpo-banho",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "href": "/corpo-e-banho",
+                "tagTitle": "Corpo e Banho",
+                "text": "Corpo e Banho"
+            },
+            "blockClass": [
+                "header",
+                "header-hover",
+                "header-corpo-banho"
+            ]
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#header-menu-corpo-banho"
+        ]
+    },
+    "vtex.menu@2.x:submenu#header-menu-corpo-banho": {
+        "children": [
+            "flex-layout.row#header-menu-corpo-banho"
+        ],
+        "props": {
+            "blockClass": "header"
+        }
+    },
+    "flex-layout.row#header-menu-corpo-banho": {
+        "children": [
+            "flex-layout.col#header-menu-corpo-banho-menus-col",
+            "flex-layout.col#header-menu-corpo-banho-5"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-corpo-banho-menus-col": {
+        "children": [
+            "flex-layout.row#header-menu-corpo-banho-menus-row"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu-menus-col",
+            "width": "grow"
+        }
+    },
+    "flex-layout.row#header-menu-corpo-banho-menus-row": {
+        "children": [
+            "flex-layout.col#header-menu-corpo-banho-1",
+            "flex-layout.col#header-menu-corpo-banho-2",
+            "flex-layout.col#header-menu-corpo-banho-3",
+            "flex-layout.col#header-menu-corpo-banho-4"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "header-menu-menus-row"
+        }
+    },
+    "flex-layout.col#header-menu-corpo-banho-1": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-corpo-banho-cuidado-com-corpo"
+        ],
+        "props": {
+            "rowGap": 5,
+            "preventVerticalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-corpo-banho-cuidado-com-corpo": {
+        "title": "Menu Cuidado com o Corpo",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-corpo-banho-cuidado-com-corpo-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/cuidados-com-o-corpo",
+                        "noFollow": false,
+                        "tagTitle": "Cuidado com o Corpo",
+                        "text": "Cuidado com o Corpo"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-corpo-banho-cuidado-com-corpo-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/cuidados-com-o-corpo/hidratante-corporal",
+                        "noFollow": false,
+                        "tagTitle": "Hidratante Corporal",
+                        "text": "Hidratante Corporal"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-corpo-banho-cuidado-com-corpo-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/cuidados-com-o-corpo/esfoliante-corporal",
+                        "noFollow": false,
+                        "tagTitle": "Esfoliante Corporal",
+                        "text": "Esfoliante Corporal"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-corpo-banho-cuidado-com-corpo-4",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/cuidados-com-o-corpo/oleo-corporal",
+                        "noFollow": false,
+                        "tagTitle": "Oléo Corporal",
+                        "text": "Oléo Corporal"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-corpo-banho-cuidado-com-corpo-5",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/cuidados-com-o-corpo/sabonete-corporal",
+                        "noFollow": false,
+                        "tagTitle": "Sabonete Corporal",
+                        "text": "Sabonete Corporal"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-corpo-banho-cuidado-com-corpo-6",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/cuidados-com-o-corpo/desodorante",
+                        "noFollow": false,
+                        "tagTitle": "Desodorante",
+                        "text": "Desodorante"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-corpo-banho-cuidado-com-corpo-7",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/cuidados-com-o-corpo/repelente",
+                        "noFollow": false,
+                        "tagTitle": "Repelente",
+                        "text": "Repelente"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-corpo-banho-cuidado-com-corpo-8",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/cuidados-com-o-corpo/mascara-e-argila",
+                        "noFollow": false,
+                        "tagTitle": "Máscara e Argila",
+                        "text": "Máscara e Argila"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-corpo-banho-cuidado-com-corpo-9",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/cuidados-com-o-corpo/agua-floral",
+                        "noFollow": false,
+                        "tagTitle": "Água Floral",
+                        "text": "Água Floral"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-corpo-banho-cuidado-com-corpo-10",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/cuidados-com-o-corpo/sais-de-banho",
+                        "noFollow": false,
+                        "tagTitle": "Sais de Banho",
+                        "text": "Sais de Banho"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-corpo-banho-2": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-corpo-banho-higiene-bucal",
+            "vtex.menu@2.x:menu#header-menu-corpo-banho-ciclo-menstrual"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-corpo-banho-higiene-bucal": {
+        "title": "Menu Higiene Bucal",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-corpo-banho-higiene-bucal-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/higiene-bucal",
+                        "noFollow": false,
+                        "tagTitle": "Higiene Bucal",
+                        "text": "Higiene Bucal"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-corpo-banho-higiene-bucal-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/higiene-bucal/pasta-dental",
+                        "noFollow": false,
+                        "tagTitle": "Creme Dental",
+                        "text": "Creme Dental"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-corpo-banho-higiene-bucal-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/higiene-bucal/escova-dental",
+                        "noFollow": false,
+                        "tagTitle": "Escova Dental",
+                        "text": "Escova Dental"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-corpo-banho-ciclo-menstrual": {
+        "title": "Menu Ciclo Menstrual",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-corpo-banho-ciclo-menstrual-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/ciclo-menstrual",
+                        "noFollow": false,
+                        "tagTitle": "Ciclo Menstrual",
+                        "text": "Ciclo Menstrual"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-corpo-banho-ciclo-menstrual-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/ciclo-menstrual/absorventes-organicos",
+                        "noFollow": false,
+                        "tagTitle": "Absorventes",
+                        "text": "Absorventes"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-corpo-banho-ciclo-menstrual-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/ciclo-menstrual/coletor-menstrual",
+                        "noFollow": false,
+                        "tagTitle": "Coletor menstrual",
+                        "text": "Coletor menstrual"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-corpo-banho-3": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-corpo-banho-col-3"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-corpo-banho-col-3": {
+        "title": "Menu Coluna 3",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-corpo-banho-col-3-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/kits-corpo-e-banho",
+                        "noFollow": false,
+                        "tagTitle": "Kits Corpo e Banho",
+                        "text": "Kits Corpo e Banho"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-corpo-banho-col-3-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/cuidados-para-maos-e-pes",
+                        "noFollow": false,
+                        "tagTitle": "Cuidados para Mãos e Pés",
+                        "text": "Cuidados para Mãos e Pés"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-corpo-banho-4": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-corpo-banho-col-4"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-corpo-banho-col-4": {
+        "title": "Menu Coluna 3",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-corpo-banho-col-4-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho/acessorios",
+                        "noFollow": false,
+                        "tagTitle": "Acessórios",
+                        "text": "Acessórios"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-corpo-banho-col-4-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/marcas",
+                        "noFollow": false,
+                        "tagTitle": "Marcas",
+                        "text": "Marcas"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-corpo-banho-5": {
+        "children": [
+            "image#header-menu-corpo-banho-img"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": ["header-menu", "header-menu-image-col"]
+        }
+    },
+    "image#header-menu-corpo-banho-img": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/169032/20220914-ajuste-banners-menu-v208.png?v=638000516163770000",
+            "maxWidth": "205px",
+            "blockClass": "header-menu"
+        }
+    }
+}

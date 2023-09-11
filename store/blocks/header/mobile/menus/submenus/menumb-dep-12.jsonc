@@ -1,0 +1,81 @@
+{
+  "drawer#menuMb--dep-12": {
+    "children": [
+      "flex-layout.row#menuMb--dep-12--content"
+    ],
+    "blocks": [
+      "drawer-header#menuMb--dep-12",
+      "drawer-trigger#menuMb--dep-12--trigger"
+    ],
+    "props": {
+      "isFullWidth": true,
+      "slideDirection": "leftToRight",
+      "maxWidth": "80%",
+      "renderingStrategy": "eager",
+      "blockClass": [
+        "menuMb",
+        "menuMb__department"
+      ]
+    }
+  },
+  "drawer-header#menuMb--dep-12": {
+    "children": [
+      "drawer-close-button#menuMb--return"
+      // "rich-text#menuMb--dep-12--title"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__menuDepartment"
+      ]
+    }
+  },
+  // "rich-text#menuMb--dep-12--title": {
+  //   "props": {
+  //     "text": "Voltar",
+  //     "blockClass": [
+  //       "menuMb__title",
+  //       "menuMb__departmentTitle"
+  //     ]
+  //   },
+  //   "title": "Department 12 - Title"
+  // },
+  "drawer-trigger#menuMb--dep-12--trigger": {
+    "children": [
+      "rich-text#menu-mobile--dep-12--trigger"
+    ]
+  },
+  "rich-text#menu-mobile--dep-12--trigger": {
+    "props": {
+      "text": "Prescritores",
+      "blockClass": [
+        "menuMb__trigger",
+        "menuMb__departmentTrigger"
+      ]
+    },
+    "title": "Department 12 - Trigger"
+  },
+  "flex-layout.row#menuMb--dep-12--content": {
+    "children": [
+      "vtex.menu@2.x:menu#menuMb--dep-12--menu"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__content",
+        "menuMb__departmentContent"
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#menuMb--dep-12--menu": {
+    "children": [
+      "vtex.menu@2.x:menu#header-menu-prescritores-mob"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__departmentMenu"
+      ]
+    },
+    "title": "Department 12 Menu"
+  }
+}

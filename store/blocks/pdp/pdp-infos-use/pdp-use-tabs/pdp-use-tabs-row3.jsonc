@@ -1,0 +1,69 @@
+{
+    "flex-layout.row#pdp-use-tabs-row-3": {
+        "children": [
+            "flex-layout.col#pdp-use-tabs-row-3-1",
+            "flex-layout.col#pdp-use-tabs-row-3-2"
+        ],
+        "props": {
+            "fullWidth": false,
+            "blockClass": "pdp-use-tabs-row-3"
+        }
+    },
+    "flex-layout.col#pdp-use-tabs-row-3-1": {
+        "children": [
+            "rich-text#pdp-use-tabs-row-3-1",
+            "responsive-layout.mobile#pdp-use-tabs-row-3",
+            "rich-text#pdp-use-tabs-row-3-2"
+        ],
+        "props": {
+            "width": "32%",
+            "blockClass": "pdp-use-tabs-row-3"
+        }
+    },
+    "rich-text#pdp-use-tabs-row-3-1": {
+        "props": {
+            "text": "### Escovar os dentes é um ritual de bem-estar. Aproveite o momento! \n\n Momento de vida saudável é quase como um ritual. Alongar-se ao acordar, abrir a janela para sentir a energia do dia ou escovar os dentes. \n\n Você respeita seu bem-estar, você está consciente e aprecia a vida. Foi pensando nos seus momentos de vida saudável que escolhemos cada detalhe, como a nossa fórmula natural, que é livre de parabenos, flúor, aromas artificiais e triclosan. \n\n Agora você pode escovar os dentes com a consciência tranquila, apreciando seus momentos saudáveis, percebendo a textura, o aroma e o sabor, tornando a escovação um ritual de bem-estar.",
+            "blockClass": "pdp-use-tabs-row-2-1"
+        }
+    },
+    "rich-text#pdp-use-tabs-row-3-2": {
+        "props": {
+            "text": "#### Sua consciência tranquila com o Creme Dental da Use \n • Sem flúor, parabenos, triclosan, corantes e aromas artificiais \n • Vegano e não testado em animais \n • Contém xilitol, que auxilia na prevenção de cáries \n • Contém óleos puros de menta, eucalipto, melaleuca orgânica e coco orgânico, antibacterianos naturais que promovem sabor e hálito refrescante, além de cuidarem da saúde das gengivas \n • Embalagem de fonte renovável originária de cana de açúcar \n • Sem glúten",
+            "blockClass": "pdp-use-tabs-row-3-2"
+        }
+    },
+    "flex-layout.col#pdp-use-tabs-row-3-2": {
+        "children": [
+            "responsive-layout.desktop#pdp-use-tabs-row-3",
+            "rich-text#pdp-use-tabs-row-3-3"
+        ],
+        "props": {
+            "horizontalAlign": "right",
+            "blockClass": "pdp-use-tabs-row-3"
+        }
+    },
+    "responsive-layout.desktop#pdp-use-tabs-row-3": {
+        "children": [
+            "image#pdp-use-tabs-row-3"
+        ]
+    },
+    "responsive-layout.mobile#pdp-use-tabs-row-3": {
+        "children": [
+            "image#pdp-use-tabs-row-3"
+        ]
+    },
+    "image#pdp-use-tabs-row-3": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/image-third-row-new-pdp-marca.png",
+            "blockClass": "pdp-use-tabs-row-3"
+        }
+    },
+    "rich-text#pdp-use-tabs-row-3-3": {
+        "props": {
+            "text": "### Escove seus dentes pelo menos 3 vezes ao dia \n\n após as refeições e antes de dormir ou conforme recomendação do seu dentista. \n\n [Quero experimentar o sabor da Melaleuca](#)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "pdp-use-tabs-row-3-3"
+        }
+    }
+}

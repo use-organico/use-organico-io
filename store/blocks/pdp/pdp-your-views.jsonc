@@ -1,0 +1,46 @@
+{
+  "flex-layout.row#pdp-your-views": {
+    "children": [
+      "flex-layout.col#pdp-your-views-col"
+    ],
+    "props": {
+      "blockClass": "pdp-your-views"
+    }
+  },
+  "flex-layout.col#pdp-your-views-col": {
+    "children": [
+      "rich-text#pdp-your-views-title",
+      "product-reviews"
+    ],
+    "props": {
+      "blockClass": "pdp-your-views-col"
+    }
+  },
+  "rich-text#pdp-your-views-title": {
+    "props": {
+      "blockClass": "pdp-your-views-title",
+      "text": "Confira a opinião dos nossos clientes"
+    }
+  },
+  "flex-layout.row#pdp-your-views-row-1": {
+    "props": {
+      "blockClass": "pdp-your-views-row-1"
+    },
+    "children": [
+      "product-rating-summary",
+      "flex-layout.row#average-container-pdp-2"
+    ]
+  },
+  "flex-layout.row#average-container-pdp-2": {
+    "props": {
+      "blockClass": "average-container-pdp-2",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#average-percentage-image",
+      "rich-text#average-percentage-text"
+    ]
+  }
+}

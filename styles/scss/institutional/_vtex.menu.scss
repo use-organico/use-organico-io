@@ -1,0 +1,37 @@
+@import "../variables";
+
+.menuItem {
+  &--institutional {
+    height: 40px;
+    display: flex;
+    font-size: 14px;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+    .styledLinkContent {
+      font-size: 14px;
+    }
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--institutional-content-manifesto-use)
+  .menuItem--institutional-manifesto-use,
+:global(.vtex-flex-layout-0-x-flexCol--institutional-content-selos-e-certificacoes)
+  .menuItem--institutional-selos-e-certificacoes,
+:global(.vtex-flex-layout-0-x-flexCol--institutional-content-politica-de-privacidade)
+  .menuItem--institutional-politica-de-privacidade,
+:global(.vtex-flex-layout-0-x-flexCol--institutional-content-troca-e-devolucao)
+  .menuItem--institutional-troca-e-devolucao,
+:global(.vtex-flex-layout-0-x-flexCol--institutional-content-formas-de-pagamento)
+  .menuItem--institutional-formas-de-pagamento,
+:global(.vtex-flex-layout-0-x-flexCol--institutional-content-regra-de-frete)
+  .menuItem--institutional-regra-de-frete {
+  border-color: #8db935;
+}
+
+@media (max-width: 1024px) {
+  .menuContainer--institutional {
+    flex-wrap: wrap;
+  }
+}

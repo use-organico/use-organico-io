@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#row-home-benefits-benefit-3": {
+    "children": [
+      "image#image-home-benefits-benefit-3",
+      "rich-text#text-home-benefits-benefit-3"
+    ],
+    "props": {
+      "blockClass": ["row-home-benefits-benefit", "row-home-benefits-benefit-3"],
+      "horizontalAlign": "left",
+      "colSizing": "auto"
+    }
+  },
+  "image#image-home-benefits-benefit-3": {
+    "props": {
+      "src": "assets/images/home-benefits-3.png",
+      "maxHeight": 40
+    }
+  },
+  "rich-text#text-home-benefits-benefit-3": {
+    "props": {
+      "blockClass": ["text-home-benefits-benefit", "text-home-benefits-benefit-3"],
+      "text": "Entrega rápida para todo Brasil" 
+    }
+  }
+}

@@ -1,0 +1,303 @@
+{
+    "flex-layout.row#marcas-slider-list": {
+        "title": "Marcas Slider List",
+        "children": [
+            "flex-layout.col#marcas-slider-list"
+        ],
+        "props": {
+            "blockClass": "marcas-slider-list"
+        }
+    },
+    "flex-layout.col#marcas-slider-list": {
+        "children": [
+            "rich-text#marcas-slider-list-title",
+            "slider-layout#marcas-slider-list"
+        ],
+        "props": {
+            "blockClass": "marcas-slider-list"
+        }
+    },
+    "rich-text#marcas-slider-list-title": {
+        "title": "Título Marcas",
+        "props": {
+            "text": "# Marcas mais procuradas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "marcas-slider-list-title"
+            ]
+        }
+    },
+    "slider-layout#marcas-slider-list": {
+        "children": [
+            "link#marcas-slider-list-1",
+            "link#marcas-slider-list-2",
+            "link#marcas-slider-list-3",
+            "link#marcas-slider-list-4",
+            "link#marcas-slider-list-5",
+            "link#marcas-slider-list-6",
+            "link#marcas-slider-list-7",
+            "link#marcas-slider-list-8",
+            "link#marcas-slider-list-9",
+            "link#marcas-slider-list-10",
+            "link#marcas-slider-list-11",
+            "link#marcas-slider-list-12",
+            "link#marcas-slider-list-13",
+            "link#marcas-slider-list-14",
+            "link#marcas-slider-list-15"
+        ],
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "always",
+            "showNavigationArrows": "never",
+            "blockClass": [
+                "marcas-slider-list"
+            ]
+        }
+    },
+    "link#marcas-slider-list-1": {
+        "children": [
+            "rich-text#marcas-slider-list-1"
+        ],
+        "props": {
+            "blockClass": "marcas-slider-list"
+        }
+    },
+    "rich-text#marcas-slider-list-1": {
+        "props": {
+            "text": "![](/arquivos/bioessencia.jpg) \n\n BioEssência",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "marcas-slider-list-item"
+        }
+    },
+    "link#marcas-slider-list-2": {
+        "children": [
+            "rich-text#marcas-slider-list-2"
+        ],
+        "props": {
+            "blockClass": "marcas-slider-list"
+        }
+    },
+    "rich-text#marcas-slider-list-2": {
+        "props": {
+            "text": "![](/arquivos/surya-brasil.jpg) \n\n Surya Brasil",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "marcas-slider-list-item"
+        }
+    },
+    "link#marcas-slider-list-3": {
+        "children": [
+            "rich-text#marcas-slider-list-3"
+        ],
+        "props": {
+            "blockClass": "marcas-slider-list"
+        }
+    },
+    "rich-text#marcas-slider-list-3": {
+        "props": {
+            "text": "![](/arquivos/terraflor.jpg) \n\n TerraFlor",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "marcas-slider-list-item"
+        }
+    },
+    "link#marcas-slider-list-4": {
+        "children": [
+            "rich-text#marcas-slider-list-4"
+        ],
+        "props": {
+            "blockClass": "marcas-slider-list"
+        }
+    },
+    "rich-text#marcas-slider-list-4": {
+        "props": {
+            "text": "![](/arquivos/bee-basics.jpg) \n\n Bee Basics",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "marcas-slider-list-item"
+        }
+    },
+    "link#marcas-slider-list-5": {
+        "children": [
+            "rich-text#marcas-slider-list-5"
+        ],
+        "props": {
+            "blockClass": "marcas-slider-list"
+        }
+    },
+    "rich-text#marcas-slider-list-5": {
+        "props": {
+            "text": "![](/arquivos/souvie.jpg) \n\n Souvie",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "marcas-slider-list-item"
+        }
+    },
+    "link#marcas-slider-list-6": {
+        "children": [
+            "rich-text#marcas-slider-list-6"
+        ],
+        "props": {
+            "blockClass": "marcas-slider-list"
+        }
+    },
+    "rich-text#marcas-slider-list-6": {
+        "props": {
+            "text": "![](/arquivos/inciclo.jpg) \n\n Inciclo",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "marcas-slider-list-item"
+        }
+    },
+    "link#marcas-slider-list-7": {
+        "children": [
+            "rich-text#marcas-slider-list-7"
+        ],
+        "props": {
+            "blockClass": "marcas-slider-list"
+        }
+    },
+    "rich-text#marcas-slider-list-7": {
+        "props": {
+            "text": "![](/arquivos/benecos.jpg) \n\n Benecos",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "marcas-slider-list-item"
+        }
+    },
+    "link#marcas-slider-list-8": {
+        "children": [
+            "rich-text#marcas-slider-list-8"
+        ],
+        "props": {
+            "blockClass": "marcas-slider-list"
+        }
+    },
+    "rich-text#marcas-slider-list-8": {
+        "props": {
+            "text": "![](/arquivos/BOB.jpg) \n\n B.O.B",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "marcas-slider-list-item"
+        }
+    },
+    "link#marcas-slider-list-9": {
+        "children": [
+            "rich-text#marcas-slider-list-9"
+        ],
+        "props": {
+            "blockClass": "marcas-slider-list"
+        }
+    },
+    "rich-text#marcas-slider-list-9": {
+        "props": {
+            "text": "![](/arquivos/organica.jpg) \n\n Orgânica",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "marcas-slider-list-item"
+        }
+    },
+    "link#marcas-slider-list-10": {
+        "children": [
+            "rich-text#marcas-slider-list-10"
+        ],
+        "props": {
+            "blockClass": "marcas-slider-list"
+        }
+    },
+    "rich-text#marcas-slider-list-10": {
+        "props": {
+            "text": "![](/arquivos/boni-natural.jpg) \n\n Boni Natural",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "marcas-slider-list-item"
+        }
+    },
+    "link#marcas-slider-list-11": {
+        "children": [
+            "rich-text#marcas-slider-list-11"
+        ],
+        "props": {
+            "blockClass": "marcas-slider-list"
+        }
+    },
+    "rich-text#marcas-slider-list-11": {
+        "props": {
+            "text": "![](/arquivos/harmonie-aromaterapia.jpg) \n\n Harmonie aromaterapia",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "marcas-slider-list-item"
+        }
+    },
+    "link#marcas-slider-list-12": {
+        "children": [
+            "rich-text#marcas-slider-list-12"
+        ],
+        "props": {
+            "blockClass": "marcas-slider-list"
+        }
+    },
+    "rich-text#marcas-slider-list-12": {
+        "props": {
+            "text": "![](/arquivos/arte-dos-aromas.jpg) \n\n Arte dos Aromas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "marcas-slider-list-item"
+        }
+    },
+    "link#marcas-slider-list-13": {
+        "children": [
+            "rich-text#marcas-slider-list-13"
+        ],
+        "props": {
+            "blockClass": "marcas-slider-list"
+        }
+    },
+    "rich-text#marcas-slider-list-13": {
+        "props": {
+            "text": "![](/arquivos/wnf.jpg) \n\n WFN",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "marcas-slider-list-item"
+        }
+    },
+    "link#marcas-slider-list-14": {
+        "children": [
+            "rich-text#marcas-slider-list-14"
+        ],
+        "props": {
+            "blockClass": "marcas-slider-list"
+        }
+    },
+    "rich-text#marcas-slider-list-14": {
+        "props": {
+            "text": "![](/arquivos/cativa-natureza.jpg) \n\n Cativa Natureza",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "marcas-slider-list-item"
+        }
+    },
+    "link#marcas-slider-list-15": {
+        "children": [
+            "rich-text#marcas-slider-list-15"
+        ],
+        "props": {
+            "blockClass": "marcas-slider-list"
+        }
+    },
+    "rich-text#marcas-slider-list-15": {
+        "props": {
+            "text": "![](/arquivos/novo-logo-use.png) \n\n Use Orgânico",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "marcas-slider-list-item"
+        }
+    }
+}

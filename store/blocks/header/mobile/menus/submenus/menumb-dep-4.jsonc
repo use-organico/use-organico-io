@@ -1,0 +1,83 @@
+{
+  "drawer#menuMb--dep-4": {
+    "children": [
+      "flex-layout.row#menuMb--dep-4--content"
+    ],
+    "blocks": [
+      "drawer-header#menuMb--dep-4",
+      "drawer-trigger#menuMb--dep-4--trigger"
+    ],
+    "props": {
+      "isFullWidth": true,
+      "slideDirection": "leftToRight",
+      "maxWidth": "80%",
+      "renderingStrategy": "eager",
+      "blockClass": [
+        "menuMb",
+        "menuMb__department"
+      ]
+    }
+  },
+  "drawer-header#menuMb--dep-4": {
+    "children": [
+      "drawer-close-button#menuMb--return"
+      // "rich-text#menuMb--dep-4--title"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__menuDepartment"
+      ]
+    }
+  },
+  // "rich-text#menuMb--dep-4--title": {
+  //   "props": {
+  //     "text": "Voltar",
+  //     "blockClass": [
+  //       "menuMb__title",
+  //       "menuMb__departmentTitle"
+  //     ]
+  //   },
+  //   "title": "Department 4 - Title"
+  // },
+  "drawer-trigger#menuMb--dep-4--trigger": {
+    "children": [
+      "rich-text#menu-mobile--dep-4--trigger"
+    ]
+  },
+  "rich-text#menu-mobile--dep-4--trigger": {
+    "props": {
+      "text": "Gestante e bebê",
+      "blockClass": [
+        "menuMb__trigger",
+        "menuMb__departmentTrigger"
+      ]
+    },
+    "title": "Department 4 - Trigger"
+  },
+  "flex-layout.row#menuMb--dep-4--content": {
+    "children": [
+      "vtex.menu@2.x:menu#menuMb--dep-4--menu"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__content",
+        "menuMb__departmentContent"
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#menuMb--dep-4--menu": {
+    "children": [
+      "menu-item#header-menu-gestante-bebe-mob-ver-todos",
+      "vtex.menu@2.x:menu#header-menu-gestante-bebe-gestante",
+      "vtex.menu@2.x:menu#header-menu-gestante-bebe-col-2"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__departmentMenu"
+      ]
+    },
+    "title": "Department 4 Menu"
+  }
+}

@@ -1,0 +1,78 @@
+@import "../_variables";
+
+@media (min-width: 1025px) {
+  .flexCol--header-logo-desktop {
+    width: 190px !important;
+  }
+}
+
+.flexRow {
+  &--header {
+    &-mobile{
+      padding-top: 10px;
+    }
+    &-infoBar{
+      height: 30px;
+      display: flex;
+      background: #F3F1E5;
+      @media screen and (max-width:768px){
+        height: 24px;
+      }
+    }
+    &-menus {
+      background-color: #fff;
+      :global(.vtex-store-components-3-x-container) {
+        padding-left: 0;
+      }
+    }
+    &-submenu {
+      width: 100%;
+
+      &-verde {
+        width: 100%;
+
+        .flexCol--header-menu-image-col {
+          display: none;
+        }
+
+        
+      }
+      &-marcas {
+        width: 100%;
+      }
+    }
+  }
+  &--container-drawer {
+    width: 100%;
+    max-width: 100%;
+  }
+  .flexRowContent{
+    &--header{
+      &-infoBar{
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  &--menuMb{
+    &__menu-wrapper,
+    &__departmentContent{
+      width: 100%;
+    }
+  }
+}
+.flexCol{
+  &--header {
+    &-logo-mobile{
+      justify-content: center;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .flexRow--header-desktop {
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+}

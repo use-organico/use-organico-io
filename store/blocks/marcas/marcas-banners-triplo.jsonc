@@ -1,0 +1,48 @@
+{
+    "flex-layout.row#marcas-banner-triplo": {
+        "title": "Banner Triplo",
+        "children": [
+            "list-context.image-list#marcas-banner-triplo"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "marcas-banner-triplo"
+        }
+    },
+    "list-context.image-list#marcas-banner-triplo": {
+        "title": "Banner Principal Mobile",
+        "children": [
+            "slider-layout#marcas-banner-triplo"
+        ],
+        "props": {
+            "height": "auto",
+            "images": [
+                {
+                    "image": "https://useorganico.vteximg.com.br/arquivos/ids/166348/banner_904x500.png"
+                },
+                {
+                    "image": "https://useorganico.vteximg.com.br/arquivos/ids/166349/banner_440x239_01.png"
+                },
+                {
+                    "image": "https://useorganico.vteximg.com.br/arquivos/ids/166350/banner_440x239_02.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#marcas-banner-triplo": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "always",
+            "showNavigationArrows": "never",
+            "blockClass": [
+                "marcas-banner-triplo",
+                "home-banner"
+            ]
+        }
+    }
+}

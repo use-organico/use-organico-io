@@ -1,0 +1,67 @@
+@import "../variables";
+@import "./embalagem/vtex.store-link";
+
+@media (min-width: 1025px) {
+  .link--lp-dia-da-arvore {
+    display: flex;
+    text-align: center;
+    padding: 15px 40px;
+    align-items: center;
+    margin: 10px 0 15px;
+    text-decoration: none;
+    justify-content: center;
+    background-color: $useorganico-orange;
+    .label {
+      color: #fff;
+      display: flex;
+      font-weight: 700;
+      font-size: 1.6rem;
+      font-style: italic;
+      align-items: center;
+      text-transform: uppercase;
+      &::before {
+        width: 0;
+        height: 0;
+        content: "";
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: middle;
+        border-left: 15px solid #fff;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .link--lp-dia-da-arvore {
+    display: flex;
+    margin: 10px 0 15px;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    padding: 15px 20px 15px 30px;
+    background: $useorganico-orange;
+    .label {
+      text-indent: 6px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      text-align: center;
+      font-style: italic;
+      color: $useorganico-white;
+      text-transform: uppercase;
+      &::before {
+        width: 0;
+        height: 0;
+        content: "";
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: middle;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid #fff;
+      }
+    }
+  }
+}

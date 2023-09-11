@@ -1,0 +1,67 @@
+@import "../_variables";
+
+.carouselStatusDotActive {
+    margin-right: 5px;
+    border-radius: initial;
+    width: 25px!important;
+    height: 3px!important;
+    padding: 0;
+    opacity: 1;
+    border: none;
+    background-color: #0c1e1b;
+  transition: background 0.3s ease, border-color 0.3s ease;
+  :first-child {
+    fill: #0c1e1b!important;
+  }
+}
+.carouselStatusDotInactive {
+  margin-right: 5px;
+  border-radius: initial;
+  width: 10px!important;
+  height: 3px!important;
+  padding: 0;
+  opacity: .3;
+  border: none;
+  background-color: #0c1e1b;
+  transition: background 0.3s ease, border-color 0.3s ease;
+  :first-child {
+    fill: #0c1e1b !important;
+  }
+}
+
+.carouselSliderText {
+  min-height: 100px;
+  font-size: 12px;
+  color: #0C1E1B;
+  line-height: 24px;
+}
+
+.carouselArrowButton {
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  box-shadow: 0px 1px 4px rgb(0 0 0 / 10%);
+  .carouselArrowIcon {
+    width: 28px !important;
+    height: 28px !important;
+  }
+}
+
+.carouselSliderContent {
+  min-width: 300px;
+}
+.carouselSliderItemActive{
+  padding-top: 16px;
+  background: #F3F1E5;
+  border-radius: 10px;
+}
+.carouselSliderName{
+  font-weight: 500;
+  margin-bottom: 0;
+  color: #0C1E1B;
+  font-size: 14px;
+  line-height: 24px;
+}
+.ratingStarsActive {
+  fill: #4B6D47;
+}

@@ -1,0 +1,189 @@
+@import "../_variables";
+
+.container {
+  &--shelf {
+    @media (min-width: 1025px) {
+      margin: 0 12px;
+    }
+    @media (max-width: 1024px) {
+      margin: 0 10px;
+    }
+    max-width: 100% !important;
+    .element {
+      justify-content: space-between;
+      .imageNormal {
+        max-height: 12.32rem;
+      }
+      .productBrandContainer{
+        text-align: left;
+        color:#4B6D47;
+        margin: 14px 0;
+        
+        @media (max-width: 1024px) {
+          font-size: 12px;
+        }
+      }
+      .nameContainer {
+        padding: 0;
+        min-height: 39px;
+        justify-content: flex-start;
+        .productNameContainer {
+          text-align: left;
+          @media (min-width: 1025px) {
+            .productBrand {
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 20px;
+              color: $useorganico-black;
+
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              text-overflow: ellipsis;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+            }
+          }
+          @media (max-width: 1024px) {
+            .productBrand {
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 20px;
+              color: $useorganico-black;
+              margin-bottom: 20px;
+              display: block;
+
+              display: -webkit-box;
+              -webkit-line-clamp: 3;
+              text-overflow: ellipsis;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+            }
+          }
+        }
+      }
+      .priceContainer {
+        padding: 0;
+        display: flex;
+        text-align: left;
+        align-items: flex-start;
+        .productPriceClass {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          .listPriceContainer {
+            gap: 5px;
+            width: 100%;
+            display: flex;
+            .price_listPriceLabel,
+            .price_listPrice {
+              margin: 0;
+              padding: 0;
+              font-size: 12px;
+              color: #acacac;
+              margin-bottom: 5px;
+              text-decoration: line-through;
+            }
+          }
+          .sellingPriceContainer {
+            gap: 5px;
+            padding: 0;
+            display: flex;
+            .sellingPriceLabel {
+              margin: 0;
+              padding: 0;
+              font-size: 12px;
+            }
+            .sellingPrice {
+              margin: 0;
+              padding: 0;
+              font-size: 12px;
+              font-weight: 700;
+            }
+          }
+          .installmentContainer {
+            gap: 5px;
+            display: flex;
+            font-size: 12px;
+            @media (min-width: 1025px) {
+              white-space: nowrap;
+            }
+            @media (max-width: 1024px) {
+              flex-wrap: wrap;
+            }
+            align-items: flex-end;
+            color: $useorganico-black;
+            .price_installment {
+              font-size: 16px;
+              font-weight: 600;
+              line-height: 16px;
+              &:last-child {
+                color: $useorganico-green;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &--search-bar {
+    .nameContainer {
+      padding: 0;
+      .productNameContainer {
+        text-align: left;
+        .brandName {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .image--product-summary-image-only-image {
+    height: 100% !important;
+  }
+  .container {
+    &--shelf {
+      height: 468px;
+      .element {
+        padding-inline: 15px;
+
+        .image {
+          height: 278px;
+          transition: 0.3s;
+        }
+        .priceContainer {
+          .productPriceClass {
+            .installmentContainer {
+              white-space: nowrap;
+            }
+          }
+        }
+        .sellingPriceContainer {
+          gap: 5px;
+          width: 35%;
+        }
+        .installmentContainer {
+          gap: 5px;
+          width: 45%;
+          display: flex;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    &--shelf {
+      .element {
+        .sellingPriceContainer,
+        .installmentContainer {
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}

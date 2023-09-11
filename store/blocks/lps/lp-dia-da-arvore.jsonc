@@ -1,0 +1,179 @@
+{
+    "store.custom#lp-dia-da-arvore": {
+        "blocks": [
+            "flex-layout.row#lp-dia-da-arvore-1",
+            "flex-layout.row#lp-dia-da-arvore-2",
+            "flex-layout.row#lp-dia-da-arvore-3",
+            "flex-layout.row#lp-dia-da-arvore-4",
+            "flex-layout.row#lp-dia-da-arvore-5"
+        ]
+    },
+    "flex-layout.row#lp-dia-da-arvore-1": {
+        "children": [
+            "flex-layout.col#lp-dia-da-arvore-1-1",
+            "flex-layout.col#lp-dia-da-arvore-1-2"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "lp-dia-da-arvore-1"
+        }
+    },
+    "flex-layout.col#lp-dia-da-arvore-1-1": {
+        "children": [
+            "rich-text#lp-dia-da-arvore-1",
+            "link#lp-dia-da-arvore-1"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass": "lp-dia-da-arvore-1-1"
+        }
+    },
+    "rich-text#lp-dia-da-arvore-1": {
+        "props": {
+            "text": "# Dia da Árvore \n\n SUAS COMPRAS AJUDARAM A \n PLANTAR NOVAS ÁRVORES",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "lp-dia-da-arvore-1"
+        }
+    },
+    "link#lp-dia-da-arvore-1": {
+        "props": {
+            "label": "SAIBA MAIS",
+            "href": "http://www.projetoplantar.com.br/index.php#comofunciona",
+            "target": "_blank",
+            "blockClass": "lp-dia-da-arvore"
+        }
+    },
+    "flex-layout.col#lp-dia-da-arvore-1-2": {
+        "children": [
+            "image#lp-dia-da-arvore-5",
+            "rich-text#lp-dia-da-arvore-1-countdown"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass": "lp-dia-da-arvore-1-2"
+        }
+    },
+    "rich-text#lp-dia-da-arvore-1-countdown": {
+        "props": {
+            "text": "21 \n\n 09 \n\n 19",
+            "blockClass": "lp-dia-da-arvore-1-countdown"
+        }
+    },
+    "flex-layout.row#lp-dia-da-arvore-2": {
+        "children": [
+            "flex-layout.col#lp-dia-da-arvore-2"
+        ],
+        "props": {
+            "blockClass": "lp-dia-da-arvore-2"
+        }
+    },
+    "flex-layout.col#lp-dia-da-arvore-2": {
+        "children": [
+            "rich-text#lp-dia-da-arvore-2",
+            "rich-text#lp-dia-da-arvore-2-itens",
+            "link#lp-dia-da-arvore-2"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass": "lp-dia-da-arvore-2"
+        }
+    },
+    "rich-text#lp-dia-da-arvore-2": {
+        "props": {
+            "text": "## Sobre a campanha",
+            "blockClass": "lp-dia-da-arvore-2"
+        }
+    },
+    "rich-text#lp-dia-da-arvore-2-itens": {
+        "props": {
+            "text": "![](/arquivos/shopping_tree.png) \n **1. Faça sua compra a partir de R$200,00** \n\n ![](/arquivos/money_tree.png) \n **2. A Use Orgânico doará R$ 19,00 para o plantio de 1 árvore** \n\n ![](/arquivos/plant_tree.png) \n **3. Iniciará o processo de Plantio** \n\n ![](/arquivos/tree_review_tree.png) \n **4. Você poderá acompanhar o rastreio no site do Projeto Plantar**",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "lp-dia-da-arvore-2-itens"
+        }
+    },
+    "link#lp-dia-da-arvore-2": {
+        "props": {
+            "label": "Acompanhe o plantio",
+            "href": "http://www.projetoplantar.com.br/index.php#comofunciona",
+            "target": "_blank",
+            "blockClass": "lp-dia-da-arvore"
+        }
+    },
+    "flex-layout.row#lp-dia-da-arvore-3": {
+        "children": [
+            "rich-text#lp-dia-da-arvore-3"
+        ],
+        "props": {
+            "blockClass": "lp-dia-da-arvore-3"
+        }
+    },
+    "rich-text#lp-dia-da-arvore-3": {
+        "props": {
+            "text": "## CONHEÇA O PROJETO PLANTAR E JUNTE-SE A NOSSA CAUSA \n\n O Projeto Plantar organiza uma teia de plantio de árvores nativas em áreas degradadas ou de alta fragilidade ambiental. Somando forças para preservar nosso mais precioso bem: a natureza. \n\n Nós destinaremos para o Projeto Plantar o valor referente a 1 muda de árvore para cada pedido a partir de R$ 200,00. \n\n Com essa doação, será iniciado o processo de plantio. Cada árvore receberá um número único referente ao pedido de cada participante. O plantio é realizado de Dezembro a Março de cada ano. \n\n Você poderá acompanhar o processo de produção de mudas, plantio e manutenção através do site do Projeto Plantar.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "lp-dia-da-arvore-3"
+        }
+    },
+    "flex-layout.row#lp-dia-da-arvore-4": {
+        "children": [
+            "link#lp-dia-da-arvore-4"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "horizontalAlign": "center",
+            "blockClass": "lp-dia-da-arvore-4"
+        }
+    },
+    "link#lp-dia-da-arvore-4": {
+        "props": {
+            "label": "Ajude-nos a plantar mais!",
+            "href": "http://www.projetoplantar.com.br",
+            "target": "_blank",
+            "blockClass": "lp-dia-da-arvore"
+        }
+    },
+    "flex-layout.row#lp-dia-da-arvore-5": {
+        "children": [
+            "flex-layout.col#lp-dia-da-arvore-5"
+        ],
+        "props": {
+            "blockClass": "lp-dia-da-arvore-5"
+        }
+    },
+    "flex-layout.col#lp-dia-da-arvore-5": {
+        "children": [
+            "rich-text#lp-dia-da-arvore-5",
+            "image#lp-dia-da-arvore-5"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "blockClass": "lp-dia-da-arvore-5"
+        }
+    },
+    "rich-text#lp-dia-da-arvore-5": {
+        "props": {
+            "text": "*Saiba mais:*",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "lp-dia-da-arvore-5"
+        }
+    },
+    "image#lp-dia-da-arvore-5": {
+        "props": {
+            "src": "/arquivos/section-5-project.png",
+            "link": {
+                "url": "http://www.projetoplantar.com.br",
+                "newTab": true
+            },
+            "maxWidth": "180px",
+            "blockClass": "lp-dia-da-arvore-5"
+        }
+    }
+}

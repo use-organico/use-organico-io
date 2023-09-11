@@ -1,0 +1,106 @@
+{
+  "product-summary.shelf#shelf-countdown": {
+    "children": [
+      "stack-layout#product-summary#shelf-countdown",
+      // "product-rating-inline",
+      "product-summary-brand",
+      "product-summary-name",
+      "condition-layout.product#product-summary-availability-countdown"
+    ],
+    "props": {
+      "blockClass": "shelf"
+    }
+  },
+  "stack-layout#product-summary#shelf-countdown": {
+    "children": [
+      "product-summary-image",
+      "flex-layout.row#product-summary-highlights-wishlist-btn-shelf-countdown"
+    ],
+    "props": {
+      "blockClass": "product-summary"
+    }
+  },
+  "flex-layout.row#product-summary-highlights-wishlist-btn-shelf-countdown": {
+    "children": [
+      "flex-layout.col#product-summary-highlights-shelf-countdown",
+      "flex-layout.col#product-summary-wishlist-btn-shelf-countdown"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "product-summary-highlights-wishlist-btn"
+    }
+  },
+  "flex-layout.col#product-summary-highlights-shelf-countdown": {
+    "children": ["product-price-savings", "flag-stock"],
+    "props": {
+      "rowGap": 2,
+      "verticalAlign": "top",
+      "preventVerticalStretch": true,
+      "blockClass": "product-summary-highlights"
+    }
+  },
+  "flex-layout.col#product-summary-wishlist-btn-shelf-countdown": {
+    "children": ["add-to-list-btn", "responsive-layout.mobile#flag-countdown-product-summary"],
+    "props": {
+      "verticalAlign": "top",
+      "preventVerticalStretch": true,
+      "blockClass": "product-summary-wishlist-btn"
+    }
+  },
+  "responsive-layout.mobile#flag-countdown-product-summary": {
+    "children": [
+      "flag-countdown"
+    ]
+  },
+  "condition-layout.product#product-summary-availability-countdown": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.row#product-summary-available-countdown",
+      "Else": "flex-layout.row#product-summary-unavailable"
+    }
+  },
+  "flex-layout.row#product-summary-available-countdown": {
+    "children": ["flex-layout.col#product-summary-available-countdown"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "product-summary-available"
+    }
+  },
+  "flex-layout.col#product-summary-available-countdown": {
+    "children": [
+      "flex-layout.row#product-summary-price",
+      "flex-layout.row#product-summary-quantity-buybtn-countdown"
+    ],
+    "props": {
+      "blockClass": "product-summary-available"
+    }
+  },
+  
+  "flex-layout.row#product-summary-quantity-buybtn-countdown": {
+    "children": [
+      "flex-layout.row#product-summary-buybtn-countdown"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["product-summary-quantity-buybtn"]
+    }
+  },
+
+  "flex-layout.row#product-summary-buybtn-countdown": {
+    "children": ["add-to-cart-button#product-summary-countdown"],
+    "props": {
+      "blockClass": "product-summary-buybtn"
+    }
+  },
+  "add-to-cart-button#product-summary-countdown": {
+    "props": {
+      "text": "Compre agora",
+      "blockClass": "product-summary"
+    }
+  }
+}

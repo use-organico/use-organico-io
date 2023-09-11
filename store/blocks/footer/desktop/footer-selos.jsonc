@@ -1,0 +1,258 @@
+{
+    "flex-layout.row#footer-selos": {
+        "title": "Selos pagamento e certificados - Container",
+        "children": [
+            "flex-layout.col#footer-formas-pagamento",
+            "flex-layout.col#footer-selos-certifications",
+            "flex-layout.col#footer-selos-security"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "footer-selos"
+        }
+    },
+    "flex-layout.col#footer-formas-pagamento": {
+        "title": "Formas de Pagamento - Container",
+        "children": [
+            "rich-text#footer-formas-pagamento-title",
+            "image#footer-formas-pagamento-image"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": ["footer-menus", "footer-selos-payment"]
+        }
+    },
+    "rich-text#footer-formas-pagamento-title": {
+        "props": {
+            "blockClass": ["footer-titles", "footer-bottom-titles"],
+            "text": "Formas de Pagamento"
+        }
+    },
+    "image#footer-formas-pagamento-image": {
+        "props": {
+          "src": "/arquivos/bandeiras-footer.png",
+          "maxHeight": 68
+        }
+      },
+    "flex-layout.col#footer-selos-payment": {
+        "title": "Formas de Pagamento - Container",
+        "children": [
+            "list-context.image-list#footer-selos-payment"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "footer-selos-payment"
+        }
+    },
+    
+    "list-context.image-list#footer-selos-payment": {
+        "children": [
+            "list-context-renderer#footer-selos"
+        ],
+        "props": {
+            "height": 31,
+            "images": [
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/logo-amex-new-footer.png?v=637972222250530000",
+                    "description": "American Express"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/logo-elo-new-footer.png?v=637972222254000000",
+                    "description": "Elo"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/logo-visa-new-footer.png?v=637972222264330000",
+                    "description": "Visa"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/logo-mastercard-new-footer.png?v=637972222257430000",
+                    "description": "Mastercard"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/logo-dinners-new-footer.png?v=637972222252270000",
+                    "description": "Dinners"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/logo-boleto-new-footer.png?v=637972222250700000",
+                    "description": "Boleto"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/logo-pix-new-footer.png?v=637972222261200000",
+                    "description": "Pix"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/logo-visa-checkout-new-footer.png?v=637972222262770000",
+                    "description": "Visa Checkout"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/logo-hipercard-new-footer.png?v=637972222255700000",
+                    "description": "Hipercard"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/logo-nubank-new-footer.png?v=637972222259000000",
+                    "description": "Nubank"
+                }
+            ],
+            "blockClass": "footer-selos"
+        }
+    },
+    "list-context-renderer#footer-selos": {
+        "props": {
+            "listElement": "div",
+            "itemElement": "div",
+            "blockClass": "footer-selos"
+        }
+    },
+    "flex-layout.col#footer-selos-security": {
+        "title": "Segurança - Container",
+        "children": [
+            "rich-text#footer-security",
+            "list-context.image-list#footer-security"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": ["footer-menus", "footer-selos-security"]
+        }
+    },
+    "rich-text#footer-security": {
+        "title": "Título - Segurança",
+        "props": {
+            "text": "Loja segura",
+            "blockClass": ["footer-bottom-titles", "footer-titles"]
+        }
+    },
+    "list-context.image-list#footer-security": {
+        "children": [
+            "list-context-renderer#footer-selos"
+        ],
+        "props": {
+            "height": 60,
+            "images": [
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/loja-confiavel-new-footer.png?v=637972224567530000",
+                    "description": "Loja Confiável"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/vtex-pci-new-footer.png?v=637972224568330000",
+                    "description": "VTEX Certified"
+                },
+                {
+                    "image": "https://cdn.confi.com.vc/reputation/110861.png",
+                    "description": "Confi",
+                    "link": {
+                        "url": "https://confi.com.vc/lojas-confiaveis/detalhes?id=110861",
+                        "openNewTab": "true"
+                    }
+                }
+            ],
+            "blockClass": "footer-selos"
+        }
+    },
+    "flex-layout.col#footer-selos-certifications": {
+        "title": "Certificações - Container",
+        "children": [
+            "rich-text#footer-certifications",
+            "list-context.image-list#footer-certifications"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": ["footer-menus", "footer-selos-certifications"]
+        }
+    },
+    "rich-text#footer-certifications": {
+        "title": "Título - Certificações",
+        "props": {
+            "text": "Certificações e sustentabilidade",
+            "blockClass": ["footer-bottom-titles", "footer-titles"]
+        }
+    },
+    "list-context.image-list#footer-certifications": {
+        "children": [
+            "list-context-renderer#footer-selos"
+        ],
+        "props": {
+            "height": 60,
+            "images": [
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/seloverified.png"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/cert-002-new-footer.png?v=637972225669830000"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/Selo_Carbono_Neutro.png"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/cert-003-new-footer.png?v=637972225670800000"
+                },
+                {
+                    "image": "https://iouseorganico.vteximg.com.br/arquivos/cert-005-new-footer.png?v=637972225673730000"
+                }
+                // {
+                //     "image": "https://iouseorganico.vteximg.com.br/arquivos/cert-006-new-footer.png?v=637972225675170000"
+                // },
+                // {
+                //     "image": "https://iouseorganico.vteximg.com.br/arquivos/cert-007-new-footer.png?v=637972225677330000"
+                // }
+            ],
+            "blockClass": "footer-selos"
+        }
+    },
+    "flex-layout.col#footer-selos-social-media": {
+        "title": "Medias Sociais - Container",
+        "children": [
+            "flex-layout.row#container-social-media-icons"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "footer-selos-social-media"
+        }
+    },
+    "flex-layout.row#container-social-media-icons":{
+        "props":{
+            "preventHorizontalStretch":true,
+            "blockClass":"container-social-media-icons"
+        },
+        "children":[
+            "image#facebook-icon",
+            "image#instagram-icon",
+            "image#youtube-icon"
+        ]
+    },
+    "image#facebook-icon":{
+        "props":{
+            "src":"https://iouseorganico.vteximg.com.br/arquivos/u-footer-newfacebook.png",
+            "alt":"",
+            "link": {
+                "url": "https://www.facebook.com/useorganico/",
+                "openNewTab": "true",
+                "attributeNofollow":true
+            },
+            "blockClass":"social-media-icon"
+        }
+    },
+    "image#instagram-icon":{
+        "props":{
+            "src":"https://iouseorganico.vteximg.com.br/arquivos/u-footer-newinstagram.png",
+            "alt":"",
+            "link": {
+                    "url": "https://www.instagram.com/useorganico/",
+                    "openNewTab": "true",
+                    "attributeNofollow":true
+                },
+            "blockClass":"social-media-icon"
+        }
+    },
+    "image#youtube-icon":{
+        "props":{
+            "src":"https://iouseorganico.vteximg.com.br/arquivos/u-footer-newyoutube.png",
+            "alt":"",
+            "link": {
+                "url": "https://www.youtube.com/useorganico/",
+                "openNewTab": "true",
+                "attributeNofollow":true
+            },
+            "blockClass":"social-media-icon"
+        }
+    }
+}

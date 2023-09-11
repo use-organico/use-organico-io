@@ -1,0 +1,28 @@
+@import "./variables";
+
+.flexRowContent {
+  &--align-items-center {
+    gap: 10px;
+    align-items: center;
+  }
+}
+
+.flexRow {
+  &--no-pd-mob {
+    :global(.vtex-store-components-3-x-container) {
+      padding: 0;
+    }
+  }
+}
+
+@import "./header/vtex.flex-layout";
+@import "./footer/vtex.flex-layout";
+@import "./home/vtex.flex-layout";
+@import "./product-summary/vtex.flex-layout";
+@import "./search/vtex.flex-layout";
+@import "./pdp/vtex.flex-layout";
+@import "./institutional/vtex.flex-layout";
+@import "./lps/vtex.flex-layout";
+@import "./professional-page/vtex.flex-layout";
+@import "./minicart/vtex.flex-layout";
+@import "./marcas/vtex.flex-layout";

@@ -1,0 +1,31 @@
+{
+    "args": {
+        "to": "pt-BR",
+        "messages": [
+            {
+                "srcLang": "en-DV",
+                "srcMessage": "store/availability-notify.title",
+                "targetMessage": "Produto esgotado no momento",
+                "context": "vtex.availability-notify@1.x"
+            },
+            {
+                "srcLang": "en-DV",
+                "srcMessage": "store/availability-notify.notify-label",
+                "targetMessage": "Não fique triste! Preencha os campos abaixo e avisaremos quando ele chegar :)",
+                "context": "vtex.availability-notify@1.x"
+            },
+            {
+                "srcLang": "en-DV",
+                "srcMessage": "store/availability-notify.name-placeholder",
+                "targetMessage": "Digite seu nome...",
+                "context": "vtex.availability-notify@1.x"
+            },
+            {
+                "srcLang": "en-DV",
+                "srcMessage": "store/availability-notify.email-placeholder",
+                "targetMessage": "Digite seu e-mail...",
+                "context": "vtex.availability-notify@1.x"
+            }
+        ]
+    }
+}

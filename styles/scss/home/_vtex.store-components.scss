@@ -1,0 +1,17 @@
+@import "../_variables";
+
+@media (min-width: 1025px) {
+    .imageElement--home-destaques{
+        max-width: 239px;
+    }
+}
+
+@media (max-width: 1024px) {
+//   .imageElement--home-indicados-person {
+//     border-radius: 10px;
+//   }
+    .imageElement--home-destaques{
+        max-width: 145px;
+    }
+}
+

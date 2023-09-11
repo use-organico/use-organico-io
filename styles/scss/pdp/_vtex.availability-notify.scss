@@ -1,0 +1,50 @@
+@import "../variables";
+
+.notiferContainer {
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .notifyLabel {
+    font-size: 14px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    .input {
+      margin-right: 0;
+      :global(.vtex-input-prefix__group) {
+        border: 0;
+        height: auto;
+        padding: 5px;
+        outline: none;
+        border-radius: 0;
+        background-color: transparent;
+        box-shadow: 1px 1px 1px #ccc;
+      }
+    }
+    :global(.vtex-button) {
+      background: #ffc001;
+      color: #fff;
+      border-color: #ffc001;
+      text-transform: none;
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 50px;
+      transition: .3s;
+      width: 100%;
+
+      &:hover {
+        opacity: .7;
+      }
+
+      :global(.vtex-button__label) {
+        padding: 5px;
+      }
+    }
+  }
+}

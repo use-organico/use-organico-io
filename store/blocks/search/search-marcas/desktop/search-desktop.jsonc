@@ -1,0 +1,12 @@
+{
+  "search-result-layout.desktop#marcas": {
+    "children": [
+      "flex-layout.row#search-breadcrumb",
+      "flex-layout.row#search-banner-seo",
+      "flex-layout.row#search-content"
+    ],
+    "props": {
+      "pagination": "infinity"
+    }
+  }
+}

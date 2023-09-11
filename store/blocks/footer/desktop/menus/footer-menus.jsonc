@@ -1,0 +1,178 @@
+{
+  "flex-layout.row#footer-menus": {
+    "title": "Container - Menus",
+    "children": [
+      "flex-layout.col#footer-menus-institucional",
+      "flex-layout.col#footer-menus-legal",
+      "flex-layout.col#footer-menus-relacionamento-com-cliente",
+      "flex-layout.col#footer-menus-socials"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "footer-menus",
+      "horizontalAlign": "between"
+    }
+  },
+  "flex-layout.col#footer-menus-socials": {
+    "title": "Coluna - Socials",
+    "children": [
+      "flex-layout.row#container-social-media-icons",
+      "back-to-top-button#footer-menus-back-to-top"
+    ],
+    "props": {
+      "verticalAlign": "top",
+      "width": "20%",
+      "blockClass": ["footer-menus", "footer-menus-socials"]
+    }
+  },
+  "back-to-top-button#footer-menus-back-to-top": {
+    "props": {
+      "blockClass": "footer-menus-back-to-top",
+      "displayThreshold": 800
+    }
+  },
+  "flex-layout.col#footer-menus-relacionamento-com-cliente": {
+    "title": "Coluna - Relacionamento com Cliente",
+    "children": [
+      "rich-text#footer-menus-relacionamento-com-cliente",
+      "rich-text#footer-menus-relacionamento-com-cliente-subtitulo",
+      "link#footer-menus-relacionamento-com-cliente-link"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["footer-menus", "footer-menus-relacionamento-com-cliente"],
+      "width": "28%"
+    }
+  },
+  "rich-text#footer-menus-relacionamento-com-cliente": {
+    "props": {
+      "text": "Relacionamento com Cliente",
+      "blockClass": "footer-titles"
+    }
+  },
+  "rich-text#footer-menus-relacionamento-com-cliente-subtitulo": {
+    "props": {
+      "text": "Estamos preparados para esclarecer suas dúvidas",
+      "blockClass": ["footer-titles", "footer-subtitles"]
+    }
+  },
+  "link#footer-menus-relacionamento-com-cliente-link": {
+    "props": {
+      "href": "/",
+      "label": "Fale conosco",
+      "blockClass": "footer-menus-relacionamento-com-cliente-link"
+    }
+  },
+  "flex-layout.col#footer-menus-legal": {
+    "children": [
+      "rich-text#footer-menus-legal",
+      "vtex.menu@2.x:menu#footer-legal"
+    ],
+    "props": {
+      "width": "22%",
+      "preventVerticalStretch": true,
+      "blockClass": ["footer-menus", "footer-menus-legal"]
+    }
+  },
+  "rich-text#footer-menus-legal": {
+    "props": {
+      "text": "Legal",
+      "blockClass": "footer-titles"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-legal": {
+    "title": "Menu Legal",
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-footer-legal-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/account",
+            "noFollow": false,
+            "tagTitle": "Política de Privacidade",
+            "text": "Política de Privacidade"
+          }
+        },
+        {
+          "id": "menu-item-footer-legal-2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/account",
+            "noFollow": false,
+            "tagTitle": "Troca e Devolução",
+            "text": "Troca e Devolução"
+          }
+        },
+        {
+          "id": "menu-item-footer-legal-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/account",
+            "noFollow": false,
+            "tagTitle": "Regra de Frete",
+            "text": "Regra de Frete"
+          }
+        }
+      ],
+      "blockClass": "footer"
+    }
+  },
+  "flex-layout.col#footer-menus-institucional": {
+    "title": "Coluna - Institucional",
+    "children": [
+      "rich-text#footer-menus-institucional",
+      "vtex.menu@2.x:menu#footer-institucional"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["footer-menus", "footer-menus-atendimento"],
+      "width": "38%"
+    }
+  },
+  "flex-layout.col#footer-menus-categorias": {
+    "title": "Coluna - Categorias",
+    "children": [
+      "rich-text#footer-menus-categorias",
+      "vtex.menu@2.x:menu#footer-categorias"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["footer-menus", "footer-menus-categorias"]
+    }
+  },
+  "flex-layout.col#footer-menus-mais-acessados": {
+    "title": "Coluna - Mais Acessados",
+    "children": [
+      "rich-text#footer-menus-mais-acessados",
+      "vtex.menu@2.x:menu#footer-mais-acessados"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["footer-menus", "footer-menus-mais-acessados"]
+    }
+  },
+  "flex-layout.col#footer-menus-destaque": {
+    "title": "Coluna - Destaques",
+    "children": [
+      "rich-text#footer-menus-destaque",
+      "vtex.menu@2.x:menu#footer-destaque",
+      "rich-text#footer-menus-atendimento",
+      "link#footer-menus-atendimento"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["footer-menus", "footer-menus-destaque"]
+    }
+  }
+}

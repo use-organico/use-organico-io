@@ -1,0 +1,22 @@
+{
+    "flex-layout.row#embalagem-use-8": {
+        "children": [
+            "link#embalagem-use-8"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "blockClass": "embalagem-use-8"
+        }
+    },
+    "link#embalagem-use-8": {
+        "props": {
+            "href": "/institucional/sobre",
+            "label": "SAIBA MAIS SOBRE NOSSAS ESCOLHAS",
+            "blockClass": [
+                "embalagem-use",
+                "embalagem-use-8"
+            ]
+        }
+    }
+}

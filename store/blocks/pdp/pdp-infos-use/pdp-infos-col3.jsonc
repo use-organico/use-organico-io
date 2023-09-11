@@ -1,0 +1,18 @@
+{
+    "flex-layout.col#pdp-infos-col3": {
+        "title": "Produto Col 3",
+        "children": [
+            "flex-layout.col#product-summary-wishlist-btn",
+            "share",
+            "sku-selector",
+            "flex-layout.row#pdp-use-pontos",
+            "flex-layout.row#pdp-price",
+            "flex-layout.row#pdp-quantity-buy-btn",
+            "flex-layout.row#pdp-shipping"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "pdp-infos"
+        }
+    }
+}

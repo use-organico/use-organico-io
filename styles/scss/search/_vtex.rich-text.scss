@@ -1,0 +1,155 @@
+@import "../_variables";
+
+.container {
+  &--search {
+    &-seo {
+      .heading {
+        font-size: 16px;
+        font-weight: 800;
+        margin: 20px 0 10px;
+      }
+      .paragraph {
+        font-size: 16px;
+        .link {
+          color: $useorganico-black;
+        }
+      }
+    }
+    &-termo-buscado {
+      align-items: center;
+    }
+    &-not-found {
+      &-ops {
+        font-size: 30px;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+      }
+      &-termo-buscado {
+        font-size: 24px;
+        color: #909090;
+        text-transform: uppercase;
+      }
+      &-text {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      &-shelf-title {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        .heading {
+          font-size: 30px;
+          font-weight: 600;
+        }
+      }
+    }
+    &-title {
+      .heading,
+      .paragraph {
+        font-weight: 700;
+        font-family: "Fraunces";
+      }
+      @media (min-width: 1025px) {
+        text-align: left;
+        .heading,
+        .paragraph {
+          font-size: 23px;
+        }
+      }
+      @media (max-width: 1025px) {
+        text-align: center;
+        margin: 20px 0 30px;
+        .heading,
+        .paragraph {
+          font-size: 20px;
+        }
+      }
+    }
+    &-banner-seo {
+      .heading {
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+      .paragraph {
+        font-size: 14px;
+        line-height: 18px;
+        .link {
+          color: #8db935;
+          font-weight: 700;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .container {
+    &--search {
+      &-termo-buscado {
+        font-size: 36px;
+      }
+    }
+  }
+
+  .paragraph--search-termo-buscado {
+    font-size: 14px;
+    line-height: 18px;
+    color: #333;
+    font-weight: 400;
+  }
+
+  .container--category-seo-top {
+    justify-content: center;
+
+    .wrapper {
+      max-width: 600px;
+      text-align: center;
+      font-size: 16px;
+      line-height: 20px;
+      color: #333;
+      margin-block: 16px 48px;
+    }
+  }
+}
+
+.container--product-summary-unavailable {
+  height: 50px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+}
+
+@media (max-width: 1024px) {
+  .paragraph--search-termo-buscado {
+    font-size: 0;
+
+    &::before {
+      content: "Você buscou por";
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+
+  .container--category-seo-top {
+    justify-content: center;
+
+    .wrapper {
+      max-width: 600px;
+      text-align: center;
+      font-size: 16px;
+      line-height: 20px;
+      color: #333;
+      margin-block: 16px 48px;
+    }
+  }
+
+  .wrapper--category-seo-top-mobile {
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+    padding-bottom: 20px !important;
+    border-bottom: solid 1px #000;
+  }
+}

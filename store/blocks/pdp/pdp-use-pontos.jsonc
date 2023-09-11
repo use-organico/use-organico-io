@@ -1,0 +1,68 @@
+{
+    "flex-layout.row#pdp-use-pontos": {
+        "children": [
+            "use-pontos",
+            "modal-trigger#pdp-use-pontos"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "pdp-use-pontos"
+        }
+    },
+    "modal-trigger#pdp-use-pontos": {
+        "children": [
+            "image#pdp-use-pontos-open-modal",
+            "modal-layout#pdp-use-pontos"
+        ],
+        "props": {
+            "blockClass": "pdp-use-pontos"
+        }
+    },
+    "image#pdp-use-pontos-open-modal": {
+        "props": {
+          "src": "/arquivos/help-circle.svg",
+          "maxHeight": 16,
+          "blockClass": "pdp-image-use-pontos-open-modal"
+        }
+    },
+    "rich-text#pdp-use-pontos-open-modal": {
+        "props": {
+            "text": "?",
+            "blockClass": "pdp-use-pontos-open-modal"
+        }
+    },
+    "modal-layout#pdp-use-pontos": {
+        "children": [
+            "modal-header#pdp-use-pontos",
+            "rich-text#pdp-use-pontos-modal-content"
+        ],
+        "props": {
+            "blockClass": "pdp-use-pontos"
+        }
+    },
+    "modal-header#pdp-use-pontos": {
+        "children": [
+            "rich-text#pdp-use-pontos-modal-header"
+        ],
+        "props": {
+            "iconCloseSize": 16,
+            "showCloseButton": true,
+            "blockClass": "pdp-use-pontos"
+        }
+    },
+    "rich-text#pdp-use-pontos-modal-header": {
+        "props": {
+            "text": "Use pontos",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "pdp-use-pontos-header"
+        }
+    },
+    "rich-text#pdp-use-pontos-modal-content": {
+        "props": {
+            "text": "**O que é use pontos?** \n\n Somente na USE ORGÂNICO você encontra as melhores ofertas e os melhores benefícios. \n\n E agora com o nosso programa de fidelidade, você vai dar um UP no seu próximo pedido. Em nosso programa de pontos, você garante um percentual do seu valor total de pedido* no site de volta para reverter em descontos na próxima compra! \n\n É muito simples: Ao acumular 1 UP em pedidos faturados e entregues, você terá disponível no checkout R$ 1,00 em crédito para a sua próxima compra. \n\n Ainda com dúvidas? Conheça mais sobre o use pontos clicando [aqui](/programa-de-fidelidade) \n\n *Você encontrará o valor de pontos dentro da página de cada produto. \n\n Caso o pagamento seja via boleto o valor de pontos será aplicado primeiramente no checkout e posteriormente o desconto será inserido na forma de pagamento.",
+            "blockClass": "pdp-use-pontos-content"
+        }
+    }
+}

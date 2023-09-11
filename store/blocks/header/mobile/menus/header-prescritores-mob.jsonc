@@ -1,0 +1,66 @@
+{
+    "menu-item#header-menu-prescritores-mob": {
+        "props": {
+            "id": "item-header-menu-prescritores-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/profissionais-da-saude",
+                "tagTitle": "Prescritores",
+                "text": "Prescritores"
+            },
+            "blockClass": "header"
+        }
+    },
+    "vtex.menu@2.x:submenu.accordion#header-menu-prescritores-mob": {
+        "children": [
+            "flex-layout.row#header-menu-prescritores-mob"
+        ],
+        "props": {
+            "blockClass": "header"
+        }
+    },
+    "flex-layout.row#header-menu-prescritores-mob": {
+        "children": [
+            "flex-layout.col#header-menu-prescritores-mob"
+        ],
+        "props": {
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-prescritores-mob": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-prescritores-mob"
+        ],
+        "props": {
+            "rowGap": 5,
+            "preventVerticalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-prescritores-mob": {
+        "title": "Menu Prescritores",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-prescritores-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Ver todos",
+                        "text": "Ver todos"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    }
+}

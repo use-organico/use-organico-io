@@ -1,0 +1,118 @@
+{
+    "responsive-layout.desktop#marcas-banner-main": {
+        "children": [
+            "flex-layout.row#marcas-banner-main"
+        ]
+    },
+    "flex-layout.row#marcas-banner-main": {
+        "title": "Banner Principal Desktop",
+        "children": [
+            "flex-layout.col#marcas-banner-main-1",
+            "flex-layout.col#marcas-banner-main-2"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "marcas-banner-main"
+        }
+    },
+    "flex-layout.col#marcas-banner-main-1": {
+        "children": [
+            "image#marcas-banner-main-1"
+        ],
+        "props": {
+            "blockClass": "marcas-banner-main-1"
+        }
+    },
+    "image#marcas-banner-main-1": {
+        "title": "Banner 1",
+        "props": {
+            "maxHeight": 440,
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/166348/banner_904x500.png",
+            "link": {
+                "url": "/beauts"
+            },
+            "blockClass": "marcas-banner-main-1"
+        }
+    },
+    "flex-layout.col#marcas-banner-main-2": {
+        "children": [
+            "image#marcas-banner-main-2",
+            "image#marcas-banner-main-3"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "marcas-banner-main-2"
+        }
+    },
+    "image#marcas-banner-main-2": {
+        "title": "Banner 2",
+        "props": {
+            "maxHeight": 200,
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/166349/banner_440x239_01.png",
+            "link": {
+                "url": "/lafes",
+                "openNewTab": "true"
+            },
+            "blockClass": "marcas-banner-main-2"
+        }
+    },
+    "image#marcas-banner-main-3": {
+        "title": "Banner 3",
+        "props": {
+            "maxHeight": 200,
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/166350/banner_440x239_02.png",
+            "link": {
+                "url": "/terraflor",
+                "openNewTab": "true"
+            },
+            "blockClass": "marcas-banner-main-3"
+        }
+    },
+    "responsive-layout.mobile#marcas-banner-main": {
+        "children": [
+            "flex-layout.row#marcas-banner-main-mob"
+        ]
+    },
+    "flex-layout.row#marcas-banner-main-mob": {
+        "title": "Banner Principal Mobile",
+        "children": [
+            "list-context.image-list#marcas-banner-main"
+        ],
+        "props": {
+            "blockClass": "marcas-banner-main"
+        }
+    },
+    "list-context.image-list#marcas-banner-main": {
+        "title": "Banner Principal Mobile",
+        "children": [
+            "slider-layout#marcas-banner-main"
+        ],
+        "props": {
+            "height": "auto",
+            "images": [
+                {
+                    "image": "https://useorganico.vteximg.com.br/arquivos/ids/166348/banner_904x500.png"
+                },
+                {
+                    "image": "https://useorganico.vteximg.com.br/arquivos/ids/166349/banner_440x239_01.png"
+                },
+                {
+                    "image": "https://useorganico.vteximg.com.br/arquivos/ids/166350/banner_440x239_02.png"
+                }
+            ]
+        }
+    },
+    "slider-layout#marcas-banner-main": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "always",
+            "showNavigationArrows": "never",
+            "blockClass": "home-banner"
+        }
+    }
+}

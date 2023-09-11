@@ -1,0 +1,16 @@
+.button {
+  background: #fff;
+  border: solid 2px #0C1E1B;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 40px;
+  color: #0C1E1B;
+}
+
+.buttonActive {
+  color: #fff;
+  background-color: #0C1E1B;
+}

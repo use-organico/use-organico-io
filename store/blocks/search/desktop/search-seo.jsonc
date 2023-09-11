@@ -1,0 +1,33 @@
+{
+    "flex-layout.row#search-seo": {
+        "title":"SEO Container",
+        "children": [
+            "flex-layout.col#search-seo"
+        ],
+        "props": {
+            "blockClass": "search-seo"
+        }
+    },
+    "flex-layout.col#search-seo": {
+        "children": [
+            "seo-text#search"
+        ],
+        "props": {
+            "blockClass": "search-seo"
+        }
+    },
+    "seo-text#search": {
+        "props": {
+            "text": "",
+            "text2": ".",
+            "btnTextClose": "Ver menos -",
+            "btnTextOpen": "Ver mais +"
+        }
+    },
+    "rich-text#search-seo-text": {
+        "props": {
+            "text": "### Shampoos veganos, naturais e orgânicos \n\n Shampoos veganos não incluem ingredientes de origem animal, cuidando dos seus cabelos e do meio ambiente com máxima eficácia. Isso inclui, por exemplo, não utilizar leite, mel ou cera de abelhas. Seguindo as normas do veganismo, todos os elementos da formulação do [shampoo vegano](https://www.useorganico.com.br/cabelos) devem ser todos de origem vegetal. Assim como os shampoos convencionais, os produtos que você encontra na [Use Orgânico](https://www.useorganico.com.br/) também possuem variações para diferentes propósitos e tipos de cabelos. \n\n ### Condicionadores veganos, naturais e orgânicos \n\n Assim como os shampoos, os [condicionadores veganos](https://www.useorganico.com.br/cabelos/condicionador) também foram desenvolvidos para todos os tipos de cabelos e com a vantagem de serem produtos sustentáveis. A combinação perfeita entre sustentabilidade, saúde e ética também está presente no mundo do tratamento capilar. A maior vantagem que você tem em usar os condicionadores que encontra na [Use Orgânico](https://www.useorganico.com.br/) é a certeza de estar aplicando um produto de qualidade e que não contém nenhum ingrediente de origem animal e que não foi testado em animais. \n\n ### Tratamento capilar com produtos orgânicos \n\n Na [Use Orgânico](https://www.useorganico.com.br/) você encontra todos os produtos que você precisa para realizar um [tratamento capilar](https://www.useorganico.com.br/cabelos/tratamento-capilar) que não prejudica o meio ambiente. Uma grande variedade de itens desenvolvidos com base natural, vegana e orgânica, para atender todas às suas necessidades. Seja qual for o seu tipo de cabelo, navegue por nossa página e comece já a criar uma rotina de [cuidados capilares](https://www.useorganico.com.br/cabelos) com produtos de qualidade e sustentáveis.",
+            "blockClass": "search-seo"
+        }
+    }
+}

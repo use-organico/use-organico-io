@@ -1,0 +1,89 @@
+@import "../../../../styles/scss/variables";
+
+.productInformation {
+  &_container {
+    padding: 15px 0;
+    p {
+      margin: 0;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        &::marker {
+          font-size: 0;
+        }
+      }
+    }
+    br {
+      line-height: 14px;
+    }
+  }
+  &_content {
+    gap: 15px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1240px;
+    flex-direction: column;
+    font-family: "Poppins";
+  }
+  &_item {
+    padding: 10px;
+    border-radius: 15px;
+    font-family: "Fraunces";
+    background-color: $useorganico-white;
+    &_title {
+      margin: 0 0 16px;
+      font-weight: 500;
+    }
+    &_value {
+      font-family: "Poppins";
+      a {
+        font-weight: 700;
+        text-decoration: none;
+        color: $useorganico-black;
+      }
+    }
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--pdp-traditional) {
+  .productInformation {
+    &_container {
+      background-color: $useorganico-grey-background;
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .productInformation {
+    &_item {
+      font-size: 14px;
+      &_title {
+        font-size: 30px;
+        font-weight: 500;
+      }
+      &_value {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .productInformation {
+    &_item {
+      font-size: 12px;
+      line-height: 24px;
+      &_title {
+        font-size: 20px;
+      }
+      &_value {
+        font-size: 12px;
+        line-height: 24px;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "flex-layout.row#pdp-use-tabs-row-6": {
+        "children": [
+            "flex-layout.col#pdp-use-tabs-row-6"
+        ],
+        "props": {
+            "fullWidth": false,
+            "blockClass": "pdp-use-tabs-row-6"
+        }
+    },
+    "flex-layout.col#pdp-use-tabs-row-6": {
+        "children": [
+            "rich-text#pdp-use-tabs-row-6"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "pdp-use-tabs-row-6"
+        }
+    },
+    "rich-text#pdp-use-tabs-row-6": {
+        "props": {
+            "text": "### 0% Itens Nocivos: é assim que a Use lança seu novo Creme Dental Natural \n\n 0% parabenos, flúor, aromas artificiais e triclosan! Nosso novo Creme Dental \n Natural não possui os principais compostos do cremes dentais comuns, \n oferecendo a você mais saúde e bem-estar. \n\n ![](/arquivos/novo-logo-use.png)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "pdp-use-tabs-row-6"
+        }
+    }
+}

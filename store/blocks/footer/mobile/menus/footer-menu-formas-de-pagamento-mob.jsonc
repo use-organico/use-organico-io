@@ -1,0 +1,33 @@
+{
+    "menu-item#footer-menu-formas-de-pagamento-mob": {
+        "props": {
+            "id": "item-footer-menu-formas-de-pagamento-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "#",
+                "tagTitle": "Formas de Pagamento",
+                "text": "Formas de Pagamento"
+            },
+            "blockClass": [
+                "footer-mobile",
+                "footer-mobile-formas-de-pagamento"
+            ]
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#footer-menu-formas-de-pagamento-mob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#footer-menu-formas-de-pagamento-mob": {
+        "children": [
+            // "vtex.menu@2.x:menu#footer-formas-de-pagamento"
+            "flex-layout.col#footer-selos-payment"
+        ],
+        "props": {
+            "blockClass": "footer-mobile"
+        }
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "flex-layout.row#embalagem-use-4": {
+        "children": [
+            "flex-layout.col#embalagem-use-4"
+        ],
+        "props": {
+            "blockClass": "embalagem-use-4"
+        }
+    },
+    "flex-layout.col#embalagem-use-4": {
+        "children": [
+            "rich-text#embalagem-use-4-1",
+            "flex-layout.row#embalagem-use-4-content",
+            "rich-text#embalagem-use-4-3"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "embalagem-use-4"
+        }
+    },
+    "rich-text#embalagem-use-4-1": {
+        "props": {
+            "text": "3.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "embalagem-use",
+                "embalagem-use-number-title",
+                "embalagem-use-number-title-black"
+            ]
+        }
+    },
+    "flex-layout.row#embalagem-use-4-content": {
+        "children": [
+            "flex-layout.col#embalagem-use-4-1",
+            "flex-layout.col#embalagem-use-4-2"
+        ],
+        "props": {
+            "blockClass": "embalagem-use-content-box-white"
+        }
+    },
+    "flex-layout.col#embalagem-use-4-1": {
+        "children": [
+            "rich-text#embalagem-use-4-2"
+        ],
+        "props": {
+            "width": "40%",
+            "verticalAlign": "top",
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true,
+            "blockClass": "embalagem-use-4-1"
+        }
+    },
+    "rich-text#embalagem-use-4-2": {
+        "props": {
+            "text": "*COR COM CONSCIÊNCIA* \n\n As caixas são impressas com tinta à base de soja, não tóxica e segura para o meio ambiente.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "embalagem-use",
+                "embalagem-use-content-box-white"
+            ]
+        }
+    },
+    "flex-layout.col#embalagem-use-4-2": {
+        "children": [
+            "image#embalagem-use-4-1"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true,
+            "blockClass": "embalagem-use-4-2"
+        }
+    },
+    "image#embalagem-use-4-1": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/caixa_landing_desktop-02-09.png?v=637030765249030000",
+            "blockClass": "embalagem-use-4-1"
+        }
+    },
+    "rich-text#embalagem-use-4-3": {
+        "props": {
+            "text": "![](/arquivos/seta_landing_preta-01-09.png)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "embalagem-use",
+                "embalagem-animation-arrow"
+            ]
+        }
+    }
+}

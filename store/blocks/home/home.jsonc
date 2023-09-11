@@ -1,0 +1,22 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#home-banner",
+      "responsive-layout.desktop#desktop-home-benefits",
+      "responsive-layout.mobile#mobile-home-text-about-useorganic",
+      "flex-layout.row#home-shelf-countdown",
+      "__fold__",
+      "flex-layout.row#home-destaques",
+      "flex-layout.row#home-shelf-ofertas",
+      "flex-layout.row#home-mais-vendidos",
+      // "flex-layout.row#home-shelf-recentes",
+      "flex-layout.row#home-yourviews",
+      // "flex-layout.row#home-indicados",
+      // "flex-layout.row#home-posts",
+      "responsive-layout.desktop#row-home-marcas",
+      "responsive-layout.mobile#row-home-marcas",
+      "flex-layout.row#home-seo"
+      // "flex-layout.row#home-insta"
+    ]
+  }
+}

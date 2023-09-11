@@ -1,0 +1,12 @@
+{
+    "flex-layout.col#pdp-infos-col2": {
+        "title": "Produto Col 2",
+        "children": [
+            "stack-layout#pdp-images"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "pdp-infos"
+        }
+    }
+}

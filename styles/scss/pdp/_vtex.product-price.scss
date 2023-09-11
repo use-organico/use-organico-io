@@ -1,0 +1,77 @@
+@import "../variables";
+
+.listPrice--pdp {
+  color: #777;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.sellingPrice--pdp {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.installments--pdp {
+  font-size: 14px;
+  .installmentsNumber {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .installmentValue {
+    font-size: 20px;
+    font-weight: 600;
+    color: $useorganico-green;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--pdp-use-tabs-row-5) {
+  .sellingPrice--pdp {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: $useorganico-white;
+    .sellingPriceValue {
+      font-weight: 700;
+      color: $useorganico-green;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--pdp-sticky-prices) {
+    .sellingPriceValue--pdp {
+      font-weight: bold;
+    }
+    .installments--pdp {
+      font-size: 12px;
+      .installmentsNumber {
+        font-size: 13px;
+      }
+      .installmentValue {
+        font-size: 13px;
+      }
+    }
+  }
+}
+:global(.vtex-flex-layout-0-x-flexColChild--pdp-infos),
+:global(.vtex-flex-layout-0-x-flexColChild--pdp-infos-mobile) {
+  .listPriceValue {
+    color: #AAAAAA;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .sellingPrice {
+    font-size: 36px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .installments--installments-pdp-mobile {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}

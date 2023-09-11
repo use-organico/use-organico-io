@@ -1,0 +1,81 @@
+{
+    "flex-layout.row#search-content-busca": {
+        "children": [
+            "flex-layout.col#search-content-busca"
+        ],
+        "props": {
+            "blockClass": "search-content-busca"
+        }
+    },
+    "flex-layout.col#search-content-busca": {
+        "children": [
+            "flex-layout.row#search-breadcrumb-mobile",
+            "flex-layout.row#search-termo-buscado",
+            "flex-layout.row#search-orderby",
+            "flex-layout.row#search-products-busca",
+            "search-pagination"
+        ],
+        "props": {
+            "blockClass": "search-content-busca"
+        }
+    },
+    "flex-layout.row#search-termo-buscado": {
+        "children": [
+            "rich-text#search-termo-buscado",
+            "search-title.v2"
+        ],
+        "props": {
+            "colGap": 3,
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "search-termo-buscado"
+        }
+    },
+    "rich-text#search-termo-buscado": {
+        "props": {
+            "text": "Resultado de busca para:",
+            "blockClass": "search-termo-buscado"
+        }
+    },
+    "flex-layout.row#search-products-busca": {
+        "children": [
+            "search-content#busca"
+        ],
+        "props": {
+            "marginBottom": 9,
+            "blockClass": "search-content"
+        }
+    },
+    "search-content#busca": {
+        "blocks": [
+            "gallery#busca",
+            "not-found"
+        ]
+    },
+    "gallery#busca": {
+        "props": {
+            "layouts": [
+                {
+                    "name": "grid",
+                    "component": "GridLineSummary",
+                    "itemsPerRow": {
+                        "desktop": 4,
+                        "mobile": 2
+                    }
+                },
+                {
+                    "name": "linha",
+                    "component": "LinhaLineSummary",
+                    "itemsPerRow": {
+                        "desktop": 4,
+                        "mobile": 1
+                    }
+                }
+            ],
+            "GridLineSummary": "product-summary.shelf",
+            "LinhaLineSummary": "product-summary.shelf"
+        }
+    }
+}

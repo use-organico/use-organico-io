@@ -1,0 +1,38 @@
+{
+    "flex-layout.row#pdp-breadcrumb": {
+        "children": [
+            "breadcrumb"
+        ],
+        "props": {
+            "blockClass": "pdp-breadcrumb"
+        }
+    },
+    "breadcrumb": {
+        "props": {
+            "showOnMobile":false,
+            "blockClass": "pdp"
+        }
+    },
+    "flex-layout.row#pdp-container-infos": {
+        "title": "Produto",
+        "children": [
+            "flex-layout.col#pdp-images-flags",
+            "flex-layout.col#pdp-infos"
+        ],
+        "props": {
+            "colJustify": "between",
+            "blockClass": "pdp-container-infos"
+        }
+    },
+    "flex-layout.row#pdp-container-infos-mobile": {
+        "title": "Produto Mobile",
+        "children": [
+            "flex-layout.col#pdp-images-flags-mobile",
+            "flex-layout.col#pdp-infos-mobile"
+        ],
+        "props": {
+            "colJustify": "between",
+            "blockClass": "pdp-container-infos"
+        }
+    }
+}

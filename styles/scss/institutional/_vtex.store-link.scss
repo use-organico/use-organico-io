@@ -1,0 +1,32 @@
+@import "../variables";
+
+@media (min-width: 1025px) {
+  .buttonLink--use-organico-confiavel-4 {
+    border: none;
+    margin-left: 25px;
+    padding: 15px 30px;
+    border-radius: 4px;
+    background-color: $useorganico-yellow;
+    .label {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: initial;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .buttonLink--use-organico-confiavel-4 {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    background-color: $useorganico-yellow;
+    .label {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: initial;
+    }
+  }
+}

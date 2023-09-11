@@ -1,0 +1,106 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#pdp-responsive-layout-row"
+    ]
+  },
+  "condition-layout.product#pdp": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "87461"
+          },
+          "toBe": true
+        }
+      ],
+      "Then": "flex-layout.row#pdp-use",
+      "Else": "flex-layout.row#pdp-responsive-layout-row"
+    }
+  },
+  "flex-layout.row#pdp-responsive-layout-row": {
+    "children": [
+      "flex-layout.col#pdp-responsive-layout-col"
+    ],
+    "props": {
+      "blockClass": "pdp-responsive-layout-row",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#pdp-responsive-layout-col": {
+    "children": [
+      "responsive-layout.desktop#pdp-traditional-desktop",
+      "responsive-layout.mobile#pdp-traditional-mobile"
+    ]
+  },
+  "responsive-layout.desktop#pdp-traditional-desktop": {
+    "children": [
+      "flex-layout.row#pdp-traditional"
+    ]
+  },
+  "flex-layout.row#pdp-traditional": {
+    "children": [
+      "flex-layout.col#pdp-traditional"
+    ],
+    "props": {
+      "blockClass": "pdp-traditional"
+    }
+  },
+  "flex-layout.col#pdp-traditional": {
+    "children": [
+      "flex-layout.row#pdp-container-infos",
+      "product-information",
+      "buy-together-custom",
+      "flex-layout.row#pdp-your-views",
+      "flex-layout.row#pdp-infos-shelf"
+    ],
+    "props": {
+      "blockClass": "pdp-traditional"
+    }
+  },
+  "flex-layout.row#pdp-buy-together": {
+    "title": "Linha Compre Junto",
+    "children": [
+      "buy-together-custom"
+    ]
+  },
+  "buy-together-component": {
+    "children": [
+      "product-summary.shelf"
+    ]
+  },
+  "rich-text#pdp-buy-together": {
+    "props": {
+      "text": "### Compre Junto",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "pdp-buy-together"
+    }
+  },
+  "flex-layout.row#pdp-use": {
+    "children": [
+      "flex-layout.col#pdp-use"
+    ],
+    "props": {
+      "blockClass": "pdp-use"
+    }
+  },
+  "flex-layout.col#pdp-use": {
+    "children": [
+      "flex-layout.row#pdp-breadcrumb",
+      "flex-layout.row#pdp-container-infos-use",
+      "responsive-layout.desktop#pdp-selos",
+      "validation-header-pdp",
+      "flex-layout.row#pdp-use-tabs"
+    ],
+    "props": {
+      "blockClass": "pdp-use"
+    }
+  },
+  "responsive-layout.desktop#pdp-selos": {
+    "children": [
+      "seal"
+    ]
+  }
+}

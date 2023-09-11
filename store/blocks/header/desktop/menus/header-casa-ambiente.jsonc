@@ -1,0 +1,251 @@
+{
+    "menu-item#header-menu-casa-ambiente": {
+        "props": {
+            "id": "item-header-menu-casa-ambiente",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "href": "/casa-e-ambiente",
+                "tagTitle": "Casa e Ambiente",
+                "text": "Casa e Ambiente"
+            },
+            "blockClass": [
+                "header",
+                "header-hover",
+                "header-casa-ambiente"
+            ]
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#header-menu-casa-ambiente"
+        ]
+    },
+    "vtex.menu@2.x:submenu#header-menu-casa-ambiente": {
+        "children": [
+            "flex-layout.row#header-menu-casa-ambiente"
+        ],
+        "props": {
+            "blockClass": "header"
+        }
+    },
+    "flex-layout.row#header-menu-casa-ambiente": {
+        "children": [
+            "flex-layout.col#header-menu-casa-ambiente-1"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-casa-ambiente-1": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-casa-ambiente-col-1"
+        ],
+        "props": {
+            "rowGap": 5,
+            "preventVerticalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-casa-ambiente-col-1": {
+        "title": "Menu Coluna 1",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-casa-ambiente-col-1-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/casa-e-ambiente/limpeza-domestica",
+                        "noFollow": false,
+                        "tagTitle": "Limpeza Doméstica",
+                        "text": "Limpeza Doméstica"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-casa-ambiente-col-1-4",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/casa-e-ambiente/aromatizador-e-incenso",
+                        "noFollow": false,
+                        "tagTitle": "Aromatizador e Incenso",
+                        "text": "Aromatizador e Incenso"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-casa-ambiente-col-1-5",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/casa-e-ambiente/agua-perfumada",
+                        "noFollow": false,
+                        "tagTitle": "Spray de Ambiente",
+                        "text": "Spray de Ambiente"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-casa-ambiente-col-1-6",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/casa-e-ambiente/acessorios",
+                        "noFollow": false,
+                        "tagTitle": "Acessórios",
+                        "text": "Acessórios"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-casa-ambiente-col-1-7",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/casa-e-ambiente/kits-casa-e-ambiente",
+                        "noFollow": false,
+                        "tagTitle": "Kits Casa e Ambiente",
+                        "text": "Kits Casa e Ambiente"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-casa-ambiente-col-1-8",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/casa-e-ambiente/velas",
+                        "noFollow": false,
+                        "tagTitle": "Velas",
+                        "text": "Velas"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-casa-ambiente-col-1-9",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/marcas",
+                        "noFollow": false,
+                        "tagTitle": "Marcas",
+                        "text": "Marcas"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-casa-ambiente-2": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-casa-ambiente-col-2"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-casa-ambiente-col-2": {
+        "title": "Menu Coluna 2",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-casa-ambiente-col-2-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/casa-e-ambiente/",
+                        "noFollow": false,
+                        "tagTitle": "Finalizador",
+                        "text": "Finalizador"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-casa-ambiente-col-2-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/casa-e-ambiente/",
+                        "noFollow": false,
+                        "tagTitle": "Tratamento Capilar",
+                        "text": "Tratamento Capilar"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-casa-ambiente-col-2-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/casa-e-ambiente/",
+                        "noFollow": false,
+                        "tagTitle": "Tintura Henna",
+                        "text": "Tintura Henna"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-casa-ambiente-col-2-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/casa-e-ambiente/",
+                        "noFollow": false,
+                        "tagTitle": "Kits de Tratamento Capilar",
+                        "text": "Kits de Tratamento Capilar"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-casa-ambiente-col-2-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/casa-e-ambiente/",
+                        "noFollow": false,
+                        "tagTitle": "Marcas",
+                        "text": "Marcas"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-casa-ambiente-3": {
+        "children": [
+            "image#header-menu-casa-ambiente-img"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu"
+        }
+    },
+    "image#header-menu-casa-ambiente-img": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/167428/banner_319x372_casa-ambiente.png",
+            "maxWidth": "205px",
+            "blockClass": "header-menu"
+        }
+    }
+}

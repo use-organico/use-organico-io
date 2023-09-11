@@ -1,0 +1,193 @@
+{
+    "flex-layout.row#home-indicados": {
+        "title": "Indicados",
+        "children": [
+            "flex-layout.col#home-indicados"
+        ],
+        "props": {
+            "blockClass": "home-indicados"
+        }
+    },
+    "flex-layout.col#home-indicados": {
+        "children": [
+            "rich-text#home-indicados-title",
+            "flex-layout.row#home-indicados-person-shelf"
+        ],
+        "props": {
+            "blockClass": "home-indicados"
+        }
+    },
+    "rich-text#home-indicados-title": {
+        "title": "Título Indicados",
+        "props": {
+            "text": "### Ane Rocha \n\n Aromaterapeuta e Psicoramaterapeuta (formada pelo CEPAPI - Centro de Estudos e Pesquisas em Aromaterapia e Práticas Integrativas). Também possui formação em fitoterapia, herbalismo, fitoenergética e florais de Saint Germain. Seu trabalho está centrado na relação que podemos estabelecer com o mundo vegetal em busca de autoconhecimento e bem estar. É mestre em antropologia pela Universidade de São Paulo (USP) e atualmente dedica-se ao estudo da legitimação das práticas integrativas no sistema de saúde brasileiro e dos usos tradicionais das plantas nativas. Compartilha informações sobre esses assuntos na Use Orgânico \n\n **Estes são os produtos indicador por ela:**",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "home-indicados"
+        }
+    },
+    "flex-layout.row#home-indicados-person-shelf": {
+        "children": [
+            "flex-layout.col#home-indicados-person",
+            "flex-layout.col#home-indicados-shelf"
+        ],
+        "props": {
+            "blockClass": "home-indicados-person-shelf"
+        }
+    },
+    "flex-layout.col#home-indicados-person": {
+        "children": [
+            "image#home-indicados-person"
+        ],
+        "props": {
+            "width": "35%",
+            "blockClass": "home-indicados-person"
+        }
+    },
+    "image#home-indicados-person": {
+        "title": "Person",
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/166395/foto_ane.png?v=637477413388700000",
+            "blockClass": "home-indicados-person"
+        }
+    },
+    "flex-layout.col#home-indicados-shelf": {
+        "children": [
+            "list-context.product-list#home-indicados"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "home-indicados-shelf"
+        }
+    },
+    "list-context.product-list#home-indicados": {
+        "title": "Shelf Indicados",
+        "blocks": [
+            "product-summary.shelf#home-indicados"
+        ],
+        "children": [
+            "slider-layout#home-indicados"
+        ],
+        "props": {
+            "category": "82",
+            "__unstableProductOriginVtex": true
+        }
+    },
+    "slider-layout#home-indicados": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "arrowSize": 16,
+            "infinite": true,
+            "showPaginationDots": "always",
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": [
+                "home-indicados",
+                "shelf"
+            ]
+        }
+    },
+    "product-summary.shelf#home-indicados": {
+        "children": [
+            "flex-layout.row#product-summary-home-indicados"
+        ],
+        "props": {
+            "blockClass": "home-indicados"
+        }
+    },
+    "flex-layout.row#product-summary-home-indicados": {
+        "children": [
+            "flex-layout.col#product-summary-home-indicados-infos",
+            "flex-layout.col#product-summary-home-indicados-img"
+        ],
+        "props": {
+            "blockClass": "product-summary-home-indicados"
+        }
+    },
+    "flex-layout.col#product-summary-home-indicados-infos": {
+        "children": [
+            "product-rating-inline",
+            "product-summary-name",
+            "product-summary-description",
+            "flex-layout.row#product-summary-price",
+            "flex-layout.row#product-summary-home-indicados-btns"
+        ],
+        "props": {
+            "blockClass": "product-summary-home-indicados-infos"
+        }
+    },
+    "flex-layout.row#product-summary-home-indicados-btns": {
+        "children": [
+            "link.product##product-summary-home-indicados-btns-1",
+            "link.product##product-summary-home-indicados-btns-2"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": true,
+            "blockClass": "product-summary-home-indicados-btns"
+        }
+    },
+    "link.product##product-summary-home-indicados-btns-1": {
+        "props": {
+            "label": "Comprar",
+            "href": "/{slug}/p",
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "primary",
+                "size": "regular"
+            },
+            "blockClass": "product-summary-home-indicados-btns-1"
+        }
+    },
+    "link.product##product-summary-home-indicados-btns-2": {
+        "props": {
+            "label": "Ver mais dicas",
+            "href": "/{slug}/p",
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "secondary",
+                "size": "regular"
+            },
+            "blockClass": "product-summary-home-indicados-btns-2"
+        }
+    },
+    "flex-layout.col#product-summary-home-indicados-btns-1": {
+        "children": [
+            "add-to-cart-button#product-summary-home-indicados-btns-1"
+        ],
+        "props": {
+            "blockClass": "product-summary-home-indicados-btns-1"
+        }
+    },
+    "add-to-cart-button#product-summary-home-indicados-btns-1": {
+        "props": {
+            "text": "Comprar",
+            "blockClass": "product-summary-home-indicados-btns-1"
+        }
+    },
+    "flex-layout.col#product-summary-home-indicados-btns-2": {
+        "children": [
+            "add-to-cart-button#product-summary-home-indicados-btns-2"
+        ],
+        "props": {
+            "blockClass": "product-summary-home-indicados-btns-2"
+        }
+    },
+    "add-to-cart-button#product-summary-home-indicados-btns-2": {
+        "props": {
+            "text": "Ver mais dicas",
+            "blockClass": "product-summary-home-indicados-btns-2"
+        }
+    },
+    "flex-layout.col#product-summary-home-indicados-img": {
+        "children": [
+            "product-summary-image"
+        ],
+        "props": {
+            "blockClass": "product-summary-home-indicados-img"
+        }
+    }
+}

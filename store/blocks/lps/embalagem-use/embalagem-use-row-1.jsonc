@@ -1,0 +1,100 @@
+{
+    "flex-layout.row#embalagem-use-1": {
+        "children": [
+            "flex-layout.col#embalagem-use-1"
+        ],
+        "props": {
+            "blockClass": "embalagem-use-1"
+        }
+    },
+    "flex-layout.col#embalagem-use-1": {
+        "children": [
+            "flex-layout.row#embalagem-use-1-content",
+            "rich-text#embalagem-use-1-1"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "embalagem-use-1"
+        }
+    },
+    "flex-layout.row#embalagem-use-1-content": {
+        "children": [
+            "flex-layout.col#embalagem-use-1-1",
+            "flex-layout.col#embalagem-use-1-2"
+        ],
+        "props": {
+            "blockClass": "embalagem-use-1-content"
+        }
+    },
+    "flex-layout.col#embalagem-use-1-1": {
+        "children": [
+            "flex-layout.row#embalagem-use-1-1-images-1",
+            "image#embalagem-use-1-3"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "preventVerticalStretch": true,
+            "blockClass": "embalagem-use-1-1"
+        }
+    },
+    "flex-layout.row#embalagem-use-1-1-images-1": {
+        "children": [
+            "image#embalagem-use-1-1",
+            "image#embalagem-use-1-2"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "embalagem-use-1-1"
+        }
+    },
+    "image#embalagem-use-1-1": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/box_landing_top_desktop-01-09.png?v=637029710556770000",
+            "blockClass": "embalagem-use-1-1"
+        }
+    },
+    "image#embalagem-use-1-2": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/top_box_landing-24-08.png?v=637022709955200000",
+            "blockClass": "embalagem-use-1-2"
+        }
+    },
+    "image#embalagem-use-1-3": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/top_text_landing-24-08.png?v=637022709966270000",
+            "blockClass": "embalagem-use-1-3"
+        }
+    },
+    "flex-layout.col#embalagem-use-1-2": {
+        "children": [
+            "rich-text#embalagem-use-1"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "preventVerticalStretch": true,
+            "blockClass": "embalagem-use-1-2"
+        }
+    },
+    "rich-text#embalagem-use-1": {
+        "props": {
+            "text": "Somos uma empresa orgulhosamente \n brasileira, apaixonada por nossos \n clientes e pelo que vendemos. \n\n Selecionamos criteriosamente cada \n produto, para garantir que você tenha acesso \n às melhores opções naturais e orgânicos. \n\n Nossa embalagem também é sustentável, feita \n com design exclusivo para que seja utilizada para \n presentear ou até para organizar seus itens em casa. \n\n Pensamos em cada detalhe, porque amamos \n compartilhar nossa paixão pela saúde e bem-estar.",
+            "blockClass": [
+                "embalagem-use",
+                "embalagem-use-1"
+            ]
+        }
+    },
+    "rich-text#embalagem-use-1-1": {
+        "props": {
+            "text": "Role para baixo e descubra! \n\n ![](/arquivos/next_landing-24-08.png)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "embalagem-use",
+                "embalagem-use-1-1",
+                "embalagem-animation-arrow"
+            ]
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "flex-layout.row#pdp-use-tabs-row-1": {
+        "children": [
+            "rich-text#pdp-use-tabs-row-1",
+            "responsive-layout.mobile#pdp-use-tabs-row-1"
+        ],
+        "props": {
+            "fullWidth": true,
+            "colSizing": "auto",
+            "blockClass": "pdp-use-tabs-row-1"
+        }
+    },
+    "rich-text#pdp-use-tabs-row-1": {
+        "props": {
+            "text": "### A use pensa em você \n\n Pensando em você, a Use Orgânico vem reunindo as melhores opções, produtos escolhidos criteriosamente para tornar ainda mais saudáveis todos os momentos do seu dia. Com nosso Novo Creme Dental Natural também é assim: ele foi especialmente desenvolvido pensando em você. Dos ingredientes não nocivos ao incrível sabor, da embalagem sustentável à textura perfeita, nós nos preocupamos com cada detalhe, para que você possa escolher tranquilo.",
+            "blockClass": "pdp-use-tabs-row-1"
+        }
+    },
+    "responsive-layout.mobile#pdp-use-tabs-row-1": {
+        "children": [
+            "image#pdp-use-tabs-row-1"
+        ]
+    },
+    "image#pdp-use-tabs-row-1": {
+        "props": {
+            "src": "/arquivos/imagem-pdp-marca-dobra-1-mobile.png",
+            "blockClass": "pdp-use-tabs-row-1"
+        }
+    }
+}

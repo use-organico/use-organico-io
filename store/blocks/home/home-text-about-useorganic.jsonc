@@ -1,0 +1,23 @@
+{
+    "responsive-layout.mobile#mobile-home-text-about-useorganic": {
+        "children": [
+            "flex-layout.row#home-text-about-useorganic"
+        ]
+    },
+    "flex-layout.row#home-text-about-useorganic": {
+        "title": "Texto abaixo do primeiro banner - Home",
+        "children": [
+            "rich-text#text-about-useorganic"
+        ],
+        "props": {
+          "blockClass": "home-text-about-useorganic"
+        }
+      },
+      "rich-text#text-about-useorganic":{
+        "title":"Texto",
+        "props":{
+            "text":"A Use Orgânico empresa de produtos de beleza, higiene e bem-estar que visa trazer a real saúde que você tanto busca.",
+            "blockClass":"text-about-useorganic"
+        }
+      }
+}

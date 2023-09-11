@@ -1,0 +1,29 @@
+@import "./variables";
+
+// General Start
+
+.heading,
+.paragraph {
+  margin: 0;
+}
+
+.wrapper--wishlist-title {
+  .headingLevel3 {
+    font-weight: 400;
+    color: #4b6d47;
+    margin-block: 20px 50px;
+  }
+}
+
+// General End
+
+@import "./header/vtex.rich-text";
+@import "./footer/vtex.rich-text";
+@import "./home/vtex.rich-text";
+@import "./search/vtex.rich-text";
+@import "./pdp/vtex.rich-text";
+@import "./institutional/vtex.rich-text";
+@import "./lps/vtex.rich-text";
+@import "./professional-page/vtex.rich-text";
+@import "./marcas/vtex.rich-text";
+@import "./product-summary/vtex.rich-text";

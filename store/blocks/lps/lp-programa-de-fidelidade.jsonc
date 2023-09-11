@@ -1,0 +1,202 @@
+{
+    "store.custom#lp-programa-de-fidelidade": {
+        "blocks": [
+            "flex-layout.row#lp-programa-de-fidelidade-1",
+            "flex-layout.row#lp-programa-de-fidelidade-2",
+            "flex-layout.row#lp-programa-de-fidelidade-3",
+            "flex-layout.row#lp-programa-de-fidelidade-4"
+        ]
+    },
+    "flex-layout.row#lp-programa-de-fidelidade-1": {
+        "children": [
+            "flex-layout.col#lp-programa-de-fidelidade-1-1",
+            "flex-layout.col#lp-programa-de-fidelidade-1-2"
+        ],
+        "props": {
+            "blockClass": "lp-programa-de-fidelidade-1"
+        }
+    },
+    "flex-layout.col#lp-programa-de-fidelidade-1-1": {
+        "children": [
+            "rich-text#lp-programa-de-fidelidade-1"
+        ],
+        "props": {
+            "width": "42%",
+            "verticalAlign": "middle",
+            "blockClass": "lp-programa-de-fidelidade-1-1"
+        }
+    },
+    "rich-text#lp-programa-de-fidelidade-1": {
+        "props": {
+            "text": "# Dê um <span class='vtex-mini-logo-use'>use orgânico</span> na sua próxima compra \n\n Programa de fidelidade Use Orgânico \n\n [Saiba mais](#description-program)",
+            "blockClass": "lp-programa-de-fidelidade-1"
+        }
+    },
+    "flex-layout.col#lp-programa-de-fidelidade-1-2": {
+        "children": [
+            "image#lp-programa-de-fidelidade-1"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "lp-programa-de-fidelidade-1-2"
+        }
+    },
+    "image#lp-programa-de-fidelidade-1": {
+        "props": {
+            "src": "/arquivos/animation-lp-firts-scroll-fidelity-program.png",
+            "blockClass": "lp-programa-de-fidelidade-1"
+        }
+    },
+    "flex-layout.row#lp-programa-de-fidelidade-2": {
+        "children": [
+            "flex-layout.col#lp-programa-de-fidelidade-2-1",
+            "flex-layout.col#lp-programa-de-fidelidade-2-2"
+        ],
+        "props": {
+            "blockClass": "lp-programa-de-fidelidade-2"
+        }
+    },
+    "flex-layout.col#lp-programa-de-fidelidade-2-1": {
+        "children": [
+            "image#lp-programa-de-fidelidade-2"
+        ],
+        "props": {
+            "width": "40%",
+            "blockClass": "lp-programa-de-fidelidade-2-1"
+        }
+    },
+    "image#lp-programa-de-fidelidade-2": {
+        "props": {
+            "src": "/arquivos/animation-lp-second-scroll-fidelity-program.png",
+            "blockClass": "lp-programa-de-fidelidade-2"
+        }
+    },
+    "flex-layout.col#lp-programa-de-fidelidade-2-2": {
+        "children": [
+            "rich-text#lp-programa-de-fidelidade-2-1",
+            "rich-text#lp-programa-de-fidelidade-2-2"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "lp-programa-de-fidelidade-2-2"
+        }
+    },
+    "rich-text#lp-programa-de-fidelidade-2-1": {
+        "props": {
+            "text": "## GANHE DESCONTO EM DINHEIRO NA SUA PRÓXIMA COMPRA! \n\n Somente na USE ORGÂNICO você encontra as melhores ofertas e os melhores benefícios. \n\n E agora com o nosso programa de fidelidade, você vai dar um UP no seu próximo pedido. Em nosso programa de pontos, você garante um percentual do seu valor total de pedido no site de volta para reverter em descontos na próxima compra! \n\n É muito simples: **cada UP equivale a R$ 1,00.** E assim que seu pedido for faturado* e entregue, seus pontos já estarão disponíveis em forma de desconto para a próxima compra. \n\n **Como Acumular Pontos?** \n\n * Na página dos produtos no site, você encontra a quantidade de UsePontos que o produto te dará; \n * Após o pedido ser faturado, você receberá o valor total de UsePontos para utilizar na sua próxima compra.",
+            "blockClass": "lp-programa-de-fidelidade-2-1"
+        }
+    },
+    "rich-text#lp-programa-de-fidelidade-2-2": {
+        "props": {
+            "text": "*Caso o pagamento seja via boleto o valor de pontos será aplicado primeiramente no checkout e posteriormente o desconto será inserido na forma de pagamento. \n *Compras canceladas após aprovação de pagamento no débito, crédito ou boleto, os pontos dados na compra são expirados automaticamente. \n *O desconto oferecido pelo programa de fidelidade Use Pontos não é cumulativo com o desconto oferecido pelo pagamento à vista, sendo válido apenas junto a promoções de produtos, campanhas sazonais e cupons de desconto.",
+            "blockClass": "lp-programa-de-fidelidade-2-2"
+        }
+    },
+    "flex-layout.row#lp-programa-de-fidelidade-3": {
+        "children": [
+            "flex-layout.col#lp-programa-de-fidelidade-3"
+        ],
+        "props": {
+            "blockClass": "lp-programa-de-fidelidade-3"
+        }
+    },
+    "flex-layout.col#lp-programa-de-fidelidade-3": {
+        "children": [
+            "rich-text#lp-programa-de-fidelidade-3",
+            "flex-layout.row#lp-programa-de-fidelidade-3-itens"
+        ],
+        "props": {
+            "blockClass": "lp-programa-de-fidelidade-3"
+        }
+    },
+    "rich-text#lp-programa-de-fidelidade-3": {
+        "props": {
+            "text": "## Veja como é simples",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "lp-programa-de-fidelidade-3"
+        }
+    },
+    "flex-layout.row#lp-programa-de-fidelidade-3-itens": {
+        "children": [
+            "rich-text#lp-programa-de-fidelidade-3-item-1",
+            "rich-text#lp-programa-de-fidelidade-3-item-2",
+            "rich-text#lp-programa-de-fidelidade-3-item-3",
+            "rich-text#lp-programa-de-fidelidade-3-item-4"
+        ],
+        "props": {
+            "blockClass": "lp-programa-de-fidelidade-3-itens"
+        }
+    },
+    "rich-text#lp-programa-de-fidelidade-3-item-1": {
+        "props": {
+            "text": "### 1 \n Escolha os produtos no site e adicione no carrinho normalmente; \n ![](/arquivos/use-pontos-pdp.png)",
+            "blockClass": "lp-programa-de-fidelidade-3-item"
+        }
+    },
+    "rich-text#lp-programa-de-fidelidade-3-item-2": {
+        "props": {
+            "text": "### 2 \n Siga os passos para finalizar a compra (faça login e escolha o endereço); \n ![](/arquivos/cart-use-pontos.png)",
+            "blockClass": "lp-programa-de-fidelidade-3-item"
+        }
+    },
+    "rich-text#lp-programa-de-fidelidade-3-item-3": {
+        "props": {
+            "text": "### 3 \n Em 'Pagamento' selecione 'Utilizar Crédito' e confira o desconto no resumo do pedido; \n ![](/arquivos/select-use-pontos.png)",
+            "blockClass": "lp-programa-de-fidelidade-3-item"
+        }
+    },
+    "rich-text#lp-programa-de-fidelidade-3-item-4": {
+        "props": {
+            "text": "### 4 \n Selecione a forma de pagamento e finalize a compra. \n ![](/arquivos/payment-use-pontos.png)",
+            "blockClass": "lp-programa-de-fidelidade-3-item"
+        }
+    },
+    "flex-layout.row#lp-programa-de-fidelidade-4": {
+        "children": [
+            "flex-layout.col#lp-programa-de-fidelidade-4-1",
+            "flex-layout.col#lp-programa-de-fidelidade-4-2"
+        ],
+        "props": {
+            "blockClass": "lp-programa-de-fidelidade-4"
+        }
+    },
+    "flex-layout.col#lp-programa-de-fidelidade-4-1": {
+        "children": [
+            "rich-text#lp-programa-de-fidelidade-4-1",
+            "rich-text#lp-programa-de-fidelidade-4-2"
+        ],
+        "props": {
+            "width": "30%",
+            "preventVerticalStretch": true,
+            "blockClass": "lp-programa-de-fidelidade-4-1"
+        }
+    },
+    "rich-text#lp-programa-de-fidelidade-4-1": {
+        "props": {
+            "text": "## Benefícios \n\n * Cada UsePontos é igual a R$ 1,00 que são acumulados e transformados em descontos na sua próxima compra; \n * Seus pontos são pessoais e intransferíveis; \n * Além do desconto do UsePontos você ainda pode ganhar FRETE GRÁTIS* em todas as suas compras, para qualquer lugar do Brasil; \n * Você compra on-line e recebe no endereço desejado com maior comodidade; \n * Comprando produtos no site da Use Orgânico, você colabora para um bem estar pessoal e com o cuidado do planeta. Confira mais da embalagem ecológica clicando aqui.",
+            "blockClass": "lp-programa-de-fidelidade-4-1"
+        }
+    },
+    "rich-text#lp-programa-de-fidelidade-4-2": {
+        "props": {
+            "text": "*Frete Grátis válido para todo o território nacional para pedidos mínimo de R$ 249,00. Primeiramente é aplicado o desconto da UsePontos e em seguida informado se o seu pedido é classificado na categoria de Frete Grátis. \n\n *Pode ter variação de acordo com a região.",
+            "blockClass": "lp-programa-de-fidelidade-4-2"
+        }
+    },
+    "flex-layout.col#lp-programa-de-fidelidade-4-2": {
+        "children": [
+            "image#lp-programa-de-fidelidade-4"
+        ],
+        "props": {
+            "blockClass": "lp-programa-de-fidelidade-4-2"
+        }
+    },
+    "image#lp-programa-de-fidelidade-4": {
+        "props": {
+            "src": "/arquivos/animation-lp-benefits-fidelity-program.png",
+            "blockClass": "lp-programa-de-fidelidade-4"
+        }
+    }
+}

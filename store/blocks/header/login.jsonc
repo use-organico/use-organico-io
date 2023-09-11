@@ -1,0 +1,20 @@
+{
+    "store.login": {
+        "blocks": [
+            "login-content#default"
+        ]
+    },
+    "login-content#default": {
+        "props": {
+            "defaultOption": 1,
+            "isInitialScreenOptionOnly": false,
+            "showPasswordVerificationIntoTooltip": true
+        }
+    },
+    "login": {
+        "props": {
+            "showIconProfile": true,
+            "iconLabel": "Faça seu Login"
+        }
+    }
+}

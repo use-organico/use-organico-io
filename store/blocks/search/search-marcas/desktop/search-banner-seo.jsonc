@@ -1,0 +1,40 @@
+{
+  "flex-layout.row#search-banner-seo": {
+    "title": "Banner and Seo Text",
+    "children": [
+      "flex-layout.col#search-banner-seo-text",
+      "flex-layout.col#search-banner-seo-image"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "search-banner-seo"
+    }
+  },
+  "flex-layout.col#search-banner-seo-text": {
+    "children": ["rich-text#search-banner-seo"],
+    "props": {
+      "blockClass": "search-banner-seo-text"
+    }
+  },
+  "rich-text#search-banner-seo": {
+    "title": "Brand Seo Text",
+    "props": {
+      "text": "# Use",
+      "blockClass": "search-banner-seo"
+    }
+  },
+  "flex-layout.col#search-banner-seo-image": {
+    "children": ["image#search-banner-seo"],
+    "props": {
+      "width": "30%",
+      "blockClass": "search-banner-seo-image"
+    }
+  },
+  "image#search-banner-seo": {
+    "title": "Banner Image",
+    "props": {
+      "src": "https://useorganico.vteximg.com.br/arquivos/ids/166644/banner_geral_categorias.png",
+      "blockClass": "search-banner-seo"
+    }
+  }
+}

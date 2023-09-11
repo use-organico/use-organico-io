@@ -1,0 +1,81 @@
+{
+  "footer-layout.desktop": {
+    "title": "Footer Desktop",
+    "children": [
+      // "link#whatsapp",
+      "flex-layout.row#footer-newsletter-desktop",
+      "flex-layout.row#footer-menus",
+      "flex-layout.row#footer-selos",
+      "flex-layout.row#footer-copyright"
+    ]
+  },
+  "flex-layout.row#footer-newsletter-desktop": {
+    "children": [
+      "flex-layout.col#footer-newsletter-desktop-col-1",
+      "flex-layout.col#footer-newsletter-desktop-col-2"
+    ],
+    "props": {
+      "blockClass": "footer-newsletter-desktop"
+    }
+  },
+  "flex-layout.col#footer-newsletter-desktop-col-1": {
+    "children": [
+      "rich-text#footer-newsletter-desktop-col-1-text"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "verticalAlign": "middle",
+      "blockClass": [
+        "footer-newsletter-desktop-col-1"
+      ]
+    }
+  },
+  "rich-text#footer-newsletter-desktop-col-1-text": {
+    "props": {
+      "text": "Junte-se às mais de 100 mil pessoas que recebem novidades e descontos exclusivos e ganhe **10% OFF** na primeira compra.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "footer-newsletter-desktop-col-1-text"
+    }
+  },
+  "flex-layout.col#footer-newsletter-desktop-col-2": {
+    "children": [
+      "newsletter-form#footer-newsletter-desktop"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": [
+        "footer-newsletter-desktop-col-2"
+      ]
+    }
+  },
+  "newsletter-form#footer-newsletter-desktop": {
+    "children": [
+      "newsletter-input-name#footer-newsletter-input-name",
+      "newsletter-input-email#footer-newsletter-input-email",
+      "rich-text#footer-newsletter-desktop",
+      "newsletter-submit"
+    ],
+    "props": {
+      "blockClass": "footer-newsletter-desktop"
+    }
+  },
+  "newsletter-input-name#footer-newsletter-input-name": {
+    "props": {
+      "inputLabel": "Nome*:",
+      "placeholderText": "Digite seu nome"
+    }
+  },
+  "newsletter-input-email#footer-newsletter-input-email": {
+    "props": {
+      "inputLabel": "E-mail*:",
+      "placeholderText": "lucas@email.com"
+    }
+  },
+  "rich-text#footer-newsletter-desktop": {
+    "props": {
+      "blockClass": "footer-newsletter-desktop",
+      "text": "Ao clicar em “Cadastrar”, aceito receber e-mails com novidades e promoções Use Orgânico (cupom não cumulativo)."
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "rich-text#footer-menus-mais-acessados": {
+    "title": "Mais Acessados Título",
+    "props": {
+      "text": "Mais Acessados",
+      "blockClass": "footer-titles"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-mais-acessados": {
+    "title": "Menu Mais Acessados",
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-footer-mais-acessados-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/use-organico",
+            "noFollow": false,
+            "tagTitle": "Use Orgânico",
+            "text": "Use Orgânico"
+          }
+        },
+        {
+          "id": "menu-item-footer-mais-acessados-2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/aromaterapia/oleo-essencial",
+            "noFollow": false,
+            "tagTitle": "Óleos Essenciais",
+            "text": "Óleos Essenciais"
+          }
+        },
+        {
+          "id": "menu-item-footer-mais-acessados-3",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/aromaterapia/oleo-vegetal",
+            "noFollow": false,
+            "tagTitle": "Óleos Vegetais",
+            "text": "Óleos Vegetais"
+          }
+        },
+        {
+          "id": "menu-item-footer-mais-acessados-4",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/aromaterapia",
+            "noFollow": false,
+            "tagTitle": "Aromaterapia",
+            "text": "Aromaterapia"
+          }
+        },
+        {
+          "id": "menu-item-footer-mais-acessados-5",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/aromaterapia/difusor-de-aromas",
+            "noFollow": false,
+            "tagTitle": "Difusor de Aromas",
+            "text": "Difusor de Aromas"
+          }
+        },
+        {
+          "id": "menu-item-footer-mais-acessados-6",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/corpo-e-banho/cuidados-com-o-corpo/desodorante",
+            "noFollow": false,
+            "tagTitle": "Desodorantes Naturais",
+            "text": "Desodorantes Naturais"
+          }
+        },
+        {
+          "id": "menu-item-footer-mais-acessados-7",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabelos/shampoo/shampoo-em-barra",
+            "noFollow": false,
+            "tagTitle": "Shampoo Em Barra",
+            "text": "Shampoo Em Barra"
+          }
+        },
+        {
+          "id": "menu-item-footer-mais-acessados-8",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cabelos/shampoo",
+            "noFollow": false,
+            "tagTitle": "Shampoo Natural, Orgânico e Vegano ",
+            "text": "Shampoo Natural, Orgânico e Vegano "
+          }
+        },
+        {
+          "id": "menu-item-footer-mais-acessados-9",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/maquiagem",
+            "noFollow": false,
+            "tagTitle": "Maquiagem Orgânica, Natural e Vegana ",
+            "text": "Maquiagem Orgânica, Natural e Vegana "
+          }
+        },
+        {
+          "id": "menu-item-footer-mais-acessados-10",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Cosméticos Naturais, Veganos e Orgânicos",
+            "text": "Cosméticos Naturais, Veganos e Orgânicos"
+          }
+        }
+      ],
+      "blockClass": "footer"
+    }
+  }
+}

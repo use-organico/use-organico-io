@@ -1,0 +1,29 @@
+{
+    "menu-item#footer-menu-categorias-mob": {
+        "props": {
+            "id": "item-footer-menu-categorias-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "#",
+                "tagTitle": "Categorias",
+                "text": "Categorias"
+            },
+            "blockClass": "footer-mobile"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#footer-menu-categorias-mob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#footer-menu-categorias-mob": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-categorias"
+        ],
+        "props": {
+            "blockClass": "footer-mobile"
+        }
+    }
+}

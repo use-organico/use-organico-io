@@ -1,0 +1,91 @@
+{
+  "responsive-layout.desktop#desktop-home-benefits": {
+    "children": ["flex-layout.row#home-benefits"]
+  },
+  "flex-layout.row#home-benefits": {
+    "title": "Beneficios Container",
+    "children": [
+      "flex-layout.row#row-home-benefits-benefit-1",
+      "flex-layout.row#row-home-benefits-benefit-2",
+      "flex-layout.row#row-home-benefits-benefit-3"
+    ],
+    "props": {
+      "blockClass": "home-benefits"
+    }
+  },
+  "list-context.info-card-list#home-benefits": {
+    "title": "Beneficios",
+    "children": [
+      "responsive-layout.desktop#home-benefits",
+      "responsive-layout.mobile#home-benefits"
+    ],
+    "props": {
+      "height": 380,
+      "infoCards": [
+        {
+          "id": "home-benefits-1",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "imageUrl": "/arquivos/u-package.png",
+          "headline": "Frete grátis",
+          "subhead": " em SP acima de R$199 e outros estados R$249",
+          "callToActionMode": "none",
+          "textAlignment": "left",
+          "blockClass": "home-benefits"
+        },
+        {
+          "id": "home-benefits-2",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "imageUrl": "/arquivos/u-fast.png",
+          "headline": "Entrega rápida",
+          "subhead": " para todo o Brasil",
+          "callToActionMode": "none",
+          "textAlignment": "left",
+          "blockClass": "home-benefits"
+        },
+        {
+          "id": "home-benefits-3",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "imageUrl": "/arquivos/u-credit-card.png?v=637246780954600000",
+          "headline": "Em até 6x",
+          "subhead": " sem juros",
+          "callToActionMode": "none",
+          "textAlignment": "left",
+          "blockClass": "home-benefits"
+        }
+      ]
+    }
+  },
+  "responsive-layout.desktop#home-benefits": {
+    "children": ["list-context-renderer#home-benefits"]
+  },
+  "list-context-renderer#home-benefits": {
+    "props": {
+      "listElement": "div",
+      "itemElement": "div",
+      "blockClass": "home-benefits"
+    }
+  },
+  "responsive-layout.mobile#home-benefits": {
+    "children": ["slider-layout#home-benefits"]
+  },
+  "slider-layout#home-benefits": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "blockClass": "home-benefits"
+    }
+  }
+}

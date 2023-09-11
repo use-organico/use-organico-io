@@ -1,0 +1,148 @@
+{
+    "rich-text#footer-menus-categorias": {
+        "title": "Categorias Título",
+        "props": {
+            "text": "Categorias",
+            "blockClass": "footer-titles"
+        }
+    },
+    "vtex.menu@2.x:menu#footer-categorias": {
+        "title": "Menu Categorias",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-footer-categorias-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/cabelos",
+                        "noFollow": false,
+                        "tagTitle": "Cabelos",
+                        "text": "Cabelos"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-categorias-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos",
+                        "noFollow": false,
+                        "tagTitle": "Tratamentos",
+                        "text": "Tratamentos"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-categorias-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/corpo-e-banho",
+                        "noFollow": false,
+                        "tagTitle": "Corpo e Banho",
+                        "text": "Corpo e Banho"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-categorias-4",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/maquiagem",
+                        "noFollow": false,
+                        "tagTitle": "Maquiagem",
+                        "text": "Maquiagem"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-categorias-5",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/gestante-e-bebe",
+                        "noFollow": false,
+                        "tagTitle": "Gestante e Bebê",
+                        "text": "Gestante e Bebê"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-categorias-6",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/homem",
+                        "noFollow": false,
+                        "tagTitle": "Homem",
+                        "text": "Homem"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-categorias-7",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mundo-pet",
+                        "noFollow": false,
+                        "tagTitle": "Mundo Pet",
+                        "text": "Mundo Pet"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-categorias-8",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/aromaterapia",
+                        "noFollow": false,
+                        "tagTitle": "Aromaterapia",
+                        "text": "Aromaterapia"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-categorias-9",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/casa-e-ambiente",
+                        "noFollow": false,
+                        "tagTitle": "Casa e Ambiente",
+                        "text": "Casa e Ambiente"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-categorias-10",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colecao/promocao-de-produtos-organicos-veganos-e-naturais",
+                        "noFollow": false,
+                        "tagTitle": "Ofertas",
+                        "text": "Ofertas"
+                    }
+                }
+            ],
+            "blockClass": "footer"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#search-banner-mobile": {
+        "title": "Banner",
+        "children": [
+            "image#search-banner-mobile"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "search-banner-mobile"
+        }
+    },
+    "image#search-banner-mobile": {
+        "title": "Banner Image",
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/166644/banner_geral_categorias.png",
+            "blockClass": "search-banner-mobile-image"
+        }
+    }
+}

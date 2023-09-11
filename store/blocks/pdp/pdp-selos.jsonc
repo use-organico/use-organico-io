@@ -1,0 +1,10 @@
+{
+    "flex-layout.row#pdp-selos": {
+        "children": [
+            "seal"
+        ],
+        "props": {
+            "blockClass": "pdp-selos"
+        }
+    }
+}

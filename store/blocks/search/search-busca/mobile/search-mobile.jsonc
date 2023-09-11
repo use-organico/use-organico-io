@@ -1,0 +1,13 @@
+{
+    "search-result-layout.mobile#busca": {
+        "children": [
+            "flex-layout.row#search-breadcrumb-mobile",
+            "flex-layout.row#search-termo-buscado",
+            "flex-layout.row#search-filter-orderby",
+            "flex-layout.row#search-content-mobile"
+        ],
+        "props": {
+            "pagination": "show-more"
+        }
+    }
+}

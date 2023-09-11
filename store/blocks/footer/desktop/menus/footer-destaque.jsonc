@@ -1,0 +1,70 @@
+{
+    "rich-text#footer-menus-destaque": {
+        "title": "Destaque Título",
+        "props": {
+            "text": "Destaque",
+            "blockClass": "footer-titles"
+        }
+    },
+    "vtex.menu@2.x:menu#footer-destaque": {
+        "title": "Menu Destaque",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-footer-destaque-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/mais-vendidos",
+                        "noFollow": false,
+                        "tagTitle": "Mais Vendidos",
+                        "text": "Mais Vendidos"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-destaque-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colecao/novidades-use-organico",
+                        "noFollow": false,
+                        "tagTitle": "Novidades",
+                        "text": "Novidades"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-destaque-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/marcas",
+                        "noFollow": false,
+                        "tagTitle": "Marcas",
+                        "text": "Marcas"
+                    }
+                },
+                {
+                    "id": "menu-item-footer-destaque-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colecao/promocao-de-produtos-organicos-veganos-e-naturais",
+                        "noFollow": false,
+                        "tagTitle": "Ofertas",
+                        "text": "Ofertas"
+                    }
+                }
+            ],
+            "blockClass": "footer"
+        }
+    }
+}

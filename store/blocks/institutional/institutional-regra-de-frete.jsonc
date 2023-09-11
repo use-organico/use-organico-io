@@ -1,0 +1,34 @@
+{
+  "store.custom#institutional-regra-de-frete": {
+    "blocks": ["flex-layout.row#institutional-regra-de-frete"]
+  },
+  "flex-layout.row#institutional-regra-de-frete": {
+    "children": [
+      "flex-layout.col#institutional-contact",
+      "flex-layout.col#institutional-content-regra-de-frete"
+    ],
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "blockClass": "institutional"
+    }
+  },
+  "flex-layout.col#institutional-content-regra-de-frete": {
+    "children": [
+      "vtex.menu@2.x:menu#institutional",
+      "rich-text#institutional-text-regra-de-frete"
+    ],
+    "props": {
+      "blockClass": [
+        "institutional-content",
+        "institutional-content-regra-de-frete"
+      ]
+    }
+  },
+  "rich-text#institutional-text-regra-de-frete": {
+    "props": {
+      "text": "# Regra de frete \n\n Uma vida saudável e equilibrada começa dentro de cada um. São as escolhas cotidianas que transformam as rotinas e a qualidade de vida. São essas mesmas escolhas, simples e pequenas, que interferem no corpo, na família, na cidade e no mundo que compartilhamos. \n\n Da roupa que vestimos, produtos que usamos, alimentos que comemos, tudo é uma questão de escolha. As alternativas são infinitas, e somente quem compra é capaz de decidir o que mais vai levar para dentro do corpo - elementos tóxicos, impurezas, matérias-primas transgênicas - ou substitutos com ação inofensiva à saúde e com a mesma capacidade funcional. \n\n Viver mais e melhor é um desejo comum e zelar pelo próprio corpo é fundamental nesta jornada de bem-estar. Selecionar produtos, ler rótulos, saber a origem, o impacto das letras miúdas no organismo, a cadeia produtiva e muito mais são o primeiro passo na busca consciente da saúde e longevidade. \n\n Escolher produtos naturais e orgânicos proporciona um jeito de viver alinhado à natureza e à essência do ser humano, e a **Use Orgânico** nasceu para ser o caminho confiável entre esses produtos e você. \n\n Através de uma curadoria complexa, oferece mais de 2 mil produtos de 60 marcas, nos quais você pode confiar e disponibilizar para sua família. Cosméticos, corpo e banho, maquiagem, gestante e bebê, mundo pet, aromaterapia, casa e ambiente, um mix de produtos que cuidam de você e de quem você quer bem. \n\n A **Use Orgânico** é referência no mercado por ser transparente na sua operação em todos os momentos. O cuidado se dá na seleção dos produtos, na verificação dos certificados e selos dos fabricantes, na gestão sustentável da empresa e no compartilhamento de conhecimento, para que todos os dias mais e mais pessoas possam fazer melhores escolhas, alicerçadas na educação e no autocuidado. \n\n As decisões de hoje são os resultados de amanhã. Escolha ter mais qualidade de vida, coloque o seu corpo em movimento, prefira alimentos não processados, priorize produtos naturais. \n\n Escolha viver mais e melhor. Escolha **Use Orgânico**. \n\n Seja bem vindo! \n Ver mais",
+      "blockClass": "institutional-text"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "store.custom#be-a-reseller": {
+        "blocks": [
+            "flex-layout.row#be-a-reseller"
+        ]
+    },
+    "flex-layout.row#be-a-reseller": {
+        "children": [
+            "flex-layout.col#be-a-reseller"
+        ],
+        "props": {
+            "blockClass": "be-a-reseller"
+        }
+    },
+    "flex-layout.col#be-a-reseller": {
+        "children": [
+            "rich-text#be-a-reseller",
+            "reseller-form"
+        ],
+        "props": {
+            "blockClass": "be-a-reseller"
+        }
+    },
+    "rich-text#be-a-reseller": {
+        "props": {
+            "text": "# Revendedores \n\n **Seja bem vinda(o),** \n\n Criamos este espaço especialmente para você, revendedor. \n\n A <span class='vtex-text-brown'>USE</span> *ORGÂNICO* tem como missão mostrar que dá pra cuidar do nosso bem-estar e saúde, cuidando também do Planeta e adoramos ter você como parceiro nessa jornada. \n\n Preencha o formulário abaixo e em breve entraremos em contato por e-mail.",
+            "blockClass": "be-a-reseller"
+        }
+    }
+}

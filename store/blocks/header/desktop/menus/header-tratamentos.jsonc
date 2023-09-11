@@ -1,0 +1,418 @@
+{
+    "menu-item#header-menu-tratamentos": {
+        "props": {
+            "id": "item-header-menu-tratamentos",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "href": "/tratamentos",
+                "tagTitle": "Tratamentos",
+                "text": "Tratamentos"
+            },
+            "blockClass": [
+                "header",
+                "header-hover",
+                "header-tratamentos"
+            ]
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#header-menu-tratamentos"
+        ]
+    },
+    "vtex.menu@2.x:submenu#header-menu-tratamentos": {
+        "children": [
+            "flex-layout.row#header-menu-tratamentos"
+        ],
+        "props": {
+            "blockClass": "header"
+        }
+    },
+    "flex-layout.row#header-menu-tratamentos": {
+        "children": [
+            "flex-layout.col#header-menu-tratamentos-menus-col",
+            "flex-layout.col#header-menu-tratamentos-4"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-tratamentos-menus-col": {
+        "children": [
+            "flex-layout.row#header-menu-tratamentos-menus-row"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu-menus-col",
+            "width": "grow"
+        }
+    },
+    "flex-layout.row#header-menu-tratamentos-menus-row": {
+        "children": [
+            "flex-layout.col#header-menu-tratamentos-1",
+            "flex-layout.col#header-menu-tratamentos-2",
+            "flex-layout.col#header-menu-tratamentos-3"
+        ],
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "header-menu-menus-row"
+        }
+    },
+    "flex-layout.col#header-menu-tratamentos-1": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-tratamentos-rosto"
+        ],
+        "props": {
+            "rowGap": 5,
+            "preventVerticalStretch": true,
+            "blockClass": "header-submenu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-tratamentos-rosto": {
+        "title": "Menu Rosto",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-tratamentos-rosto-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/rosto",
+                        "noFollow": false,
+                        "tagTitle": "Rosto",
+                        "text": "Rosto"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-tratamentos-rosto-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/rosto/Sabonete-Facial",
+                        "noFollow": false,
+                        "tagTitle": "Sabonete Facial",
+                        "text": "Sabonete Facial"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-tratamentos-rosto-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/rosto/limpeza-de-pele",
+                        "noFollow": false,
+                        "tagTitle": "Limpeza de Pele",
+                        "text": "Limpeza de Pele"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-tratamentos-rosto-4",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/rosto/Protetor-Solar",
+                        "noFollow": false,
+                        "tagTitle": "Protetor Solar",
+                        "text": "Protetor Solar"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-tratamentos-rosto-6",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/rosto/serum-e-concentrados",
+                        "noFollow": false,
+                        "tagTitle": "Sérum e Concentrados",
+                        "text": "Sérum e Concentrados"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-tratamentos-rosto-7",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/rosto/hidratante",
+                        "noFollow": false,
+                        "tagTitle": "Hidratante Facial",
+                        "text": "Hidratante Facial"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-tratamentos-rosto-8",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/rosto/clareador-de-manchas",
+                        "noFollow": false,
+                        "tagTitle": "Clareador de Manchas",
+                        "text": "Clareador de Manchas"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-tratamentos-rosto-9",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/rosto/antiacne",
+                        "noFollow": false,
+                        "tagTitle": "Antiacne",
+                        "text": "Antiacne"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-tratamentos-rosto-10",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/rosto/antiaging",
+                        "noFollow": false,
+                        "tagTitle": "Tratamento Anti-idade",
+                        "text": "Tratamento Anti-idade"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-tratamentos-rosto-11",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/rosto/mascara-e-argila",
+                        "noFollow": false,
+                        "tagTitle": "Argila Facial",
+                        "text": "Argila Facial"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-tratamentos-rosto-12",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/rosto/labios",
+                        "noFollow": false,
+                        "tagTitle": "Lábios",
+                        "text": "Lábios"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-tratamentos-2": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-tratamentos-corpo",
+            "vtex.menu@2.x:menu#header-menu-tratamentos-olhos"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-tratamentos-corpo": {
+        "title": "Menu Corpo",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-tratamentos-corpo-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/corpo",
+                        "noFollow": false,
+                        "tagTitle": "Corpo",
+                        "text": "Corpo"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-tratamentos-corpo-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/corpo/sabonete",
+                        "noFollow": false,
+                        "tagTitle": "Sabonete",
+                        "text": "Sabonete"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-tratamentos-corpo-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/corpo/hidratante",
+                        "noFollow": false,
+                        "tagTitle": "Hidratante",
+                        "text": "Hidratante"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-tratamentos-corpo-4",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/corpo/tratamento-para-celulite",
+                        "noFollow": false,
+                        "tagTitle": "Tratamento para Celulite",
+                        "text": "Tratamento para Celulite"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-tratamentos-corpo-5",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/corpo/tratamento-para-flacidez",
+                        "noFollow": false,
+                        "tagTitle": "Tratamento para Flacidez",
+                        "text": "Tratamento para Flacidez"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-tratamentos-olhos": {
+        "title": "Menu Olhos",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-tratamentos-olhos-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/olhos",
+                        "noFollow": false,
+                        "tagTitle": "Olhos",
+                        "text": "Olhos"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-tratamentos-olhos-2",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/olhos/antiaging",
+                        "noFollow": false,
+                        "tagTitle": "Antiaging",
+                        "text": "Antiaging"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-tratamentos-olhos-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/olhos/olheiras",
+                        "noFollow": false,
+                        "tagTitle": "Olheiras",
+                        "text": "Olheiras"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-tratamentos-3": {
+        "children": [
+            "vtex.menu@2.x:menu#header-menu-tratamentos-col-3"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "header-menu"
+        }
+    },
+    "vtex.menu@2.x:menu#header-menu-tratamentos-col-3": {
+        "title": "Menu Coluna 3",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-header-menu-tratamentos-col-3-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/tratamentos/kits-de-tratamento",
+                        "noFollow": false,
+                        "tagTitle": "Kits de Tratamento",
+                        "text": "Kits de Tratamento"
+                    }
+                },
+                {
+                    "id": "menu-item-header-menu-tratamentos-col-3-1",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/marcas",
+                        "noFollow": false,
+                        "tagTitle": "Marcas",
+                        "text": "Marcas"
+                    }
+                }
+            ],
+            "blockClass": "header-submenu"
+        }
+    },
+    "flex-layout.col#header-menu-tratamentos-4": {
+        "children": [
+            "image#header-menu-tratamentos-img"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": ["header-menu", "header-menu-image-col"]
+        }
+    },
+    "image#header-menu-tratamentos-img": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/169033/20220914-ajuste-banners-menu-v201.png?v=638000508849000000",
+            "maxWidth": "205px",
+            "blockClass": "header-menu"
+        }
+    }
+}

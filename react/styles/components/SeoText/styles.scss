@@ -1,0 +1,68 @@
+@import "../../../../styles/scss/variables";
+
+.seotext {
+  &_container {
+    padding: 10px 0;
+  }
+  &_content {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-size: 21px;
+      font-weight: 600;
+      margin: 30px 0 18px;
+      @media (max-width: 768px) {
+        text-align: center;
+      }
+    }
+    p {
+      font-size: 14px;
+      margin: 0 0 1rem;
+    }
+    &_hide {
+      display: none;
+    }
+  }
+  &_btn {
+    width: 160px;
+    height: 48px;
+    display: flex;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    color: $useorganico-yellow;
+    border: 1px solid $useorganico-yellow;
+    &:hover {
+      color: $useorganico-white;
+      background-color: $useorganico-yellow;
+    }
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--search-seo) {
+  .seotext {
+    &_btn {
+      width: auto;
+      height: auto;
+      border: none;
+      display: flex;
+      cursor: pointer;
+      font-size: 16px;
+      color: #799e30;
+      line-height: 21px;
+      border-radius: 4px;
+      align-items: center;
+      justify-content: flex-start;
+      &:hover {
+        color: #799e30;
+        background-color: transparent;
+      }
+    }
+  }
+}

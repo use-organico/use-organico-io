@@ -1,0 +1,14 @@
+{
+    "store.custom#embalagem-use": {
+        "blocks": [
+            "flex-layout.row#embalagem-use-1",
+            "flex-layout.row#embalagem-use-2",
+            "flex-layout.row#embalagem-use-3",
+            "flex-layout.row#embalagem-use-4",
+            "flex-layout.row#embalagem-use-5",
+            "flex-layout.row#embalagem-use-6",
+            "flex-layout.row#embalagem-use-7",
+            "flex-layout.row#embalagem-use-8"
+        ]
+    }
+}

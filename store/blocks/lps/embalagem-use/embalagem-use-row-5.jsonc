@@ -1,0 +1,93 @@
+{
+    "flex-layout.row#embalagem-use-5": {
+        "children": [
+            "flex-layout.col#embalagem-use-5"
+        ],
+        "props": {
+            "blockClass": "embalagem-use-5"
+        }
+    },
+    "flex-layout.col#embalagem-use-5": {
+        "children": [
+            "rich-text#embalagem-use-5-1",
+            "flex-layout.row#embalagem-use-5-content",
+            "rich-text#embalagem-use-5-3"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "embalagem-use-5"
+        }
+    },
+    "rich-text#embalagem-use-5-1": {
+        "props": {
+            "text": "4.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "embalagem-use",
+                "embalagem-use-number-title",
+                "embalagem-use-number-title-white"
+            ]
+        }
+    },
+    "flex-layout.row#embalagem-use-5-content": {
+        "children": [
+            "flex-layout.col#embalagem-use-5-1",
+            "flex-layout.col#embalagem-use-5-2"
+        ],
+        "props": {
+            "blockClass": "embalagem-use-content-box-white"
+        }
+    },
+    "flex-layout.col#embalagem-use-5-1": {
+        "children": [
+            "rich-text#embalagem-use-5-2"
+        ],
+        "props": {
+            "width": "40%",
+            "verticalAlign": "top",
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true,
+            "blockClass": "embalagem-use-5-1"
+        }
+    },
+    "rich-text#embalagem-use-5-2": {
+        "props": {
+            "text": "*O QUE VEM DA NATUREZA, A ELA RETORNA* \n\n Embalamos alguns produtos com papel de seda, para protegê-los do pó da serragem e atrito. O papel tem dicas ecológicas e é biodegradável.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "embalagem-use",
+                "embalagem-use-content-box-white"
+            ]
+        }
+    },
+    "flex-layout.col#embalagem-use-5-2": {
+        "children": [
+            "image#embalagem-use-5-1"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true,
+            "blockClass": "embalagem-use-5-2"
+        }
+    },
+    "image#embalagem-use-5-1": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/seda_landing_desktop-02-09.png?v=637033895644100000",
+            "blockClass": "embalagem-use-5-1"
+        }
+    },
+    "rich-text#embalagem-use-5-3": {
+        "props": {
+            "text": "![](/arquivos/seta_landing_branca-01-09.png)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "embalagem-use",
+                "embalagem-animation-arrow"
+            ]
+        }
+    }
+}

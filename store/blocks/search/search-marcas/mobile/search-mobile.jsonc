@@ -1,0 +1,14 @@
+{
+  "search-result-layout.mobile#marcas": {
+    "children": [
+      "flex-layout.row#search-banner-seo-mob",
+      "flex-layout.row#search-breadcrumb-mobile",
+      "flex-layout.row#search-banner-title",
+      "flex-layout.row#search-filter-orderby",
+      "flex-layout.row#search-content-mobile"
+    ],
+    "props": {
+      "pagination": "infinity"
+    }
+  }
+}

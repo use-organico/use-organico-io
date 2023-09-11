@@ -1,0 +1,82 @@
+{
+  "drawer#menuMb--dep-8": {
+    "children": [
+      "flex-layout.row#menuMb--dep-8--content"
+    ],
+    "blocks": [
+      "drawer-header#menuMb--dep-8",
+      "drawer-trigger#menuMb--dep-8--trigger"
+    ],
+    "props": {
+      "isFullWidth": true,
+      "slideDirection": "leftToRight",
+      "maxWidth": "80%",
+      "renderingStrategy": "eager",
+      "blockClass": [
+        "menuMb",
+        "menuMb__department"
+      ]
+    }
+  },
+  "drawer-header#menuMb--dep-8": {
+    "children": [
+      "drawer-close-button#menuMb--return"
+      // "rich-text#menuMb--dep-8--title"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__menuDepartment"
+      ]
+    }
+  },
+  // "rich-text#menuMb--dep-8--title": {
+  //   "props": {
+  //     "text": "Voltar",
+  //     "blockClass": [
+  //       "menuMb__title",
+  //       "menuMb__departmentTitle"
+  //     ]
+  //   },
+  //   "title": "Department 8 - Title"
+  // },
+  "drawer-trigger#menuMb--dep-8--trigger": {
+    "children": [
+      "rich-text#menu-mobile--dep-8--trigger"
+    ]
+  },
+  "rich-text#menu-mobile--dep-8--trigger": {
+    "props": {
+      "text": "Casa e Ambiente",
+      "blockClass": [
+        "menuMb__trigger",
+        "menuMb__departmentTrigger"
+      ]
+    },
+    "title": "Department 8 - Trigger"
+  },
+  "flex-layout.row#menuMb--dep-8--content": {
+    "children": [
+      "vtex.menu@2.x:menu#menuMb--dep-8--menu"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__content",
+        "menuMb__departmentContent"
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#menuMb--dep-8--menu": {
+    "children": [
+      "menu-item#header-menu-casa-ambiente-mob-ver-todos",
+      "vtex.menu@2.x:menu#header-menu-casa-ambiente-col-1"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__departmentMenu"
+      ]
+    },
+    "title": "Department 8 Menu"
+  }
+}

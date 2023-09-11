@@ -1,0 +1,58 @@
+{
+  "menu-item#header-menu-gestante-bebe-mob": {
+    "props": {
+      "id": "item-header-menu-gestante-bebe-mob",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "href": "#",
+        "tagTitle": "Gestante e bebê",
+        "text": "Gestante e bebê"
+      },
+      "blockClass": "header"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#header-menu-gestante-bebe-mob"]
+  },
+  "vtex.menu@2.x:submenu.accordion#header-menu-gestante-bebe-mob": {
+    "children": ["flex-layout.row#header-menu-gestante-bebe-mob"],
+    "props": {
+      "blockClass": "header"
+    }
+  },
+  "flex-layout.row#header-menu-gestante-bebe-mob": {
+    "children": ["flex-layout.col#header-menu-gestante-bebe-mob"],
+    "props": {
+      "blockClass": "header-submenu"
+    }
+  },
+  "flex-layout.col#header-menu-gestante-bebe-mob": {
+    "children": [
+      "menu-item#header-menu-gestante-bebe-mob-ver-todos",
+      "vtex.menu@2.x:menu#header-menu-gestante-bebe-gestante",
+      "vtex.menu@2.x:menu#header-menu-gestante-bebe-col-2"
+    ],
+    "props": {
+      "rowGap": 0,
+      "preventVerticalStretch": true,
+      "blockClass": "header-submenu"
+    }
+  },
+  "menu-item#header-menu-gestante-bebe-mob-ver-todos": {
+    "props": {
+      "id": "menu-item-header-menu-gestante-bebe-mob-ver-todos",
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gestante-e-bebe",
+        "noFollow": false,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      },
+      "blockClass": "header-submenu"
+    }
+  }
+}

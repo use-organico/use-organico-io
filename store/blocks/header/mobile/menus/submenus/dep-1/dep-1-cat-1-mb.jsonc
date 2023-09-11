@@ -1,0 +1,205 @@
+{
+  "vtex.menu@2.x:menu#menuMb--dep-1-cat-1--menu": {
+    "children": [
+      "menu-item#dep-1-cat-1-subcat-1-mb",
+      "menu-item#dep-1-cat-1-subcat-2-mb",
+      "menu-item#dep-1-cat-1-subcat-3-mb",
+      "menu-item#dep-1-cat-1-subcat-4-mb",
+      "menu-item#dep-1-cat-1-subcat-5-mb",
+      "menu-item#dep-1-cat-1-subcat-6-mb",
+      "menu-item#dep-1-cat-1-subcat-7-mb",
+      "menu-item#dep-1-cat-1-subcat-8-mb",
+      "menu-item#dep-1-cat-1-subcat-9-mb",
+      "menu-item#dep-1-cat-1-subcat-10-mb"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__categoryMenu"
+      ]
+    },
+    "title": "Department 1 Category 1 Menu"
+  },
+
+  
+  "menu-item#dep-1-cat-1-subcat-1-mb": {
+    "props": {
+      "id": "dep-1-cat-1-subcat--1-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Shampoo",
+          "text": "Shampoo"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--brands"
+      ]
+    }
+  },
+  "menu-item#dep-1-cat-1-subcat-2-mb": {
+    "props": {
+      "id": "dep-1-cat-1-subcat--2-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Shampoo Líquido",
+          "text": "Shampoo Líquido"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--sale"
+      ]
+    }
+  },
+  "menu-item#dep-1-cat-1-subcat-3-mb": {
+    "props": {
+      "id": "dep-1-cat-1-subcat--3-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Shampoo Barra",
+          "text": "Shampoo Barra"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--subscription"
+      ]
+    }
+  },
+  "menu-item#dep-1-cat-1-subcat-4-mb": {
+    "props": {
+      "id": "dep-1-cat-1-subcat--4-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Condicionador",
+          "text": "Condicionador"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--myOrders"
+      ]
+    }
+  },
+  "menu-item#dep-1-cat-1-subcat-5-mb": {
+    "props": {
+      "id": "dep-1-cat-1-subcat--5-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Condicionador Líquido",
+          "text": "Condicionador Líquido"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-1-cat-1-subcat-6-mb": {
+    "props": {
+      "id": "dep-1-cat-1-subcat--6-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Condicionador Barra",
+          "text": "Condicionador Barra"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-1-cat-1-subcat-7-mb": {
+    "props": {
+      "id": "dep-1-cat-1-subcat--7-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Finalizador",
+          "text": "Finalizador"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-1-cat-1-subcat-8-mb": {
+    "props": {
+      "id": "dep-1-cat-1-subcat--8-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Tratamento Capilar",
+          "text": "Tratamento Capilar"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-1-cat-1-subcat-9-mb": {
+    "props": {
+      "id": "dep-1-cat-1-subcat--9-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Tintura Henna",
+          "text": "Tintura Henna"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  },
+  "menu-item#dep-1-cat-1-subcat-10-mb": {
+    "props": {
+      "id": "dep-1-cat-1-subcat--10-mb",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+          "type": "internal",
+          "href": "/#",
+          "noFollow": false,
+          "tagTitle": "Kits de Tratamento Capilar",
+          "text": "Kits de Tratamento Capilar"
+      },
+      "blockClass": [
+        "menuMb__bottomLink", 
+        "menuMb__bottomLink--ourStores"
+      ]
+    }
+  }
+}

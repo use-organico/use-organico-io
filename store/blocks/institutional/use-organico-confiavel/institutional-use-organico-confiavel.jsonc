@@ -1,0 +1,241 @@
+{
+    "store.custom#use-organico-confiavel": {
+        "blocks": [
+            "iframe#use-organico-confiavel",
+            "flex-layout.row#use-organico-confiavel-1",
+            "flex-layout.row#use-organico-confiavel-2",
+            "flex-layout.row#use-organico-confiavel-3",
+            "flex-layout.row#use-organico-confiavel-4"
+        ]
+    },
+    "iframe#use-organico-confiavel": {
+        "props": {
+            "src": "https://player.vimeo.com/video/507676713?autoplay=1&loop=1&autopause=0&muted=1&portrait=0",
+            "allow": "autoplay; fullscreen; picture-in-picture;",
+            "height": "560",
+            "width": "1920"
+        }
+    },
+    "flex-layout.row#use-organico-confiavel-1": {
+        "children": [
+            "flex-layout.col#use-organico-confiavel-1-1",
+            "flex-layout.col#use-organico-confiavel-1-2"
+        ],
+        "props": {
+            "blockClass": "use-organico-confiavel-1"
+        }
+    },
+    "flex-layout.col#use-organico-confiavel-1-1": {
+        "children": [
+            "responsive-layout.desktop#use-organico-confiavel-1",
+            "rich-text#use-organico-confiavel-1"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "preventVerticalStretch": true,
+            "blockClass": "use-organico-confiavel-1-1"
+        }
+    },
+    "responsive-layout.desktop#use-organico-confiavel-1": {
+        "children": [
+            "rich-text#use-organico-confiavel-title-desk"
+        ]
+    },
+    "rich-text#use-organico-confiavel-title-desk": {
+        "props": {
+            "text": "## O QUE É A USE ORGÂNICO?",
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "rich-text#use-organico-confiavel-1": {
+        "props": {
+            "text": "A Use Orgânico é uma loja multimarcas de cosméticos e produtos orgânicos, naturais, veganos e limpos inscrita sob o CNPJ 27.547.121/0001-04 \n\n Nosso objetivo é levar até você marcas naturais de alta qualidade, que sejam boas para a sua saúde e para o meio ambiente. \n\n Estamos presentes tanto online, através do nosso e-commerce, quanto fisicamente, na loja localizada no centro de São Paulo (SP), na Av. São Luís, 94, no bairro República.",
+            "blockClass": [
+                "use-organico-confiavel",
+                "use-organico-confiavel-1"
+            ]
+        }
+    },
+    "flex-layout.col#use-organico-confiavel-1-2": {
+        "children": [
+            "responsive-layout.mobile#use-organico-confiavel-1",
+            "image#use-organico-confiavel-1"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "preventVerticalStretch": true,
+            "blockClass": "use-organico-confiavel-1-2"
+        }
+    },
+    "responsive-layout.mobile#use-organico-confiavel-1": {
+        "children": [
+            "rich-text#use-organico-confiavel-title-mobile"
+        ]
+    },
+    "rich-text#use-organico-confiavel-title-mobile": {
+        "props": {
+            "text": "## O QUE É A USE ORGÂNICO?",
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "image#use-organico-confiavel-1": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/166410/loja_01-imagem.png",
+            "blockClass": "use-organico-confiavel-1"
+        }
+    },
+    "flex-layout.row#use-organico-confiavel-2": {
+        "children": [
+            "flex-layout.col#use-organico-confiavel-2-1",
+            "flex-layout.col#use-organico-confiavel-2-2"
+        ],
+        "props": {
+            "blockClass": "use-organico-confiavel-2"
+        }
+    },
+    "flex-layout.col#use-organico-confiavel-2-1": {
+        "children": [
+            "image#use-organico-confiavel-2"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "use-organico-confiavel-2-1"
+        }
+    },
+    "image#use-organico-confiavel-2": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/166410/loja_01-imagem.png",
+            "blockClass": "use-organico-confiavel-2"
+        }
+    },
+    "flex-layout.col#use-organico-confiavel-2-2": {
+        "children": [
+            "rich-text#use-organico-confiavel-2"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "use-organico-confiavel-2-2"
+        }
+    },
+    "rich-text#use-organico-confiavel-2": {
+        "props": {
+            "text": "## A USE ORGÂNICO É CONFIÁVEL? \n\n Sim! A Use Orgânico é uma empresa que trabalha com a revenda de mais de 70 marcas naturais de alta qualidade. \n\n Realizamos uma criteriosa curadoria de seleção dos produtos, verificação dos selos e certificados dos fabricantes e gestão da empresa, que deve ser sustentável, para garantir que os melhores produtos cheguem até você. Somos transparentes em nossa operação e nossos processos em todos os momentos. \n\n O selo Loja Confiável YourViews garante a opinião de clientes que realizaram suas compras na Use Orgânico. \n\n ![](https://service.yourviews.com.br/image/2f419a93-f269-4bdf-bd1e-d70adff6496c/649_128/stamplarge.jpg)",
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "flex-layout.row#use-organico-confiavel-3": {
+        "children": [
+            "flex-layout.col#use-organico-confiavel-3"
+        ],
+        "props": {
+            "blockClass": "use-organico-confiavel-3"
+        }
+    },
+    "flex-layout.col#use-organico-confiavel-3": {
+        "children": [
+            "disclosure-layout#use-organico-confiavel-1",
+            "disclosure-layout#use-organico-confiavel-2",
+            "disclosure-layout#use-organico-confiavel-3",
+            "disclosure-layout#use-organico-confiavel-4",
+            "disclosure-layout#use-organico-confiavel-5"
+        ],
+        "props": {
+            "blockClass": "use-organico-confiavel-3-1"
+        }
+    },
+    "flex-layout.row#use-organico-confiavel-4": {
+        "children": [
+            "flex-layout.col#use-organico-confiavel-4"
+        ],
+        "props": {
+            "blockClass": "use-organico-confiavel-4"
+        }
+    },
+    "flex-layout.col#use-organico-confiavel-4": {
+        "children": [
+            "rich-text#use-organico-confiavel-4",
+            "flex-layout.row#use-organico-confiavel-4-itens"
+        ],
+        "props": {
+            "blockClass": "use-organico-confiavel-4"
+        }
+    },
+    "rich-text#use-organico-confiavel-4": {
+        "props": {
+            "text": "### Conheça nossa loja física",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "use-organico-confiavel"
+        }
+    },
+    "flex-layout.row#use-organico-confiavel-4-itens": {
+        "children": [
+            "flex-layout.col#use-organico-confiavel-4-1",
+            "flex-layout.col#use-organico-confiavel-4-2",
+            "flex-layout.col#use-organico-confiavel-4-3"
+        ],
+        "props": {
+            "blockClass": "use-organico-confiavel-4"
+        }
+    },
+    "flex-layout.col#use-organico-confiavel-4-1": {
+        "children": [
+            "image#use-organico-confiavel-4-1"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "use-organico-confiavel-4-1"
+        }
+    },
+    "image#use-organico-confiavel-4-1": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/166412/Loja-Fisica-Imagem.png",
+            "blockClass": "use-organico-confiavel-4-1"
+        }
+    },
+    "flex-layout.col#use-organico-confiavel-4-2": {
+        "children": [
+            "image#use-organico-confiavel-4-2"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "use-organico-confiavel-4-2"
+        }
+    },
+    "image#use-organico-confiavel-4-2": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/ids/166413/Loja-Fisica-Localizacao.png",
+            "blockClass": "use-organico-confiavel-4-2"
+        }
+    },
+    "flex-layout.col#use-organico-confiavel-4-3": {
+        "children": [
+            "rich-text#use-organico-confiavel-4-3",
+            "link#use-organico-confiavel-4"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "preventVerticalStretch": true,
+            "blockClass": "use-organico-confiavel-4-3"
+        }
+    },
+    "rich-text#use-organico-confiavel-4-3": {
+        "props": {
+            "text": "Endereço: \n **Av. São Luis** \n\n Número: \n **94** \n\n Complemento: \n **Loja** \n\n CEP: \n **01.046-000** \n\n Bairro: \n **República** \n\n Município: \n **São Paulo** \n\n",
+            "blockClass": "use-organico-confiavel-4-3"
+        }
+    },
+    "link#use-organico-confiavel-4": {
+        "props": {
+            "target": "_blank",
+            "label": "Abrir no mapa",
+            "href": "https://goo.gl/maps/RmjGZ6n38ACTPWyg9",
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "primary",
+                "size": "regular"
+            },
+            "blockClass": "use-organico-confiavel-4"
+        }
+    }
+}

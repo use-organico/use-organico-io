@@ -1,0 +1,17 @@
+@import "../_variables";
+
+.container {
+  .term {
+    font-size: 12px;
+    font-weight: 700;
+    max-width: 200px;
+    overflow: hidden;
+    line-height: 15px;
+    letter-spacing: 1px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    color: $useorganico-green;
+    -webkit-box-orient: vertical;
+  }
+}

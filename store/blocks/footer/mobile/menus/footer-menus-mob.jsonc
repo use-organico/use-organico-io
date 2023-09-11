@@ -1,0 +1,26 @@
+{
+    "flex-layout.row#footer-menus-mob": {
+        "title": "Menus - Footer",
+        "children": [
+            "flex-layout.col#footer-selos-social-media",
+            "flex-layout.col#footer-menus-mob"
+        ],
+        "props": {
+            "blockClass": "footer-menus-mob"
+        }
+    },
+    "flex-layout.col#footer-menus-mob": {
+        "children": [
+            "menu-item#footer-menu-institucional-mob",
+            "menu-item#footer-menu-links-rapidos-mob",
+            "menu-item#footer-menu-categorias-mob",
+            "menu-item#footer-menu-mais-acessados-mob",
+            "menu-item#footer-menu-destaque-mob",
+            "flex-layout.row#footer-atendimento",
+            "menu-item#footer-menu-formas-de-pagamento-mob"
+        ],
+        "props": {
+            "blockClass": "footer-menu-mob"
+        }
+    }
+}

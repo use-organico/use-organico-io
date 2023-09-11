@@ -1,0 +1,32 @@
+.flexRow {
+  &--marcas {
+    &-banner-main {
+      background-color: #f5f5f5;
+    }
+    &-slider-list {
+      padding-top: 100px;
+      background-color: #f5f5f5;
+    }
+    &-banner-triplo {
+      padding-top: 60px;
+      background-color: #f5f5f5;
+    }
+    &-component-list {
+      padding: 15px;
+      padding-top: 30px;
+      background-color: #f5f5f5;
+      .flexRowContent--marcas-component-list {
+        margin: 0 auto;
+        max-width: $container-width;
+      }
+    }
+  }
+}
+
+.flexCol {
+  &--marcas {
+    &-banner-main-2 {
+      justify-content: space-between;
+    }
+  }
+}

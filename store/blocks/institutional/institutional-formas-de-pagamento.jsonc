@@ -1,0 +1,34 @@
+{
+  "store.custom#institutional-formas-de-pagamento": {
+    "blocks": ["flex-layout.row#institutional-formas-de-pagamento"]
+  },
+  "flex-layout.row#institutional-formas-de-pagamento": {
+    "children": [
+      "flex-layout.col#institutional-contact",
+      "flex-layout.col#institutional-content-formas-de-pagamento"
+    ],
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "blockClass": "institutional"
+    }
+  },
+  "flex-layout.col#institutional-content-formas-de-pagamento": {
+    "children": [
+      "vtex.menu@2.x:menu#institutional",
+      "rich-text#institutional-text-formas-de-pagamento"
+    ],
+    "props": {
+      "blockClass": [
+        "institutional-content",
+        "institutional-content-formas-de-pagamento"
+      ]
+    }
+  },
+  "rich-text#institutional-text-formas-de-pagamento": {
+    "props": {
+      "text": "# Formas de pagamento \n\n Comprar na loja, **Use Orgânico** é fácil, rápido e seguro. Você passeia pela loja para conhecer melhor nossa linha de produtos, bastando clicar nas imagens ou nos nomes dos produtos para conhecê-los com maiores detalhes. \n\n As compras efetuadas em nossa loja, **[Use Orgânico](https://www.useorganico.com.br)**, podem ser pagas por meio de cartão de crédito e boleto bancário. Podem ser parceladas em até **6x sem juros nos cartões de crédito**, sendo que a parcela mínima é R$ 20,00. \n\n **Cartão de Crédito:** \n\n São aceitos os cartões: **Mastercard**, **Visa**, **Diners**, **American** **Express** e **Elo** ; \n\n No momento do pagamento, tenha sempre em mãos o seu cartão de crédito. Através dele, você poderá informar com exatidão dados imprescindíveis para completar a sua compra: a bandeira do cartão, nome do titular do cartão (exatamente como aparece impresso), número do cartão e código de segurança. \n\n **Boleto Bancário:** \n\n Esta opção de pagamento não permite parcelamento. Ao fechar um pedido, o sistema gera um boleto bancário na tela do seu computador. Imprima o documento e pague em qualquer banco ou pelo Internet Banking até a data de vencimento. \n\n A data de vencimento do boleto é sempre 02 (três) dias corridos após o fechamento do pedido. \n\n A confirmação de pagamento é feita automaticamente pelos bancos em até 02 (dois) dias úteis, portanto não é preciso enviar-nos qualquer notificação. Se você pagar seu boleto bancário com cheque, acrescente mais 04 (quatro) dias úteis ao prazo de entrega de seu pedido. Este período corresponde ao tempo para confirmação do recebimento do valor por parte do banco. \n\n Caso não tenha conseguido imprimir seu boleto (verifique sua impressora), este também estará disponível em nosso site, através de Meus Pedidos, para sua visualização até seu vencimento. \n\n **DICA:** Imprima o boleto e pague através do seu Internet Banking, a confirmação do pagamento é mais rápida e agiliza a sua entrega! \n\n O processo do boleto bancário resumido em 7 passos: \n\n **1.** Você seleciona a opção boleto bancário no menu Forma de Pagamento; \n\n **2.** Uma nova página irá aparecer com um link para você visualizar seu boleto; \n\n **3.** Você clica no link, o boleto é gerado e você o imprime; \n\n **4.** Você paga o boleto em qualquer agência bancária ou via Internet banking; \n\n **5.** O banco nos avisa em até 02 dias úteis que o número do seu boleto foi pago; \n\n **6.** Seu pedido é localizado no banco de dados e o processo de entrega é ativado; \n\n **7.** Seu pedido é enviado após a confirmação do banco. Portanto o prazo de entrega é calculado a partir deste dia. \n\n Obrigado e seja bem vindo! \n\n **#useorganico**",
+      "blockClass": "institutional-text"
+    }
+  }
+}

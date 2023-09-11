@@ -1,0 +1,29 @@
+{
+    "menu-item#footer-menu-mais-acessados-mob": {
+        "props": {
+            "id": "item-footer-menu-mais-acessados-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "/mais-acessados",
+                "tagTitle": "Mais acessados",
+                "text": "Mais acessados"
+            },
+            "blockClass": "footer-mobile"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#footer-menu-mais-acessados-mob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#footer-menu-mais-acessados-mob": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-mais-acessados"
+        ],
+        "props": {
+            "blockClass": "footer-mobile"
+        }
+    }
+}

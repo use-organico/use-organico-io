@@ -1,0 +1,80 @@
+{
+  "drawer#header--menuMb": {
+    "blocks": [
+      "drawer-header#menuMb--menu"
+    ],
+    "children": [
+      "flex-layout.row#menuMb--menu-wrapper"
+    ],
+    "props": {
+      "isFullWidth": true,
+      "slideDirection": "leftToRight",
+      "maxWidth": "80%",
+      "renderingStrategy": "eager",
+      "blockClass": [
+        "header__menuMb"
+      ]
+    },
+    "title": "Category Menu Mobile"
+  },
+  "drawer-header#menuMb--menu": {
+    "children": [
+      "rich-text#menuMb--title",
+      "drawer-close-button#menuMb--close"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu"
+      ]
+    },
+    "title": "Menu Mobile - Header"
+  },
+  "rich-text#menuMb--title": {
+    "props": {
+      "text": "Menu",
+      "blockClass": [
+        "menuMb__title"
+      ]
+    },
+    "title": "Menu Mobile - Title"
+  },
+  "drawer-close-button#menuMb--close": {
+    "props": {
+      "blockClass": [
+        "menuMb__close"
+      ]
+    }
+  },
+  "flex-layout.row#menuMb--menu-wrapper": {
+    "children": [
+      "vtex.menu@2.x:menu#menuMb--menu"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu-wrapper"
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#menuMb--menu": {
+    "children": [
+      "drawer#menuMb--dep-1",
+      "drawer#menuMb--dep-2",
+      "drawer#menuMb--dep-3",
+      "drawer#menuMb--dep-4",
+      "drawer#menuMb--dep-5",
+      "drawer#menuMb--dep-6",  
+      "drawer#menuMb--dep-7",  
+      "drawer#menuMb--dep-8",  
+      "drawer#menuMb--dep-9",  
+      "drawer#menuMb--dep-10",  
+      "drawer#menuMb--dep-11",  
+      "menu-item#header-menu-prescritores-mob"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu"
+      ]
+    },
+    "title": "Category Menu"
+  }
+}

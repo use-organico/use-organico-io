@@ -1,0 +1,57 @@
+{
+  "menu-item#header-menu-casa-ambiente-mob": {
+    "props": {
+      "id": "item-header-menu-casa-ambiente-mob",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "href": "#",
+        "tagTitle": "Casa e Ambiente",
+        "text": "Casa e Ambiente"
+      },
+      "blockClass": "header"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#header-menu-casa-ambiente-mob"]
+  },
+  "vtex.menu@2.x:submenu.accordion#header-menu-casa-ambiente-mob": {
+    "children": ["flex-layout.row#header-menu-casa-ambiente-mob"],
+    "props": {
+      "blockClass": "header"
+    }
+  },
+  "flex-layout.row#header-menu-casa-ambiente-mob": {
+    "children": ["flex-layout.col#header-menu-casa-ambiente-mob"],
+    "props": {
+      "blockClass": "header-submenu"
+    }
+  },
+  "flex-layout.col#header-menu-casa-ambiente-mob": {
+    "children": [
+      "menu-item#header-menu-casa-ambiente-mob-ver-todos",
+      "vtex.menu@2.x:menu#header-menu-casa-ambiente-col-1"
+    ],
+    "props": {
+      "rowGap": 0,
+      "preventVerticalStretch": true,
+      "blockClass": "header-submenu"
+    }
+  },
+  "menu-item#header-menu-casa-ambiente-mob-ver-todos": {
+    "props": {
+      "id": "menu-item-header-menu-casa-ambiente-mob-ver-todos",
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/casa-e-ambiente",
+        "noFollow": false,
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      },
+      "blockClass": "header-submenu"
+    }
+  }
+}

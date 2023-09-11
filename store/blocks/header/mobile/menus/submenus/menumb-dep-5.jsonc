@@ -1,0 +1,81 @@
+{
+  "drawer#menuMb--dep-5": {
+    "children": [
+      "flex-layout.row#menuMb--dep-5--content"
+    ],
+    "blocks": [
+      "drawer-header#menuMb--dep-5",
+      "drawer-trigger#menuMb--dep-5--trigger"
+    ],
+    "props": {
+      "isFullWidth": true,
+      "slideDirection": "leftToRight",
+      "maxWidth": "80%",
+      "renderingStrategy": "eager",
+      "blockClass": [
+        "menuMb",
+        "menuMb__department"
+      ]
+    }
+  },
+  "drawer-header#menuMb--dep-5": {
+    "children": [
+      "drawer-close-button#menuMb--return"
+      // "rich-text#menuMb--dep-5--title"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__menuDepartment"
+      ]
+    }
+  },
+  // "rich-text#menuMb--dep-5--title": {
+  //   "props": {
+  //     "text": "Voltar",
+  //     "blockClass": [
+  //       "menuMb__title",
+  //       "menuMb__departmentTitle"
+  //     ]
+  //   },
+  //   "title": "Department 5 - Title"
+  // },
+  "drawer-trigger#menuMb--dep-5--trigger": {
+    "children": [
+      "rich-text#menu-mobile--dep-5--trigger"
+    ]
+  },
+  "rich-text#menu-mobile--dep-5--trigger": {
+    "props": {
+      "text": "Mundo Pet",
+      "blockClass": [
+        "menuMb__trigger",
+        "menuMb__departmentTrigger"
+      ]
+    },
+    "title": "Department 5 - Trigger"
+  },
+  "flex-layout.row#menuMb--dep-5--content": {
+    "children": [
+      "vtex.menu@2.x:menu#menuMb--dep-5--menu"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__content",
+        "menuMb__departmentContent"
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#menuMb--dep-5--menu": {
+    "children": [
+      "vtex.menu@2.x:menu#header-menu-mundo-pet-mob"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__departmentMenu"
+      ]
+    },
+    "title": "Department 5 Menu"
+  }
+}

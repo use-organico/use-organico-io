@@ -1,0 +1,30 @@
+{
+    "store.custom#professional-page": {
+        "blocks": [
+            "flex-layout.row#professional-page"
+        ]
+    },
+    "flex-layout.row#professional-page": {
+        "children": [
+            "flex-layout.col#professional-page"
+        ],
+        "props": {
+            "blockClass": "professional-page"
+        }
+    },
+    "flex-layout.col#professional-page": {
+        "children": [
+            "rich-text#professional-page",
+            "professional-form"
+        ],
+        "props": {
+            "blockClass": "professional-page"
+        }
+    },
+    "rich-text#professional-page": {
+        "props": {
+            "text": "# PROFISSIONAIS DE SAÚDE \n\n **Seja bem vinda(o),** \n\n Criamos este espaço especialmente para você, profissional de saúde. \n\n A <span class='vtex-text-brown'>USE</span> *ORGÂNICO* tem como missão mostrar que dá pra cuidar do nosso bem-estar e saúde, cuidando também do Planeta e adoramos ter você como parceiro nessa jornada. \n\n Preencha o formulário abaixo e em breve entraremos em contato por e-mail.",
+            "blockClass": "professional-page"
+        }
+    }
+}

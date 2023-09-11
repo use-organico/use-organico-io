@@ -1,0 +1,93 @@
+{
+    "flex-layout.row#embalagem-use-6": {
+        "children": [
+            "flex-layout.col#embalagem-use-6"
+        ],
+        "props": {
+            "blockClass": "embalagem-use-6"
+        }
+    },
+    "flex-layout.col#embalagem-use-6": {
+        "children": [
+            "rich-text#embalagem-use-6-1",
+            "flex-layout.row#embalagem-use-6-content",
+            "rich-text#embalagem-use-6-3"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "embalagem-use-6"
+        }
+    },
+    "rich-text#embalagem-use-6-1": {
+        "props": {
+            "text": "5.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "embalagem-use",
+                "embalagem-use-number-title",
+                "embalagem-use-number-title-black"
+            ]
+        }
+    },
+    "flex-layout.row#embalagem-use-6-content": {
+        "children": [
+            "flex-layout.col#embalagem-use-6-1",
+            "flex-layout.col#embalagem-use-6-2"
+        ],
+        "props": {
+            "blockClass": "embalagem-use-content-box-white"
+        }
+    },
+    "flex-layout.col#embalagem-use-6-1": {
+        "children": [
+            "rich-text#embalagem-use-6-2"
+        ],
+        "props": {
+            "width": "40%",
+            "verticalAlign": "top",
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true,
+            "blockClass": "embalagem-use-6-1"
+        }
+    },
+    "rich-text#embalagem-use-6-2": {
+        "props": {
+            "text": "*NOSSA MISSÃO EM TODAS AS ETAPAS* \n\n As notas fiscais dos pedidos no nosso site são emitidas em papel ecológico, feito de cana-de-açúcar.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "embalagem-use",
+                "embalagem-use-content-box-white"
+            ]
+        }
+    },
+    "flex-layout.col#embalagem-use-6-2": {
+        "children": [
+            "image#embalagem-use-6-1"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true,
+            "blockClass": "embalagem-use-6-2"
+        }
+    },
+    "image#embalagem-use-6-1": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/NFE_landing_desktop-02-09.png?v=637030784171530000",
+            "blockClass": "embalagem-use-6-1"
+        }
+    },
+    "rich-text#embalagem-use-6-3": {
+        "props": {
+            "text": "![](/arquivos/seta_landing_preta-01-09.png)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "embalagem-use",
+                "embalagem-animation-arrow"
+            ]
+        }
+    }
+}

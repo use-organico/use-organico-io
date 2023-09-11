@@ -1,0 +1,93 @@
+{
+    "flex-layout.row#embalagem-use-3": {
+        "children": [
+            "flex-layout.col#embalagem-use-3"
+        ],
+        "props": {
+            "blockClass": "embalagem-use-3"
+        }
+    },
+    "flex-layout.col#embalagem-use-3": {
+        "children": [
+            "rich-text#embalagem-use-3-1",
+            "flex-layout.row#embalagem-use-3-content",
+            "rich-text#embalagem-use-3-3"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "blockClass": "embalagem-use-3"
+        }
+    },
+    "rich-text#embalagem-use-3-1": {
+        "props": {
+            "text": "2.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "embalagem-use",
+                "embalagem-use-number-title",
+                "embalagem-use-number-title-white"
+            ]
+        }
+    },
+    "flex-layout.row#embalagem-use-3-content": {
+        "children": [
+            "flex-layout.col#embalagem-use-3-1",
+            "flex-layout.col#embalagem-use-3-2"
+        ],
+        "props": {
+            "blockClass": "embalagem-use-content-box-white"
+        }
+    },
+    "flex-layout.col#embalagem-use-3-1": {
+        "children": [
+            "rich-text#embalagem-use-3-2"
+        ],
+        "props": {
+            "width": "40%",
+            "verticalAlign": "top",
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true,
+            "blockClass": "embalagem-use-3-1"
+        }
+    },
+    "rich-text#embalagem-use-3-2": {
+        "props": {
+            "text": "*CARINHO QUE SE NOTA* \n\n Nossas embalagens são todas produzidas com matérias-primas recicláveis.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "embalagem-use",
+                "embalagem-use-content-box-white"
+            ]
+        }
+    },
+    "flex-layout.col#embalagem-use-3-2": {
+        "children": [
+            "image#embalagem-use-3-1"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center",
+            "preventVerticalStretch": true,
+            "blockClass": "embalagem-use-3-2"
+        }
+    },
+    "image#embalagem-use-3-1": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/caixa_landing_desktop-02-09.png?v=637030765249030000",
+            "blockClass": "embalagem-use-3-1"
+        }
+    },
+    "rich-text#embalagem-use-3-3": {
+        "props": {
+            "text": "![](/arquivos/seta_landing_branca-01-09.png)",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "embalagem-use",
+                "embalagem-animation-arrow"
+            ]
+        }
+    }
+}

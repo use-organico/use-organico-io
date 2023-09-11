@@ -1,0 +1,42 @@
+.list--home-benefits {
+  display: flex;
+  justify-content: space-evenly;
+  .item {
+    display: flex;
+    align-items: center;
+    &:not(:last-child) {
+      &::after {
+        content: "";
+        width: 1px;
+        height: 100%;
+        margin-left: 70px;
+        background-color: #fff;
+      }
+    }
+    .infoCardContainer--home-benefits {
+      display: flex;
+      padding: 0;
+      background-color: $useorganico-green;
+      .infoCardTextContainer {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: auto !important;
+        .infoCardHeadline,
+        .infoCardSubhead {
+          margin: 0;
+          font-size: 12px;
+          line-height: 24px;
+          color: $useorganico-white;
+        }
+      }
+      .infoCardImageContainer {
+        height: auto;
+        max-width: 30px;
+        margin-right: 5px;
+        width: auto !important;
+      }
+    }
+  }
+}

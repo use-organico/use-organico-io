@@ -1,0 +1,15 @@
+.product-identifier {
+  &__label {
+    font-size: 0;
+    &::before {
+      content: "Ref";
+      font-size: 14px;
+      color: #d6d6d6;
+    }
+  }
+  &__separator,
+  &__value {
+    font-size: 14px;
+    color: #d6d6d6;
+  }
+}

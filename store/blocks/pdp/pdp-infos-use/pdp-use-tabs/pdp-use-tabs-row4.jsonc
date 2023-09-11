@@ -1,0 +1,53 @@
+{
+    "flex-layout.row#pdp-use-tabs-row-4": {
+        "children": [
+            "responsive-layout.desktop#pdp-use-tabs-row-4",
+            "flex-layout.col#pdp-use-tabs-row-4-2"
+        ],
+        "props": {
+            "fullWidth": false,
+            "blockClass": "pdp-use-tabs-row-4"
+        }
+    },
+    "responsive-layout.desktop#pdp-use-tabs-row-4": {
+        "children": [
+            "flex-layout.col#pdp-use-tabs-row-4-1"
+        ]
+    },
+    "responsive-layout.mobile#pdp-use-tabs-row-4": {
+        "children": [
+            "flex-layout.col#pdp-use-tabs-row-4-1"
+        ]
+    },
+    "flex-layout.col#pdp-use-tabs-row-4-1": {
+        "children": [
+            "image#pdp-use-tabs-row-4"
+        ],
+        "props": {
+            "blockClass": "pdp-use-tabs-row-4"
+        }
+    },
+    "image#pdp-use-tabs-row-4": {
+        "props": {
+            "src": "https://useorganico.vteximg.com.br/arquivos/bg-bambu-fouth-row.png",
+            "blockClass": "pdp-use-tabs-row-4"
+        }
+    },
+    "flex-layout.col#pdp-use-tabs-row-4-2": {
+        "children": [
+            "rich-text#pdp-use-tabs-row-4-1",
+            "responsive-layout.mobile#pdp-use-tabs-row-4"
+        ],
+        "props": {
+            "width": "32%",
+            "verticalAlign": "middle",
+            "blockClass": "pdp-use-tabs-row-4"
+        }
+    },
+    "rich-text#pdp-use-tabs-row-4-1": {
+        "props": {
+            "text": "### Nossa embalagem é verde de fontes renováveis \n\n Originária de cana de açúcar, nossa embalagem possui o Selo “I'm green (Bio-based)”. Nossa embalagem verde foi mais uma das preocupações da Use Orgânico em oferecer um conjunto de melhores escolhas, em um único produto. \n\n O novo Creme Dental Natural da Use Orgânico é consciente! \n\n [Quero experimentar o sabor da Natureza](#)",
+            "blockClass": "pdp-use-tabs-row-3-3"
+        }
+    }
+}

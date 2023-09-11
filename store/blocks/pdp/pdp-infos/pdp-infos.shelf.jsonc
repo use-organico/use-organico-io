@@ -1,0 +1,50 @@
+{
+  "flex-layout.row#pdp-infos-shelf": {
+    "props": {
+      "blockClass": "pdp-infos-shelf"
+    },
+    "children": [
+      "flex-layout.col#pdp-infos-shelf-col"
+    ]
+  },
+  "flex-layout.col#pdp-infos-shelf-col": {
+    "props": {
+      "blockClass": "pdp-infos-shelf-col",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#pdp-infos-shelf-title",
+      "rich-text#pdp-infos-shelf-description",
+      "list-context.product-list#pdp-infos-mais-vendidos"
+    ]
+  },
+  "rich-text#pdp-infos-shelf-title": {
+    "title": "Título Vitrine Inferior",
+    "props": {
+      "text": "Os mais vendidos",
+      "blockClass": "pdp-infos-shelf-title"
+    }
+  },
+  "rich-text#pdp-infos-shelf-description": {
+    "title": "Descrição Vitrine Inferior",
+    "props": {
+      "text": "Navegue pelos produtos mais vendidos da loja",
+      "blockClass": "pdp-infos-shelf-description"
+    }
+  },
+  "list-context.product-list#pdp-infos-mais-vendidos": {
+    "title": "Shelf Os mais vendidos",
+    "blocks": [
+        "product-summary.shelf"
+    ],
+    "children": [
+        "slider-layout#shelf"
+    ],
+    "props": {
+        "collection": "139",
+        "blockClass": "pdp-infos-mais-vendidos",
+        "__unstableProductOriginVtex": true
+    }
+  }
+}

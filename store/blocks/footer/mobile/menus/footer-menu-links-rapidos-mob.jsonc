@@ -1,0 +1,29 @@
+{
+    "menu-item#footer-menu-links-rapidos-mob": {
+        "props": {
+            "id": "item-footer-menu-links-rapidos-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "#",
+                "tagTitle": "Links Rápidos",
+                "text": "Links Rápidos"
+            },
+            "blockClass": "footer-mobile"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#footer-menu-links-rapidos-mob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#footer-menu-links-rapidos-mob": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-links-rapidos"
+        ],
+        "props": {
+            "blockClass": "footer-mobile"
+        }
+    }
+}

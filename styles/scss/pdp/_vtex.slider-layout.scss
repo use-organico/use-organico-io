@@ -1,0 +1,8 @@
+@media (min-width: 1025px) {
+  :global(.vtex-flex-layout-0-x-flexCol--pdp-infos-shelf-col) {
+    .sliderTrackContainer--slider-layout-shelf-offerings {
+      width: calc(100% - 200px);
+      margin-inline: auto;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#row-home-benefits-benefit-1": {
+    "children": [
+      "image#image-home-benefits-benefit-1",
+      "rich-text#text-home-benefits-benefit-1"
+    ],
+    "props": {
+      "blockClass": ["row-home-benefits-benefit", "row-home-benefits-benefit-1"],
+      "horizontalAlign": "left",
+      "colSizing": "auto"
+    }
+  },
+  "image#image-home-benefits-benefit-1": {
+    "props": {
+      "src": "assets/images/home-benefits-1.png",
+      "maxHeight": 40
+    }
+  },
+  "rich-text#text-home-benefits-benefit-1": {
+    "props": {
+      "blockClass": ["text-home-benefits-benefit", "text-home-benefits-benefit-1"],
+      "text": "Frete grátis em SP acima de R$ 199 e outros estados R$ 249" 
+    }
+  }
+}

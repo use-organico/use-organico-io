@@ -1,0 +1,70 @@
+{
+  "flex-layout.row#home-destaques": {
+    "title": "Destaques",
+    "children": ["flex-layout.col#home-destaques"],
+    "props": {
+      "blockClass": "home-destaques"
+    }
+  },
+  "flex-layout.col#home-destaques": {
+    "children": [
+      "rich-text#home-destaques-title",
+      "list-context.image-list##home-destaques"
+    ],
+    "props": {
+      "blockClass": "home-destaques"
+    }
+  },
+  "rich-text#home-destaques-title": {
+    "title": "Título Destaques",
+    "props": {
+      "text": "### Destaques da semana",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["home-destaques", "shelf-titulo"]
+    }
+  },
+
+  "list-context.image-list##home-destaques": {
+      "title": "Imagens Destaques",
+      "children": ["slider-layout#home-destaques"],
+      "props": {
+        "height": 343,
+        "images": [
+          {
+            "image": "/arquivos/img-destaques-2.png",
+            "description": "something something",
+            "blockClass": "home-destaques"
+          },
+          {
+            "image": "/arquivos/img-destaques-1.png",
+            "description": "something something",
+            "blockClass": "home-destaques"
+          },
+          {
+            "image": "/arquivos/img-destaques-2.png",
+            "description": "something something",
+            "blockClass": "home-destaques"
+          },
+          {
+            "image": "/arquivos/img-destaques-1.png",
+            "description": "something something",
+            "blockClass": "home-destaques"
+          }
+        ]
+      }
+    },
+  "slider-layout#home-destaques": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showPaginationDots": "mobileOnly",
+      "showNavigationArrows": "never",
+      "blockClass": ["home-destaques", "shelf"]
+    }
+  }
+}

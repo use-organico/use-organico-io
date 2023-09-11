@@ -1,0 +1,213 @@
+@import "../_variables";
+
+.container {
+  &--text-about-useorganic {
+    justify-content: center;
+    padding: 12px 0 11px 0;
+
+    .paragraph,
+    .headingLevel1,
+    .headingLevel2,
+    .headingLevel3 {
+      @media screen and (max-width: 768px) {
+        font-size: 12px;
+        max-width: 300px;
+        font-weight: 400;
+      }
+      font-size: 16px;
+      color: #0c1e1b;
+      text-align: center;
+    }
+  }
+  &--shelf-titulo {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 42px;
+    .heading {
+      font-size: 38px;
+      font-weight: 400;
+      line-height: 42px;
+    }
+  }
+  &--shelf-subtitulo {
+    font-size: 16px;
+    color: #333333;
+  }
+  &--home {
+    &-destaques {
+      margin-bottom: 23px;
+
+      @media (max-width: 1024px) {
+        margin-bottom: 0;
+      }
+    }
+    // &-indicados {
+    //   max-width: 1275px;
+    //   margin: 0 auto 30px;
+    //   .heading {
+    //     font-family: "Fraunces";
+    //     font-size: 30px;
+    //     font-weight: 700;
+    //     line-height: 38px;
+    //     margin-bottom: 14px;
+    //   }
+    //   .paragraph {
+    //     font-size: 14px;
+    //     line-height: 24px;
+    //     .strong {
+    //       font-size: 18px;
+    //       line-height: 24px;
+    //     }
+    //     &:last-child {
+    //       margin-top: 27px;
+    //     }
+    //   }
+    // }
+    &-marcas {
+      background-color: $useorganico-white;
+      &-title {
+        margin-bottom: 0;
+
+        @media (min-width: 1025px) {
+          justify-content: flex-start;
+        }
+      }
+      &-subtitle {
+        @media (min-width: 1025px) {
+          justify-content: flex-start;
+          text-align: left;
+          max-width: 231px;
+          margin-bottom: 27px;
+        }
+      }
+      .paragraph {
+        padding: 4px;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: $useorganico-white;
+        &:last-child {
+          position: relative;
+          top: 14px;
+          width: 172px;
+          border-radius: 14px;
+        }
+      }
+      &-1 {
+        .paragraph {
+          &:last-child {
+            background-color: #bdc079;
+          }
+        }
+      }
+      &-2 {
+        .paragraph {
+          &:last-child {
+            background-color: #464b25;
+          }
+        }
+      }
+      &-3 {
+        .paragraph {
+          &:last-child {
+            background-color: #175655;
+          }
+        }
+      }
+      &-4 {
+        .paragraph {
+          &:last-child {
+            background-color: #818286;
+          }
+        }
+      }
+      &-5 {
+        .paragraph {
+          &:last-child {
+            background-color: #1d5032;
+          }
+        }
+      }
+      &-6 {
+        .paragraph {
+          &:last-child {
+            background-color: #bdc079;
+          }
+        }
+      }
+      &-7 {
+        .paragraph {
+          &:last-child {
+            background-color: #464b25;
+          }
+        }
+      }
+      &-8 {
+        .paragraph {
+          &:last-child {
+            background-color: #175655;
+          }
+        }
+      }
+      &-9 {
+        .paragraph {
+          &:last-child {
+            background-color: #818286;
+          }
+        }
+      }
+    }
+    &-insta {
+      .heading {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 38px;
+        margin-bottom: 9px;
+        .italic {
+          font-style: normal;
+          color: $useorganico-green;
+        }
+      }
+      .paragraph {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 41px;
+      }
+    }
+  }
+}
+
+.container--text-home-benefits-benefit {
+  max-width: 239px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+
+  .paragraph {
+    font-size: 16px;
+    line-height: 20px;
+    color: #333;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 1025px) {
+  .container {
+    &--home {
+      &-benefits-br {
+        border-right: 1px $useorganico-white solid;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    &--home {
+    }
+    &--shelf-subtitulo {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "menu-item#footer-menu-institucional-mob": {
+        "props": {
+            "id": "item-footer-menu-institucional-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "#",
+                "tagTitle": "Institucional",
+                "text": "Institucional"
+            },
+            "blockClass": "footer-mobile"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#footer-menu-institucional-mob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#footer-menu-institucional-mob": {
+        "children": [
+            "vtex.menu@2.x:menu#footer-institucional"
+        ],
+        "props": {
+            "blockClass": "footer-mobile"
+        }
+    }
+}

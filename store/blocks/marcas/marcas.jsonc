@@ -1,0 +1,48 @@
+{
+    "store.custom#marcas": {
+        "blocks": [
+            // "responsive-layout.desktop#marcas-banner-main",
+            // "responsive-layout.mobile#marcas-banner-main",
+            // "flex-layout.row#marcas-slider-list",
+            // "flex-layout.row#marcas-banner-triplo",
+            "flex-layout.row#marcas-component-list"
+        ]
+    },
+    "flex-layout.row#marcas-component-list": {
+        "title": "Lista de Marcas",
+        "children": [
+            "flex-layout.col#marcas-component-list"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "marcas-component-list"
+        }
+    },
+    "flex-layout.col#marcas-component-list": {
+        "children": [
+            "rich-text#marcas-breadcrumb",
+            "rich-text#marcas-component-list-title",
+            "brands-page"
+        ],
+        "props": {
+            "blockClass": "marcas-component-list"
+        }
+    },
+    "rich-text#marcas-breadcrumb": {
+        "props": {
+            "text": "[Home](/) > **[Marcas](/marcas)**",
+            "blockClass": "marcas-breadcrumb"
+        }
+    },
+    "rich-text#marcas-component-list-title": {
+        "title": "Título Marcas",
+        "props": {
+            "text": "## Pesquise pelas melhores marcas \n\n As melhores marcas de Produtos de Bem-Estar e Cosméticos Naturais, Orgânicos e Veganos estão na Use Orgânico! Encontre fórmulas livres de aditivos químicos e outras substâncias tóxicas para a saúde e o meio ambiente com certificados internacionais para ativos 100% naturais, orgânicos e veganos.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "marcas-component-list-title"
+            ]
+        }
+    }
+}
