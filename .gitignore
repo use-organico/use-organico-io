@@ -40,4 +40,4 @@ styles/css
 styles/css/*.css
 styles/scss/*.css.map
 *.css
-react/node_modules
+react/node_modules/

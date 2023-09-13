@@ -133,7 +133,7 @@
   },
   "vtex.store-components:product-name#pdp": {
     "props": {
-      "showSku": true,
+      "showSku": false,
       "blockClass": "pdp"
     }
   },

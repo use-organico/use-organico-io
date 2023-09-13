@@ -19,6 +19,11 @@ const BuyTogetherCustom = () => {
     const [benefits] = (product as any)?.benefits || [];
     const { items } = benefits || {};
 
+    const beneficio = product?.benefits
+    const itens = beneficio[0].items
+    const itensBeneficio = itens[1].benefitProduct
+    const itensSecundarios = itensBeneficio.items
+
     const buildInstallmentsString = (installmentsList: any[]) => {
       try {
         if(!installmentsList?.length) throw new Error('')
@@ -63,14 +68,15 @@ const BuyTogetherCustom = () => {
     }
 
     if (!items) return <></>
-    const [suggestedItem] = items
-    const { benefitProduct } = suggestedItem || {};
-    const { items: benefitItems } = benefitProduct || {};
+    // const [suggestedItem] = items
+    // const { benefitProduct } = suggestedItem || {};
+    // const { items: benefitItems } = benefitProduct || {};
 
-    const [secondItem] = benefitItems || [];
+    // const [secondItem] = benefitItems || [];
+    // console.log(secondItem)
 
     const mainProductId = selectedItem.itemId
-    const secondProductId = secondItem.itemId
+    const secondProductId = itensSecundarios[0].itemId
 
     if (!mainProductId || !secondProductId) return <></>
 

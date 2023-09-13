@@ -7,16 +7,26 @@ const SecondProductCard = () => {
   try {
     const { product } = useProduct() || {}
 
+    const beneficio = product?.benefits
+    const itens = beneficio[0].items
+    const itensBeneficio = itens[1].benefitProduct
+    const itensSecundarios = itensBeneficio.items
+    
+
     const [benefits] = (product as any)?.benefits || [];
     const { items } = benefits || {};
 
     if (!items) return <></>
-    const [suggestedItem] = items
-    const { benefitProduct } = suggestedItem || {};
-    const { items: benefitItems } = benefitProduct || {};
+    // const [suggestedItem] = items
+    // const { benefitProduct } = suggestedItem || {};
+    // const { items: benefitItems } = benefitProduct || {};
 
-    const [item] = benefitItems || [];
+    const item = itensSecundarios[0];
     const { Price: price, ListPrice: bigPrice } = item?.sellers?.[0]?.commertialOffer || {};
+
+    // console.log('benefitItems', benefitItems)
+    // console.log('items', items[1])
+    // console.log('item', item)
 
     const calculateDiscount = (price: number, bigPrice: number) => {
       try {
