@@ -57,9 +57,12 @@
     },
     "flex-layout.col#search-products": {
         "children": [
+            "search-fetch-previous",
             "responsive-layout.desktop#search-orderby",
             "search-content",
-            "search-pagination"
+            "search-fetch-more",
+            "search-products-count-per-page"
+            // "search-pagination"
         ],
         "props": {
             "preventVerticalStretch": true,

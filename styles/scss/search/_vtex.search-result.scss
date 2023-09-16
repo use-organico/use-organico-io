@@ -516,3 +516,20 @@
     margin-top: 0;
   }
 }
+
+.buttonShowMore {
+  margin-top: 20px;
+}
+
+.buttonShowMore :global(.vtex-button){
+  border-radius: 4px;
+  border: solid 1px #4b6d47;
+  padding: 10px 24px;
+  color: #4b6d47;
+  font-size: 14px;
+  background-color: rgba(0,0,0,0);
+}
+
+.showingProducts {
+  margin-bottom: 30px;
+}
