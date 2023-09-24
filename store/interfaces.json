@@ -74,5 +74,8 @@
   },
   "similars-summary": {
     "component": "SimilarsSummary"
+  },
+  "form-black-friday": {
+    "component": "FormBlackFriday"
   }
 }

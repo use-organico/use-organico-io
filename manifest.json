@@ -14,6 +14,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "vtex.store-form": "0.x",
     "vtex.store": "2.x",
     "vtex.format-currency": "0.x",
     "vtex.order-items": "0.x",

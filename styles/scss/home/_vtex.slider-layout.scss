@@ -39,6 +39,9 @@
 }
 
 .sliderLayoutContainer--shelf {
+  :global(.vtex-product-summary-2-x-container--shelf) {
+    margin: 0 10px;
+  }
   .sliderTrack {
     padding: 10px 0;
   }
