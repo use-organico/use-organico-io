@@ -1,0 +1,22 @@
+{
+    "store.custom#black-friday": {
+        "blocks": [
+           "flex-layout.row#container"
+        ]
+    },
+    "flex-layout.row#container": {
+        "children": [
+            "flex-layout.row#form"
+        ]
+    },
+    "flex-layout.row#form": {
+        "children": [
+          "flex-layout.col#form"
+        ]
+    },
+    "flex-layout.col#form": {
+        "children": [
+           "form-black-friday"
+        ]
+    }
+}

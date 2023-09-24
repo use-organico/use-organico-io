@@ -43,5 +43,8 @@
     },
     "store.custom#all-brands": {
         "path": "/todas-as-marcas"
+    },
+    "store.custom#black-friday": {
+        "path": "/black-friday"
     }
 }
