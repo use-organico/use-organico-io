@@ -25,7 +25,7 @@ const SimilarsSummary = () => {
     (products.length != 0) 
       ?
         <div className={styles.container}>
-          <p>+ {products.length} cores</p>
+          <p>+ {products.length} opções</p>
         </div>
       :
         ''

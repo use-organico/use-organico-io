@@ -125,7 +125,7 @@
     }
   },
   "flex-layout.row#pdp-product-name-share": {
-    "children": ["vtex.store-components:product-name#pdp"],
+    "children": ["vtex.store-components:product-name#pdp", "sku-name"],
     "props": {
       "preventHorizontalStretch": true,
       "blockClass": "pdp-product-name-share"

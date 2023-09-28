@@ -230,4 +230,28 @@
   }
 }
 
+.flexRow {
+  &--lp-black-friday {
+    @media (min-width: 1024px) {
+      max-height: 700px;
+    }
+    @media (max-width: 1020px) {
+      max-height: 734px;
+    }
+    :global(.vtex-store-components-3-x-container) {
+      max-width: initial;
+      padding: 0;
+      @media (max-width: 1024px) {
+        padding: 0;
+      }
+    }
+  }
+}
+
+.flexRowContent {
+  &--lp-black-friday {
+    min-height: 800px;
+  }
+}
+
 @import "./embalagem/vtex.flex-layout";

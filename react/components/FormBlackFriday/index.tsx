@@ -31,39 +31,45 @@ const FormBlackFriday = () => {
   }, [success]);
 
   return success ? (
-    <div className={`${style.container} ${style.success}`}>
-      <h6>Mensagem enviada com sucesso!</h6>
+    <div className={style.container_contact}>
+        <div className={style.form_contact}>
+          <div className={`${style.container} ${style.success}`}>
+            <h6>Mensagem enviada com sucesso!</h6>
+          </div>
+        </div>
     </div>
   ) : (
     <div className={style.container_contact}>
-        <h2>Inscreva-se</h2>
-        <p>E fique por dentro das principais promoções</p>
-        <form onSubmit={submit}>
-            <div className={style.input_contact}>
-            <label>Nome</label>
-            <input
-                className={style.input_name}
-                type="text"
-                placeholder="Nome*"
-                value={name}
-                onChange={({ target: { value } }) => setName(value)}
-                required
-            ></input>
-            </div>
-            <div className={style.input_contact}>
-            <label>E-mail</label>
-            <input
-                className={style.input_email}
-                type="email"
-                placeholder="E-mail*"
-                value={email}
-                onChange={({ target: { value } }) => setEmail(value)}
-                required
-            ></input>
-            </div>
-            <button type="submit">Cadastrar</button>
-            <label>Ao clicar em "Cadastrar", aceito receber e-mails com novidades e promoções Use Orgânico.</label>
-        </form>
+        <div className={style.form_contact}>
+          <h2>Inscreva-se</h2>
+          <p>E fique por dentro das principais promoções</p>
+          <form onSubmit={submit}>
+              <div className={style.input_contact}>
+              <label>Nome</label>
+              <input
+                  className={style.input_name}
+                  type="text"
+                  placeholder="Nome*"
+                  value={name}
+                  onChange={({ target: { value } }) => setName(value)}
+                  required
+              ></input>
+              </div>
+              <div className={style.input_contact}>
+              <label>E-mail</label>
+              <input
+                  className={style.input_email}
+                  type="email"
+                  placeholder="E-mail*"
+                  value={email}
+                  onChange={({ target: { value } }) => setEmail(value)}
+                  required
+              ></input>
+              </div>
+              <button type="submit">Cadastrar</button>
+              <label>Ao clicar em "Cadastrar", aceito receber e-mails com novidades e promoções Use Orgânico.</label>
+          </form>
+        </div>
     </div>
   );
 };

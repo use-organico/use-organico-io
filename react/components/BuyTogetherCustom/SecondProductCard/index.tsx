@@ -9,7 +9,11 @@ const SecondProductCard = () => {
 
     const beneficio = product?.benefits
     const itens = beneficio[0].items
-    const itensBeneficio = itens[1].benefitProduct
+    const firstItem = product?.items[0].itemId;
+    const secondItem = itens.filter((value: any) => {
+      if(value.benefitSKUIds[0] != firstItem) return value.benefitSKUIds[0]
+    });
+    const itensBeneficio = secondItem[1].benefitProduct
     const itensSecundarios = itensBeneficio.items
     
 
@@ -17,16 +21,9 @@ const SecondProductCard = () => {
     const { items } = benefits || {};
 
     if (!items) return <></>
-    // const [suggestedItem] = items
-    // const { benefitProduct } = suggestedItem || {};
-    // const { items: benefitItems } = benefitProduct || {};
 
     const item = itensSecundarios[0];
     const { Price: price, ListPrice: bigPrice } = item?.sellers?.[0]?.commertialOffer || {};
-
-    // console.log('benefitItems', benefitItems)
-    // console.log('items', items[1])
-    // console.log('item', item)
 
     const calculateDiscount = (price: number, bigPrice: number) => {
       try {

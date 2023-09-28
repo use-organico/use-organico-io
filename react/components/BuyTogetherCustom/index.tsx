@@ -21,7 +21,11 @@ const BuyTogetherCustom = () => {
 
     const beneficio = product?.benefits
     const itens = beneficio[0].items
-    const itensBeneficio = itens[1].benefitProduct
+    const firstItem = product?.items[0].itemId;
+    const secondItem = itens.filter((value: any) => {
+      if(value.benefitSKUIds[0] != firstItem) return value.benefitSKUIds[0]
+    });
+    const itensBeneficio = secondItem[1].benefitProduct
     const itensSecundarios = itensBeneficio.items
 
     const buildInstallmentsString = (installmentsList: any[]) => {
@@ -68,12 +72,6 @@ const BuyTogetherCustom = () => {
     }
 
     if (!items) return <></>
-    // const [suggestedItem] = items
-    // const { benefitProduct } = suggestedItem || {};
-    // const { items: benefitItems } = benefitProduct || {};
-
-    // const [secondItem] = benefitItems || [];
-    // console.log(secondItem)
 
     const mainProductId = selectedItem.itemId
     const secondProductId = itensSecundarios[0].itemId

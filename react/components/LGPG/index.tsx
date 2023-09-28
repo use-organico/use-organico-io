@@ -3,7 +3,7 @@ import styles from "./styles.module.css"
 
 const LGPD = () => {
 
-    const [ cookiesModal, useCookiesModal ]: any = useState();
+    const [ cookiesModal, useCookiesModal ]: any = useState(false);
 
     const acceptCookies = (event: any) => {
         

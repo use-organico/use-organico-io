@@ -320,6 +320,10 @@
   }
 }
 
+.flexRowContent--pdp-product-name-share {
+  flex-direction: column;
+}
+
 :global(.vtex-sticky-layout-0-x-wrapper--stack-pdp-quantity-buy-btn-mobile--stuck) {
   .flexRow--pdp-quantity-buy-btn {
     background: #fff;

@@ -4,7 +4,6 @@ import styles from './styles.module.css'
 
 const Similar = ({ product }: any) => {
   const { navigate, query } = useRuntime()
-
   const handleClick = () => {
     let link = `/${product.linkText}/p`
 
@@ -15,15 +14,20 @@ const Similar = ({ product }: any) => {
     })
   }
 
+  const imagesLabel = (product.items[0].images).filter((element: any) => {
+    if(element?.imageLabel == 'cor') return element?.imageUrl
+  });
+
   return (
-    (product.items[0].sellers[0].commertialOffer.AvailableQuantity == 0) 
+    
+      (product.items[0].sellers[0].commertialOffer.AvailableQuantity == 0) 
       ?
         <button className={`${styles.notAvailable} ${query?.skuId === product.items[0].itemId ? styles.containerSelected : ''}`} onClick={handleClick}>
-          <img src={product.items[0].images[1].imageUrl} alt={product.productName} />
+          <img src={imagesLabel[0].imageUrl} alt={product.productName} />
         </button>  
       :
         <button className={`${styles.container} ${query?.skuId === product.items[0].itemId ? styles.containerSelected : ''}`} onClick={handleClick}>
-          <img src={product.items[0].images[1].imageUrl} alt={product.productName} />
+          <img src={imagesLabel[0].imageUrl} alt={product.productName} />
         </button>
   )
 }

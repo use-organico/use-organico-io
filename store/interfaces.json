@@ -77,5 +77,8 @@
   },
   "form-black-friday": {
     "component": "FormBlackFriday"
+  },
+  "sku-name": {
+    "component": "SkuName"
   }
 }

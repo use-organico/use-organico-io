@@ -19,7 +19,7 @@
       margin: 0;
       background-color: transparent;
       .badgeContainer {
-        padding: 5px 19px;
+        padding: 5px 10px;
         border-radius: 10px;
         max-width: 100px;
         white-space: normal;
@@ -39,7 +39,7 @@
           font-size: 12px;
           line-height: 18px;
           &::before {
-            content: "Produto Valido até";
+            content: "Produto Válido até";
             font-size: 12px;
             line-height: 18px;
             margin-right: 5px;

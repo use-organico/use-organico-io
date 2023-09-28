@@ -1,3 +1,100 @@
 .container_contact {
-    background-color: rgb(83, 109, 76);
+    background-image: url('https://useorganico.vtexassets.com/assets/vtex.file-manager-graphql/images/aa19b04d-75a7-48a3-8f48-7051f0c4d9cb___7e7f248aee2c503aa5bedd63b8f13075.png');
+    background-size: 100% auto;
+    min-height: 800px;
+    background-repeat: no-repeat;
+    position: relative;
+    @media (max-width: 1020px) {
+        background-image: url('https://useorganico.vtexassets.com/assets/vtex.file-manager-graphql/images/ff3baad3-596d-47d0-829f-f572e96d2cd6___92e5b260919af23949db61a166e57eba.png');
+        min-height: 735px;
+    }
+    .form_contact {
+        background-color: #4b6d46;
+        position: absolute;
+        right: calc(10%);
+        width: 450px;
+        bottom: 0;
+        top: calc(17% - 50px);
+        max-height: 450px;
+        text-align: center;
+        color: #fff;
+        .container {
+            &.success {
+                h6 {
+                    font-size: 16px;
+                }
+            }
+        }
+        @media (max-width: 1020px) {
+            right: 0;
+            width: 80%;
+            top: calc(40% - 50px);
+            left: 0;
+            margin: 0 auto;
+        }
+        h2 {
+            font-weight: 400;
+            color: #fff;
+            text-transform: uppercase;
+            @media (max-width: 1020px) {
+                font-size: 21px;
+            }
+        }
+        p {
+            color: #fff;
+            font-size: 22px;
+            display: block;
+            width: 50%;
+            text-align: center;
+            margin: 0 auto;
+            @media (max-width: 1020px) {
+                width: 80%;
+                font-size: 17px;
+            }
+        }
+        form {
+            padding: 30px 0 ;
+
+            div {
+                width: 80%;
+                margin: 0 auto 10px;
+                text-align: left;
+                margin-bottom: 10px;
+                label {
+                    display: block;
+                    margin-bottom: 5px;
+                    font-size: 22px;
+                    @media (max-width: 1020px) {
+                        font-size: 17px;
+                    }
+                }
+            }
+            input {
+                width: 100%;
+                border-radius: 4px;
+                border: none;
+                padding: 10px;
+            }
+            button {
+                display: block;
+                width: 80%;
+                margin: 20px auto;
+                padding: 10px;
+                border-radius: 4px;
+                color: #fff;
+                background-color: #2c4843;
+                border: none;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 20px;
+                cursor: pointer;
+            }
+            >label {
+                font-size: 11px;
+                display: block;
+                width: 70%;
+                margin: 0 auto;
+            }
+        }
+    }
 }

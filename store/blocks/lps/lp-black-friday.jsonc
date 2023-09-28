@@ -5,11 +5,32 @@
         ]
     },
     "flex-layout.row#container": {
+        "props": {
+            "blockClass": "lp-black-friday"
+        },
         "children": [
+            "flex-layout.row#background"
+        ]
+    },
+    "flex-layout.row#background": {
+        "props": {
+            "blockClass": "image-background"
+        },
+        "children": [
+            // "image#background",
             "flex-layout.row#form"
         ]
     },
+    "image#background": {
+        "props": {
+            "src": "https://useorganico.vtexassets.com/assets/vtex.file-manager-graphql/images/aa19b04d-75a7-48a3-8f48-7051f0c4d9cb___7e7f248aee2c503aa5bedd63b8f13075.png",
+            "blockClass": "background-image"
+        }
+    },
     "flex-layout.row#form": {
+        "props": {
+            "blockClass": "forms-black-friday"
+        },
         "children": [
           "flex-layout.col#form"
         ]
