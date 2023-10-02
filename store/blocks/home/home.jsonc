@@ -5,7 +5,7 @@
       "responsive-layout.desktop#desktop-home-benefits",
       "responsive-layout.mobile#mobile-home-text-about-useorganic",
       "flex-layout.row#home-shelf-countdown",
-      "__fold__",
+      "__fold__.experimentalLazyAssets",
       "flex-layout.row#home-destaques",
       "flex-layout.row#home-shelf-ofertas",
       "flex-layout.row#home-mais-vendidos",

@@ -14,8 +14,12 @@ const Similar = ({ product }: any) => {
     })
   }
 
+  console.log(product.items[0].images)
+
   const imagesLabel = (product.items[0].images).filter((element: any) => {
-    if(element?.imageLabel == 'cor') return element?.imageUrl
+    const imageLabelColor = element?.imageLabel.toLowerCase()
+    console.log('imageLabelColor', imageLabelColor)
+    if(imageLabelColor == 'cor') return element?.imageUrl
   });
 
   return (
@@ -23,11 +27,11 @@ const Similar = ({ product }: any) => {
       (product.items[0].sellers[0].commertialOffer.AvailableQuantity == 0) 
       ?
         <button className={`${styles.notAvailable} ${query?.skuId === product.items[0].itemId ? styles.containerSelected : ''}`} onClick={handleClick}>
-          <img src={imagesLabel[0].imageUrl} alt={product.productName} />
+          <img src={imagesLabel[0]?.imageUrl} alt={product?.productName} />
         </button>  
       :
         <button className={`${styles.container} ${query?.skuId === product.items[0].itemId ? styles.containerSelected : ''}`} onClick={handleClick}>
-          <img src={imagesLabel[0].imageUrl} alt={product.productName} />
+          <img src={imagesLabel[0]?.imageUrl} alt={product?.productName} />
         </button>
   )
 }
