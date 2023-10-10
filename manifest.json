@@ -71,7 +71,8 @@
     "vtex.checkout-summary": "0.x",
     "vtex.order-manager": "0.x",
     "vtex.search-page-context": "0.x",
-    "vtex.render-runtime": "8.x"
+    "vtex.render-runtime": "8.x",
+    "vtex.product-customizer": "2.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",

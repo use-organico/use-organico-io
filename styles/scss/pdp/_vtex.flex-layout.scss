@@ -324,6 +324,10 @@
   flex-direction: column;
 }
 
+.flexRowContent--pdp-quantity-buy-btn {
+  flex-wrap: wrap;
+}
+
 :global(.vtex-sticky-layout-0-x-wrapper--stack-pdp-quantity-buy-btn-mobile--stuck) {
   .flexRow--pdp-quantity-buy-btn {
     background: #fff;

@@ -80,5 +80,8 @@
   },
   "sku-name": {
     "component": "SkuName"
+  },
+  "signature": {
+    "component": "Signature"
   }
 }

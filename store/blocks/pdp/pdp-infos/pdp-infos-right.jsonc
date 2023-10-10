@@ -286,7 +286,7 @@
     }
   },
   "flex-layout.row#pdp-quantity-buy-btn": {
-    "children": ["flex-layout.col#pdp-quantity", "flex-layout.col#pdp-buy-btn"],
+    "children": ["flex-layout.col#pdp-quantity", "flex-layout.col#pdp-buy-btn"/*, "flex-layout.col#pdp-signature"*/],
     "props": {
       "colGap": 0,
       "colSizing": "auto",
@@ -308,6 +308,68 @@
     "props": {
       "blockClass": "pdp-buy-btn",
       "width": "grow"
+    }
+  },
+  "flex-layout.col#pdp-signature": {
+    "props": {
+      "width": "100%",
+      "blockClass": "pdp-signature-trigger"
+    },
+    "children": [
+      "modal-trigger#signature"
+    ]
+  },
+  "modal-trigger#signature": {
+    "children": ["rich-text#signature", "modal-layout#signature"]
+  },
+  "rich-text#signature": {
+    "props": {
+      "text": "Assine e GANHE 10% OFF"
+    }
+  },
+  "modal-layout#signature": {
+    "props": {
+      "blockClass": "pdp-modal-signature",
+      "disableEscapeKeyDown": true
+    },
+    "children": ["modal-actions.close", "flex-layout.col#text-signature","product-assembly-options", "add-to-cart-button#pdp"]
+  },
+  "modal-actions.close": {
+    "props": {
+      "blockClass": "pdp-signature-close-modal"
+    }
+  },
+  "flex-layout.col#text-signature": {
+    "children": [
+      "rich-text#signature-title",
+      "rich-text#signature-description"
+    ]
+  },
+  "rich-text#signature-title": {
+    "props": {
+      "blockClass": "pdp-signature-title-modal",
+      "text": "###### Frequência de entrega",
+      "font": "t-heading-5"
+    }
+  },
+  "rich-text#signature-description": {
+    "props": {
+      "blockClass": "pdp-signature-description-modal",
+      "text": "Selecione abaixo a frequência que deseja receber os seus produtos"
+    }
+  },
+  "product-assembly-options": {
+    "props":{
+      "initiallyOpened": "always"
+    },
+    "children": [
+      "assembly-option-input-values"
+    ]
+  },
+  "assembly-option-input-values": {
+    "props": {
+      "blockClass": "pdp-signature-values",
+      "optionsDisplay": "box"
     }
   },
   "add-to-cart-button#pdp": {
