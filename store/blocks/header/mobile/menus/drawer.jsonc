@@ -60,5 +60,21 @@
             "preventVerticalStretch": true,
             "blockClass": "drawer"
         }
+    },
+    "menu-item#header-menu-nutricao-mob": {
+        "props": {
+            "id": "item-header-menu-nutricao-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "href": "#",
+                "tagTitle": "Nutrição",
+                "text": "Nutrição"
+            },
+            "blockClass": "header"
+        }
     }
 }

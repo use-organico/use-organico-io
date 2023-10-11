@@ -67,7 +67,8 @@
       "drawer#menuMb--dep-8",  
       "drawer#menuMb--dep-9",  
       "drawer#menuMb--dep-10",  
-      "drawer#menuMb--dep-11",  
+      "drawer#menuMb--dep-11",
+      "menu-item#header-menu-nutricao-mob",
       "menu-item#header-menu-prescritores-mob"
     ],
     "props": {
