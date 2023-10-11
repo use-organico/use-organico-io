@@ -68,7 +68,7 @@
       "drawer#menuMb--dep-9",  
       "drawer#menuMb--dep-10",  
       "drawer#menuMb--dep-11",
-      "menu-item#header-menu-nutricao-mob",
+      "drawer#menuMb--dep-13",
       "menu-item#header-menu-prescritores-mob"
     ],
     "props": {
@@ -77,5 +77,96 @@
       ]
     },
     "title": "Category Menu"
+  },
+  "drawer#menuMb--dep-13": {
+    "children": [
+      "flex-layout.row#menuMb--dep-13--content"
+    ],
+    "blocks": [
+      "drawer-header#menuMb--dep-13",
+      "drawer-trigger#menuMb--dep-13--trigger"
+    ],
+    "props": {
+      "isFullWidth": true,
+      "slideDirection": "leftToRight",
+      "maxWidth": "80%",
+      "renderingStrategy": "eager",
+      "blockClass": [
+        "menuMb",
+        "menuMb__department"
+      ]
+    }
+  },
+  "drawer-header#menuMb--dep-13": {
+    "children": [
+      "drawer-close-button#menuMb--return"
+      // "rich-text#menuMb--dep-11--title"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__menuDepartment"
+      ]
+    }
+  },
+  "drawer-trigger#menuMb--dep-13--trigger": {
+    "children": [
+      "rich-text#menu-mobile--dep-13--trigger"
+    ]
+  },
+  "rich-text#menu-mobile--dep-13--trigger": {
+    "props": {
+      "text": "Nutrição",
+      "blockClass": [
+        "menuMb__trigger",
+        "menuMb__departmentTrigger"
+      ]
+    },
+    "title": "Department 13 - Trigger"
+  },
+  "flex-layout.row#menuMb--dep-13--content": {
+    "children": [
+      "vtex.menu@2.x:menu#menuMb--dep-13--menu"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__content",
+        "menuMb__departmentContent"
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#menuMb--dep-13--menu": {
+    "children": [
+      "vtex.menu@2.x:menu#header-menu-nutricao-mob"
+    ],
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__departmentMenu"
+      ]
+    },
+    "title": "Department 13 Menu"
+  },
+  "vtex.menu@2.x:menu#header-menu-nutricao-mob": {
+    "title": "Menu Nutrição",
+    "props": {
+        "orientation": "vertical",
+        "items": [
+          {
+            "id": "menu-item-header-menu-nutricao1",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Ver todos",
+                "text": "Ver todos"
+            }
+        }
+        ],
+        "blockClass": "header-submenu"
+    }
   }
 }
