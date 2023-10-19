@@ -83,5 +83,8 @@
   },
   "signature": {
     "component": "Signature"
+  },
+  "whatsapp-button": {
+    "component": "WhatsappButton"
   }
 }

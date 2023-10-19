@@ -3,7 +3,8 @@
         "title": "Header Mobile",
         "children": [
             "sticky-layout#header-mobile",
-            "lgpd-modal"
+            "lgpd-modal",
+            "whatsapp-button"
         ]
     },
     "sticky-layout#header-mobile": {
