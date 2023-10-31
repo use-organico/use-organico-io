@@ -4,7 +4,7 @@
     "children": [
       "flex-layout.row#pdp-mobile-stars-row",
       "flex-layout.row#pdp-product-name-share",
-      "product-list-price",
+      "product-list-price#pdp-info",
       "product-selling-price",
       "product-installments#pdp-mobile",
       "flex-layout.row#pdp-use-pontos",
@@ -23,7 +23,7 @@
     "title": "Produto infos mobile",
     "children": [
       "flex-layout.row#pdp-product-name-share",
-      "product-list-price",
+      "product-list-price#pdp-info",
       "product-selling-price",
       "product-installments#pdp-mobile",
       "flex-layout.row#pdp-use-pontos",
@@ -41,6 +41,11 @@
       "width": "45%",
       "preventVerticalStretch": true,
       "blockClass": ["pdp-infos", "pdp-infos-mobile"]
+    }
+  },
+  "product-list-price#pdp-info": {
+    "props": {
+      "blockClass": "pdp-price-info"
     }
   },
   "flex-layout.row#pdp-sku-selector-mobile": {
