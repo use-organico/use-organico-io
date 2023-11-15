@@ -1514,6 +1514,10 @@ ul.header__progress {
   .cart-items .product-price {
     width: 150px;
   }  
+  
+  ul.header__progress {
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
