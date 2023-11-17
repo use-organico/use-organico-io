@@ -57,7 +57,7 @@
   },
   "vtex.menu@2.x:menu#menuMb--menu": {
     "children": [
-      "drawer#menuMb--dep-10",
+      "drawer#menuMb--dep-9",
       "drawer#menuMb--dep-1",
       "drawer#menuMb--dep-2",
       "drawer#menuMb--dep-3",
@@ -66,8 +66,8 @@
       "drawer#menuMb--dep-6",  
       "drawer#menuMb--dep-7",  
       "drawer#menuMb--dep-8",  
-      "drawer#menuMb--dep-9",  
-      // "drawer#menuMb--dep-10",
+      // "drawer#menuMb--dep-9",  
+      "drawer#menuMb--dep-10",
       "drawer#menuMb--dep-11",
       "drawer#menuMb--dep-13",
       "menu-item#header-menu-prescritores-mob"
