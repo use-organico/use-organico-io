@@ -1,7 +1,7 @@
 {
   "vendor": "useorganico",
   "name": "store",
-  "version": "0.4.43",
+  "version": "0.4.45",
   "builders": {
     "docs": "0.x",
     "store": "0.x",
@@ -72,7 +72,8 @@
     "vtex.order-manager": "0.x",
     "vtex.search-page-context": "0.x",
     "vtex.render-runtime": "8.x",
-    "vtex.product-customizer": "2.x"
+    "vtex.product-customizer": "2.x",
+    "vtex.native-types": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",

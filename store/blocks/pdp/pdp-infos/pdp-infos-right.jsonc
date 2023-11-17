@@ -4,9 +4,10 @@
     "children": [
       "flex-layout.row#pdp-mobile-stars-row",
       "flex-layout.row#pdp-product-name-share",
-      "product-list-price#pdp-info",
-      "product-selling-price",
-      "product-installments#pdp-mobile",
+      // "product-list-price",
+      // "product-selling-price",
+      // "product-installments#pdp-mobile",
+      "flex-layout.col#pdp-signature",
       "flex-layout.row#pdp-use-pontos",
       "flex-layout.row#pdp-sku-selector-mobile",
       "condition-layout.product#pdp-availability",
@@ -23,13 +24,15 @@
     "title": "Produto infos mobile",
     "children": [
       "flex-layout.row#pdp-product-name-share",
-      "product-list-price#pdp-info",
-      "product-selling-price",
-      "product-installments#pdp-mobile",
+      // "product-list-price",
+      // "product-selling-price",
+      // "product-installments#pdp-mobile"
+      "flex-layout.col#pdp-signature",
       "flex-layout.row#pdp-use-pontos",
       "flex-layout.row#pdp-sku-selector-mobile",
       "responsive-layout.desktop#pdp-sticky-bar",
       "condition-layout.product#pdp-availability-mobile",
+      // "condition-layout.product#pdp-availability-signature-mobile",
       "flex-layout.row#pdp-shipping",
       "flex-layout.row#pdp-selos",
       "flex-layout.row#pdp-brand-ref-wishlist-mobile",
@@ -280,6 +283,20 @@
       "Else": "flex-layout.col#pdp-availability-notify"
     }
   },
+  "condition-layout.product#pdp-availability-signature-mobile": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.row#pdp-signature-mobile",
+      "Else": "flex-layout.col#pdp-availability-notify"
+    }
+  },
+  "flex-layout.row#pdp-signature-mobile": {
+    "children": ["flex-layout.col#pdp-signature"]
+  },
   "sticky-layout#pdp-quantity-buy-btn-mobile": {
     "children": [
       "flex-layout.row#pdp-quantity-buy-btn"
@@ -291,7 +308,7 @@
     }
   },
   "flex-layout.row#pdp-quantity-buy-btn": {
-    "children": ["flex-layout.col#pdp-quantity", "flex-layout.col#pdp-buy-btn"/*, "flex-layout.col#pdp-signature"*/],
+    "children": [ "flex-layout.col#pdp-quantity", "flex-layout.col#pdp-buy-btn"],
     "props": {
       "colGap": 0,
       "colSizing": "auto",
@@ -318,64 +335,20 @@
   "flex-layout.col#pdp-signature": {
     "props": {
       "width": "100%",
-      "blockClass": "pdp-signature-trigger"
+      "blockClass": "pdp-signature-content"
     },
     "children": [
-      "modal-trigger#signature"
+      "signature"
+      // "product-assembly-options"
     ]
-  },
-  "modal-trigger#signature": {
-    "children": ["rich-text#signature", "modal-layout#signature"]
-  },
-  "rich-text#signature": {
-    "props": {
-      "text": "Assine e GANHE 10% OFF"
-    }
-  },
-  "modal-layout#signature": {
-    "props": {
-      "blockClass": "pdp-modal-signature",
-      "disableEscapeKeyDown": true
-    },
-    "children": ["modal-actions.close", "flex-layout.col#text-signature","product-assembly-options", "add-to-cart-button#pdp"]
-  },
-  "modal-actions.close": {
-    "props": {
-      "blockClass": "pdp-signature-close-modal"
-    }
-  },
-  "flex-layout.col#text-signature": {
-    "children": [
-      "rich-text#signature-title",
-      "rich-text#signature-description"
-    ]
-  },
-  "rich-text#signature-title": {
-    "props": {
-      "blockClass": "pdp-signature-title-modal",
-      "text": "###### Frequência de entrega",
-      "font": "t-heading-5"
-    }
-  },
-  "rich-text#signature-description": {
-    "props": {
-      "blockClass": "pdp-signature-description-modal",
-      "text": "Selecione abaixo a frequência que deseja receber os seus produtos"
-    }
   },
   "product-assembly-options": {
-    "props":{
+    "props": {
       "initiallyOpened": "always"
     },
     "children": [
       "assembly-option-input-values"
     ]
-  },
-  "assembly-option-input-values": {
-    "props": {
-      "blockClass": "pdp-signature-values",
-      "optionsDisplay": "box"
-    }
   },
   "add-to-cart-button#pdp": {
     "props": {

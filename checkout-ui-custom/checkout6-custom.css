@@ -728,54 +728,43 @@ div#payment-data .accordion-heading span {
     position: relative;
     width: 100%;
   }
-
   .header__logo {
     margin: 0 auto;
     float: none;
     margin-top: 20px;
   }
-
   .cart {
     margin-bottom: 0;
   }
-
   a.discount {
     display: none;
   }
-
   .step {
     padding: 10px;
   }
-
   .payment-group-item {
     width: 48% !important;
     float: left;
     margin-left: 1% !important;
     margin-top: 10px;
   }
-
   fieldset.payment-group {
     width: 100%;
   }
-
   tr.product-item {
     border-top: none !important;
   }
-
   div#cartLoadedDiv {
     min-height: auto;
   }
-
   .summary-template-holder {
     max-width: 100%;
     margin-top: 20px;
   }
-
   .header__progress__namne {
     padding-left: 16px;
     padding-right: 16px;
   }
-
   header#header-checkout {
     height: auto;
     background: white;
@@ -1065,38 +1054,30 @@ a.srp-address-title.link.pointer.blue.f5 {
     padding: 0 15px;
     background: #fff;
   }
-
   .footer__box {
     width: 46%;
     margin-right: 2%;
   }
-
   .footer__box:nth-child(2) {
     margin: 0;
     width: 60%;
   }
-
   .footer__box:nth-child(1) {
     width: 40%;
   }
-
   .footer__box:nth-child(1) .footer__item {
     padding: 10px;
     text-align: center;
   }
-
   .footer__box:last-child {
     width: 100%;
   }
-
   .footer__box:last-child .footer__content {
     margin-bottom: 0;
   }
-
   .footer__box:last-child .footer__content br {
     display: none;
   }
-
   .footer__box .footer__item--highlight {
     border: 0;
     border-top: 1px solid #e5e5e5;
@@ -1105,19 +1086,16 @@ a.srp-address-title.link.pointer.blue.f5 {
     font-size: 10px;
     margin: 0;
   }
-
   .footer hr {
     margin: 0;
     border-color: #fff;
   }
-
   .footer__copyright {
     float: none;
     width: 100%;
     text-align: center;
     padding-bottom: 20px;
   }
-
   .footer__poweredby {
     display: none;
   }
@@ -1128,60 +1106,48 @@ a.srp-address-title.link.pointer.blue.f5 {
     display: inline-block;
     padding: 65px 0 15px;
   }
-
   .footer .u-center {
     padding: 0 15px;
   }
-
   .footer__box {
     width: 100%;
   }
-
   .footer__box:nth-child(1) {
     left: 360px;
   }
-
   .footer__box:nth-child(1) .footer__item {
     border: 1px solid #999;
     padding: 10px;
     text-align: center;
   }
-
   .footer__box:nth-child(2) {
     width: 100%;
   }
-
   .footer__box .footer__item--amex,
-.footer__box .footer__item--diners,
-.footer__box .footer__item--elo,
-.footer__box .footer__item--mastercard,
-.footer__box .footer__item--visa {
+  .footer__box .footer__item--diners,
+  .footer__box .footer__item--elo,
+  .footer__box .footer__item--mastercard,
+  .footer__box .footer__item--visa {
     margin-right: 0;
     width: 19%;
   }
-
   .footer__box:nth-child(2) {
     margin: 0 0 30px;
   }
-
   .footer__box:nth-child(3) {
     position: absolute;
     bottom: 0;
     left: 15px;
   }
-
   .footer__box:nth-child(3) .footer__content ul li {
     float: left;
   }
-
   .footer__title {
     display: none;
   }
-
   .footer hr {
     display: none;
   }
-
   .footer .payment__method {
     margin-right: 2%;
     border: none !important;
@@ -1190,7 +1156,6 @@ a.srp-address-title.link.pointer.blue.f5 {
     display: none;
     visibility: hidden;
   }
-
   .footer .payment__method.mastercard {
     visibility: visible;
     display: inline-block;
@@ -1200,7 +1165,6 @@ a.srp-address-title.link.pointer.blue.f5 {
     height: 29px;
     width: 42px;
   }
-
   .footer .payment__method.visa {
     visibility: visible;
     display: inline-block;
@@ -1210,7 +1174,6 @@ a.srp-address-title.link.pointer.blue.f5 {
     height: 29px;
     width: 42px;
   }
-
   .footer .payment__method.amex {
     visibility: visible;
     display: inline-block;
@@ -1220,7 +1183,6 @@ a.srp-address-title.link.pointer.blue.f5 {
     height: 29px;
     width: 42px;
   }
-
   .footer .payment__method.diners {
     visibility: visible;
     display: inline-block;
@@ -1230,7 +1192,6 @@ a.srp-address-title.link.pointer.blue.f5 {
     height: 29px;
     width: 42px;
   }
-
   .footer .payment__method.boleto {
     visibility: visible;
     display: inline-block;
@@ -1240,7 +1201,6 @@ a.srp-address-title.link.pointer.blue.f5 {
     height: 29px;
     width: 42px;
   }
-
   .footer .payment__method.elo {
     visibility: visible;
     display: inline-block;
@@ -1250,11 +1210,9 @@ a.srp-address-title.link.pointer.blue.f5 {
     height: 29px;
     width: 42px;
   }
-
   .footer .stamp__item {
     margin-right: 1%;
   }
-
   .footer__copyright {
     border-top: none;
     padding-left: 0;
@@ -1381,63 +1339,50 @@ button#payment-data-submit {
     padding: 10px;
     background: white;
   }
-
   .footer .payment__method {
     padding: 0 !important;
     margin: 0;
   }
-
   ul.footer__list.payment {
     margin: 0;
   }
-
   footer.footer .u-center {
     padding: 0;
   }
-
   ul.footer__list.payment {
     padding: 0;
     margin: 0;
   }
-
   .link-gift-card {
     float: left;
   }
-
   ul.footer__list.payment {
     padding: 0 !important;
     margin: 0 !important;
   }
-
   .footer__box:nth-child(1) {
     left: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
   }
-
   .payment-data .payment-group a {
     width: 100% !important;
     margin: 0 !important;
   }
-
   ul.header__progress {
     padding: 0;
     margin: 0;
   }
-
   .footer__box:nth-child(2) {
     margin: 0;
     padding: 0;
   }
-
   ul.footer__list.payment img {
     width: 100%;
   }
-
   .cart-more-options.span7 {
     margin-left: 10px;
   }
-
   .totalizers.summary-totalizers.cart-totalizers.pull-right {
     padding: 10px;
   }
@@ -1538,9 +1483,11 @@ ul.header__progress {
   table.table.cart-items {
     margin: 0 !important;
   }
-
   .cart-items .product-price {
     width: 150px;
+  }
+  ul.header__progress {
+    margin: 0 auto;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
@@ -1551,7 +1498,6 @@ ul.header__progress {
     height: 36px;
     width: 36px;
   }
-
   .full-cart .item-quantity-change-increment {
     top: auto;
   }
@@ -1585,7 +1531,6 @@ label.srp-toggle__delivery.blue {
   .header__logo a {
     margin-inline: auto;
   }
-
   .full-cart .cart table tbody tr {
     padding-bottom: 20px;
   }
@@ -1607,7 +1552,6 @@ label.srp-toggle__delivery.blue {
   header#header-checkout {
     height: 100px;
   }
-
   .header__container {
     display: flex;
     flex-direction: column;
