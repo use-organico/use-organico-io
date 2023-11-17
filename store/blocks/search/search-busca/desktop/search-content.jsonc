@@ -9,11 +9,12 @@
     },
     "flex-layout.col#search-content-busca": {
         "children": [
+            "search-fetch-previous",
             "flex-layout.row#search-breadcrumb-mobile",
             "flex-layout.row#search-termo-buscado",
             "flex-layout.row#search-orderby",
             "flex-layout.row#search-products-busca",
-            "search-pagination"
+            "search-fetch-more"
         ],
         "props": {
             "blockClass": "search-content-busca"

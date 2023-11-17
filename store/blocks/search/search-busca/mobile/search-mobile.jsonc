@@ -1,10 +1,12 @@
 {
     "search-result-layout.mobile#busca": {
         "children": [
+            "search-fetch-previous",
             "flex-layout.row#search-breadcrumb-mobile",
             "flex-layout.row#search-termo-buscado",
             "flex-layout.row#search-filter-orderby",
-            "flex-layout.row#search-content-mobile"
+            "flex-layout.row#search-content-mobile",
+            "search-fetch-more"
         ],
         "props": {
             "pagination": "show-more"

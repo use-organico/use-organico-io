@@ -46,6 +46,11 @@
       "blockClass": ["pdp-infos", "pdp-infos-mobile"]
     }
   },
+  "product-list-price#pdp-info": {
+    "props": {
+      "blockClass": "pdp-price-info"
+    }
+  },
   "flex-layout.row#pdp-sku-selector-mobile": {
     "children": [
       "similars-selector"

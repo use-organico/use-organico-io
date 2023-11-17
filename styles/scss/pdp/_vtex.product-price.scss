@@ -1,9 +1,13 @@
 @import "../variables";
 
-.listPrice--pdp {
+.listPrice--pdp, .listPriceValue--pdp-price-info {
   color: #777;
   font-size: 12px;
   margin-bottom: 10px;
+}
+
+.listPriceValue--pdp-price-info {
+  color: #777 !important;
 }
 
 .sellingPrice--pdp {
