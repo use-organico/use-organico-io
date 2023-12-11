@@ -4,9 +4,19 @@
     "children": [
       // "link#whatsapp",
       "flex-layout.row#footer-newsletter",
+      "flex-layout.row#footer-store-mobile",
       "flex-layout.row#footer-menus-mob",
       "flex-layout.row#footer-selos",
       "flex-layout.row#footer-copyright"
+    ]
+  },
+  "flex-layout.row#footer-store-mobile": {
+    "props": {
+      "blockClass": "store-info-footer"
+    },
+    "children": [
+      "image#store-image",
+      "flex-layout.col#store-text-content"
     ]
   }
 }

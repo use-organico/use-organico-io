@@ -4,10 +4,53 @@
     "children": [
       // "link#whatsapp",
       "flex-layout.row#footer-newsletter-desktop",
+      "flex-layout.row#footer-store-image",
       "flex-layout.row#footer-menus",
       "flex-layout.row#footer-selos",
       "flex-layout.row#footer-copyright"
     ]
+  },
+  "flex-layout.row#footer-store-image": {
+    "children": [
+      "image#store-image",
+      "flex-layout.col#store-text-content"
+    ],
+    "props": {
+      "blockClass": "store-info-footer"
+    }
+  },
+  "image#store-image": {
+    "props": {
+      "blockClass": "store-info-image",
+      "src": "https://useorganico.vtexassets.com/assets/vtex.file-manager-graphql/images/783e7f53-e178-4468-8af0-de2218001e9d___072f55977baf4512aff67c219f6732d4.jpg",
+      "srcset": "https://useorganico.vtexassets.com/assets/vtex.file-manager-graphql/images/783e7f53-e178-4468-8af0-de2218001e9d___072f55977baf4512aff67c219f6732d4.jpg",
+      "title": "Loja UseOrgânico"
+    }
+  },
+  "flex-layout.col#store-text-content": {
+    "props": {
+      "blockClass": "store-content-text"
+    },
+    "children": [
+      "rich-text#store-map-link",
+      "rich-text#store-info"
+    ]
+  },
+  "rich-text#store-map-link": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "__Conheça nossa flagship__ <br/><br/> Loja UseOrgânico <br/> [Avenida São Luís, 94 <br/>República São Paulo](https://maps.app.goo.gl/8iqTYXRojpwn4NSh9)",
+      "blockClass": ["store-info-text", "store-info-map"]
+    }
+  },
+  "rich-text#store-info": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "[+55 11 96335-4787](tel:+5511963354787)",
+      "blockClass": ["store-info-text", "store-info-phone"]
+    }
   },
   "flex-layout.row#footer-newsletter-desktop": {
     "children": [

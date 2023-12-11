@@ -30,6 +30,73 @@
       margin-inline: auto;
     }
   }
+  &--store-info-footer {
+    background-color: #0C1E1B;
+    padding: 0;
+    margin: 0 auto;
+    :global(.vtex-rich-text-0-x-container--store-info-text) {
+      display: flex;
+      align-items: center;
+      :global(.vtex-rich-text-0-x-wrapper--store-info-text) {
+        margin-left: 90px;
+      }
+      :global(.vtex-rich-text-0-x-paragraph--store-info-text), :global(.vtex-rich-text-0-x-link--store-info-text) {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+
+    @media (max-width: 1020px) {
+        :global(.vtex-store-components-3-x-container) {
+          padding: 0;
+          padding-bottom: 20px;
+        }
+        :global(.vtex-rich-text-0-x-wrapper--store-info-text) {
+          margin-left: 20px !important;
+          margin-top: 15px;
+        }
+    }
+
+    :global(.vtex-rich-text-0-x-link--store-info-map) {
+      margin-left: 0;
+      position: relative;
+      left: 25px;
+      &::before {
+        content: "";
+        background: url('assets/images/location-pin-svgrepo-com.svg');
+        width: 20px;
+        height: 20px;
+        background-size: 100%;
+        display: inline-block;
+        top: 10px;
+        margin-right: 5px;
+        position: absolute;
+        left: -25px;
+      }
+    }
+
+    :global(.vtex-rich-text-0-x-link--store-info-phone) {
+      &::before {
+        content: '';
+        background: url('assets/images/phone-svgrepo-com.svg');
+        width: 20px;
+        height: 20px;
+        background-size: 100%;
+        display: inline-block;
+        position: relative;
+        top: 5px;
+        margin-right: 5px;
+      }
+    }
+
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--store-content-text) {
+    display: flex;
+    justify-content: center;
+    :global(.vtex-flex-layout-0-x-flexColChild--store-content-text) {
+      height: auto !important;
+    }
+  }
 }
 
 .flexRow--footer-newsletter-desktop {
