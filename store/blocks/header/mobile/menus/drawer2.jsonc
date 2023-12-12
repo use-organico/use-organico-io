@@ -63,8 +63,10 @@
       "drawer#menuMb--dep-2",
       "drawer#menuMb--dep-3",
       "drawer#menuMb--dep-4",
-      "drawer#menuMb--dep-5",
-      "drawer#menuMb--dep-6",  
+      // "drawer#menuMb--dep-5",
+      "menu-item#mundo-pet",
+      "drawer#menuMb--dep-6",
+      "menu-item#homem",  
       "drawer#menuMb--dep-7",  
       "drawer#menuMb--dep-8",  
       // "drawer#menuMb--dep-9",  
@@ -82,6 +84,36 @@
       ]
     },
     "title": "Category Menu"
+  },
+  "menu-item#mundo-pet": {
+    "props": {
+      "id": "item-header-menu-mundo-pet-mob",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mundo-pet",
+        "noFollow": false,
+        "tagTitle": "Mundo Pet",
+        "text": "Mundo Pet"
+      },
+      "blockClass": "header"
+    }
+  },
+  "menu-item#homem": {
+    "props": {
+      "id": "item-header-menu-homem-mob",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/homem",
+        "noFollow": false,
+        "tagTitle": "Homem",
+        "text": "Homem"
+      },
+      "blockClass": "header"
+    }
   },
   "menu-item#novidades": {
     "props": {
