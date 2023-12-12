@@ -57,7 +57,6 @@
   },
   "vtex.menu@2.x:menu#menuMb--menu": {
     "children": [
-      "menu-item#ofertas",
       // "drawer#menuMb--dep-9",
       "drawer#menuMb--dep-1",
       "drawer#menuMb--dep-2",
@@ -72,6 +71,8 @@
       // "drawer#menuMb--dep-9",  
       // "drawer#menuMb--dep-10",
       "menu-item#marcas",
+      "menu-item#ofertas",
+      "menu-item#natal",
       "menu-item#novidades",
       // "drawer#menuMb--dep-11",
       "menu-item#nutricao",
@@ -84,6 +85,21 @@
       ]
     },
     "title": "Category Menu"
+  },
+  "menu-item#natal": {
+    "props": {
+      "id": "item-header-menu-natal-mob",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/natal",
+        "noFollow": false,
+        "tagTitle": "Natal",
+        "text": "Natal"
+      },
+      "blockClass": "header"
+    }
   },
   "menu-item#mundo-pet": {
     "props": {
