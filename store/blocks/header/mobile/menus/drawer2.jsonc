@@ -57,7 +57,8 @@
   },
   "vtex.menu@2.x:menu#menuMb--menu": {
     "children": [
-      "drawer#menuMb--dep-9",
+      "menu-item#ofertas",
+      // "drawer#menuMb--dep-9",
       "drawer#menuMb--dep-1",
       "drawer#menuMb--dep-2",
       "drawer#menuMb--dep-3",
@@ -67,9 +68,12 @@
       "drawer#menuMb--dep-7",  
       "drawer#menuMb--dep-8",  
       // "drawer#menuMb--dep-9",  
-      "drawer#menuMb--dep-10",
-      "drawer#menuMb--dep-11",
-      "drawer#menuMb--dep-13",
+      // "drawer#menuMb--dep-10",
+      "menu-item#marcas",
+      "menu-item#novidades",
+      // "drawer#menuMb--dep-11",
+      "menu-item#nutricao",
+      // "drawer#menuMb--dep-13",
       "menu-item#header-menu-prescritores-mob"
     ],
     "props": {
@@ -78,6 +82,51 @@
       ]
     },
     "title": "Category Menu"
+  },
+  "menu-item#novidades": {
+    "props": {
+      "id": "item-header-menu-novidades-mob",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colecao/novidades-use-organico",
+        "noFollow": false,
+        "tagTitle": "Novidades",
+        "text": "Novidades"
+      },
+      "blockClass": "header"
+    }
+  },
+  "menu-item#marcas": {
+    "props": {
+      "id": "item-header-menu-marcas-mob",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/marcas",
+        "noFollow": false,
+        "tagTitle": "Marcas",
+        "text": "Marcas"
+      },
+      "blockClass": "header"
+    }
+  },
+  "menu-item#nutricao": {
+    "props": {
+      "id": "item-header-menu-nutricao-mob",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nutricao",
+        "noFollow": false,
+        "tagTitle": "Nutrição",
+        "text": "Nutrição"
+      },
+      "blockClass": "header"
+    }
   },
   "drawer#menuMb--dep-13": {
     "children": [

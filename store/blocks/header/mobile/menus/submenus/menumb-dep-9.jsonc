@@ -77,5 +77,32 @@
       ]
     },
     "title": "Department 9 Menu"
+  },
+  "vtex.menu@2.x:menu#header-new-menu-ofertas-mob": {
+    "props": {
+      "blockClass": [
+        "menuMb__menu",
+        "menuMb__departmentMenu",
+        "menuMb__uniqueItem"
+      ]
+    },
+    "children": [
+      "menu-item#ofertas"
+    ]
+  },
+  "menu-item#ofertas": {
+    "props": {
+      "id": "item-header-menu-ofertas-mob",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colecao/promocao-de-produtos-organicos-veganos-e-naturais",
+        "noFollow": false,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      },
+      "blockClass": "header"
+    }
   }
 }

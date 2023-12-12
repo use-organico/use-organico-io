@@ -40,7 +40,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "__Conheça nossa flagship__ <br/><br/> Loja UseOrgânico <br/> [Avenida São Luís, 94 <br/>República São Paulo](https://maps.app.goo.gl/8iqTYXRojpwn4NSh9)",
+      "text": "__Conheça nossa flagship__ <br/><br/> Flagship Store Use Orgânico <br/> [Avenida São Luís, 94 <br/>República São Paulo](https://maps.app.goo.gl/8iqTYXRojpwn4NSh9)",
       "blockClass": ["store-info-text", "store-info-map"]
     }
   },
