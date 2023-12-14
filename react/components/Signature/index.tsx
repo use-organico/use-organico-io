@@ -161,7 +161,7 @@ const Signature = () => {
                                             <br/>
                                             Em resumo, um Plano de Assinaturas da Use Orgânico não é apenas uma maneira conveniente de receber produtos orgânicos de alta qualidade, mas também uma escolha que reflete seus valores pessoais de saúde, sustentabilidade e bem-estar. Junte-se a nós e comece a desfrutar de todos esses benefícios hoje.
                                             <br/><br/>
-                                            <span>*Programa de assinatura não é cumulativo com outras promoções.</span>
+                                            <span style={{fontSize: 12 + 'px'}}>*Programa de assinatura não é cumulativo com outras promoções.</span>
                                         </p>
                                     </ModalContent>
                                 </Modal>
