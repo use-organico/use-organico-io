@@ -40,7 +40,7 @@ const Signature = () => {
     })
 
     return (
-        (itemAttachments[0] && activeSubscription === 'priceNotSubscription') ?
+        (itemAttachments[0].name == 'vtex.subscription.assinatura-use' && activeSubscription === 'priceNotSubscription') ?
             <div className={styles.prices}>
                 <div className={styles.contentPrices}>
                     {/* <span onClick={ () => setSubscription('priceSubscription') }>Rodrigo Subscription</span> */}
@@ -96,7 +96,7 @@ const Signature = () => {
                     </div>
                 </div>
             </div>
-        : (itemAttachments[0] && activeSubscription === 'priceSubscription') ?
+        : (itemAttachments[0].name == 'vtex.subscription.assinatura-use' && activeSubscription === 'priceSubscription') ?
             <div className={styles.prices}>
                {/* <span onClick={ () => setSubscription('priceNotSubscription') }>Rodrigo Sem Subscription</span> */}
                 <div className={styles.priceSignatureContent}>

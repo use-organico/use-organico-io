@@ -7,7 +7,8 @@
       // "product-list-price",
       // "product-selling-price",
       // "product-installments#pdp-mobile",
-      "flex-layout.col#pdp-signature",
+      "condition-layout.product#pdp-subscription",
+      // "flex-layout.col#pdp-signature",
       "flex-layout.row#pdp-use-pontos",
       "flex-layout.row#pdp-sku-selector-mobile",
       "condition-layout.product#pdp-availability",
@@ -27,7 +28,8 @@
       // "product-list-price",
       // "product-selling-price",
       // "product-installments#pdp-mobile"
-      "flex-layout.col#pdp-signature",
+      // "flex-layout.col#pdp-signature",
+      "condition-layout.product#pdp-subscription",
       "flex-layout.row#pdp-use-pontos",
       "flex-layout.row#pdp-sku-selector-mobile",
       "responsive-layout.desktop#pdp-sticky-bar",
@@ -49,6 +51,23 @@
   "product-list-price#pdp-info": {
     "props": {
       "blockClass": "pdp-price-info"
+    }
+  },
+  "condition-layout.product#pdp-subscription": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.col#pdp-signature",
+      "Else": "rich-text#new"
+    }
+  },
+  "rich-text#new": {
+    "props": {
+      "blockClass": "available-subscription",
+      "text": "Item indisponível"
     }
   },
   "flex-layout.row#pdp-sku-selector-mobile": {
