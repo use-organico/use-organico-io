@@ -1,7 +1,7 @@
 {
   "vendor": "useorganico",
   "name": "store",
-  "version": "0.4.54",
+  "version": "0.4.55",
   "builders": {
     "docs": "0.x",
     "store": "0.x",
