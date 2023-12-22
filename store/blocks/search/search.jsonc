@@ -3,7 +3,7 @@
     "blocks": ["search-result-layout#busca"],
     "props": {
       "context": {
-        "maxItemsPerPage": 16,
+        "maxItemsPerPage": 15,
         "orderByField": "OrderByTopSaleDESC"
       }
     }
@@ -12,7 +12,7 @@
     "blocks": ["search-result-layout", "flex-layout.row#search-seo"],
     "props": {
       "context": {
-        "maxItemsPerPage": 16,
+        "maxItemsPerPage": 15,
         "orderByField": "OrderByTopSaleDESC"
       }
     }
@@ -21,7 +21,7 @@
     "blocks": ["search-result-layout#marcas"],
     "props": {
       "context": {
-        "maxItemsPerPage": 16,
+        "maxItemsPerPage": 15,
         "orderByField": "OrderByTopSaleDESC"
       }
     }
@@ -30,7 +30,7 @@
     "blocks": ["search-result-layout", "flex-layout.row#search-seo"],
     "props": {
       "context": {
-        "maxItemsPerPage": 16,
+        "maxItemsPerPage": 15,
         "orderByField": "OrderByTopSaleDESC"
       }
     }
@@ -39,7 +39,7 @@
     "blocks": ["search-result-layout", "flex-layout.row#search-seo"],
     "props": {
       "context": {
-        "maxItemsPerPage": 16,
+        "maxItemsPerPage": 15,
         "orderByField": "OrderByTopSaleDESC"
       }
     }

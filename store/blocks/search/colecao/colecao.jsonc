@@ -10,7 +10,7 @@
             "querySchema": {
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 16,
+                "maxItemsPerPage": 15,
                 "queryField": "",
                 "mapField": "productClusterIds",
                 "skusFilter": "ALL",
