@@ -27,7 +27,7 @@ const ProductInformation = () => {
     getProductInformation();
   }, [product]);
 
-  console.log(product)
+  console.log('product', product)
 
   const videos = product?.items?.[0]?.videos
 
@@ -44,7 +44,7 @@ const ProductInformation = () => {
           specification?.name === "texto-o-que-ele-e" ? (
             <div className={style.productInformation_item}>
               <h2 className={style.productInformation_item_title} id="o-que-e">
-                O que ele é?
+                O que é o {product.productName}?
               </h2>
               <div className={style.productInformation_item_values}>
                 {specification?.values.map((value: any) => (
@@ -60,7 +60,7 @@ const ProductInformation = () => {
                 className={style.productInformation_item_title}
                 id="o-que-faz"
               >
-                O que ele faz?
+                O que faz?
               </h2>
               <div className={style.productInformation_item_values}>
                 {specification?.values.map((value: any) => (
@@ -76,7 +76,7 @@ const ProductInformation = () => {
                 className={style.productInformation_item_title}
                 id="o-que-tem"
               >
-                O que ele tem?
+                O que tem o {product.productName}?
               </h2>
               <div className={style.productInformation_item_values}>
                 {specification?.values.map((value: any) => (
@@ -89,7 +89,7 @@ const ProductInformation = () => {
           ) : specification?.name === "texto-por-que-usar" ? (
             <div className={style.productInformation_item}>
               <h2 className={style.productInformation_item_title} id="pq-usar">
-                Por que usar?
+                Por que usar o {product.productName}?
               </h2>
               <div className={style.productInformation_item_values}>
                 {specification?.values.map((value: any) => (
