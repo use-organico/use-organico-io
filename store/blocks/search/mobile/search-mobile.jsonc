@@ -6,7 +6,8 @@
             "flex-layout.row#search-title-category-row-mobile",
             "rich-text#category-seo-top-mobile",
             "flex-layout.row#search-filter-orderby",
-            "flex-layout.row#search-content-mobile"
+            "flex-layout.row#search-content-mobile",
+            "content-seo-categories"
         ],
         "props": {
             "preventRouteChange": true,

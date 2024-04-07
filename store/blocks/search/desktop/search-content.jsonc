@@ -61,7 +61,8 @@
             "responsive-layout.desktop#search-orderby",
             "search-content",
             "search-fetch-more",
-            "search-products-count-per-page"
+            "search-products-count-per-page",
+            "content-seo-categories"
             // "search-pagination"
         ],
         "props": {

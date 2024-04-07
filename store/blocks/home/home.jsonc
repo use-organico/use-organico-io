@@ -1,7 +1,9 @@
 {
   "store.home": {
     "blocks": [
-      "flex-layout.row#home-banner",
+      // "flex-layout.row#home-banner",
+      "responsive-layout.desktop#banner-desktop",
+      "responsive-layout.mobile#banner-mobile",
       "responsive-layout.desktop#desktop-home-benefits",
       "responsive-layout.mobile#mobile-home-text-about-useorganic",
       "flex-layout.row#home-shelf-countdown",
@@ -18,5 +20,140 @@
       "flex-layout.row#home-seo"
       // "flex-layout.row#home-insta"
     ]
+  },
+  "responsive-layout.desktop#banner-desktop": {
+    "children": [
+      "flex-layout.row#home-banner"
+    ]
+  },
+  "responsive-layout.mobile#banner-mobile": {
+    "children": [
+      "flex-layout.row#home-banner-mobile"
+    ]
+  },
+  "flex-layout.row#home-banner-mobile": {
+    "title": "Banner Principal - Mobile",
+    "children": ["list-context.info-card-list##home-banner-mobile"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["home-banner", "no-pd-mob"]
+    }
+  },
+  // "list-context.image-list#home-banner": {
+  //   "title": "Banner Principal - conteudo",
+  //   "children": ["slider-layout#home-banner"],
+  //   "props": {
+  //     "height": "auto",
+  //     "images": [
+  //       {
+  //         "image": "https://useorganico.vteximg.com.br/arquivos/ids/169453/20230110-campanha-protetor-bioart-v3.jpg?v=638090636707030000",
+  //         "mobileImage": "https://useorganico.vteximg.com.br/arquivos/ids/169454/20230110-banner-mobile-protetor-bioart.jpg?v=638100925148600000",
+  //         "alt": "protetor solar bioart"
+  //       },
+  //       {
+  //         "image": "https://useorganico.vteximg.com.br/arquivos/ids/168833/20220729--campanha-ganhe-garoa.jpg?v=638113127597600000",
+  //         "mobileImage": "https://useorganico.vteximg.com.br/arquivos/ids/169551/20220729-campanha-ganhe-garoa-mob.jpg?v=638113128367900000",
+  //         "alt": "Garoa"
+  //       },
+  //       {
+  //         "image": "https://useorganico.vteximg.com.br/arquivos/ids/169485/20230110-banner-desk-novidades-v3.jpg?v=638095856888570000",
+  //         "mobileImage": "https://useorganico.vteximg.com.br/arquivos/ids/169486/20230110-banner-mobile-novidades.jpg?v=638095857665230000",
+  //         "alt": "Novidades"
+  //       },
+  //       {
+  //         "image": "https://useorganico.vteximg.com.br/arquivos/ids/169393/20221221-campanha-use-organico.png?v=638078246248430000",
+  //         "mobileImage": "https://useorganico.vteximg.com.br/arquivos/ids/169394/20221221-banner-mobile-use-organico.png?v=638078247268730000",
+  //         "alt": "Use Orgânico"
+  //       },
+  //       {
+  //         "image": "https://useorganico.vteximg.com.br/arquivos/ids/169505/20230112-banner-desk-glitter-carnaval-v4.jpg?v=638100929109070000",
+  //         "mobileImage": "https://useorganico.vteximg.com.br/arquivos/ids/169504/20230110-banner-mobile-glitter-pura-bio-glitter.jpg?v=638100925558730000",
+  //         "alt": "glitter"
+  //       }
+  //     ]
+  //   }
+  // },
+
+  "list-context.info-card-list##home-banner-mobile" : {
+    "title" : "Banner Principal Mobile - conteudo",
+    "children" : [
+      "slider-layout#home-banner-mobile"
+    ],
+    "props" : {
+        "infoCards" : [
+            {
+                "id": "info-card-home-1",
+                "isFullModeStyle": true,
+                "textPosition": "left",
+                "imageUrl":"https://useorganico.vteximg.com.br/arquivos/ids/169505/20230112-banner-desk-glitter-carnaval-v4.jpg?v=638100929109070000",
+                "mobileImageUrl": "https://useorganico.vteximg.com.br/arquivos/ids/169919/img-serum-home-banner.png",
+                "headline": "Lorem ipsum.",
+                "subhead" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.",
+                "callToActionText": "Clique e confira",
+                "callToActionUrl": "/",
+                "blockClass": "info-card-home",
+                "textAlignment": "left"
+            },
+            {
+                "id": "info-card-home-2",
+                "isFullModeStyle": true,
+                "textPosition": "left",
+                "imageUrl":"https://useorganico.vteximg.com.br/arquivos/ids/169505/20230112-banner-desk-glitter-carnaval-v4.jpg?v=638100929109070000",
+                "mobileImageUrl": "https://useorganico.vteximg.com.br/arquivos/ids/169919/img-serum-home-banner.png",
+                "headline": "Lorem ipsum.",
+                "subhead" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.",
+                "callToActionText": "Clique e confira",
+                "callToActionUrl": "/",
+                "blockClass": "info-card-home",
+                "textAlignment": "left"
+            },
+            {
+              "id": "info-card-home-1",
+              "isFullModeStyle": true,
+              "textPosition": "left",
+              "imageUrl":"https://useorganico.vteximg.com.br/arquivos/ids/169505/20230112-banner-desk-glitter-carnaval-v4.jpg?v=638100929109070000",
+              "mobileImageUrl": "https://useorganico.vteximg.com.br/arquivos/ids/169919/img-serum-home-banner.png",
+              "headline": "Lorem ipsum.",
+              "subhead" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.",
+              "callToActionText": "Clique e confira",
+              "callToActionUrl": "/",
+              "blockClass": "info-card-home",
+              "textAlignment": "left"
+          },
+          {
+              "id": "info-card-home-2",
+              "isFullModeStyle": true,
+              "textPosition": "left",
+              "imageUrl":"https://useorganico.vteximg.com.br/arquivos/ids/169505/20230112-banner-desk-glitter-carnaval-v4.jpg?v=638100929109070000",
+              "mobileImageUrl": "https://useorganico.vteximg.com.br/arquivos/ids/169919/img-serum-home-banner.png",
+              "headline": "Lorem ipsum.",
+              "subhead" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.",
+              "callToActionText": "Clique e confira",
+              "callToActionUrl": "/",
+              "blockClass": "info-card-home",
+              "textAlignment": "left"
+          }
+        ]
+    }
+},
+
+  "slider-layout#home-banner-mobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      // "autoplay": {
+      //   "timeout": 4000,
+      //   "stopOnHover": true
+      // },
+      "arrowSize": 20,
+      "infinite": true,
+      "fullWidth": true,
+      "showPaginationDots": "always",
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "home-banner"
+    }
   }
 }
