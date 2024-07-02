@@ -1,65 +1,78 @@
 @font-face {
   font-family: "Fraunces";
+  font-display: swap;
   src: url(assets/fonts/Fraunces-Bold.ttf);
   font-weight: 700;
 }
 @font-face {
   font-family: "Poppins";
+  font-display: swap;
   src: url(assets/fonts/Poppins-Thin.ttf);
   font-weight: 100;
 }
 @font-face {
   font-family: "Poppins";
+  font-display: swap;
   src: url(assets/fonts/Poppins-ExtraLight.ttf);
   font-weight: 200;
 }
 @font-face {
   font-family: "Poppins";
+  font-display: swap;
   src: url(assets/fonts/Poppins-Light.ttf);
   font-weight: 300;
 }
 @font-face {
   font-family: "Poppins";
+  font-display: swap;
   src: url(assets/fonts/Poppins-Regular.ttf);
   font-weight: 400;
 }
 @font-face {
   font-family: "Poppins";
+  font-display: swap;
   src: url(assets/fonts/Poppins-Medium.ttf);
   font-weight: 500;
 }
 @font-face {
   font-family: "Poppins";
+  font-display: swap;
   src: url(assets/fonts/Poppins-Bold.ttf);
   font-weight: 700;
 }
 @font-face {
   font-family: "Poppins";
+  font-display: swap;
   src: url(assets/fonts/Poppins-Black.ttf);
   font-weight: 900;
 }
 @font-face {
   font-family: "General Sans";
-  src: url(assets/fonts/GeneralSans-Light.ttf);
+  font-display: swap;
+  src: url(assets/fonts/GeneralSans-Light.woff2);
   font-weight: 300;
 }
 @font-face {
   font-family: "General Sans";
-  src: url(assets/fonts/GeneralSans-Regular.ttf);
+  font-display: swap;
+  src: url(assets/fonts/GeneralSans-Regular.woff2);
   font-weight: 400;
 }
 @font-face {
   font-family: "General Sans";
-  src: url(assets/fonts/GeneralSans-Medium.ttf);
+  font-display: swap;
+  src: url(assets/fonts/GeneralSans-Medium.woff2);
   font-weight: 500;
 }
 @font-face {
   font-family: "General Sans";
-  src: url(assets/fonts/GeneralSans-Semibold.ttf);
+  font-display: swap;
+  src: url(assets/fonts/GeneralSans-Semibold.woff2);
   font-weight: 600;
 }
 @font-face {
   font-family: "General Sans";
-  src: url(assets/fonts/GeneralSans-Bold.ttf);
+  font-display: swap;
+  src: url(assets/fonts/GeneralSans-Bold.woff2);
   font-weight: 700;
 }

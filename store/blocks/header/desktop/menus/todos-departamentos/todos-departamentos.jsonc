@@ -70,8 +70,8 @@
             "menu-item#header-menu-baratinhos",
             "menu-item#header-menu-natal",
             "menu-item#header-menu-ofertas",
-            "menu-item#header-menu-novidades",
-            "menu-item#header-menu-nutricao"
+            "menu-item#header-menu-novidades"
+            // "menu-item#header-menu-nutricao"
         ],
         "props": {
             "orientation": "vertical",

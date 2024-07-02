@@ -4,7 +4,7 @@
     "children": [
       // "link#whatsapp",
       "flex-layout.row#footer-newsletter-desktop",
-      "flex-layout.row#footer-store-image",
+      // "flex-layout.row#footer-store-image",
       "flex-layout.row#footer-menus",
       "flex-layout.row#footer-selos",
       "flex-layout.row#footer-copyright"
