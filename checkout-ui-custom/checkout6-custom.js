@@ -392,8 +392,34 @@ function removeCouponClone() {
 //   };
 // }
 
+function validationAttack() {
+
+  vtexjs.checkout.getOrderForm()
+  .done(function(orderForm) {
+      
+      console.log('window.location', window.location.hash)
+
+      console.log(orderForm)
+
+      if(window.location.hash == "#/payment" && orderForm.shippingData.address.postalCode == "02075-046") {
+        $('.payment-submit-wrap').css("display", "none")
+      } else {
+        console.log("não entrou")
+      }
+
+  });
+
+  
+  
+}
+
+$(window).on('checkoutRequestEnd.vtex', function(event, orderForm) {
+  validationAttack();
+});
+
 $(window).on("orderFormUpdated.vtex", function (evt, orderForm) {
   shippingSla();
+  
 });
 
 $(document).ready(function () {
@@ -419,8 +445,13 @@ $(document).ready(function () {
   cloneBottomButtons();
 });
 
+// $(window).on("load", function(){
+//   validationAttack();
+// })
+
 // $(document).ajaxStop(function () {
-//   textSumary();
+//   // textSumary();
+//   validationAttack();
 // });
 
 setInterval(function () {
