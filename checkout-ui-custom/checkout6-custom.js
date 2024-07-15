@@ -401,7 +401,7 @@ function validationAttack() {
 
       console.log(orderForm)
 
-      if(window.location.hash == "#/payment" && orderForm.shippingData.address.postalCode == "02075-046") {
+      if(window.location.hash == "#/payment" && orderForm.shippingData.address.postalCode == "02075-046" || window.location.hash == "#/payment" && orderForm.shippingData.address.postalCode == "76870-238") {
         $('.payment-submit-wrap').css("display", "none")
       } else {
         console.log("não entrou")
