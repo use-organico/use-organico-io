@@ -22,8 +22,10 @@ const BuyTogetherCustom = () => {
     const beneficio = product?.benefits
     const itens = beneficio[0].items
     const firstItem = product?.items[0].itemId;
+    console.log('itens', itens)
     const secondItem = itens.filter((value: any) => {
-      if(value.benefitSKUIds[0] != firstItem) return value.benefitSKUIds[0]
+      const { sellers } = value?.benefitProduct?.items[0]
+      if(value.benefitSKUIds[0] != firstItem && sellers[0].commertialOffer.AvailableQuantity > 0) return value.benefitSKUIds[0]
     });
     const itensBeneficio = secondItem[1].benefitProduct
     const itensSecundarios = itensBeneficio.items
