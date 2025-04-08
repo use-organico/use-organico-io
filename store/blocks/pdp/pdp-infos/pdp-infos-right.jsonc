@@ -39,7 +39,8 @@
       "flex-layout.row#pdp-selos",
       "flex-layout.row#pdp-brand-ref-wishlist-mobile",
       "flex-layout.row#pdp-buy-together",
-      "flex-layout.row#pdp-your-views",
+      "flex-layout.row#reviews-custom",
+      // "flex-layout.row#pdp-your-views",
       "flex-layout.row#pdp-infos-shelf"
     ],
     "props": {

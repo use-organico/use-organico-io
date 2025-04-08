@@ -92,5 +92,8 @@
   },
   "reviews": {
     "component": "Reviews"
+  },
+  "stars-review": {
+    "component": "StarsReview"
   }
 }

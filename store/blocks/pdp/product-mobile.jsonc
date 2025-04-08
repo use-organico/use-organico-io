@@ -24,7 +24,8 @@
   },
   "flex-layout.row#pdp-mobile-stars-row": {
     "children": [
-      "vtex.store-components:product-brand"
+      "vtex.store-components:product-brand",
+      "stars-review"
       // "flex-layout.col#pdp-mobile-stars-col"
     ],
     "props": {

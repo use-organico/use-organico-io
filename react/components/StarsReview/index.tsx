@@ -3,7 +3,7 @@ import { useProduct } from 'vtex.product-context'
 
 import styles from './style.modules.css';
 
-const Reviews = () => {
+const StarsReview = () => {
 
     const [reviews, setReviews] = useState([]);
     const { product } = useProduct();
@@ -23,10 +23,11 @@ const Reviews = () => {
         fetchReviews();
     }, []);
 
-    const formatDate = (dateString: any) => {
-        const options: any = { year: 'numeric', month: 'long', day: 'numeric' };
-        const date = new Date(dateString);
-        return date.toLocaleDateString('pt-BR', options);
+    const ratingCalculator = (reviews: any) => {
+        const ratings = reviews.map((review: any) => review.rating);
+        const sum = ratings.reduce((acc: number, rating: number) => acc + rating, 0);
+        const average = Math.floor(sum / ratings.length);
+        return average;
     }
 
     const StarRating = ({ 
@@ -96,31 +97,17 @@ const Reviews = () => {
         });
       
         return <div className="star-rating">{stars}</div>;
-    };      
-
-    if(reviews.length === 0) return <></>
+    };
 
     return (
-        <section className={styles.contentReviews}>
-            <h1 className={styles.titleReviews}>Confira a opinião dos nossos clientes</h1>
-            {
-                reviews &&
-                reviews.map((review: any, index: any) => (
-                    <div key={index} className={styles.dividerRating}> 
-                        <p>{review.comment}</p>
-                        <h4>{review.productName}</h4>
-                        <div className={styles.rating}>
-                            <StarRating rating={review.rating} />
-                        </div>
-                        <div className={styles.userAndDate}>
-                            <p>{review.user}</p>
-                            <p>{formatDate(review.date)}</p>
-                        </div>
-                    </div>
-                ))
-            }
-        </section>
-    );
+        <div className={styles.ratingStars}>
+            <div className="star-rating">
+                <StarRating rating={ratingCalculator(reviews)} />
+            </div>
+            <p>{reviews.length} Reviews</p>
+        </div>
+    )
+
 }
 
-export default Reviews;
+export default StarsReview;

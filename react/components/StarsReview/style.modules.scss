@@ -1,0 +1,12 @@
+.ratingStars {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    p {
+        margin: 0;
+        font-size: 13px;
+        @media screen and (max-width: 768px) {
+            font-size: 11px;
+        }
+    }
+}
