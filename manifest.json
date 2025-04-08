@@ -8,7 +8,8 @@
     "assets": "0.x",
     "styles": "2.x",
     "react": "3.x",
-    "checkout-ui-custom": "0.x"
+    "checkout-ui-custom": "0.x",
+    "node": "6.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"
@@ -81,5 +82,30 @@
     "yourviews.yourviewsreviews": "0.x",
     "vtex.availability-notify": "1.x"
   },
-  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema",
+  "policies": [
+    {
+      "name": "vbase-read-write"
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "{{account}}.vtexcommercestable.com.br",
+        "path": "/api/*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "httpstat.us",
+        "path": "*"
+      }
+    },
+    {
+      "name": "colossus-fire-event"
+    },
+    {
+      "name": "colossus-write-logs"
+    }
+  ]
 }

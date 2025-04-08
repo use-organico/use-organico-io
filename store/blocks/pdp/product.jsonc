@@ -52,12 +52,21 @@
       "flex-layout.row#pdp-container-infos",
       "product-information",
       "buy-together-custom",
-      "flex-layout.row#pdp-your-views",
+      "flex-layout.row#reviews-custom",
+      // "flex-layout.row#pdp-your-views",
       "flex-layout.row#pdp-infos-shelf"
     ],
     "props": {
       "blockClass": "pdp-traditional"
     }
+  },
+  "flex-layout.row#reviews-custom": {
+    "props": {
+      "blockClass": ["reviews-pdp"]
+    },
+    "children": [
+      "reviews"
+    ]
   },
   "flex-layout.row#pdp-buy-together": {
     "title": "Linha Compre Junto",

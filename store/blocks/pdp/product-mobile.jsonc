@@ -24,8 +24,8 @@
   },
   "flex-layout.row#pdp-mobile-stars-row": {
     "children": [
-      "vtex.store-components:product-brand",
-      "flex-layout.col#pdp-mobile-stars-col"
+      "vtex.store-components:product-brand"
+      // "flex-layout.col#pdp-mobile-stars-col"
     ],
     "props": {
       "preserveLayoutOnMobile": true,

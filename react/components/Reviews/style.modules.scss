@@ -1,0 +1,32 @@
+.contentReviews {
+    max-width: 1260px;
+    margin: 0 auto;
+
+    .dividerRating {
+        border-bottom: 1px solid #e0e0e0;
+        margin-bottom: 35px;
+        padding-bottom: 30px;
+    }
+
+    .rating {
+        display: flex;
+    }
+
+    .titleReviews {
+        font-size: 38px;
+        line-height: 42px;
+        color: #000;
+        margin-bottom: 40px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .userAndDate {
+        display: flex;
+        gap: 50px;
+    }
+
+    h4 {
+        font-weight: 500;
+    }
+}

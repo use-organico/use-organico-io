@@ -12,7 +12,7 @@
       "flex-layout.row#home-shelf-ofertas",
       "flex-layout.row#home-mais-vendidos",
       // "flex-layout.row#home-shelf-recentes",
-      "flex-layout.row#home-yourviews",
+      // "flex-layout.row#home-yourviews",
       // "flex-layout.row#home-indicados",
       // "flex-layout.row#home-posts",
       "responsive-layout.desktop#row-home-marcas",

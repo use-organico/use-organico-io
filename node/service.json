@@ -1,0 +1,22 @@
+{
+  "memory": 256,
+  "ttl": 10,
+  "timeout": 2,
+  "minReplicas": 2,
+  "maxReplicas": 4,
+  "workers": 1,
+  "routes": {
+    "buytogether": {
+      "path": "/buytogether",
+      "public": true
+    },
+    "together": {
+      "path": "/compre-junto",
+      "public": true
+    },
+    "reviews": {
+      "path": "/reviews",
+      "public": true
+    }
+  }
+}

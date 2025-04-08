@@ -28,7 +28,7 @@
     "children":[
       "stack-layout#product-summary",
       "similars-summary",
-      "product-rating-inline",
+      // "product-rating-inline",
       "product-summary-brand",
       "product-summary-name"
     ]

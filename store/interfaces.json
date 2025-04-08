@@ -89,5 +89,8 @@
   },
   "content-seo-categories": {
     "component": "SEOContentCategories"
+  },
+  "reviews": {
+    "component": "Reviews"
   }
 }
