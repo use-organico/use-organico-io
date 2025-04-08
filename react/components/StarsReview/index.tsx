@@ -26,8 +26,9 @@ const StarsReview = () => {
     const ratingCalculator = (reviews: any) => {
         const ratings = reviews.map((review: any) => review.rating);
         const sum = ratings.reduce((acc: number, rating: number) => acc + rating, 0);
-        const average = Math.floor(sum / ratings.length);
-        return average;
+        const average = sum / ratings.length;
+        const roundedAverage = Math.ceil(average * 2) / 2; // Round up to the nearest 0.5
+        return roundedAverage;
     }
 
     const StarRating = ({ 
