@@ -29,6 +29,7 @@
       "stack-layout#product-summary",
       "similars-summary",
       // "product-rating-inline",
+      "shelf-stars",
       "product-summary-brand",
       "product-summary-name"
     ]

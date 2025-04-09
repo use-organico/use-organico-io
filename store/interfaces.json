@@ -95,5 +95,8 @@
   },
   "stars-review": {
     "component": "StarsReview"
+  },
+  "shelf-stars": {
+    "component": "ShelfStars"
   }
 }
